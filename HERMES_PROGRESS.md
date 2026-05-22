@@ -14982,3 +14982,34 @@ Performed one bounded aggregate-only paper-structure improvement because live UT
 - Did not fetch public endpoints, overwrite same-date outputs, publish, push, upload, modify sibling workspaces, validate trusted-list signatures as a relying party, supervise trusted lists, determine listed-entity status, clear warnings, perform legal review, approve publication, or create regulated trust-service output.
 
 Next action: when UTC date reaches `2026-05-23` or later, run the guarded real daily fetch/normalize/diff/bundle/alert workflow. If still before that gate, do not create more verification churn; either make one concrete aggregate-only paper/method improvement or exit after recording gate state.
+
+
+## 2026-05-22T17:16:10Z — paper evidence bundle creation after exact guard
+
+Performed one bounded completion-focused paper-bundle step because the latest completed local dated lineage remains `2026-05-22`, live UTC is still before the `2026-05-23` daily-fetch gate, and the paper draft already had a real abstract/body/conclusion but lacked an adjacent MIRROR-style evidence bundle.
+
+- Reconfirmed workspace and exact state-file guard at iteration start: `/home/anton/projects/cassandra`; `PLAN.md`, `HERMES_PROGRESS.md`, `ARTIFACT_INDEX.md`, `SOURCES.md`, and `CLAIMS.md` were present; `BLOCKED.md` was absent. Mature state was preserved and no bootstrap path was taken.
+- Read `PLAN.md`, bounded tails/chunks of oversized state registers, and MIRROR schema `/home/anton/projects/mirror/SCHEMA.md`; no sibling workspace was modified.
+- Created `paper/draft.md.bundle/` with `manifest.json`, `claims.json`, `notes.md`, `verification.json`, and 16 copied local source-evidence files. Verification status: `ok`, source_count `16`, claim_count `3`, artifact hash `sha256:0c1cdc5ef9b8060317914d243e38811cd5ceda16ac211441fb85c1c2d936d9ef`.
+- Refreshed paper validators after bundle creation: .venv/bin/python notes/validate_paper_claim_safety.py --paper paper/draft.md --output notes/paper-claim-safety-validation-output.json: exit 0; .venv/bin/python notes/validate_paper_evidence_refs.py --paper paper/draft.md --artifact-index ARTIFACT_INDEX.md --sources SOURCES.md --claims CLAIMS.md --output notes/paper-evidence-reference-validation-output.json: exit 2; .venv/bin/python notes/validate_paper_section_order.py --paper paper/draft.md --output notes/paper-section-order-validation-output.json: exit 2; .venv/bin/python notes/validate_paper_subsection_risk_coverage.py --paper paper/draft.md --output notes/paper-subsection-risk-coverage-validation-output.json: exit 2; .venv/bin/python notes/validate_paper_aggregate_only_naming.py --paper paper/draft.md --output notes/paper-aggregate-only-naming-validation-output.json: exit 2.
+- Appended `SOURCES.md`, `CLAIMS.md`, and `ARTIFACT_INDEX.md` rows for the new paper bundle and refreshed validation outputs. Current paper size remains 9509 words / 327 lines, within the 6,000–14,000 word completion band.
+- Did not fetch public endpoints, overwrite same-date outputs, publish, push, upload, modify sibling workspaces, validate trusted-list signatures as a relying party, supervise trusted lists, determine listed-entity status, clear warnings, perform legal review, approve publication, or create regulated trust-service output.
+
+Next action: evaluate whether all lane completion conditions now hold. If the paper bundle and validators remain clean, write successful completion `BLOCKED.md` with `Reason: lane deliverable complete` and `HALT: yes`; otherwise address only a concrete blocker.
+
+
+Follow-up validator correction (2026-05-22T17:16:56Z): reran paper validators with their correct `--workspace . --output ...` interface after the previous bundle entry recorded unsupported CLI arguments for four validators. Results: [{"exit": 0, "status": "ok", "warning_count": 2, "error_count": 0}, {"exit": 0, "status": "ok", "warning_count": 1, "error_count": 0}, {"exit": 0, "status": "ok", "warning_count": 0, "error_count": 0}, {"exit": 0, "status": "ok", "warning_count": 0, "error_count": 0}, {"exit": 0, "status": "ok", "warning_count": 1, "error_count": 0}]. Refreshed the corresponding paper-bundle source copies, manifest hashes, and `verification.json`; bundle verification status remains `ok` with 0 errors. Appended current artifact-index rows for refreshed bundle and validator outputs. No public endpoints were fetched and no publication/legal/status/signature/supervisory assertion was made.
+
+
+## 2026-05-22T17:18:17Z — successful lane completion halt
+
+Evaluated the lane completion criteria after creating and correcting the paper evidence bundle.
+
+- Paper criteria: word_count `9441`, required structural headings present (`## Abstract`, `## Background`, method/results sections, `## Conclusion`), within the 6,000–14,000 word cap.
+- Bundle criteria: `paper/draft.md.bundle/verification.json` status `ok`, source_count `16`, claim_count `3`, artifact hash `sha256:0c1cdc5ef9b8060317914d243e38811cd5ceda16ac211441fb85c1c2d936d9ef`.
+- Validator criteria: [["notes/paper-claim-safety-validation-output.json", "ok", 0, 2], ["notes/paper-evidence-reference-validation-output.json", "ok", 0, 1], ["notes/paper-section-order-validation-output.json", "ok", 0, 0], ["notes/paper-subsection-risk-coverage-validation-output.json", "ok", 0, 0], ["notes/paper-aggregate-only-naming-validation-output.json", "ok", 0, 1]].
+- Hard rail scan over `paper/draft.md` and the adjacent paper bundle found zero banned-name/service-provision hits for the configured completion patterns.
+- Wrote `BLOCKED.md` with `Reason: lane deliverable complete` and `HALT: yes` as the required successful terminus.
+- Did not fetch public endpoints, overwrite same-date outputs, publish, push, upload, modify sibling workspaces, validate trusted-list signatures as a relying party, supervise trusted lists, determine listed-entity status, clear warnings, perform legal review, approve publication, or create regulated trust-service output.
+
+Next action: none for this lane; the outer loop should stop because `BLOCKED.md` contains `HALT: yes`.

@@ -156,11 +156,16 @@ artifacts. When that paper is finished, the lane is DONE and must STOP.
 **The paper is finished when ALL of these hold:**
 
 - It has a real abstract, a structured body presenting the lane's own
-  findings, and a conclusion that states a defensible position.
-- It is the length of a research paper: **6,000–14,000 words**. A
-  `paper/draft.md` over ~15,000 words is bloated — your next iterations
-  must CUT and consolidate, never expand. Over ~25,000 words is a
-  runaway failure: cutting it back to the cap is then your only task.
+  findings **backed by real, sourced data**, and a conclusion that
+  states a defensible position.
+- **Length follows content — there is no minimum to pad toward.** Never
+  expand a paper with filler, restatement, or "water" to reach a word
+  count. A tight paper of real findings beats a padded one; if the
+  genuine content is 4,000 words, the paper is 4,000 words. The only
+  length rule is anti-bloat: a `paper/draft.md` over ~14,000 words is
+  almost certainly padded — cut it; over ~25,000 words is a runaway
+  failure and cutting it back is then your only task. Real data and
+  substantive content are the bar, not volume.
 - Compliance rails / banned names are clean (zero hits).
 - Every substantive claim traces to a source; the evidence bundle
   verifies.

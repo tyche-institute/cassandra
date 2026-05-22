@@ -1,0 +1,226 @@
+{
+  "artifact": {
+    "media_type": "text/markdown",
+    "path": "../draft.md",
+    "sha256": {
+      "algorithm": "SHA-256",
+      "value": "0c1cdc5ef9b8060317914d243e38811cd5ceda16ac211441fb85c1c2d936d9ef"
+    }
+  },
+  "assumptions": [
+    "The paper is a local research draft and is not approved for publication by bundle creation.",
+    "Aggregate counts are local workflow and parser telemetry, not trusted-list legal-status evidence.",
+    "Validator outputs are heuristic wording and linkage checks, not legal review."
+  ],
+  "attestation": {
+    "caveat": "No regulated trust-service output, qualified signature, qualified timestamp, legal review, or publication approval is created by this bundle.",
+    "signed": false,
+    "timestamped": false
+  },
+  "bundle_created_at": "2026-05-22T17:16:56Z",
+  "bundle_id": "urn:tyche:mirror:bundle:0c1cdc5ef9b8060317914d243e38811c",
+  "bundle_version": "0.2.0",
+  "canonicalization": "mirror-bundle-json-v0.1",
+  "claims_file": "claims.json",
+  "created_at": "2026-05-22T17:16:56Z",
+  "created_by": {
+    "affiliation": "Tyche Institute, Tallinn, Estonia",
+    "name": "Anton Sokolov"
+  },
+  "dependencies": [
+    {
+      "name": "python",
+      "path": ".venv/bin/python"
+    },
+    {
+      "name": "MIRROR evidence bundle schema",
+      "path": "/home/anton/projects/mirror/SCHEMA.md"
+    }
+  ],
+  "notes_file": "notes.md",
+  "producer": {
+    "lane": "cassandra",
+    "mode": "research-only structural observation",
+    "project": "Project Zeus"
+  },
+  "schema": "urn:tyche:mirror:bundle:0.1",
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-001",
+      "kind": "local_file",
+      "path": "sources/artifact-index.md",
+      "reliability": "local-artifact-ledger",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "3eab56033608f1d678fb2b4f23e9909c174a7ff9d24056d4a05a2c68676d32e8"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-002",
+      "kind": "local_file",
+      "path": "sources/sources-register.md",
+      "reliability": "local-source-register",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "cfd2d914a3c51cd0905689af8442540ff780a8c0dc0f12de8fe9021ae50bc2a7"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-003",
+      "kind": "local_file",
+      "path": "sources/claims-register.md",
+      "reliability": "local-claims-register",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "ef805a99bd2223fdab7b9d4eea11597a830ac1d048db7111aa40ce91ddaee2cb"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-004",
+      "kind": "local_file",
+      "path": "sources/paper-claim-safety-validation-output.json",
+      "reliability": "local-validator-output",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "6b109d57405fd6f8eebdc36031cf89fae42d27ec3b2729c329dfc939c2b17bcf"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-005",
+      "kind": "local_file",
+      "path": "sources/paper-evidence-reference-validation-output.json",
+      "reliability": "local-validator-output",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "4b969328cdb45667780143ab2c5f73bc0061f8f75197e80c5d444e8576f8d4e3"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-006",
+      "kind": "local_file",
+      "path": "sources/paper-section-order-validation-output.json",
+      "reliability": "local-validator-output",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "7a898a914dc9a91646c0ddcb31b7f0ec4c3a80b09f8b61e87986cc3fed0fb45f"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-007",
+      "kind": "local_file",
+      "path": "sources/paper-subsection-risk-coverage-validation-output.json",
+      "reliability": "local-validator-output",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "9430bda0c9235eaecc24222c9b16670ac1f99b681ab394184ead78cc1eee458d"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-008",
+      "kind": "local_file",
+      "path": "sources/paper-aggregate-only-naming-validation-output.json",
+      "reliability": "local-validator-output",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "8660f3980e1eca2b4dba32643e1ac4ab1fc989eab0f178ae89c87a41f31bf141"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-009",
+      "kind": "local_file",
+      "path": "sources/aggregate-results-table.csv",
+      "reliability": "local-aggregate-output",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "71efc7b8f60e90d8688a8b568fb3b44038561eeea44470a61de5cd74b2a1b952"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-010",
+      "kind": "local_file",
+      "path": "sources/aggregate-results-2026-05-21-output.json",
+      "reliability": "local-aggregate-output",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "40005054ed03d565a6f61798cb55130a67a4cfb6fbd5d5f5a217c3c5adc25977"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-011",
+      "kind": "local_file",
+      "path": "sources/aggregate-results-2026-05-22-output.json",
+      "reliability": "local-aggregate-output",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "723e44afd893afe26f7fee0f36fceec7313d0983d1e0eaff606685000a07d0cc"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-012",
+      "kind": "local_file",
+      "path": "sources/aggregate-run-telemetry.svg",
+      "reliability": "local-figure",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "e9ddb46e807ab2d904661d48b34a50eaf1a3c30fceb19396327c8bc358167a6e"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-013",
+      "kind": "local_file",
+      "path": "sources/aggregate-diff-classes.svg",
+      "reliability": "local-figure",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "f0ec8f0a5c885f7c9dd95d41dffd08f8af88bbecc50be9b15948ae6a8eb97187"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-014",
+      "kind": "local_file",
+      "path": "sources/snapshot-bundle-2026-05-20-manifest.json",
+      "reliability": "local-snapshot-bundle-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "79212235c4fc8d95be6e62665248f4d8544fa7775e5a19d89fec79df6ccde354"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-015",
+      "kind": "local_file",
+      "path": "sources/snapshot-bundle-2026-05-21-manifest.json",
+      "reliability": "local-snapshot-bundle-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "0ee927782b37f9b15ded6ad0313b9017dc907ed4489be07fe8617f06250c832e"
+      }
+    },
+    {
+      "accessed_at": "2026-05-22T17:16:56Z",
+      "id": "src-016",
+      "kind": "local_file",
+      "path": "sources/snapshot-bundle-2026-05-22-manifest.json",
+      "reliability": "local-snapshot-bundle-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "ba7aafaad3b1fbc961192a207be7cc03c8ba5b698bddb75ccd299b9c88ad4c3f"
+      }
+    }
+  ]
+}
