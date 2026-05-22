@@ -5,9 +5,9 @@ Affiliation: Tyche Institute, Tallinn, Estonia
 Status: working draft; not for publication without operator review  
 Generated: 2026-05-20
 
-## Abstract (placeholder)
+## Abstract
 
-This working draft describes a research-only monitor for the public European list-of-lists and national trusted-list documents. The monitor records dated snapshots, normalizes XML for stable comparison, and emits structured observations about document-level and coarse semantic churn. It does not operate, supervise, validate, or determine the legal status of any trusted list or listed entity.
+This working draft presents Cassandra, a research-only workflow for longitudinal structural observation of the public European list-of-lists and the national trusted-list documents referenced from locally saved LOTL snapshots. The lane records dated public-source fetches, normalizes comparable XML artifacts, emits machine-readable structural diffs, and bundles each substantive run with local hashes, source metadata, claims, assumptions, and caveats. Across the current three completed local lineages, the workflow demonstrates that repeated collection can preserve endpoint errors, PDF/non-XML references, parser outcomes, normalized XML records, aggregate diff classes, and alert roll-up telemetry without converting those observations into status, supervision, or reliance conclusions. The defensible position is narrow: Cassandra can support reproducible research about document-structure churn in public trusted-list artifacts, provided that results remain aggregate, evidence-linked, and explicit that a structural diff observed by the lane does not assert legal effect, validate signatures for relying-party purposes, determine listed-entity status, provide public alerting, or approve publication.
 
 ## Claim-safety note
 
@@ -281,6 +281,14 @@ For maintenance periods before the next UTC collection gate, bounded reading sho
 The safe interpretation is narrow: date-specific source rows improve traceability between the source register and locally stored evidence bundles. They do not mean that an endpoint was stable, that a trusted-list document had legal effect, that a signature was validated for relying-party purposes, that a supervisory conclusion was reached, or that a listed entity had any status. A missing row should be treated as local provenance-maintenance debt; a clean coverage result should be treated as local register completeness for the configured lineages.
 
 For publication-facing prose, bundle-row coverage should support citations and reproducibility statements rather than substantive status claims. A sentence may say that the study's local register links completed dated lineages to bundle manifests, with caveats preserved in the bundle notes. It should not say that bundle rows certify the run, clear warnings, approve release, or convert structural diffs into public alerts. Any decision to circulate a bundle, dataset slice, or named example remains outside this autonomous workflow and requires operator review.
+
+## Conclusion
+
+Cassandra's current contribution is a bounded evidence-engineering result rather than a status-monitoring result. The lane shows that a public LOTL-derived corpus can be collected into dated local lineages, normalized into comparable XML records, diffed into descriptive structural classes, summarized into aggregate alert telemetry, and wrapped in MIRROR-style evidence bundles while retaining endpoint failures, parser limits, hash provenance, and abstention caveats. This makes the workflow useful for research on public-document dynamics: it can support questions about how many records were fetched, which artifacts were comparable under the configured parser, and which structural diff classes were observed in saved local files.
+
+The position defended by this draft is correspondingly narrow. A Cassandra run supports reproducible structural observation of saved artifacts; it does not certify compliance, prove legal effect, supervise a trusted list, validate signatures for relying-party purposes, determine whether any listed entity has gained or lost status, or provide public alerting. The safest publication path is therefore aggregate-first: use counts, dates, classes, hashes, and local evidence-bundle paths in prose, keep raw listed names in machine-readable records unless operator review approves a named example, and treat validators as workflow telemetry rather than legal or publication clearance.
+
+Future work should extend the daily series only when the cadence gate permits a new dated collection, then refresh aggregates, figures, bundles, and paper validators against the new local artifacts. Longer time series may support stronger claims about observed document-structure churn, but those claims should remain method-scoped and evidence-linked. Cassandra is valuable precisely because it separates reproducible observation from reliance, supervision, and legal interpretation.
 
 ## References and local evidence
 

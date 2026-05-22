@@ -1,6 +1,6 @@
 {
   "checked_section_count": 10,
-  "created": "2026-05-22T02:46:32.102627+00:00",
+  "created": "2026-05-22T17:11:11.182897+00:00",
   "error_count": 0,
   "errors": [],
   "forbidden_hits": [],
@@ -24,7 +24,7 @@
     "source_boundary"
   ],
   "paper": "paper/draft.md",
-  "paper_sha256": "2e44f73562a40ae23030f3a17c34440c482875ee216ab7b266eaf0bd7f801725",
+  "paper_sha256": "0c1cdc5ef9b8060317914d243e38811cd5ceda16ac211441fb85c1c2d936d9ef",
   "research_caveat": "Local paper subsection risk-coverage validation only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
   "schema": "urn:tyche:cassandra:paper-subsection-risk-coverage-validation:0.1",
   "section_results": [

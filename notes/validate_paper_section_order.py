@@ -19,7 +19,7 @@ from typing import Any
 
 EXPECTED_HEADINGS = [
     "# Cassandra: Longitudinal Structural Observation of European Trusted-List XML",
-    "## Abstract (placeholder)",
+    "## Abstract",
     "## Claim-safety note",
     "## Outline",
     "## Background",
@@ -31,6 +31,7 @@ EXPECTED_HEADINGS = [
     "## Results presentation and figure design",
     "## Figure reproducibility cross-references",
     "## Limitations and reproducibility",
+    "## Conclusion",
     "## References and local evidence",
 ]
 
