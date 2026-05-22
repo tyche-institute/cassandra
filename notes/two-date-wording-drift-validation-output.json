@@ -1,0 +1,47 @@
+{
+  "aggregate_results": {
+    "dates": [
+      "2026-05-20",
+      "2026-05-21"
+    ],
+    "diff_change_count_total": 0,
+    "path": "notes/aggregate-results-2026-05-21-output.json",
+    "row_count": 2,
+    "sha256": "40005054ed03d565a6f61798cb55130a67a4cfb6fbd5d5f5a217c3c5adc25977"
+  },
+  "error_count": 0,
+  "errors": [],
+  "figures": [
+    {
+      "metadata_dates": [
+        "2026-05-20",
+        "2026-05-21"
+      ],
+      "missing_caveats": [],
+      "path": "figures/aggregate-run-telemetry.svg",
+      "sha256": "39b43dfa49057362ed4e27ebb43befdcfb9d59be4dac6e6222da241caf142155"
+    },
+    {
+      "metadata_dates": [
+        "2026-05-20",
+        "2026-05-21"
+      ],
+      "missing_caveats": [],
+      "path": "figures/aggregate-diff-classes.svg",
+      "sha256": "56153b7b5bb1369eb0b31dd0f84c59dc243a41a0f249dc1a736f29dfa4d1f4e3"
+    }
+  ],
+  "findings": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "3bca8a842ae2dd08f7d79e24ec1f75cfb2448ca7a7b9e69ef48e1213e4d9f990",
+  "research_caveat": "Local two-date wording drift review only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "reviewed_sections": [
+    "Aggregate telemetry table interpretation",
+    "Two-date aggregate-validation gate",
+    "Figure reproducibility cross-references"
+  ],
+  "schema": "urn:tyche:cassandra:two-date-wording-drift-validation:0.1",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": []
+}

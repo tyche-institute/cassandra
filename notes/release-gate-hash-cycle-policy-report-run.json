@@ -1,0 +1,45 @@
+{
+  "created": "2026-05-21T01:11:55.951654+00:00",
+  "error_count": 0,
+  "errors": [],
+  "inputs": {
+    "checklist_validator_source": {
+      "path": "notes/validate_release_readiness_checklist.py",
+      "sha256": "61e868bd67458e90e800281e949eec9f94187b13817e1f14653bcf930a18cd0e"
+    },
+    "release_gate_summary": {
+      "path": "notes/release-readiness-gate-summary-output.json",
+      "sha256": "81a295dc6639cbd29e15ee1c3a9901ad3387694d3afd477f3135e8a994636c18",
+      "status": "ok",
+      "validator_count": 14
+    },
+    "release_gate_summary_freshness": {
+      "checklist_record_has_sha256": false,
+      "checklist_record_hash_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+      "path": "notes/release-gate-summary-freshness-validation-output.json",
+      "sha256": "8dc79eccd840c6083d4d835bb226d7bc5f56cd4bb171ece4cf3bfe60067119ff",
+      "status": "ok"
+    },
+    "release_readiness_checklist": {
+      "path": "notes/release-readiness-checklist-validation-output.json",
+      "sha256": "509c7e72ed269ca3e5429e2ba8d45bfa9ff4835091ed00407904e5242f4b1590",
+      "status": "ok",
+      "validator_count": 14,
+      "warning_count": 3
+    }
+  },
+  "policy": {
+    "hash_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+    "not_missing_provenance": true,
+    "operator_review_note": "The status-only record is an explicit cycle-avoidance policy, not an accidental missing hash, warning clearance, legal review, or publication approval.",
+    "reason": "The freshness validator checks the release-readiness checklist output as an upstream of the gate-summary output. Recording the freshness-output sha256 inside the checklist would create a recurring checklist/summary/freshness hash-churn cycle. Cassandra therefore requires the freshness validator status to be ok while deliberately omitting its sha256 from the checklist record.",
+    "status_only_path": "notes/release-gate-summary-freshness-validation-output.json",
+    "status_only_validator": "release_gate_summary_freshness"
+  },
+  "research_caveat": "Local hash-cycle policy report only; it is not publication approval, legal review, signature validation, trusted-list supervision, listed-entity status evidence, public alerting, or regulated trust-service output.",
+  "schema": "urn:tyche:cassandra:release-gate-hash-cycle-policy-report:0.1",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}

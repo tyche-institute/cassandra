@@ -1,0 +1,21 @@
+{
+  "created": "2026-05-22T01:46:47.047955+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## Compact resumption-state summary interpretation",
+  "paper": "paper/draft.md",
+  "paper_sha256": "03eb84cc868bb631d775c127bb3d8253dafca1883cd5f5e865c973948480e2ef",
+  "present": true,
+  "required_fragments": {
+    "cannot support claims about endpoint stability, legal effect": true,
+    "dated_lineages": true,
+    "does not fetch endpoints": true,
+    "does not fetch endpoints, normalize XML, compute diffs, validate signatures": true,
+    "local hand-off artifact": true,
+    "not a new observation": true
+  },
+  "research_caveat": "Local paper-section check only; not endpoint/status evidence, legal effect, signature validation, supervision, listed-entity status evidence, public alerting, warning clearance, legal review, or publication approval.",
+  "schema": "urn:tyche:cassandra:paper-resumption-summary-section-check:0.1",
+  "status": "ok",
+  "word_count": 265
+}

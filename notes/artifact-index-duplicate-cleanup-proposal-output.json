@@ -1,0 +1,30 @@
+{
+  "artifact": "ARTIFACT_INDEX.md",
+  "caveat": "Proposal-only workflow maintenance for local reproducibility: this helper does not rewrite ARTIFACT_INDEX.md, does not apply patches, does not delete historical rows, does not assert legal effect, does not perform signature validation, does not supervise trusted lists, does not provide public alerting, and does not assert publication readiness. Any cleanup must be operator-reviewed before application.",
+  "cleanup_candidate_count": 1,
+  "cleanup_candidates": [
+    {
+      "current_sha256": "6586925ec7716e00c3414c2e8b7b7bd131e6fac9b909aa5952c06b717b19ee47",
+      "line": 168,
+      "path": "alerts.jsonl",
+      "reason": "stale duplicate row: another row for the same path matches the current file hash; remove only after operator review",
+      "safe_to_auto_apply": false,
+      "sha256": "4e901536b8a18ec247bf926796ba2f02f180f19ff7fbea0a62c0f18f55b10fff"
+    }
+  ],
+  "created": "2026-05-20T22:04:53.412358Z",
+  "duplicate_path_count": 1,
+  "mode": "proposal_only_no_rewrite",
+  "patch_sketch": "# Proposed manual cleanup sketch for ARTIFACT_INDEX.md\n# Review before applying. This helper does not modify files.\n# candidate stale duplicate row at current line 168\n- | `alerts.jsonl` | Append-only machine-readable roll-up of Cassandra structural observations. | `sha256:4e901536b8a18ec247bf926796ba2f02f180f19ff7fbea0a62c0f18f55b10fff` | yes: parsed as JSONL; contains one 2026-05-20 baseline-initialized entry with diff_change_count 0. |\n",
+  "patch_sketch_sha256": "ea95d09d88e25f2a8ba055e85795d3ee28957590abcf57eb9b648ea335c36ea1",
+  "retained_current_rows": [
+    {
+      "line": 184,
+      "path": "alerts.jsonl",
+      "reason": "retains at least one row matching the current file hash",
+      "sha256": "6586925ec7716e00c3414c2e8b7b7bd131e6fac9b909aa5952c06b717b19ee47"
+    }
+  ],
+  "status": "ok",
+  "workspace": "/home/anton/projects/cassandra"
+}

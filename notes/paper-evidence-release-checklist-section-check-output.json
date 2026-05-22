@@ -1,0 +1,13 @@
+{
+  "caveat": "Local paper prose check only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "created": "2026-05-20T23:30:38.570837+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## Evidence release checklist and abstention rules",
+  "inserted": true,
+  "paper": "paper/draft.md",
+  "paper_sha256": "90c68f5a9633a63b7c790c4a2abdad1508d26df36a1c393d58538bca70a5097e",
+  "schema": "urn:tyche:cassandra:paper-evidence-release-checklist-section-check:0.1",
+  "status": "ok",
+  "word_count": 293
+}

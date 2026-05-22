@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "alert_entries": 1,
+    "diff_change_count": 0,
+    "diff_record_count": 31,
+    "normalized_count": 41,
+    "normalized_error_count": 1,
+    "normalized_ok_count": 31,
+    "normalized_skipped_count": 9,
+    "snapshot_error_count": 2,
+    "snapshot_ok_count": 41,
+    "snapshot_pointer_attempts": 43
+  },
+  "created": "2026-05-20T20:31:15.895340+00:00",
+  "date": "2026-05-20",
+  "errors": [],
+  "hashes": {
+    "PLAN.md": "68c4cca0acc6495bb10315e9abff24da09e75bdeaf9b34f2ee7f3b8cb4178d5e",
+    "alerts.jsonl": "4e901536b8a18ec247bf926796ba2f02f180f19ff7fbea0a62c0f18f55b10fff",
+    "bundles/2026-05-20/snapshot-summary.json": "8f9f1a74bf12d97f41c2d5ff46018cc151d63b0d8589aa718ad6312a25d897f8",
+    "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json": "79212235c4fc8d95be6e62665248f4d8544fa7775e5a19d89fec79df6ccde354",
+    "diff.py": "4c1d4a57c4213665e63b95b91a76433e33fdd3ae1314f20aa0e99d2ccfca185f",
+    "diffs/2026-05-20.json": "ec47b2eb2c5da49d083808c0d3fc2bd87e355c2908420ca8d53498812df782f5",
+    "fetch.py": "356be55c171131eee7d72a51f63fe2df9dc08c3a54dd374fefb31de99fbdf355",
+    "normalized/2026-05-20/manifest.json": "ed6a15f1f777c7f958d86142d61a5c979c40da99d839d71141a22d7223bf8380",
+    "parse.py": "b3a4c0cd91decb78f7ae15db33463d1a686618694cbb1be5c282db76dd3899c1",
+    "snapshots/2026-05-20/manifest.json": "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486"
+  },
+  "next_semantic_diff_class": "trust_service_provider_count_change drill-down into listed-entity additions/removals using hashed provider/service keys, with listed names kept only in machine-readable records unless explicitly approved.",
+  "presence": {
+    "ARTIFACT_INDEX.md": true,
+    "CLAIMS.md": true,
+    "HERMES_PROGRESS.md": true,
+    "PLAN.md": true,
+    "SOURCES.md": true,
+    "alerts.jsonl": true,
+    "bundles/2026-05-20/snapshot-summary.json": true,
+    "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json": true,
+    "diff.py": true,
+    "diffs/2026-05-20.json": true,
+    "fetch.py": true,
+    "normalized/2026-05-20/manifest.json": true,
+    "parse.py": true,
+    "snapshots/2026-05-20/manifest.json": true
+  },
+  "research_caveat": "Local consistency check only; not signature validation, supervision, legal-status determination, public alerting, or relying-party processing.",
+  "status": "ok",
+  "workspace": "/home/anton/projects/cassandra"
+}

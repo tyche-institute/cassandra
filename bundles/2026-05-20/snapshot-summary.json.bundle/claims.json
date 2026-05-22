@@ -1,0 +1,48 @@
+{
+  "bundle_id": "urn:tyche:mirror:bundle:8f9f1a74bf12d97f41c2d5ff46018cc1",
+  "claims": [
+    {
+      "evidence": [
+        {
+          "locator": "$.count,$.ok_count,$.error_count",
+          "pointer": "sources/snapshot-manifest.json",
+          "source_id": "src-001"
+        }
+      ],
+      "id": "claim-001",
+      "notes": "No trusted-list legal status is inferred.",
+      "risk": "low",
+      "safe_wording": "The 2026-05-20 structural-observation run recorded 41 fetched snapshot files and 2 fetch errors among 43 LOTL-derived pointers; these are operational observations only.",
+      "text": "The 2026-05-20 Cassandra run recorded 43 LOTL-derived pointer attempts, 41 fetched content files, and 2 fetch errors."
+    },
+    {
+      "evidence": [
+        {
+          "locator": "$.ok_count,$.skipped_count,$.error_count",
+          "pointer": "sources/normalized-manifest.json",
+          "source_id": "src-002"
+        }
+      ],
+      "id": "claim-002",
+      "notes": "No signature validity or legal effect is asserted.",
+      "risk": "low",
+      "safe_wording": "The 2026-05-20 normalizer recorded 31 normalized XML artifacts, 9 non-XML skips, and 1 XML parse error as parser telemetry only.",
+      "text": "The normalizer produced 31 normalized XML artifacts, skipped 9 non-XML/PDF-like files, and recorded 1 XML parse error for the 2026-05-20 run."
+    },
+    {
+      "evidence": [
+        {
+          "locator": "$.baseline_created,$.current_record_count,$.change_count",
+          "pointer": "sources/diff-2026-05-20.json",
+          "source_id": "src-003"
+        }
+      ],
+      "id": "claim-003",
+      "notes": "The empty diff is a baseline artifact, not evidence of no legally relevant change.",
+      "risk": "medium",
+      "safe_wording": "The 2026-05-20 diff run initialized a structural-observation baseline with 31 comparable records and therefore emitted an empty day-one diff.",
+      "text": "The 2026-05-20 diff initialized a day-one baseline over 31 comparable records and emitted zero structural changes."
+    }
+  ],
+  "schema": "urn:tyche:mirror:claims:0.1"
+}

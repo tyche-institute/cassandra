@@ -1,0 +1,41 @@
+{
+  "created": "2026-05-21T02:54:08.777349+00:00",
+  "error_count": 0,
+  "errors": [],
+  "research_caveat": "Local freshness check for release-readiness gate-summary telemetry only; it is not publication approval, legal review, signature validation, trusted-list supervision, listed-entity status evidence, public alerting, or regulated trust-service output.",
+  "schema": "urn:tyche:cassandra:release-gate-summary-freshness-validation:0.1",
+  "source_checks": {
+    "persistent_warning_policy": {
+      "current_sha256": "5f144e843c7e477da837986a81e064330181ad0fe9ab3323e9730258f02a2642",
+      "embedded_path": "notes/release-readiness-persistent-warning-policy-validation-output.json",
+      "embedded_present": true,
+      "embedded_sha256": "5f144e843c7e477da837986a81e064330181ad0fe9ab3323e9730258f02a2642",
+      "exists": true,
+      "matches_current_hash": true,
+      "path": "notes/release-readiness-persistent-warning-policy-validation-output.json"
+    },
+    "release_readiness_checklist": {
+      "current_sha256": "6b73a5db2654121595d828012aadd11bc59136b9d8ef997f9d8183dd13556643",
+      "embedded_path": "notes/release-readiness-checklist-validation-output.json",
+      "embedded_present": true,
+      "embedded_sha256": "6b73a5db2654121595d828012aadd11bc59136b9d8ef997f9d8183dd13556643",
+      "exists": true,
+      "matches_current_hash": true,
+      "path": "notes/release-readiness-checklist-validation-output.json"
+    },
+    "warning_report": {
+      "current_sha256": "ad48e95c42086b0fbd5f224a197ea2ebd7fd70900c297288bf285325c5e64b6c",
+      "embedded_path": "notes/release-readiness-warning-report-output.json",
+      "embedded_present": true,
+      "embedded_sha256": "ad48e95c42086b0fbd5f224a197ea2ebd7fd70900c297288bf285325c5e64b6c",
+      "exists": true,
+      "matches_current_hash": true,
+      "path": "notes/release-readiness-warning-report-output.json"
+    }
+  },
+  "status": "ok",
+  "summary_path": "notes/release-readiness-gate-summary-output.json",
+  "warning_count": 0,
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}

@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T23:33:57.432515+00:00",
+  "bytes": 4592268,
+  "completed": "2026-05-20T23:34:08.185720+00:00",
+  "content_length_header": "4592268",
+  "content_type": "application/pdf",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-21/21-hu.pdf",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "57c69011bb7a6b4d624fa84e790a4302b7c610252d20129efbc7b7773844374f",
+  "url": "https://www.nmhh.hu/tl/pub/HU_TL.pdf"
+}

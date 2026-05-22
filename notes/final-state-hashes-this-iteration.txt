@@ -1,0 +1,4 @@
+6eb84db3c3b3ad653297bb53e4303f14c7e7118edb20ace005366170660434f9  notes/artifact-index-current-hash-validation-output.json
+6eb84db3c3b3ad653297bb53e4303f14c7e7118edb20ace005366170660434f9  notes/artifact-index-current-hash-validation-run.json
+900f7746ed56bb547b8717524295032579c6faa0f921827c886c8302c2f3360d  ARTIFACT_INDEX.md
+9a290f0e71521e0e2d63d428d3770f4f5e0b0feef87797f7db9df3b7d418da21  CLAIMS.md

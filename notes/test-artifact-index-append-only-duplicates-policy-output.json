@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "tests": [
+    {
+      "status": "ok",
+      "test": "test_live_workspace_ok"
+    },
+    {
+      "status": "ok",
+      "test": "test_policy_must_preserve_current_hash_requirement"
+    },
+    {
+      "status": "ok",
+      "test": "test_stale_current_hash_output_fails"
+    }
+  ]
+}

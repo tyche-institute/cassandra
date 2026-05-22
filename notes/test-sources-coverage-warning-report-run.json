@@ -1,0 +1,9 @@
+{
+  "output": "notes/test-sources-coverage-warning-report-output.json",
+  "status": "ok",
+  "warning_classes": {
+    "legacy_pointer_record_caveat": 1,
+    "missing_date_specific_bundle_sources_row": 2
+  },
+  "warning_count": 3
+}

@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T23:34:10.371251+00:00",
+  "bytes": 2617400,
+  "completed": "2026-05-20T23:34:10.514736+00:00",
+  "content_length_header": "554728",
+  "content_type": "text/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-21/26-it.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "db815cc38289c11bbd6c7a80c1db1969c2dd0aa4cb853cb80236f75ededa53c4",
+  "url": "https://eidas.agid.gov.it/TL/TSL-IT.xml"
+}

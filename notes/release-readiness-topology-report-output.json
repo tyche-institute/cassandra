@@ -1,0 +1,89 @@
+{
+  "created": "2026-05-21T21:54:17.345314+00:00",
+  "error_count": 0,
+  "errors": [],
+  "operator_review_gate": true,
+  "research_caveat": "Local release-readiness topology report only; it is not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication approval.",
+  "safe_to_auto_clear_warnings": false,
+  "safe_to_auto_publish": false,
+  "schema": "urn:tyche:cassandra:release-readiness-topology-report:0.1",
+  "sources": {
+    "out_of_band_status_only_report_reference_checker_policy": {
+      "error_count": 0,
+      "path": "notes/status-only-report-reference-checker-policy-validation-output.json",
+      "sha256": "6e08f61fcfe0f84f44160c36cebac036022a502c37948b616e7782db5674bc16",
+      "status": "ok",
+      "warning_count": 1
+    },
+    "out_of_band_topology_report_reference_freshness_policy": {
+      "error_count": 0,
+      "path": "notes/topology-report-reference-freshness-policy-validation-output.json",
+      "sha256": "715d0e5ecd77002d476f8aa6f61af626ea0a3d5949806491f0c683b27e2fad12",
+      "status": "ok",
+      "warning_count": 1
+    },
+    "release_readiness_checklist": {
+      "error_count": 0,
+      "path": "notes/release-readiness-checklist-validation-output.json",
+      "sha256": "6f09244a2ed4a290bf52e55dab11a00c54bf2a98a813d1fbfcbe643dbecd54a6",
+      "status": "ok",
+      "warning_count": 5
+    },
+    "release_readiness_gate_summary": {
+      "error_count": 0,
+      "path": "notes/release-readiness-gate-summary-output.json",
+      "sha256": "0f282d94c518b8f1b8d9a415f135e3be6d808e7b5ddcd1c1c68d14398171d8ea",
+      "status": "ok",
+      "warning_count": 0
+    },
+    "release_readiness_warning_report": {
+      "error_count": 0,
+      "path": "notes/release-readiness-warning-report-output.json",
+      "sha256": "89295267cb5165f32c455bfe49a6b763e3156979820bac90c0f37c4da50598e9",
+      "status": "ok",
+      "warning_count": 0
+    },
+    "status_only_release_gates_report": {
+      "error_count": 0,
+      "path": "notes/status-only-release-gates-report-output.json",
+      "sha256": "c522e5fd1e773c248ffa7eaaebc4e1ee492847551797051cd1f282cae7dce634",
+      "status": "ok",
+      "warning_count": 2
+    }
+  },
+  "status": "ok",
+  "topology": {
+    "checker_kept_out_of_band": true,
+    "checklist_validator_count": 16,
+    "hash_recorded_validator_count": 13,
+    "out_of_band_check_count": 2,
+    "out_of_band_check_names": [
+      "status_only_report_reference_checker_policy",
+      "topology_report_reference_freshness_policy"
+    ],
+    "status_only_gate_count": 3,
+    "status_only_gate_names": [
+      "hash_cycle_policy_references",
+      "release_gate_summary_freshness",
+      "status_only_release_gates_report"
+    ],
+    "topology_reference_freshness_policy_kept_out_of_band": true,
+    "topology_reference_freshness_policy_not_missing_provenance": true,
+    "warning_context_validator_count": 5,
+    "warning_context_validator_names": [
+      "public_artifact_safety",
+      "paper_claim_safety",
+      "paper_evidence_refs",
+      "hash_cycle_policy_references",
+      "status_only_release_gates_report"
+    ]
+  },
+  "warning_count": 4,
+  "warnings": [
+    "release_readiness_checklist warning_count=5 is preserved as manual-review context",
+    "status_only_release_gates_report warning_count=2 is preserved as manual-review context",
+    "out_of_band_status_only_report_reference_checker_policy warning_count=1 is preserved as manual-review context",
+    "out_of_band_topology_report_reference_freshness_policy warning_count=1 is preserved as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

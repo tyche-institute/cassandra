@@ -1,0 +1,17 @@
+{
+  "created": "2026-05-20T23:20:38.949560+00:00",
+  "date": "2026-05-20",
+  "diff": null,
+  "dry_run": true,
+  "existing_outputs": [
+    "snapshots/2026-05-20",
+    "normalized/2026-05-20",
+    "diffs/2026-05-20.json",
+    "baselines/2026-05-20.json"
+  ],
+  "message": "Refusing to overwrite existing dated snapshot/diff outputs without --allow-existing.",
+  "normalization": null,
+  "research_caveat": "Daily Cassandra run orchestration for structural observation only; not signature validation, supervision, legal-status determination, relying-party processing, or public alerting.",
+  "snapshot": null,
+  "status": "refused_existing_outputs"
+}

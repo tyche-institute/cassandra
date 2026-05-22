@@ -1,0 +1,27 @@
+{
+  "created": "2026-05-21T01:34:33.717582+00:00",
+  "error_count": 0,
+  "errors": [],
+  "note": "notes/release-readiness-persistent-warning-policy.md",
+  "note_sha256": "4fa6ed668df096121b6a4d9358283db6ac2a09e66a180a48eed96f6033dcd7f7",
+  "research_caveat": "Local persistent-warning policy validation only; warning persistence is manual-review context, not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication approval.",
+  "schema": "urn:tyche:cassandra:release-readiness-persistent-warning-policy-validation:0.1",
+  "source_report": "notes/release-readiness-warning-report-output.json",
+  "source_report_sha256": "49cbec91280cdb4df9d37aebe701aeb27656d358124214c256d0a819c898c285",
+  "status": "ok",
+  "warning_class_count": 9,
+  "warning_classes": [
+    "artifact_index_duplicate_row_current_hash_present",
+    "caveated_alert_risky_phrase",
+    "caveated_bundle_helper_risky_phrase",
+    "caveated_bundle_risky_phrase",
+    "caveated_public_alerting_phrase",
+    "caveated_relying_party_validation_phrase",
+    "caveated_svg_risky_phrase",
+    "legacy_append_only_alert_context",
+    "manual_review_warning"
+  ],
+  "warning_count": 0,
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}

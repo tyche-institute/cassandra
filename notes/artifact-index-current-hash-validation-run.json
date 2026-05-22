@@ -1,0 +1,1723 @@
+{
+  "created": "2026-05-21T03:25:19.317540+00:00",
+  "current_match_count": 618,
+  "duplicate_path_count": 104,
+  "duplicate_paths": [
+    {
+      "current_hash": "sha256:78c72f571db80616e04e41c203f38fee4ad968c913615f0df33b9367aa7ffa38",
+      "matching_lines": [
+        1303
+      ],
+      "path": "CLAIMS.md",
+      "row_count": 12,
+      "stale_lines": [
+        1132,
+        1152,
+        1165,
+        1175,
+        1186,
+        1207,
+        1217,
+        1244,
+        1256,
+        1270,
+        1286
+      ]
+    },
+    {
+      "current_hash": "sha256:d4a3df2e9986ef80199b5f2709bb4c795a4266e42733641de150795ef58ee589",
+      "matching_lines": [
+        1308
+      ],
+      "path": "HERMES_PROGRESS.md",
+      "row_count": 20,
+      "stale_lines": [
+        1135,
+        1153,
+        1168,
+        1176,
+        1177,
+        1187,
+        1188,
+        1208,
+        1211,
+        1220,
+        1245,
+        1247,
+        1260,
+        1264,
+        1273,
+        1289,
+        1290,
+        1295,
+        1304
+      ]
+    },
+    {
+      "current_hash": "sha256:446382f3a3eb7204fdb61a572106946314b8f9b16d6444228ad65910dd47bce3",
+      "matching_lines": [
+        634
+      ],
+      "path": "alerts.jsonl",
+      "row_count": 4,
+      "stale_lines": [
+        168,
+        184,
+        369
+      ]
+    },
+    {
+      "current_hash": "sha256:eaa9912fb9b33a6d7b389b3cb94bef87c9a68e31445b1fc6c9a51df793c9c7ab",
+      "matching_lines": [
+        635
+      ],
+      "path": "baselines/current.json",
+      "row_count": 2,
+      "stale_lines": [
+        151
+      ]
+    },
+    {
+      "current_hash": "sha256:56153b7b5bb1369eb0b31dd0f84c59dc243a41a0f249dc1a736f29dfa4d1f4e3",
+      "matching_lines": [
+        653
+      ],
+      "path": "figures/aggregate-diff-classes.svg",
+      "row_count": 2,
+      "stale_lines": [
+        235
+      ]
+    },
+    {
+      "current_hash": "sha256:39b43dfa49057362ed4e27ebb43befdcfb9d59be4dac6e6222da241caf142155",
+      "matching_lines": [
+        652
+      ],
+      "path": "figures/aggregate-run-telemetry.svg",
+      "row_count": 2,
+      "stale_lines": [
+        234
+      ]
+    },
+    {
+      "current_hash": "sha256:de769c24b8aff180c839be213615ec2f172a92a0b7eb1de6e20d100b5789a476",
+      "matching_lines": [
+        647
+      ],
+      "path": "notes/aggregate-results-table.csv",
+      "row_count": 2,
+      "stale_lines": [
+        206
+      ]
+    },
+    {
+      "current_hash": "sha256:0bf7f91b7a9bf7591c427c8cede3c717677b7af506695300bbf17ac4c1c21da6",
+      "matching_lines": [
+        649
+      ],
+      "path": "notes/aggregate-results-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        217
+      ]
+    },
+    {
+      "current_hash": "sha256:e05ac63e2bd32f60b54b411197abbf6058bc6fc4184f2b03d865f4e94134f3e0",
+      "matching_lines": [
+        641
+      ],
+      "path": "notes/alert-bundle-linkage-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        299
+      ]
+    },
+    {
+      "current_hash": "sha256:e56ad97a05fa3d1cd000fcd72d8c1b24deecde3874f8cff5c0d63fd468ca9715",
+      "matching_lines": [
+        300,
+        642
+      ],
+      "path": "notes/alert-bundle-linkage-validation-run.json",
+      "row_count": 2,
+      "stale_lines": []
+    },
+    {
+      "current_hash": "sha256:71bbbd1da8852f64cec043179297b55a13341fe665490fa296e71b5d6744ae6c",
+      "matching_lines": [
+        367
+      ],
+      "path": "notes/alert-rollup-2026-05-20-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        185
+      ]
+    },
+    {
+      "current_hash": "sha256:71bbbd1da8852f64cec043179297b55a13341fe665490fa296e71b5d6744ae6c",
+      "matching_lines": [
+        368
+      ],
+      "path": "notes/alert-rollup-2026-05-20-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        186
+      ]
+    },
+    {
+      "current_hash": "sha256:e999544496e8dd564e9d1612a5567b8ac4d60fce857fd34a660c785fbfde0e2b",
+      "matching_lines": [
+        365
+      ],
+      "path": "notes/bundle-2026-05-20-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        154
+      ]
+    },
+    {
+      "current_hash": "sha256:e999544496e8dd564e9d1612a5567b8ac4d60fce857fd34a660c785fbfde0e2b",
+      "matching_lines": [
+        366
+      ],
+      "path": "notes/bundle-2026-05-20-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        153
+      ]
+    },
+    {
+      "current_hash": "sha256:93435dc2fc56467208f13d1126b4c83298238b0fe5a7fc4d58cf168f6a57cd83",
+      "matching_lines": [
+        1293
+      ],
+      "path": "notes/daily-cadence-status-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        1268
+      ]
+    },
+    {
+      "current_hash": "sha256:93435dc2fc56467208f13d1126b4c83298238b0fe5a7fc4d58cf168f6a57cd83",
+      "matching_lines": [
+        1294
+      ],
+      "path": "notes/daily-cadence-status-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        1269
+      ]
+    },
+    {
+      "current_hash": "sha256:3d402cb1b896ba956091f0b7ceab7218ae637459583d82c9fc066b11fd1e629e",
+      "matching_lines": [
+        427
+      ],
+      "path": "notes/daily-run-2026-05-20-output.json",
+      "row_count": 6,
+      "stale_lines": [
+        247,
+        277,
+        293,
+        339,
+        363
+      ]
+    },
+    {
+      "current_hash": "sha256:483b6f17a3d90883d0625a4806e76efed75bd1f83ba77cc345bbdd37f9ae7ca2",
+      "matching_lines": [
+        443
+      ],
+      "path": "notes/daily-run-2026-05-20-preflight-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        207,
+        284
+      ]
+    },
+    {
+      "current_hash": "sha256:483b6f17a3d90883d0625a4806e76efed75bd1f83ba77cc345bbdd37f9ae7ca2",
+      "matching_lines": [
+        444
+      ],
+      "path": "notes/daily-run-2026-05-20-preflight-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        208,
+        285
+      ]
+    },
+    {
+      "current_hash": "sha256:3d402cb1b896ba956091f0b7ceab7218ae637459583d82c9fc066b11fd1e629e",
+      "matching_lines": [
+        428
+      ],
+      "path": "notes/daily-run-2026-05-20-run.json",
+      "row_count": 6,
+      "stale_lines": [
+        248,
+        278,
+        294,
+        340,
+        364
+      ]
+    },
+    {
+      "current_hash": "sha256:0f86144742a033fb6d2082708f16bfac9070e7a3923af9f25833668caea7d6ea",
+      "matching_lines": [
+        456
+      ],
+      "path": "notes/failure-modes-section-hashes.txt",
+      "row_count": 2,
+      "stale_lines": [
+        453
+      ]
+    },
+    {
+      "current_hash": "sha256:9dc8ee507384403e33a9939012f57158709a257d0c3034e82bdd7ac17add9f1e",
+      "matching_lines": [
+        654
+      ],
+      "path": "notes/figure-artifact-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        245
+      ]
+    },
+    {
+      "current_hash": "sha256:9dc8ee507384403e33a9939012f57158709a257d0c3034e82bdd7ac17add9f1e",
+      "matching_lines": [
+        655
+      ],
+      "path": "notes/figure-artifact-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        246
+      ]
+    },
+    {
+      "current_hash": "sha256:8c4e31179b08d910d7435a4925f3d6c4dbd948523e6cea46ec839bcde04247ec",
+      "matching_lines": [
+        650
+      ],
+      "path": "notes/figure-render-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        232
+      ]
+    },
+    {
+      "current_hash": "sha256:8c4e31179b08d910d7435a4925f3d6c4dbd948523e6cea46ec839bcde04247ec",
+      "matching_lines": [
+        651
+      ],
+      "path": "notes/figure-render-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        233
+      ]
+    },
+    {
+      "current_hash": "sha256:17c748532cf31a412f81a5cc0278dff571d599eec7256e9e19cbb17e93f04f55",
+      "matching_lines": [
+        951
+      ],
+      "path": "notes/hash-cycle-policy-reference-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        936
+      ]
+    },
+    {
+      "current_hash": "sha256:17c748532cf31a412f81a5cc0278dff571d599eec7256e9e19cbb17e93f04f55",
+      "matching_lines": [
+        952
+      ],
+      "path": "notes/hash-cycle-policy-reference-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        937
+      ]
+    },
+    {
+      "current_hash": "sha256:c4573444dc5d51474228663c03623b347adc7f3367ef2e79e212e2a64ad2d051",
+      "matching_lines": [
+        663
+      ],
+      "path": "notes/multiday-readiness-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        413
+      ]
+    },
+    {
+      "current_hash": "sha256:36924540af72d6b3dab1feb7e3ab831458639ac7c1a695b6bbfae75a4b080ce4",
+      "matching_lines": [
+        1284
+      ],
+      "path": "notes/paper-checklist-consistency-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        1254
+      ]
+    },
+    {
+      "current_hash": "sha256:36924540af72d6b3dab1feb7e3ab831458639ac7c1a695b6bbfae75a4b080ce4",
+      "matching_lines": [
+        1285
+      ],
+      "path": "notes/paper-checklist-consistency-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        1255
+      ]
+    },
+    {
+      "current_hash": "sha256:19224f34b2192967c244d1fbba20ee57c4976431def76eb83a2a497116c4f8e3",
+      "matching_lines": [
+        1276
+      ],
+      "path": "notes/paper-claim-safety-validation-output.json",
+      "row_count": 28,
+      "stale_lines": [
+        243,
+        273,
+        286,
+        310,
+        349,
+        370,
+        386,
+        400,
+        415,
+        429,
+        445,
+        461,
+        473,
+        486,
+        670,
+        693,
+        708,
+        754,
+        786,
+        815,
+        851,
+        878,
+        921,
+        963,
+        1016,
+        1090,
+        1228
+      ]
+    },
+    {
+      "current_hash": "sha256:19224f34b2192967c244d1fbba20ee57c4976431def76eb83a2a497116c4f8e3",
+      "matching_lines": [
+        1277
+      ],
+      "path": "notes/paper-claim-safety-validation-run.json",
+      "row_count": 28,
+      "stale_lines": [
+        244,
+        274,
+        287,
+        311,
+        350,
+        371,
+        387,
+        401,
+        416,
+        430,
+        446,
+        462,
+        474,
+        487,
+        671,
+        694,
+        709,
+        755,
+        787,
+        816,
+        852,
+        879,
+        922,
+        964,
+        1017,
+        1091,
+        1229
+      ]
+    },
+    {
+      "current_hash": "sha256:dabe4ec50384295fbf9b986a8a34d61de009c7824f965fc2b1a3a154d9c14615",
+      "matching_lines": [
+        1280
+      ],
+      "path": "notes/paper-evidence-reference-validation-output.json",
+      "row_count": 26,
+      "stale_lines": [
+        250,
+        275,
+        288,
+        314,
+        353,
+        374,
+        390,
+        404,
+        419,
+        433,
+        449,
+        477,
+        490,
+        674,
+        712,
+        758,
+        790,
+        819,
+        855,
+        882,
+        925,
+        967,
+        1020,
+        1094,
+        1232
+      ]
+    },
+    {
+      "current_hash": "sha256:dabe4ec50384295fbf9b986a8a34d61de009c7824f965fc2b1a3a154d9c14615",
+      "matching_lines": [
+        1281
+      ],
+      "path": "notes/paper-evidence-reference-validation-run.json",
+      "row_count": 26,
+      "stale_lines": [
+        251,
+        276,
+        289,
+        315,
+        354,
+        375,
+        391,
+        405,
+        420,
+        434,
+        450,
+        478,
+        491,
+        675,
+        713,
+        759,
+        791,
+        820,
+        856,
+        883,
+        926,
+        968,
+        1021,
+        1095,
+        1233
+      ]
+    },
+    {
+      "current_hash": "sha256:e051dd815a7225f4efac98baf59f4beab057e5fe71598bfcdac8e1ccbf240b32",
+      "matching_lines": [
+        463
+      ],
+      "path": "notes/paper-failure-modes-section-check-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        441
+      ]
+    },
+    {
+      "current_hash": "sha256:e051dd815a7225f4efac98baf59f4beab057e5fe71598bfcdac8e1ccbf240b32",
+      "matching_lines": [
+        464
+      ],
+      "path": "notes/paper-failure-modes-section-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        442
+      ]
+    },
+    {
+      "current_hash": "sha256:8c2ed4aadddb206e8f40e8fe756a5e52a58ac2d1dcaa43d3c7d5c9c14bf856db",
+      "matching_lines": [
+        683,
+        695
+      ],
+      "path": "notes/paper-figure-reference-validation-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        241
+      ]
+    },
+    {
+      "current_hash": "sha256:8c2ed4aadddb206e8f40e8fe756a5e52a58ac2d1dcaa43d3c7d5c9c14bf856db",
+      "matching_lines": [
+        684,
+        696
+      ],
+      "path": "notes/paper-figure-reference-validation-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        242
+      ]
+    },
+    {
+      "current_hash": "sha256:aecc08dc79ff7f919587c4f5af77626ba4b5a6eacfa779108d555e2e1cae272d",
+      "matching_lines": [
+        1278
+      ],
+      "path": "notes/paper-section-order-validation-output.json",
+      "row_count": 25,
+      "stale_lines": [
+        282,
+        312,
+        351,
+        372,
+        388,
+        402,
+        417,
+        431,
+        447,
+        465,
+        475,
+        488,
+        672,
+        710,
+        756,
+        788,
+        817,
+        853,
+        880,
+        923,
+        965,
+        1018,
+        1092,
+        1230
+      ]
+    },
+    {
+      "current_hash": "sha256:aecc08dc79ff7f919587c4f5af77626ba4b5a6eacfa779108d555e2e1cae272d",
+      "matching_lines": [
+        1279
+      ],
+      "path": "notes/paper-section-order-validation-run.json",
+      "row_count": 25,
+      "stale_lines": [
+        283,
+        313,
+        352,
+        373,
+        389,
+        403,
+        418,
+        432,
+        448,
+        466,
+        476,
+        489,
+        673,
+        711,
+        757,
+        789,
+        818,
+        854,
+        881,
+        924,
+        966,
+        1019,
+        1093,
+        1231
+      ]
+    },
+    {
+      "current_hash": "sha256:39d4b91641bc630998df6bb0db0405c13b77f6fe74092abab0608845205156c5",
+      "matching_lines": [
+        1282
+      ],
+      "path": "notes/paper-subsection-risk-coverage-validation-output.json",
+      "row_count": 23,
+      "stale_lines": [
+        308,
+        355,
+        376,
+        392,
+        406,
+        435,
+        451,
+        467,
+        479,
+        492,
+        676,
+        714,
+        760,
+        792,
+        821,
+        857,
+        884,
+        927,
+        969,
+        1022,
+        1096,
+        1234
+      ]
+    },
+    {
+      "current_hash": "sha256:39d4b91641bc630998df6bb0db0405c13b77f6fe74092abab0608845205156c5",
+      "matching_lines": [
+        1283
+      ],
+      "path": "notes/paper-subsection-risk-coverage-validation-run.json",
+      "row_count": 23,
+      "stale_lines": [
+        309,
+        356,
+        377,
+        393,
+        407,
+        436,
+        452,
+        468,
+        480,
+        493,
+        677,
+        715,
+        761,
+        793,
+        822,
+        858,
+        885,
+        928,
+        970,
+        1023,
+        1097,
+        1235
+      ]
+    },
+    {
+      "current_hash": "sha256:8240a7e1a7ea1e72f52772ef14d715cb4b7a7ccffab5f46c8084490804cd1ba2",
+      "matching_lines": [
+        1226
+      ],
+      "path": "notes/paper-warning-gate-context-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        1215
+      ]
+    },
+    {
+      "current_hash": "sha256:8240a7e1a7ea1e72f52772ef14d715cb4b7a7ccffab5f46c8084490804cd1ba2",
+      "matching_lines": [
+        1227
+      ],
+      "path": "notes/paper-warning-gate-context-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        1216
+      ]
+    },
+    {
+      "current_hash": "sha256:5f1ef72ff97f7b1e3567a664f7a272e0e70cdb679a00c8e732ca13c9ce54cd05",
+      "matching_lines": [
+        656
+      ],
+      "path": "notes/public-artifact-safety-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        212
+      ]
+    },
+    {
+      "current_hash": "sha256:5f1ef72ff97f7b1e3567a664f7a272e0e70cdb679a00c8e732ca13c9ce54cd05",
+      "matching_lines": [
+        657
+      ],
+      "path": "notes/public-artifact-safety-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        213
+      ]
+    },
+    {
+      "current_hash": "sha256:07e5cd72008e10f61ff73f1d339d19219be844e77fb6fed43a90b85b5a172a38",
+      "matching_lines": [
+        919
+      ],
+      "path": "notes/release-gate-hash-cycle-policy-report-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        902
+      ]
+    },
+    {
+      "current_hash": "sha256:07e5cd72008e10f61ff73f1d339d19219be844e77fb6fed43a90b85b5a172a38",
+      "matching_lines": [
+        920
+      ],
+      "path": "notes/release-gate-hash-cycle-policy-report-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        903
+      ]
+    },
+    {
+      "current_hash": "sha256:c8b784991524d57fd1a04ba0c2d78d4053a9250476b31c1db48a7a4cdfcc2be0",
+      "matching_lines": [
+        1242
+      ],
+      "path": "notes/release-gate-summary-freshness-validation-output.json",
+      "row_count": 11,
+      "stale_lines": [
+        867,
+        894,
+        917,
+        959,
+        1013,
+        1057,
+        1085,
+        1130,
+        1150,
+        1205
+      ]
+    },
+    {
+      "current_hash": "sha256:c8b784991524d57fd1a04ba0c2d78d4053a9250476b31c1db48a7a4cdfcc2be0",
+      "matching_lines": [
+        1243
+      ],
+      "path": "notes/release-gate-summary-freshness-validation-run.json",
+      "row_count": 11,
+      "stale_lines": [
+        868,
+        895,
+        918,
+        960,
+        1014,
+        1058,
+        1086,
+        1131,
+        1151,
+        1206
+      ]
+    },
+    {
+      "current_hash": "sha256:6b73a5db2654121595d828012aadd11bc59136b9d8ef997f9d8183dd13556643",
+      "matching_lines": [
+        1236
+      ],
+      "path": "notes/release-readiness-checklist-validation-output.json",
+      "row_count": 12,
+      "stale_lines": [
+        706,
+        720,
+        752,
+        782,
+        811,
+        845,
+        888,
+        911,
+        949,
+        998,
+        1073
+      ]
+    },
+    {
+      "current_hash": "sha256:6b73a5db2654121595d828012aadd11bc59136b9d8ef997f9d8183dd13556643",
+      "matching_lines": [
+        1237
+      ],
+      "path": "notes/release-readiness-checklist-validation-run.json",
+      "row_count": 12,
+      "stale_lines": [
+        707,
+        721,
+        753,
+        783,
+        812,
+        846,
+        889,
+        912,
+        950,
+        999,
+        1074
+      ]
+    },
+    {
+      "current_hash": "sha256:a2428126bc24a992bf7f6bca1e97beb3ff717f607fb23ab882964d20208e92b9",
+      "matching_lines": [
+        1199
+      ],
+      "path": "notes/release-readiness-context-consistency-policy-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        1184
+      ]
+    },
+    {
+      "current_hash": "sha256:a2428126bc24a992bf7f6bca1e97beb3ff717f607fb23ab882964d20208e92b9",
+      "matching_lines": [
+        1200
+      ],
+      "path": "notes/release-readiness-context-consistency-policy-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        1185
+      ]
+    },
+    {
+      "current_hash": "sha256:4c9a7ffd72dffd6f70953d50a232b4ce8411c40715be6a92a3a33868a14e4ffe",
+      "matching_lines": [
+        1223,
+        1240
+      ],
+      "path": "notes/release-readiness-gate-summary-output.json",
+      "row_count": 14,
+      "stale_lines": [
+        829,
+        833,
+        849,
+        892,
+        915,
+        957,
+        1010,
+        1055,
+        1083,
+        1128,
+        1147,
+        1203
+      ]
+    },
+    {
+      "current_hash": "sha256:4c9a7ffd72dffd6f70953d50a232b4ce8411c40715be6a92a3a33868a14e4ffe",
+      "matching_lines": [
+        1241
+      ],
+      "path": "notes/release-readiness-gate-summary-run.json",
+      "row_count": 13,
+      "stale_lines": [
+        830,
+        834,
+        850,
+        893,
+        916,
+        958,
+        1011,
+        1056,
+        1084,
+        1129,
+        1148,
+        1204
+      ]
+    },
+    {
+      "current_hash": "sha256:5f144e843c7e477da837986a81e064330181ad0fe9ab3323e9730258f02a2642",
+      "matching_lines": [
+        1007
+      ],
+      "path": "notes/release-readiness-persistent-warning-policy-validation-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        802,
+        955
+      ]
+    },
+    {
+      "current_hash": "sha256:5f144e843c7e477da837986a81e064330181ad0fe9ab3323e9730258f02a2642",
+      "matching_lines": [
+        1008
+      ],
+      "path": "notes/release-readiness-persistent-warning-policy-validation-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        803,
+        956
+      ]
+    },
+    {
+      "current_hash": "sha256:4fa6ed668df096121b6a4d9358283db6ac2a09e66a180a48eed96f6033dcd7f7",
+      "matching_lines": [
+        946
+      ],
+      "path": "notes/release-readiness-persistent-warning-policy.md",
+      "row_count": 2,
+      "stale_lines": [
+        797
+      ]
+    },
+    {
+      "current_hash": "sha256:4de5dc6a7d5f8ed9e7b7477d2057411268fa7fefb99a2cc452484de18a21b022",
+      "matching_lines": [
+        1155,
+        1159
+      ],
+      "path": "notes/release-readiness-topology-report-output.json",
+      "row_count": 4,
+      "stale_lines": [
+        1066,
+        1088
+      ]
+    },
+    {
+      "current_hash": "sha256:4de5dc6a7d5f8ed9e7b7477d2057411268fa7fefb99a2cc452484de18a21b022",
+      "matching_lines": [
+        1160
+      ],
+      "path": "notes/release-readiness-topology-report-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        1067,
+        1089
+      ]
+    },
+    {
+      "current_hash": "sha256:ad48e95c42086b0fbd5f224a197ea2ebd7fd70900c297288bf285325c5e64b6c",
+      "matching_lines": [
+        1222,
+        1238
+      ],
+      "path": "notes/release-readiness-warning-report-output.json",
+      "row_count": 15,
+      "stale_lines": [
+        769,
+        784,
+        813,
+        847,
+        890,
+        913,
+        953,
+        1004,
+        1052,
+        1081,
+        1126,
+        1144,
+        1201
+      ]
+    },
+    {
+      "current_hash": "sha256:ad48e95c42086b0fbd5f224a197ea2ebd7fd70900c297288bf285325c5e64b6c",
+      "matching_lines": [
+        1239
+      ],
+      "path": "notes/release-readiness-warning-report-run.json",
+      "row_count": 14,
+      "stale_lines": [
+        770,
+        785,
+        814,
+        848,
+        891,
+        914,
+        954,
+        1005,
+        1053,
+        1082,
+        1127,
+        1145,
+        1202
+      ]
+    },
+    {
+      "current_hash": "sha256:44ba65580ac4f2bf9eab58abbe6c14b0b80094561bec320c4029e8dc1abf0145",
+      "matching_lines": [
+        1156
+      ],
+      "path": "notes/report_release_readiness_topology.py",
+      "row_count": 2,
+      "stale_lines": [
+        1063
+      ]
+    },
+    {
+      "current_hash": "sha256:76aeed0b6341cfe66af0e6614ebe2c2f492c930375590910581bc0a0f16d52dc",
+      "matching_lines": [
+        1191
+      ],
+      "path": "notes/report_release_readiness_warnings.py",
+      "row_count": 5,
+      "stale_lines": [
+        766,
+        993,
+        1049,
+        1120
+      ]
+    },
+    {
+      "current_hash": "sha256:5baf9ddc9479750ec2e760a1d8fd1f38a71f5d66d747a7ac51e97ea6ccf2c80d",
+      "matching_lines": [
+        991
+      ],
+      "path": "notes/report_status_only_release_gates.py",
+      "row_count": 2,
+      "stale_lines": [
+        976
+      ]
+    },
+    {
+      "current_hash": "sha256:c522e5fd1e773c248ffa7eaaebc4e1ee492847551797051cd1f282cae7dce634",
+      "matching_lines": [
+        1075
+      ],
+      "path": "notes/status-only-release-gates-report-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        979,
+        1000
+      ]
+    },
+    {
+      "current_hash": "sha256:c50ea83cc78ea9f5e74c1b2e0eef666075f19692fd3db829dc992bb465910a30",
+      "matching_lines": [
+        1077
+      ],
+      "path": "notes/status-only-release-gates-report-reference-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        1033
+      ]
+    },
+    {
+      "current_hash": "sha256:c50ea83cc78ea9f5e74c1b2e0eef666075f19692fd3db829dc992bb465910a30",
+      "matching_lines": [
+        1078
+      ],
+      "path": "notes/status-only-release-gates-report-reference-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        1034
+      ]
+    },
+    {
+      "current_hash": "sha256:c522e5fd1e773c248ffa7eaaebc4e1ee492847551797051cd1f282cae7dce634",
+      "matching_lines": [
+        1076
+      ],
+      "path": "notes/status-only-release-gates-report-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        980,
+        1001
+      ]
+    },
+    {
+      "current_hash": "sha256:6e08f61fcfe0f84f44160c36cebac036022a502c37948b616e7782db5674bc16",
+      "matching_lines": [
+        1079
+      ],
+      "path": "notes/status-only-report-reference-checker-policy-validation-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        1042,
+        1059
+      ]
+    },
+    {
+      "current_hash": "sha256:6e08f61fcfe0f84f44160c36cebac036022a502c37948b616e7782db5674bc16",
+      "matching_lines": [
+        1080
+      ],
+      "path": "notes/status-only-report-reference-checker-policy-validation-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        1043,
+        1060
+      ]
+    },
+    {
+      "current_hash": "sha256:0d7add9b6f0b5912a1afc5ebcffca414c6bd2fbc69e30f2921c6618088e99e1d",
+      "matching_lines": [
+        1192
+      ],
+      "path": "notes/summarize_release_readiness_gate.py",
+      "row_count": 4,
+      "stale_lines": [
+        826,
+        1047,
+        1121
+      ]
+    },
+    {
+      "current_hash": "sha256:e7377f9637ddb175164e30a21a7eb60027e40c3700aaf72f181d7f07e7a38cba",
+      "matching_lines": [
+        1267,
+        1292
+      ],
+      "path": "notes/test-daily-cadence-status-output.json",
+      "row_count": 2,
+      "stale_lines": []
+    },
+    {
+      "current_hash": "sha256:5b238bfd466b4faca62b13f0135201feabb7c86f148e4e6a8f53583e576214e4",
+      "matching_lines": [
+        662
+      ],
+      "path": "notes/test-multiday-readiness-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        412
+      ]
+    },
+    {
+      "current_hash": "sha256:874095109a00833417aac65a282265b259eec39c073b6c0f9d12e3dcd02e9917",
+      "matching_lines": [
+        866,
+        1015
+      ],
+      "path": "notes/test-release-gate-summary-freshness-output.json",
+      "row_count": 2,
+      "stale_lines": []
+    },
+    {
+      "current_hash": "sha256:679f7e8a0feb82577d4aa386dc9be482f17d9746a0e09c42c05b00c4e1886110",
+      "matching_lines": [
+        1002
+      ],
+      "path": "notes/test-release-readiness-checklist-output.json",
+      "row_count": 9,
+      "stale_lines": [
+        705,
+        751,
+        780,
+        810,
+        844,
+        876,
+        910,
+        948
+      ]
+    },
+    {
+      "current_hash": "sha256:a46f8d2d42a441b6cbe56b31df625d7cf3a6d13fe9935faf22a1d05076323c30",
+      "matching_lines": [
+        1183,
+        1198
+      ],
+      "path": "notes/test-release-readiness-context-consistency-policy-output.json",
+      "row_count": 2,
+      "stale_lines": []
+    },
+    {
+      "current_hash": "sha256:46fb69e56de4a9a5c1c2a3418b4b5ed13404cdd402ff2a38a76bcfcf5d7b3b8d",
+      "matching_lines": [
+        1196
+      ],
+      "path": "notes/test-release-readiness-gate-summary-output.json",
+      "row_count": 8,
+      "stale_lines": [
+        828,
+        877,
+        962,
+        1012,
+        1054,
+        1125,
+        1149
+      ]
+    },
+    {
+      "current_hash": "sha256:218ca192ea86289f7f5118ae2dfad5b894243df36c80860aa2d4807e0ee9d111",
+      "matching_lines": [
+        1009
+      ],
+      "path": "notes/test-release-readiness-persistent-warning-policy-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        801
+      ]
+    },
+    {
+      "current_hash": "sha256:2cd11263845d055e847cd08adec5799555f9957a5d462b5806311658b64c824e",
+      "matching_lines": [
+        1158
+      ],
+      "path": "notes/test-release-readiness-topology-report-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        1065,
+        1087
+      ]
+    },
+    {
+      "current_hash": "sha256:264f935498168818ddb3f93c5708b2f086a6db4cdd7e3b50c96c74e9949f2c22",
+      "matching_lines": [
+        1006,
+        1051,
+        1123,
+        1146,
+        1194
+      ],
+      "path": "notes/test-release-readiness-warning-report-output.json",
+      "row_count": 7,
+      "stale_lines": [
+        768,
+        961
+      ]
+    },
+    {
+      "current_hash": "sha256:0cb1fe872369493c5eff9f6acda75d2f14fbf0c9e35249421eed28a280a2d42c",
+      "matching_lines": [
+        1003
+      ],
+      "path": "notes/test-status-only-release-gates-report-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        978
+      ]
+    },
+    {
+      "current_hash": "sha256:a46f8d2d42a441b6cbe56b31df625d7cf3a6d13fe9935faf22a1d05076323c30",
+      "matching_lines": [
+        1139
+      ],
+      "path": "notes/test-topology-report-reference-freshness-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        1106
+      ]
+    },
+    {
+      "current_hash": "sha256:640b3f51ff2cbd615aa6d7cd56bee3f73029c8be368de530c68c9cb4891b22d6",
+      "matching_lines": [
+        661
+      ],
+      "path": "notes/test_multiday_readiness.py",
+      "row_count": 2,
+      "stale_lines": [
+        411
+      ]
+    },
+    {
+      "current_hash": "sha256:05887bfa605645b33fe3539650e3431efbccc68b94617f7dfd1d980504d849e1",
+      "matching_lines": [
+        990
+      ],
+      "path": "notes/test_release_readiness_checklist.py",
+      "row_count": 9,
+      "stale_lines": [
+        702,
+        750,
+        779,
+        809,
+        843,
+        874,
+        909,
+        943
+      ]
+    },
+    {
+      "current_hash": "sha256:57a1770c1c81beafbd7db8d19b4fd53a9a5f66125b19505b628324628f73ba70",
+      "matching_lines": [
+        1195
+      ],
+      "path": "notes/test_release_readiness_gate_summary.py",
+      "row_count": 7,
+      "stale_lines": [
+        827,
+        875,
+        947,
+        997,
+        1048,
+        1124
+      ]
+    },
+    {
+      "current_hash": "sha256:598ce70c22a54adfcacddd98fb4aa38be6c86990b5919d2308d1049421dd3774",
+      "matching_lines": [
+        800,
+        996
+      ],
+      "path": "notes/test_release_readiness_persistent_warning_policy.py",
+      "row_count": 2,
+      "stale_lines": []
+    },
+    {
+      "current_hash": "sha256:0dfe73a60d06f8df8ef16ef2228cd396c06aaa89d306f277124f34a32007c329",
+      "matching_lines": [
+        1157
+      ],
+      "path": "notes/test_release_readiness_topology_report.py",
+      "row_count": 2,
+      "stale_lines": [
+        1064
+      ]
+    },
+    {
+      "current_hash": "sha256:aa3a2b4c64372328831c6c5d91b6f4756e6e8546af9534a71aeb4c209c825f2f",
+      "matching_lines": [
+        1193
+      ],
+      "path": "notes/test_release_readiness_warning_report.py",
+      "row_count": 6,
+      "stale_lines": [
+        767,
+        944,
+        994,
+        1050,
+        1122
+      ]
+    },
+    {
+      "current_hash": "sha256:26f4da17df36a128a3e58c103246a2ecbb26c171fd105e12170580911fb8da56",
+      "matching_lines": [
+        992
+      ],
+      "path": "notes/test_status_only_release_gates_report.py",
+      "row_count": 2,
+      "stale_lines": [
+        977
+      ]
+    },
+    {
+      "current_hash": "sha256:3fc46171874447ff2aa6aa2b54042984fd09015ece8f49a8977f7ffe2cc12629",
+      "matching_lines": [
+        1138
+      ],
+      "path": "notes/test_topology_report_reference_freshness.py",
+      "row_count": 2,
+      "stale_lines": [
+        1105
+      ]
+    },
+    {
+      "current_hash": "sha256:715d0e5ecd77002d476f8aa6f61af626ea0a3d5949806491f0c683b27e2fad12",
+      "matching_lines": [
+        1163
+      ],
+      "path": "notes/topology-report-reference-freshness-policy-validation-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        1116,
+        1142
+      ]
+    },
+    {
+      "current_hash": "sha256:715d0e5ecd77002d476f8aa6f61af626ea0a3d5949806491f0c683b27e2fad12",
+      "matching_lines": [
+        1164
+      ],
+      "path": "notes/topology-report-reference-freshness-policy-validation-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        1117,
+        1143
+      ]
+    },
+    {
+      "current_hash": "sha256:a39ba377ccdab8d5c205e1e1a8e257c795002cbcaad92e9ffc6e8f3598916047",
+      "matching_lines": [
+        1161
+      ],
+      "path": "notes/topology-report-reference-freshness-validation-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        1107,
+        1140
+      ]
+    },
+    {
+      "current_hash": "sha256:a39ba377ccdab8d5c205e1e1a8e257c795002cbcaad92e9ffc6e8f3598916047",
+      "matching_lines": [
+        1162
+      ],
+      "path": "notes/topology-report-reference-freshness-validation-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        1108,
+        1141
+      ]
+    },
+    {
+      "current_hash": "sha256:767601076f1d25d8151be730fd5abe2c9a16047441d98bc8759249167a3459f2",
+      "matching_lines": [
+        1098
+      ],
+      "path": "notes/two-date-wording-drift-validation-output.json",
+      "row_count": 9,
+      "stale_lines": [
+        691,
+        716,
+        762,
+        859,
+        886,
+        929,
+        971,
+        1024
+      ]
+    },
+    {
+      "current_hash": "sha256:767601076f1d25d8151be730fd5abe2c9a16047441d98bc8759249167a3459f2",
+      "matching_lines": [
+        1099
+      ],
+      "path": "notes/two-date-wording-drift-validation-run.json",
+      "row_count": 9,
+      "stale_lines": [
+        692,
+        717,
+        763,
+        860,
+        887,
+        930,
+        972,
+        1025
+      ]
+    },
+    {
+      "current_hash": "sha256:dd0853057bff0fa5b7eaa29df2adc342903f103e9c279d68b803279aca3e518c",
+      "matching_lines": [
+        660
+      ],
+      "path": "notes/validate_multiday_readiness.py",
+      "row_count": 2,
+      "stale_lines": [
+        410
+      ]
+    },
+    {
+      "current_hash": "sha256:f675ffc10259ba472873eeb609f8ea1257fd7953964ab4065c3f5e304a5bf45b",
+      "matching_lines": [
+        680
+      ],
+      "path": "notes/validate_paper_figure_refs.py",
+      "row_count": 2,
+      "stale_lines": [
+        240
+      ]
+    },
+    {
+      "current_hash": "sha256:dea4c47e1a46c4537695d390549bb9bfecf3eb71aa152f6ed355adc93553f9ea",
+      "matching_lines": [
+        1072
+      ],
+      "path": "notes/validate_release_readiness_checklist.py",
+      "row_count": 10,
+      "stale_lines": [
+        701,
+        749,
+        778,
+        808,
+        842,
+        873,
+        908,
+        942,
+        989
+      ]
+    },
+    {
+      "current_hash": "sha256:c98c8711782757eb2592de5c8d159910bc50aec945ebcbdc99932694198809fa",
+      "matching_lines": [
+        1197
+      ],
+      "path": "notes/validate_release_readiness_context_consistency_policy.py",
+      "row_count": 2,
+      "stale_lines": [
+        1181
+      ]
+    },
+    {
+      "current_hash": "sha256:8ed51de9fe4cafbc4ab1ac60429d602cb5c95f5e16eb1cfaaa0912fe5593348d",
+      "matching_lines": [
+        995
+      ],
+      "path": "notes/validate_release_readiness_persistent_warning_policy.py",
+      "row_count": 3,
+      "stale_lines": [
+        799,
+        945
+      ]
+    },
+    {
+      "current_hash": "sha256:2050ff56fb6be3befdf0e771bdac891a09e3bf62c208ff841d932bdb862360e9",
+      "matching_lines": [
+        1275
+      ],
+      "path": "paper/draft.md",
+      "row_count": 24,
+      "stale_lines": [
+        236,
+        269,
+        306,
+        345,
+        359,
+        382,
+        396,
+        423,
+        439,
+        469,
+        482,
+        666,
+        699,
+        748,
+        774,
+        807,
+        838,
+        872,
+        907,
+        941,
+        988,
+        1071,
+        1225
+      ]
+    }
+  ],
+  "errors": [],
+  "ignored_self_output_count": 2,
+  "ignored_self_output_paths": [
+    {
+      "lines": [
+        253,
+        279,
+        290,
+        301,
+        316,
+        325,
+        332,
+        341,
+        343,
+        357,
+        378,
+        380,
+        394,
+        408,
+        421,
+        437,
+        457,
+        494,
+        643,
+        658,
+        664,
+        678,
+        685,
+        697,
+        718,
+        722,
+        730,
+        738,
+        746,
+        764,
+        771,
+        794,
+        804,
+        823,
+        831,
+        835,
+        861,
+        869,
+        896,
+        904,
+        931,
+        938,
+        973,
+        982,
+        985,
+        1027,
+        1035,
+        1044,
+        1061,
+        1068,
+        1101,
+        1109,
+        1118,
+        1133,
+        1136,
+        1166,
+        1178,
+        1189,
+        1209,
+        1218,
+        1248,
+        1258,
+        1262,
+        1271,
+        1287,
+        1296,
+        1306
+      ],
+      "path": "notes/artifact-index-current-hash-validation-output.json",
+      "reason": "validator output is rewritten by this command and cannot be self-validated against a pre-run index row"
+    },
+    {
+      "lines": [
+        254,
+        280,
+        291,
+        302,
+        317,
+        326,
+        333,
+        342,
+        344,
+        358,
+        379,
+        381,
+        395,
+        409,
+        422,
+        438,
+        458,
+        495,
+        644,
+        659,
+        665,
+        679,
+        686,
+        698,
+        719,
+        723,
+        731,
+        739,
+        747,
+        765,
+        772,
+        795,
+        805,
+        824,
+        832,
+        836,
+        862,
+        870,
+        897,
+        905,
+        932,
+        939,
+        974,
+        983,
+        986,
+        1028,
+        1036,
+        1045,
+        1062,
+        1069,
+        1102,
+        1110,
+        1119,
+        1134,
+        1137,
+        1167,
+        1179,
+        1190,
+        1210,
+        1219,
+        1249,
+        1259,
+        1263,
+        1272,
+        1288,
+        1297,
+        1307
+      ],
+      "path": "notes/artifact-index-current-hash-validation-run.json",
+      "reason": "validator output is rewritten by this command and cannot be self-validated against a pre-run index row"
+    }
+  ],
+  "index_path": "ARTIFACT_INDEX.md",
+  "missing_path_count": 0,
+  "missing_paths": [],
+  "research_caveat": "Local artifact-index hash freshness telemetry only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication readiness.",
+  "row_count": 1270,
+  "stale_path_count": 0,
+  "stale_paths": [],
+  "status": "ok",
+  "unique_path_count": 620,
+  "warnings": [
+    "104 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

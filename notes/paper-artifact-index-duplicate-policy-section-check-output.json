@@ -1,0 +1,15 @@
+{
+  "caveat": "Local evidence-ledger mechanics only; not warning clearance, legal review, signature validation, trusted-list supervision, listed-entity status evidence, public alerting, regulated trust-service output, endpoint-status evidence, or publication approval.",
+  "created": "2026-05-21T22:52:19.923988+00:00",
+  "paper": "paper/draft.md",
+  "paper_sha256": "7696acaa0cc7b46792790b8f875f2f85c8f34d44206e9bfc4233e5aaa80a6d74",
+  "references_inserted": [
+    "- `notes/artifact-index-append-only-duplicates-policy.md`.",
+    "- `notes/artifact-index-append-only-duplicates-policy-validation-output.json`.",
+    "- `notes/artifact-index-duplicate-report-output.json`."
+  ],
+  "section_heading": "## Artifact-index append-only duplicate-row policy",
+  "section_inserted": true,
+  "section_word_count": 242,
+  "status": "ok"
+}

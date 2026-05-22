@@ -1,0 +1,16 @@
+{
+  "caveat": "Local paper prose check only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "created": "2026-05-20T23:49:13.980283+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## Two-date aggregate-validation gate",
+  "inserted": true,
+  "paper": "paper/draft.md",
+  "paper_sha256": "ff216079614a5853049d485852c687b2d3b5696c8a096f64cd94aed648d36500",
+  "patched_aggregate_paragraph": true,
+  "patched_figure_paragraph": true,
+  "patched_references": true,
+  "schema": "urn:tyche:cassandra:paper-two-date-gate-section-check:0.1",
+  "status": "ok",
+  "word_count": 293
+}

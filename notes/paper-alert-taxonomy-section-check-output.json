@@ -1,0 +1,23 @@
+{
+  "caveats": [
+    "research-only structural observation",
+    "no relying-party validation claim",
+    "no legal-status determination",
+    "no public alerting or supervision claim",
+    "no listed-entity names in narrative prose without approval"
+  ],
+  "changed": true,
+  "checks": {
+    "has_tych_institute_affiliation": true,
+    "mentions_zetes": false,
+    "uses_aggregate_only_named_entity_policy": true,
+    "uses_internal_alert_taxonomy": true
+  },
+  "created": "2026-05-20T20:56:01.414839Z",
+  "draft_path": "paper/draft.md",
+  "draft_sha256": "aaca7b580ed3244607f219cdcdd128a9b53f5158555c0149e144efd918a65f1e",
+  "forbidden_hits": [],
+  "section_heading": "## Planned longitudinal aggregation and alert taxonomy",
+  "section_word_count": 277,
+  "status": "ok"
+}

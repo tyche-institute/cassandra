@@ -1,0 +1,14 @@
+{
+  "caveat": "Local paper prose check only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, legal review, warning clearance, or publication readiness.",
+  "created": "2026-05-21T23:06:57.641401+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## Aggregate-only naming validation",
+  "inserted": true,
+  "paper": "paper/draft.md",
+  "paper_sha256": "885b94f994a9fb49dd9265d42e26838084a1af80a093c8966d57f3a0a410465e",
+  "refs_patched": true,
+  "schema": "urn:tyche:cassandra:paper-aggregate-only-naming-section-check:0.1",
+  "status": "ok",
+  "word_count": 258
+}

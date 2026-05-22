@@ -1,0 +1,44 @@
+{
+  "created": "2026-05-21T02:27:09.212517+00:00",
+  "decision": {
+    "checker_kept_out_of_band": true,
+    "cycle_avoidance_reason": "The checker validates a paper reference and current topology-report artifact-index hash; making the checklist depend on it would create checklist/topology/freshness churn.",
+    "not_missing_provenance": true,
+    "safe_to_wire_into_checklist_without_operator_review": false
+  },
+  "error_count": 0,
+  "errors": [],
+  "inputs": {
+    "checker_output": {
+      "path": "notes/topology-report-reference-freshness-validation-output.json",
+      "sha256": "a39ba377ccdab8d5c205e1e1a8e257c795002cbcaad92e9ffc6e8f3598916047",
+      "status": "ok",
+      "warning_count": 2
+    },
+    "paper": {
+      "path": "paper/draft.md",
+      "sha256": "3bca8a842ae2dd08f7d79e24ec1f75cfb2448ca7a7b9e69ef48e1213e4d9f990"
+    },
+    "policy_note": {
+      "path": "notes/topology-report-reference-freshness-policy.md",
+      "sha256": "8bca700af9c720b3c2710c8c5afee1ca69b70d38d7eb4a22423f828142574703"
+    },
+    "release_readiness_checklist_validator": {
+      "path": "notes/validate_release_readiness_checklist.py",
+      "sha256": "dea4c47e1a46c4537695d390549bb9bfecf3eb71aa152f6ed355adc93553f9ea"
+    },
+    "topology_report": {
+      "path": "notes/release-readiness-topology-report-output.json",
+      "sha256": "4de5dc6a7d5f8ed9e7b7477d2057411268fa7fefb99a2cc452484de18a21b022",
+      "status": "ok"
+    }
+  },
+  "research_caveat": "Local topology-report reference freshness policy validation only; it does not clear warnings, approve publication, perform legal review, validate signatures, supervise trusted lists, determine listed-entity status, provide public alerting, assert trusted-list legal effect, or create regulated trust-service output.",
+  "schema": "urn:tyche:cassandra:topology-reference-freshness-policy-validation:0.1",
+  "status": "ok",
+  "warning_count": 1,
+  "warnings": [
+    "topology freshness checker retains warning_count=2 as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

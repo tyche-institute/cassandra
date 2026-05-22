@@ -1,0 +1,14 @@
+{
+  "caveat": "Local paper prose check only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, legal review, warning clearance, or publication readiness.",
+  "created": "2026-05-21T22:27:10.717544+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## No-fetch-before-gate maintenance discipline",
+  "inserted": true,
+  "paper": "paper/draft.md",
+  "paper_sha256": "02af8d314deab677a4f3723a1d3333e0e05d16bba845b360d524de85b1a5f025",
+  "refs_patched": true,
+  "schema": "urn:tyche:cassandra:paper-no-fetch-gate-section-check:0.1",
+  "status": "ok",
+  "word_count": 256
+}

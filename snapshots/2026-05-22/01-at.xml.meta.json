@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-21T21:15:46.251574+00:00",
+  "bytes": 482741,
+  "completed": "2026-05-21T21:15:46.759231+00:00",
+  "content_length_header": "482741",
+  "content_type": "text/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-22/01-at.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "2cb9f07f357c057d00e050043e00729454584e4afc2e51e07c6f5ea003052375",
+  "url": "https://www.signatur.rtr.at/vertrauensliste.xml"
+}

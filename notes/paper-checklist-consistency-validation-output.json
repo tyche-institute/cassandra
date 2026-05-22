@@ -1,0 +1,52 @@
+{
+  "checklist_output": {
+    "error_count": 0,
+    "path": "notes/release-readiness-checklist-validation-output.json",
+    "sha256": "03ce8326c50fb717e0d699e1ed05dc938959b0dc2f3ac7230855bcdc15b44801",
+    "status": "ok",
+    "warning_count": 5
+  },
+  "checklist_validator": "notes/validate_release_readiness_checklist.py",
+  "checklist_validator_sha256": "dea4c47e1a46c4537695d390549bb9bfecf3eb71aa152f6ed355adc93553f9ea",
+  "configured_status_only_count": 3,
+  "configured_validator_count": 16,
+  "configured_validator_names": [
+    "snapshot_metadata",
+    "lineage",
+    "aggregate_results",
+    "figure_artifacts",
+    "public_artifact_safety",
+    "paper_claim_safety",
+    "paper_evidence_refs",
+    "paper_figure_refs",
+    "two_date_wording_drift",
+    "multiday_readiness",
+    "source_coverage_policy_note",
+    "persistent_warning_policy",
+    "release_gate_summary_freshness",
+    "hash_cycle_policy_references",
+    "status_only_release_gates_report",
+    "artifact_index_current_hashes"
+  ],
+  "context_consistency_policy_output": {
+    "error_count": 0,
+    "path": "notes/release-readiness-context-consistency-policy-validation-output.json",
+    "sha256": "c1e4a1df7fc3ef0337325781f09941aec52b697ca21d390a466cfc88e70b1431",
+    "status": "ok",
+    "warning_count": 3
+  },
+  "context_consistency_validator_is_checklist_dependency": false,
+  "created": "2026-05-22T02:46:32.127572+00:00",
+  "error_count": 0,
+  "errors": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "2e44f73562a40ae23030f3a17c34440c482875ee216ab7b266eaf0bd7f801725",
+  "research_caveat": "Local paper/checklist consistency validation only; verifies release-readiness wiring and out-of-band policy wording, not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, warning clearance, legal review, or publication approval.",
+  "schema": "urn:tyche:cassandra:paper-checklist-consistency-validation:0.1",
+  "status": "ok",
+  "warning_count": 1,
+  "warnings": [
+    "notes/release-readiness-context-consistency-policy-validation-output.json has warning_count=3; preserve as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

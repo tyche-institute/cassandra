@@ -1,0 +1,1 @@
+{"count_checks": ["diff_change_count", "diff_current_record_count", "fetch_errors", "fetched_content_files", "normalization_errors", "normalization_inputs", "normalization_skips", "normalized_xml_artifacts", "pointer_attempts"], "status": "ok", "validated_output": "notes/bundle-aggregate-lineage-validation-output.json", "warning_count": 4}

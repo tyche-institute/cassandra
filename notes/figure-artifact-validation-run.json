@@ -1,0 +1,16 @@
+{
+  "caveat": "Local figure-artifact consistency and claim-safety validation only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, or publication readiness.",
+  "checked_paths": [
+    "notes/figure-render-output.json",
+    "figures/aggregate-run-telemetry.svg",
+    "figures/aggregate-diff-classes.svg"
+  ],
+  "created_at": "2026-05-20T23:39:32Z",
+  "error_count": 0,
+  "errors": [],
+  "lane": "cassandra",
+  "schema": "urn:tyche:cassandra:figure-artifact-validation:0.1",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": []
+}

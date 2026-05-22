@@ -1,0 +1,15 @@
+{
+  "caveat": "Local consistency and claim-safety validation only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, or publication readiness.",
+  "checked_paths": [
+    "notes/aggregate-results-2026-05-22-output.json",
+    "notes/aggregate-results-table.csv"
+  ],
+  "created_at": "2026-05-21T21:17:17Z",
+  "error_count": 0,
+  "errors": [],
+  "lane": "cassandra",
+  "schema": "urn:tyche:cassandra:aggregate-results-validation:0.1",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": []
+}

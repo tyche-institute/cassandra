@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "tests": [
+    {
+      "status": "ok",
+      "test": "assert_live_ok"
+    },
+    {
+      "status": "ok",
+      "test": "assert_detects_accidental_context_dependency"
+    },
+    {
+      "status": "ok",
+      "test": "assert_detects_missing_policy_reference"
+    }
+  ]
+}

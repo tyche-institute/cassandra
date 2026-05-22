@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "tests": [
+    {
+      "name": "live_workspace",
+      "status": "ok",
+      "warning_count": 2
+    },
+    {
+      "name": "missing_paper_reference",
+      "status": "ok"
+    },
+    {
+      "name": "stale_artifact_index_hash",
+      "status": "ok"
+    }
+  ]
+}

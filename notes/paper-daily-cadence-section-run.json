@@ -1,0 +1,15 @@
+{
+  "changed": true,
+  "created": "2026-05-20T22:54:20.490507+00:00",
+  "error_count": 0,
+  "errors": [],
+  "forbidden_hits": [],
+  "missing_required_fragments": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "d2db0d277b4256ede8ee8e5ce6d3f89513027dbb592c791763c66622fd460730",
+  "research_caveat": "Local Cassandra drafting helper only; not legal compliance, trusted-list legal effect, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-daily-cadence-section-check:0.1",
+  "section_title": "## Daily cadence and overwrite discipline",
+  "section_word_count": 264,
+  "status": "ok"
+}

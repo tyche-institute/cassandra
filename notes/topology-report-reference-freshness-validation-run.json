@@ -1,0 +1,41 @@
+{
+  "artifact_index": {
+    "current_hash_indexed": true,
+    "exists": true,
+    "path": "ARTIFACT_INDEX.md",
+    "topology_report_sha256_candidates": [
+      "15a342f580bb723b9f976c03b338b884c44a9aefdabfa4f55914b46772d1f0be",
+      "1f27c8fa00ca00ad7a5c6cd071a2c9d3c8dec585ab2731d9cc8056ebc38a046a",
+      "4de5dc6a7d5f8ed9e7b7477d2057411268fa7fefb99a2cc452484de18a21b022"
+    ]
+  },
+  "created": "2026-05-21T02:27:09.191338+00:00",
+  "error_count": 0,
+  "errors": [],
+  "operator_review_gate": true,
+  "paper_reference": {
+    "exists": true,
+    "line": 207,
+    "path": "paper/draft.md",
+    "topology_report_path": "notes/release-readiness-topology-report-output.json"
+  },
+  "research_caveat": "Local topology-report reference freshness validation only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, listed-entity status evidence, legal review, warning clearance, or publication approval.",
+  "safe_to_auto_clear_warnings": false,
+  "safe_to_auto_publish": false,
+  "schema": "urn:tyche:cassandra:topology-report-reference-freshness:0.1",
+  "status": "ok",
+  "topology_report": {
+    "error_count": 0,
+    "exists": true,
+    "path": "notes/release-readiness-topology-report-output.json",
+    "sha256": "4de5dc6a7d5f8ed9e7b7477d2057411268fa7fefb99a2cc452484de18a21b022",
+    "status": "ok",
+    "warning_count": 4
+  },
+  "warning_count": 2,
+  "warnings": [
+    "topology report warning_count=4 preserved as manual-review context",
+    "ARTIFACT_INDEX.md has multiple rows for notes/release-readiness-topology-report-output.json; one row matches the current file hash"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

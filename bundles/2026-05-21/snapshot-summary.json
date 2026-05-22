@@ -1,0 +1,44 @@
+{
+  "artifact_paths": {
+    "baseline": "baselines/2026-05-21.json",
+    "diff": "diffs/2026-05-21.json",
+    "normalized_manifest": "normalized/2026-05-21/manifest.json",
+    "snapshot_manifest": "snapshots/2026-05-21/manifest.json"
+  },
+  "caveats": [
+    "This artifact does not perform relying-party validation, signature verification, supervision, legal-status determination, public alerting, or publication readiness assessment.",
+    "Fetch failures, parser results, and diffs are operational or structural observations only.",
+    "Listed names are intentionally not reproduced in prose; detailed machine-readable snapshot files remain local workspace artifacts."
+  ],
+  "counts": {
+    "baseline_created": false,
+    "diff_change_count": 0,
+    "diff_current_record_count": 31,
+    "fetch_errors": 1,
+    "fetched_content_files": 42,
+    "normalization_errors": 1,
+    "normalization_inputs": 42,
+    "normalization_skips": 10,
+    "normalized_xml_artifacts": 31,
+    "pointer_attempts": 43,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0
+  },
+  "created_at": "2026-05-20T23:34:28.124489Z",
+  "date": "2026-05-21",
+  "hashes": {
+    "baseline_sha256": "eaa9912fb9b33a6d7b389b3cb94bef87c9a68e31445b1fc6c9a51df793c9c7ab",
+    "diff_sha256": "04d8a2bc740bda2a1943bec8ebe82f916824798d02dc153b9a475ace9acaf92f",
+    "normalized_manifest_sha256": "76df09aea1a4094fd7dc58eb9fa298f80c35a99c7ead41fafd09cfe09a742532",
+    "pointers_sha256": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600",
+    "snapshot_manifest_sha256": "686ea52c32b2e159274d407ede3d888f0ff665df2776a41632dc7b827ab8563b"
+  },
+  "inputs": {
+    "lotl_url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+    "pointers_file": "notes/pointers.json"
+  },
+  "schema": "urn:tyche:cassandra:snapshot-summary:0.2",
+  "scope": "Research-only structural observation of public LOTL-derived trusted-list snapshots.",
+  "workspace": "/home/anton/projects/cassandra"
+}

@@ -1,0 +1,40 @@
+{
+  "created": "2026-05-21T01:58:48.716008+00:00",
+  "decision": {
+    "checker_kept_out_of_band": true,
+    "cycle_avoidance_reason": "The checker validates the report's embedded checklist hash; making the checklist depend on the checker would create checklist/report/checker freshness churn.",
+    "not_missing_provenance": true,
+    "safe_to_wire_into_checklist_without_operator_review": false
+  },
+  "error_count": 0,
+  "errors": [],
+  "inputs": {
+    "checker_output": {
+      "path": "notes/status-only-release-gates-report-reference-validation-output.json",
+      "sha256": "c50ea83cc78ea9f5e74c1b2e0eef666075f19692fd3db829dc992bb465910a30",
+      "status": "ok",
+      "warning_count": 1
+    },
+    "policy_note": {
+      "path": "notes/status-only-report-reference-checker-policy.md",
+      "sha256": "01c78e02964968cd5a18440e63aad58310edd9c85ed4f67e32f29b9bd5e517f1"
+    },
+    "release_readiness_checklist_validator": {
+      "path": "notes/validate_release_readiness_checklist.py",
+      "sha256": "dea4c47e1a46c4537695d390549bb9bfecf3eb71aa152f6ed355adc93553f9ea"
+    },
+    "status_only_release_gate_report": {
+      "path": "notes/status-only-release-gates-report-output.json",
+      "sha256": "c522e5fd1e773c248ffa7eaaebc4e1ee492847551797051cd1f282cae7dce634",
+      "status_only_gate_count": 3
+    }
+  },
+  "research_caveat": "Local status-only report reference-checker policy validation only; it does not clear warnings, approve publication, perform legal review, validate signatures, supervise trusted lists, determine listed-entity status, provide public alerting, assert trusted-list legal effect, or create regulated trust-service output.",
+  "schema": "urn:tyche:cassandra:status-only-report-reference-checker-policy-validation:0.1",
+  "status": "ok",
+  "warning_count": 1,
+  "warnings": [
+    "checker output retains warning_count=1 as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

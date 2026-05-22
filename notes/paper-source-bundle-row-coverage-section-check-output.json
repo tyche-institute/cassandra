@@ -1,0 +1,22 @@
+{
+  "caveats": [
+    "local source-register provenance only",
+    "not endpoint/status evidence",
+    "not legal effect",
+    "not signature validation",
+    "not supervision",
+    "not listed-entity status evidence",
+    "not public alerting",
+    "not warning clearance",
+    "not legal review",
+    "not publication approval"
+  ],
+  "changed": true,
+  "heading": "## Source-bundle row coverage interpretation",
+  "raw_listed_names_intended": false,
+  "references": [
+    "notes/sources-bundle-row-coverage-output.json"
+  ],
+  "status": "ok",
+  "word_count": 258
+}

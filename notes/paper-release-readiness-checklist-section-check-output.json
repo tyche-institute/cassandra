@@ -1,0 +1,15 @@
+{
+  "action": "inserted",
+  "created": "2026-05-21T00:03:41.334125+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## Release-readiness checklist for operator review",
+  "paper": "paper/draft.md",
+  "paper_sha256": "062dbdd2cc44ed79f43a2129aac524a21ed71b565bca2c0eb8a7c0e929eecce9",
+  "research_caveat": "Local checklist prose update only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-release-readiness-checklist-section:0.1",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": [],
+  "word_count": 294
+}

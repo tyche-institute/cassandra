@@ -1,0 +1,171 @@
+{
+  "claim_safety_caveat": "Aggregate semantic-diff roll-up for local research observation only; raw listed names are omitted. Counts and signature-shape fields do not assert legal effect, trusted-list validation, signature validity, supervision, listed-entity status, public alerting, regulated trust-service output, legal review, or publication approval.",
+  "created": "2026-05-21T21:28:08.666119+00:00",
+  "date": "2026-05-22",
+  "diff_path": "diffs/2026-05-22.json",
+  "diff_sha256": "b7320b5162b61da5543b08fbfc9feb25ef737f8dac103840d4927748d0b64f78",
+  "keys_with_selected_movements": [
+    "SE",
+    "SI",
+    "SK"
+  ],
+  "per_key_counts": {
+    "SE": {
+      "provider_service_detail_changed": 1,
+      "service_inventory_changed": 1
+    },
+    "SI": {
+      "provider_service_detail_changed": 3,
+      "service_inventory_changed": 1,
+      "signature_shape_changed": 1
+    },
+    "SK": {
+      "provider_service_detail_changed": 2,
+      "service_inventory_changed": 1,
+      "signature_shape_changed": 1
+    }
+  },
+  "provider_service_detail": {
+    "added_hashed_service_key_total": 10,
+    "movement_count": 6,
+    "movements": [
+      {
+        "added_hashed_service_key_count": 2,
+        "key": "SE",
+        "provider_key": "b0a7953c969fc15697758b719e0fc06812b107b0f7395311c281e4b9a94f4766",
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      },
+      {
+        "added_hashed_service_key_count": 2,
+        "key": "SI",
+        "provider_key": "0169b36e43942b1e649767130473bc78acbc487455f2f8c9f43ebaa6dea82d55",
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      },
+      {
+        "added_hashed_service_key_count": 1,
+        "key": "SI",
+        "provider_key": "3ab7d15d6c0cfd256b4b75b9d15d8e0709e534579b94f357bb62ea964d107697",
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      },
+      {
+        "added_hashed_service_key_count": 2,
+        "key": "SI",
+        "provider_key": "8b34a5e3b2a3f78719ecdb7aaf7f8feca915045ca1cabdd631371a1ea1e819f6",
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      },
+      {
+        "added_hashed_service_key_count": 1,
+        "key": "SK",
+        "provider_key": "9227fd77cf4dbd59a22157c42e7876da6d7fa3f4fdbc0e9e5e30fb3549caaab8",
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      },
+      {
+        "added_hashed_service_key_count": 2,
+        "key": "SK",
+        "provider_key": "b80e018901da903c156518a4fb88624ad37aa178740c0e03201bc164efb1e67d",
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      }
+    ],
+    "removed_hashed_service_key_total": 0
+  },
+  "raw_listed_names_omitted": true,
+  "service_inventory": {
+    "added_hashed_service_key_total": 10,
+    "movement_count": 3,
+    "movements": [
+      {
+        "added_hashed_service_key_count": 2,
+        "key": "SE",
+        "new_service_count": 14,
+        "old_service_count": 12,
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      },
+      {
+        "added_hashed_service_key_count": 5,
+        "key": "SI",
+        "new_service_count": 105,
+        "old_service_count": 100,
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      },
+      {
+        "added_hashed_service_key_count": 3,
+        "key": "SK",
+        "new_service_count": 186,
+        "old_service_count": 183,
+        "raw_listed_names_omitted": true,
+        "removed_hashed_service_key_count": 0
+      }
+    ],
+    "removed_hashed_service_key_total": 0
+  },
+  "signature_shape": {
+    "movement_count": 2,
+    "movements": [
+      {
+        "interpretation_caveat": "Signature-shape observation only; no cryptographic verification performed.",
+        "key": "SI",
+        "new_digest_methods": [
+          "http://www.w3.org/2001/04/xmlenc#sha512"
+        ],
+        "new_signature_methods": [
+          "http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"
+        ],
+        "old_digest_methods": [
+          "http://www.w3.org/2001/04/xmlenc#sha512"
+        ],
+        "old_signature_methods": [
+          "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+        ]
+      },
+      {
+        "interpretation_caveat": "Signature-shape observation only; no cryptographic verification performed.",
+        "key": "SK",
+        "new_digest_methods": [
+          "http://www.w3.org/2001/04/xmlenc#sha512"
+        ],
+        "new_signature_methods": [
+          "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+        ],
+        "old_digest_methods": [
+          "http://www.w3.org/2001/04/xmlenc#sha512"
+        ],
+        "old_signature_methods": [
+          "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
+        ]
+      }
+    ],
+    "new_digest_method_counts": {
+      "http://www.w3.org/2001/04/xmlenc#sha512": 2
+    },
+    "new_signature_method_counts": {
+      "http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512": 1,
+      "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512": 1
+    },
+    "old_digest_method_counts": {
+      "http://www.w3.org/2001/04/xmlenc#sha512": 2
+    },
+    "old_signature_method_counts": {
+      "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256": 1,
+      "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512": 1
+    }
+  },
+  "source_change_count": 26,
+  "source_diff_summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 3,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 6,
+    "service_inventory_changed": 3,
+    "summary_field_changed": 14
+  },
+  "status": "ok"
+}

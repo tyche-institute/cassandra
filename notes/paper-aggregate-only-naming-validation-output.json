@@ -1,0 +1,33 @@
+{
+  "candidate_count": 4873,
+  "candidate_elements": [
+    "ServiceName",
+    "TSPName",
+    "TSPTradeName"
+  ],
+  "candidate_inventory_hash": "3c24e0db3bb2557df9abef0e0608001883ab4fd7b929c7c8e211d99b71c4294a",
+  "created": "2026-05-22T02:46:32.423906+00:00",
+  "error_count": 0,
+  "findings": [],
+  "missing_files": [],
+  "paper_stats": {
+    "bytes": 67458,
+    "line_count": 320,
+    "path": "paper/draft.md",
+    "sha256": "2e44f73562a40ae23030f3a17c34440c482875ee216ab7b266eaf0bd7f801725"
+  },
+  "parse_error_count": 1,
+  "parse_errors": [
+    {
+      "error": "ParseError",
+      "path": "snapshots/2026-05-22/09-dk.xml"
+    }
+  ],
+  "raw_names_echoed": false,
+  "research_caveat": "Local aggregate-only naming check for Cassandra paper prose; candidate names are derived from saved XML snapshots and findings are hash-only. This does not assert legal effect, trusted-list status, signature validity, supervision, public alerting, regulated trust-service output, legal review, or publication approval.",
+  "schema": "urn:tyche:cassandra:paper-aggregate-only-naming:0.1",
+  "snapshot_date_scanned": "2026-05-22",
+  "status": "ok",
+  "warning_count": 1,
+  "workspace": "/home/anton/projects/cassandra"
+}

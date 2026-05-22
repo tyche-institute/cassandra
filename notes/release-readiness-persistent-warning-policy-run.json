@@ -1,0 +1,7 @@
+{
+  "created": "2026-05-21T00:42:30.126945+00:00",
+  "note": "notes/release-readiness-persistent-warning-policy.md",
+  "research_caveat": "This note is local workflow-maintenance context only. It does not clear warnings, rewrite historical artifacts, approve publication, perform legal review, validate signatures, supervise trusted lists, determine listed-entity status, provide public alerting, or create regulated trust-service output.",
+  "source_report": "notes/release-readiness-warning-report-output.json",
+  "status": "ok"
+}

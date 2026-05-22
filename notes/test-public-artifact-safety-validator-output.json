@@ -1,0 +1,14 @@
+{
+  "scanned": [
+    "alerts.jsonl",
+    "bundles/2026-05-20/snapshot-summary.json.bundle/claims.json",
+    "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json",
+    "bundles/2026-05-20/snapshot-summary.json.bundle/notes.md",
+    "figures/aggregate-diff-classes.svg",
+    "figures/aggregate-run-telemetry.svg",
+    "notes/bundle-generic-existing-guard-output.json",
+    "notes/bundle-generic-helper-check-output.json",
+    "notes/bundle-generic-missing-inputs-output.json"
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,14 @@
+{
+  "caveat": "Local paper prose check only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, legal review, or publication readiness.",
+  "created": "2026-05-21T21:39:56.214861+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## Alert semantic-roll-up interpretation",
+  "inserted": false,
+  "paper": "paper/draft.md",
+  "paper_sha256": "ea73aca6aecc49906e2f831854e6aba6643d868a6fbc90f1bdce7c534b8c9cc2",
+  "refs_patched": false,
+  "schema": "urn:tyche:cassandra:paper-alert-semantic-rollup-section-check:0.1",
+  "status": "ok",
+  "word_count": 298
+}

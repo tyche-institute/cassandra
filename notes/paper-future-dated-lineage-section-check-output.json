@@ -1,0 +1,14 @@
+{
+  "caveat": "Local paper prose check only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, legal review, or publication readiness.",
+  "created": "2026-05-21T22:06:24.043888+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## Future-dated local lineage handling",
+  "inserted": true,
+  "paper": "paper/draft.md",
+  "paper_sha256": "ed61f6ef88fb27b887b24db4fe5bda44f489cc62bcce80e7725e2b1426d81b96",
+  "refs_patched": true,
+  "schema": "urn:tyche:cassandra:paper-future-dated-lineage-section-check:0.1",
+  "status": "ok",
+  "word_count": 283
+}

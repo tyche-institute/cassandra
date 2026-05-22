@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+<metadata id="cassandra-figure-metadata">{&quot;caveat&quot;: &quot;Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-21T21:17:08Z&quot;, &quot;dates&quot;: [&quot;2026-05-20&quot;, &quot;2026-05-21&quot;, &quot;2026-05-22&quot;], &quot;fields&quot;: [&quot;listed_document_added&quot;, &quot;listed_document_removed&quot;, &quot;normalized_hash_changed&quot;, &quot;summary_field_changed&quot;, &quot;provider_inventory_changed&quot;, &quot;service_inventory_changed&quot;, &quot;provider_service_detail_changed&quot;], &quot;lane&quot;: &quot;cassandra&quot;, &quot;row_count&quot;: 3, &quot;schema&quot;: &quot;urn:tyche:cassandra:figure:aggregate-diff-classes:0.1&quot;, &quot;source_csv&quot;: &quot;notes/aggregate-results-table.csv&quot;, &quot;source_csv_sha256&quot;: &quot;71efc7b8f60e90d8688a8b568fb3b44038561eeea44470a61de5cd74b2a1b952&quot;, &quot;title&quot;: &quot;Cassandra aggregate diff-class telemetry&quot;}</metadata>
+<title id="title">Cassandra aggregate diff-class telemetry</title>
+<desc id="desc">Machine-readable structural diff classes summarized as local counts. Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</desc>
+<rect width="100%" height="100%" fill="#0f172a"/>
+<text x="40" y="52" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Cassandra aggregate diff-class telemetry</text>
+<text x="40" y="84" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14">Machine-readable structural diff classes summarized as local counts.</text>
+<text x="40" y="108" fill="#fbbf24" font-family="Inter, Arial, sans-serif" font-size="12">Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</text>
+<text x="40" y="168" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Documents added</text>
+<rect x="260" y="150" width="0" height="22" rx="4" fill="#2563EB"/>
+<text x="272" y="167" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">0</text>
+<text x="40" y="208" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Documents removed</text>
+<rect x="260" y="190" width="0" height="22" rx="4" fill="#9333EA"/>
+<text x="272" y="207" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">0</text>
+<text x="40" y="248" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Normalized hash</text>
+<rect x="260" y="230" width="120" height="22" rx="4" fill="#0F766E"/>
+<text x="392" y="247" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">3</text>
+<text x="40" y="288" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Summary field</text>
+<rect x="260" y="270" width="560" height="22" rx="4" fill="#EA580C"/>
+<text x="832" y="287" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">14</text>
+<text x="40" y="328" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Provider inventory</text>
+<rect x="260" y="310" width="0" height="22" rx="4" fill="#4F46E5"/>
+<text x="272" y="327" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">0</text>
+<text x="40" y="368" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Service inventory</text>
+<rect x="260" y="350" width="120" height="22" rx="4" fill="#16A34A"/>
+<text x="392" y="367" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">3</text>
+<text x="40" y="408" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Provider/service detail</text>
+<rect x="260" y="390" width="240" height="22" rx="4" fill="#DB2777"/>
+<text x="512" y="407" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">6</text>
+<text x="40" y="512" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12">Source: notes/aggregate-results-table.csv (sha256:71efc7b8f60e90d8688a8b568fb3b44038561eeea44470a61de5cd74b2a1b952)</text>
+<text x="40" y="534" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="11">Dates summarized: 2026-05-20, 2026-05-21, 2026-05-22. Listed names are intentionally absent from this figure.</text>
+</svg>

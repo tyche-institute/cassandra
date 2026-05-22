@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-05-20T22:41:32.783161+00:00",
+  "checked_normalized_sample": [
+    {
+      "normalized_path": "normalized/2026-05-20/01-at.xml.normalized.xml",
+      "normalized_sha256": "74ecec0465395481818c742ee3e8fdc3d259432ef3679340e500ccd4b1232cf2",
+      "scheme_territory": "AT",
+      "source": "snapshots/2026-05-20/01-at.xml"
+    },
+    {
+      "normalized_path": "normalized/2026-05-20/02-be.xml.normalized.xml",
+      "normalized_sha256": "ac19c8e978b1a039698dccdb2eeeac6c8493cc8d2fd472f22bcd221e9f69eab2",
+      "scheme_territory": "BE",
+      "source": "snapshots/2026-05-20/02-be.xml"
+    },
+    {
+      "normalized_path": "normalized/2026-05-20/04-bg.xml.normalized.xml",
+      "normalized_sha256": "aa88ae501141826cb16406755d845eb27c188f8b6371d4c3230cea4c11076ecb",
+      "scheme_territory": "BG",
+      "source": "snapshots/2026-05-20/04-bg.xml"
+    },
+    {
+      "normalized_path": "normalized/2026-05-20/05-cy.xml.normalized.xml",
+      "normalized_sha256": "3996c5bf2c4421347321f0cbc04b2678355c672bc130e6de07a24ffb82798b19",
+      "scheme_territory": "CY",
+      "source": "snapshots/2026-05-20/05-cy.xml"
+    },
+    {
+      "normalized_path": "normalized/2026-05-20/07-cz.xtsl.normalized.xml",
+      "normalized_sha256": "dc4aede4a440c9616b7003e910bbb0ac94cde109525cd92a467213233b7054b0",
+      "scheme_territory": "CZ",
+      "source": "snapshots/2026-05-20/07-cz.xtsl"
+    }
+  ],
+  "counts": {
+    "comparable_key_count": 31,
+    "diff_change_count": 0,
+    "diff_current_record_count": 31,
+    "normalized_count": 41,
+    "normalized_error_count": 1,
+    "normalized_ok_count": 31,
+    "normalized_skipped_count": 9,
+    "snapshot_item_count": 43,
+    "snapshot_ok_count": 41
+  },
+  "date": "2026-05-20",
+  "error_count": 0,
+  "errors": [],
+  "hashes": {
+    "baseline_sha256": "508e898e2fc7354d6af1fa0bdd82189921640fae264af58252f1d400d9fff555",
+    "current_baseline_sha256": "508e898e2fc7354d6af1fa0bdd82189921640fae264af58252f1d400d9fff555",
+    "diff_sha256": "e9c1ada2af5ef6476378ad334a71a5c6c145c2fe9e82d887ea47ea174a49e8b3",
+    "normalized_manifest_sha256": "3249db21d5c6e25ce421cec2b6550ba505f9723bbb1e58f1eb944bdbbbc86d92",
+    "snapshot_manifest_sha256": "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486"
+  },
+  "normalization_status_counts": {
+    "ok": 31,
+    "skipped_non_xml": 9,
+    "xml_parse_error": 1
+  },
+  "paths": {
+    "baseline": "baselines/2026-05-20.json",
+    "current_baseline": "baselines/current.json",
+    "diff": "diffs/2026-05-20.json",
+    "normalized_manifest": "normalized/2026-05-20/manifest.json",
+    "snapshot_manifest": "snapshots/2026-05-20/manifest.json"
+  },
+  "research_caveat": "Local snapshot-to-normalization-to-diff lineage telemetry only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication readiness.",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}

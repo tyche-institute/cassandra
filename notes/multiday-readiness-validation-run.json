@@ -1,0 +1,37 @@
+{
+  "caveat": "Local workflow-readiness telemetry only: this check does not assert legal compliance, trusted-list legal effect, signature validity, supervision, public alerting, regulated trust-service output, or publication readiness.",
+  "checked_artifacts": [
+    {
+      "path": "paper/draft.md",
+      "sha256": "20481a6e6c08ec06b5ba8df9a6769a4da7a40de55778d32a430abe4aa00e3701"
+    },
+    {
+      "path": "notes/aggregate-results-2026-05-20-output.json",
+      "sha256": "c862cd9cbc52bc3cc89a7d69a64baaafddaad85373f5849679c4945df22687d0"
+    },
+    {
+      "path": "alerts.jsonl",
+      "sha256": "06690bc2159e0775a5624b5c0c6acd66a7a06040b9e125058ecb4a48e6a69d32"
+    }
+  ],
+  "completed_dates": [
+    "2026-05-20"
+  ],
+  "created": "2026-05-20T23:09:50.907430+00:00",
+  "date_counts": {
+    "bundles": 1,
+    "completed": 1,
+    "diffs": 1,
+    "normalized": 1,
+    "snapshots": 1
+  },
+  "errors": [],
+  "status": "ok",
+  "synthetic_second_date_detected": false,
+  "warnings": [
+    "alerts.jsonl line 1 lacks visible caveat fragment: does not assert legal effect",
+    "alerts.jsonl line 1 lacks visible caveat fragment: public alerting",
+    "alerts.jsonl line 2 lacks visible caveat fragment: does not assert legal effect"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

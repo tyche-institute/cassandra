@@ -1,0 +1,11 @@
+{
+  "change_count": 5,
+  "classes": [
+    "normalized_hash_changed",
+    "summary_field_changed",
+    "summary_field_changed",
+    "provider_inventory_changed",
+    "service_inventory_changed"
+  ],
+  "status": "ok"
+}

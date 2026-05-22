@@ -1,0 +1,42 @@
+{
+  "cadence_report": {
+    "future_completed_dates_relative_to_today": [],
+    "latest_completed_date": "2026-05-22",
+    "next_eligible_date": "2026-05-23",
+    "path": "notes/daily-cadence-status-output.json",
+    "sha256": "1242a7aa9b4f30650ee04435684effa646dfe20252be8db8eb2a393fd321fe91",
+    "status": "ok",
+    "today_utc": "2026-05-22"
+  },
+  "created": "2026-05-22T12:45:24.408594+00:00",
+  "error_count": 0,
+  "errors": [],
+  "live_today_utc": "2026-05-22",
+  "next_eligible_guard": {
+    "dry_run": true,
+    "existing_outputs": [],
+    "planned_steps": [
+      "fetch.fetch_nationals",
+      "parse.normalize_snapshot",
+      "diff.run_diff"
+    ],
+    "status": "dry_run_ok"
+  },
+  "research_caveat": "Local no-fetch gate validation for Cassandra workflow scheduling only; not endpoint stability evidence, legal compliance, trusted-list legal effect, signature validation, supervision, listed-entity status evidence, public alerting, regulated trust-service output, legal review, warning clearance, or publication approval.",
+  "schema": "urn:tyche:cassandra:no-fetch-before-gate:0.1",
+  "snapshot_output_roots_mutated": [],
+  "status": "ok",
+  "today_guard": {
+    "dry_run": true,
+    "existing_outputs": [
+      "snapshots/2026-05-22",
+      "normalized/2026-05-22",
+      "diffs/2026-05-22.json",
+      "baselines/2026-05-22.json"
+    ],
+    "status": "refused_existing_outputs"
+  },
+  "warning_count": 0,
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}

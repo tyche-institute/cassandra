@@ -1,0 +1,15 @@
+{
+  "changed": false,
+  "created": "2026-05-20T23:22:54.709462+00:00",
+  "error_count": 0,
+  "errors": [],
+  "forbidden_hits": [],
+  "missing_required_fragments": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "a9cec8bde84d47cd59a9f19baed052299ee26bfd82effdfd68303deba09728d8",
+  "research_caveat": "Local paper prose check only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-failure-modes-section-check:0.1",
+  "section_heading": "## Failure-mode and recovery discipline",
+  "section_word_count": 263,
+  "status": "ok"
+}

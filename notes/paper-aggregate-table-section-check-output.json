@@ -1,0 +1,13 @@
+{
+  "caveat": "Local paper wording check only; it does not assert legal compliance, trusted-list legal effect, signature validity, supervision, public alerting, regulated trust-service output, or publication readiness.",
+  "changed": false,
+  "checked_at": "2026-05-20T21:35:41.661092+00:00",
+  "draft_path": "paper/draft.md",
+  "draft_sha256": "1b7f3c3ab2eb8f8af98ebb91d18a8bc0b1a07291bdafee8404c39b0386b9334b",
+  "errors": [],
+  "forbidden_hits": [],
+  "missing_required_phrases": [],
+  "section_title": "## Aggregate telemetry table interpretation",
+  "section_word_count": 288,
+  "status": "ok"
+}

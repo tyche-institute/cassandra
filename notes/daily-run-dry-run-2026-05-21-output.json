@@ -1,0 +1,16 @@
+{
+  "created": "2026-05-20T20:39:33.859843+00:00",
+  "date": "2026-05-21",
+  "diff": null,
+  "dry_run": true,
+  "existing_outputs": [],
+  "normalization": null,
+  "planned_steps": [
+    "fetch.fetch_nationals",
+    "parse.normalize_snapshot",
+    "diff.run_diff"
+  ],
+  "research_caveat": "Daily Cassandra run orchestration for structural observation only; not signature validation, supervision, legal-status determination, relying-party processing, or public alerting.",
+  "snapshot": null,
+  "status": "dry_run_ok"
+}

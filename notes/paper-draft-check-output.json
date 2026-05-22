@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "research-only wording included",
+    "no listed-entity names added in prose beyond aggregate local telemetry",
+    "local evidence references included",
+    "forbidden phrase scan completed"
+  ],
+  "created": "2026-05-20T20:46:30.980476+00:00",
+  "draft": "paper/draft.md",
+  "draft_sha256": "a6cdcd37b83fce78d2168fd8d96a8d9203a2f880876d827bbdd00dfea47077c0",
+  "forbidden_hits": [],
+  "status": "ok",
+  "word_count": 691
+}

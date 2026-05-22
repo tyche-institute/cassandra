@@ -1,0 +1,9 @@
+{
+  "output": "notes/status-only-release-gates-report-output.json",
+  "status": "ok",
+  "status_only_gate_count": 3,
+  "warnings": [
+    "hash_cycle_policy_references has warning_count=1; preserve as manual-review context",
+    "status_only_release_gates_report has warning_count=2; preserve as manual-review context"
+  ]
+}

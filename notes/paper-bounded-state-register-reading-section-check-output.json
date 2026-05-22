@@ -1,0 +1,19 @@
+{
+  "caveats": [
+    "workflow reading discipline only",
+    "not endpoint/status evidence",
+    "not legal effect",
+    "not signature validation",
+    "not supervision",
+    "not listed-entity status evidence",
+    "not public alerting",
+    "not warning clearance",
+    "not legal review",
+    "not publication approval"
+  ],
+  "changed": true,
+  "heading": "## Bounded state-register reading discipline",
+  "raw_listed_names_intended": false,
+  "status": "ok",
+  "word_count": 280
+}

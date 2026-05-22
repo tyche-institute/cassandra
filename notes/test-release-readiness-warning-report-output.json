@@ -1,0 +1,15 @@
+{
+  "output": "notes/release-readiness-warning-report-output.json",
+  "status": "ok",
+  "warning_classes": {
+    "artifact_index_duplicate_row_current_hash_present": 1,
+    "caveated_alert_risky_phrase": 7,
+    "caveated_bundle_helper_risky_phrase": 8,
+    "caveated_bundle_risky_phrase": 1,
+    "caveated_public_alerting_phrase": 1,
+    "caveated_relying_party_validation_phrase": 1,
+    "caveated_svg_risky_phrase": 12,
+    "legacy_append_only_alert_context": 1,
+    "manual_review_warning": 3
+  }
+}

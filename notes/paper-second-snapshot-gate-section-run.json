@@ -1,0 +1,15 @@
+{
+  "changed": true,
+  "created": "2026-05-20T23:14:25.238475+00:00",
+  "error_count": 0,
+  "errors": [],
+  "forbidden_hits": [],
+  "missing_required_fragments": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "1dae321d901fd6f17747f24822671401fdfbc82c050271593bfbf593c20daab7",
+  "research_caveat": "Local Cassandra drafting helper only; not legal compliance, trusted-list legal effect, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-second-snapshot-gate-section-check:0.1",
+  "section_title": "## Second-snapshot readiness and collection gate",
+  "section_word_count": 284,
+  "status": "ok"
+}

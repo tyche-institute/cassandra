@@ -1,0 +1,47 @@
+{
+  "created": "2026-05-21T01:58:48.694589+00:00",
+  "error_count": 0,
+  "errors": [],
+  "inputs": {
+    "paper": {
+      "path": "paper/draft.md",
+      "sha256": "3bca8a842ae2dd08f7d79e24ec1f75cfb2448ca7a7b9e69ef48e1213e4d9f990"
+    },
+    "release_readiness_checklist_output": {
+      "path": "notes/release-readiness-checklist-validation-output.json",
+      "sha256": "7db12304594b7dedbcb063547383fbc564b67884998853975baa4f0ef36f2b17",
+      "status": "ok",
+      "validator_count": 16,
+      "warning_count": 5
+    },
+    "release_readiness_checklist_validator": {
+      "path": "notes/validate_release_readiness_checklist.py",
+      "sha256": "dea4c47e1a46c4537695d390549bb9bfecf3eb71aa152f6ed355adc93553f9ea"
+    },
+    "status_only_release_gate_report": {
+      "embedded_checklist_matches_current": true,
+      "embedded_checklist_sha256": "7db12304594b7dedbcb063547383fbc564b67884998853975baa4f0ef36f2b17",
+      "path": "notes/status-only-release-gates-report-output.json",
+      "sha256": "c522e5fd1e773c248ffa7eaaebc4e1ee492847551797051cd1f282cae7dce634",
+      "status": "ok",
+      "status_only_gate_count": 3
+    }
+  },
+  "reference_check": {
+    "hash_cycle_note": "This checker deliberately remains outside the release-readiness checklist until operator review to avoid adding a new checklist/report/checker hash cycle.",
+    "manual_review_only": true,
+    "paper_required_fragment_count": 10,
+    "paper_section": "## Release-readiness checklist for operator review",
+    "safe_to_clear_warnings": false,
+    "safe_to_publish": false,
+    "validator_required_fragment_count": 3
+  },
+  "research_caveat": "Local status-only release gate report reference/freshness validation only; it does not clear warnings, approve publication, perform legal review, validate signatures, supervise trusted lists, determine listed-entity status, provide public alerting, or create regulated trust-service output.",
+  "schema": "urn:tyche:cassandra:status-only-release-gates-report-reference-validation:0.1",
+  "status": "ok",
+  "warning_count": 1,
+  "warnings": [
+    "release-readiness checklist retains warning_count=5 as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

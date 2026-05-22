@@ -1,0 +1,72 @@
+{
+  "created": "2026-05-21T02:43:51.253093+00:00",
+  "decision": {
+    "checker_kept_out_of_band": true,
+    "cycle_avoidance_reason": "The checker reads topology, warning-report, gate-summary, and status-only outputs; making topology or the release checklist depend on it would create topology/context-consistency or checklist/context refresh churn.",
+    "not_missing_provenance": true,
+    "safe_to_wire_into_checklist_without_operator_review": false,
+    "safe_to_wire_into_topology_without_operator_review": false
+  },
+  "error_count": 0,
+  "errors": [],
+  "inputs": {
+    "checker_output": {
+      "path": "notes/release-readiness-context-consistency-validation-output.json",
+      "sha256": "f08a221950e574a48afc1ca323668e28dd97b5bb26c5d9e22a7e7543a320a7f9",
+      "status": "ok",
+      "warning_count": 2
+    },
+    "checklist_validator": {
+      "path": "notes/validate_release_readiness_checklist.py",
+      "sha256": "dea4c47e1a46c4537695d390549bb9bfecf3eb71aa152f6ed355adc93553f9ea",
+      "status": null,
+      "warning_count": null
+    },
+    "gate_summary": {
+      "path": "notes/release-readiness-gate-summary-output.json",
+      "sha256": "914e22aa9adae8d3c6bc37b78557dd351153a7dca518803875cc76b8c6fa6e1d",
+      "status": "ok",
+      "warning_count": null
+    },
+    "policy_note": {
+      "path": "notes/release-readiness-context-consistency-policy.md",
+      "sha256": "67bbe2692fd7f2fef086fb6680eb3faa23daf01fed951b8c3895141a393ea129",
+      "status": null,
+      "warning_count": null
+    },
+    "status_only_report": {
+      "path": "notes/status-only-release-gates-report-output.json",
+      "sha256": "c522e5fd1e773c248ffa7eaaebc4e1ee492847551797051cd1f282cae7dce634",
+      "status": "ok",
+      "warning_count": 2
+    },
+    "topology_helper": {
+      "path": "notes/report_release_readiness_topology.py",
+      "sha256": "44ba65580ac4f2bf9eab58abbe6c14b0b80094561bec320c4029e8dc1abf0145",
+      "status": null,
+      "warning_count": null
+    },
+    "topology_output": {
+      "path": "notes/release-readiness-topology-report-output.json",
+      "sha256": "4de5dc6a7d5f8ed9e7b7477d2057411268fa7fefb99a2cc452484de18a21b022",
+      "status": "ok",
+      "warning_count": 4
+    },
+    "warning_report": {
+      "path": "notes/release-readiness-warning-report-output.json",
+      "sha256": "da2a941544008f2fd00621976202b21007ecd537e18e7417ed2cbfe3749162ec",
+      "status": "ok",
+      "warning_count": 0
+    }
+  },
+  "research_caveat": "Local release-readiness context-consistency policy validation only; it does not clear warnings, approve publication, perform legal review, and is not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication approval.",
+  "schema": "urn:tyche:cassandra:release-readiness-context-consistency-policy-validation:0.1",
+  "status": "ok",
+  "warning_count": 3,
+  "warnings": [
+    "checker_output warning_count=2 preserved as manual-review context",
+    "topology_output warning_count=4 preserved as manual-review context",
+    "status_only_report warning_count=2 preserved as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

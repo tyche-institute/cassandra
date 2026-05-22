@@ -1,0 +1,43 @@
+{
+  "created": "2026-05-21T01:22:36.356421+00:00",
+  "error_count": 0,
+  "errors": [],
+  "inputs": {
+    "hash_cycle_policy_report": {
+      "not_missing_provenance": true,
+      "path": "notes/release-gate-hash-cycle-policy-report-output.json",
+      "sha256": "07e5cd72008e10f61ff73f1d339d19219be844e77fb6fed43a90b85b5a172a38",
+      "status": "ok"
+    },
+    "paper": {
+      "path": "paper/draft.md",
+      "sha256": "299fe7ba392c044025e77811713dfc6df008e9f60b9dc922fe06d75a445c9076"
+    },
+    "release_readiness_checklist_output": {
+      "path": "notes/release-readiness-checklist-validation-output.json",
+      "sha256": "6ad16a1c94f2bd2cebfa40c2c843c08519f5aa94d480c5b53728416526afe994",
+      "status": "ok",
+      "warning_count": 4
+    },
+    "release_readiness_checklist_validator": {
+      "path": "notes/validate_release_readiness_checklist.py",
+      "sha256": "c8dc3208dbf3461bdc71d7882783cc75a7fcc7b27dde86df1bdc63c5b53a10cf"
+    }
+  },
+  "policy_reference_check": {
+    "manual_review_only": true,
+    "paper_required_fragment_count": 12,
+    "paper_section": "## Release-readiness checklist for operator review",
+    "safe_to_clear_warnings": false,
+    "safe_to_publish": false,
+    "validator_required_fragment_count": 4
+  },
+  "research_caveat": "Local hash-cycle policy reference validation only; it does not clear warnings, approve publication, perform legal review, validate signatures, supervise trusted lists, determine listed-entity status, provide public alerting, or create regulated trust-service output.",
+  "schema": "urn:tyche:cassandra:hash-cycle-policy-reference-validation:0.1",
+  "status": "ok",
+  "warning_count": 1,
+  "warnings": [
+    "release-readiness checklist retains warning_count=4 as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

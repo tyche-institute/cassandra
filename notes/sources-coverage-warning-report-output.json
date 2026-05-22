@@ -1,0 +1,63 @@
+{
+  "bundle_count": 2,
+  "created": "2026-05-21T00:19:48.673824+00:00",
+  "non_mutating": true,
+  "non_mutation_hash_check": {
+    "after": {
+      "SOURCES.md": "b1df726a53fb9dc96159e1a0b1d620c6c275e85b1a750e131a629437efc5bd62",
+      "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json": "79212235c4fc8d95be6e62665248f4d8544fa7775e5a19d89fec79df6ccde354",
+      "bundles/2026-05-21/snapshot-summary.json.bundle/manifest.json": "0ee927782b37f9b15ded6ad0313b9017dc907ed4489be07fe8617f06250c832e"
+    },
+    "before": {
+      "SOURCES.md": "b1df726a53fb9dc96159e1a0b1d620c6c275e85b1a750e131a629437efc5bd62",
+      "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json": "79212235c4fc8d95be6e62665248f4d8544fa7775e5a19d89fec79df6ccde354",
+      "bundles/2026-05-21/snapshot-summary.json.bundle/manifest.json": "0ee927782b37f9b15ded6ad0313b9017dc907ed4489be07fe8617f06250c832e"
+    },
+    "unchanged": true
+  },
+  "research_caveat": "Local warning-explanation report only; this does not perform trusted-list validation, signature validation, supervision, legal-status determination, public alerting, regulated trust-service output, or publication approval.",
+  "safe_to_auto_rewrite_historical_bundles": false,
+  "schema": "urn:tyche:cassandra:sources-coverage-warning-report:0.1",
+  "snapshot_item_count": 86,
+  "snapshot_item_covered_count": 86,
+  "source_validation_error_count": 0,
+  "source_validation_output": "notes/sources-coverage-validation-output.json",
+  "source_validation_sha256": "55450b4af0fc11f9e54ab485f8f3c852ba21b4ab51c0bcd82f311a177791ec21",
+  "source_validation_status": "ok",
+  "source_validation_warning_count": 3,
+  "sources_row_count": 89,
+  "status": "ok",
+  "summary": "The latest SOURCES.md coverage validation has zero hard errors and full snapshot URL/local-path coverage for the checked dated manifests. The three warnings are retained as legacy wording or documentation-style context, not as source-fetch, source-presence, or bundle-hash failures.",
+  "warning_classes": {
+    "legacy_pointer_record_caveat": 1,
+    "missing_date_specific_bundle_sources_row": 2
+  },
+  "warning_count": 3,
+  "warnings": [
+    {
+      "class": "legacy_pointer_record_caveat",
+      "explanation": "The historical pointer-url bundle source records structural-observation wording but predates the stronger later legal-status caveat phrase. The bundle source file still exists and its hash matched the bundle manifest; the warning is retained rather than rewriting a frozen historical bundle.",
+      "hard_failure": false,
+      "recommended_action": "Do not rewrite the historical bundle automatically. If an operator prepares external circulation, review the frozen 2026-05-20 bundle notes/caveats and add a separate erratum or new bundle version if stronger caveat wording is required.",
+      "severity": "manual_review_context",
+      "warning": "pointer-url-records caveat is legacy/incomplete for 2026-05-20; accepted as a warning for historical bundle validation"
+    },
+    {
+      "class": "missing_date_specific_bundle_sources_row",
+      "explanation": "SOURCES.md records external/public snapshot URL provenance rows, while the MIRROR-style bundle source lists were checked directly from each bundle manifest and local source copies. The validator found the bundle sources present and hash-consistent, so absence of a date-specific bundle row is a documentation-style warning rather than missing provenance.",
+      "hard_failure": false,
+      "recommended_action": "Keep the warning visible for operator review. Add optional date-specific bundle-summary rows to SOURCES.md only if the lane decides to document local bundle manifests as source context; do not treat this as a fetch or hash failure.",
+      "severity": "coverage_style_warning",
+      "warning": "SOURCES.md has no date-specific bundle row for 2026-05-20; bundle source files were checked directly"
+    },
+    {
+      "class": "missing_date_specific_bundle_sources_row",
+      "explanation": "SOURCES.md records external/public snapshot URL provenance rows, while the MIRROR-style bundle source lists were checked directly from each bundle manifest and local source copies. The validator found the bundle sources present and hash-consistent, so absence of a date-specific bundle row is a documentation-style warning rather than missing provenance.",
+      "hard_failure": false,
+      "recommended_action": "Keep the warning visible for operator review. Add optional date-specific bundle-summary rows to SOURCES.md only if the lane decides to document local bundle manifests as source context; do not treat this as a fetch or hash failure.",
+      "severity": "coverage_style_warning",
+      "warning": "SOURCES.md has no date-specific bundle row for 2026-05-21; bundle source files were checked directly"
+    }
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

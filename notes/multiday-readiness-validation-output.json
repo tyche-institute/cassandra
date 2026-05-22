@@ -1,0 +1,50 @@
+{
+  "aggregate_results": {
+    "dates": [
+      "2026-05-20",
+      "2026-05-21"
+    ],
+    "diff_change_count_total": 0,
+    "path": "notes/aggregate-results-2026-05-21-output.json",
+    "row_count": 2,
+    "sha256": "40005054ed03d565a6f61798cb55130a67a4cfb6fbd5d5f5a217c3c5adc25977"
+  },
+  "caveat": "Local workflow-readiness telemetry only: this check does not assert legal compliance, trusted-list legal effect, signature validity, supervision, public alerting, regulated trust-service output, or publication readiness.",
+  "checked_artifacts": [
+    {
+      "path": "paper/draft.md",
+      "sha256": "90c68f5a9633a63b7c790c4a2abdad1508d26df36a1c393d58538bca70a5097e"
+    },
+    {
+      "path": "alerts.jsonl",
+      "sha256": "446382f3a3eb7204fdb61a572106946314b8f9b16d6444228ad65910dd47bce3"
+    },
+    {
+      "path": "notes/aggregate-results-2026-05-21-output.json",
+      "sha256": "40005054ed03d565a6f61798cb55130a67a4cfb6fbd5d5f5a217c3c5adc25977"
+    }
+  ],
+  "completed_dates": [
+    "2026-05-20",
+    "2026-05-21"
+  ],
+  "created": "2026-05-20T23:45:01.478847+00:00",
+  "date_counts": {
+    "bundles": 2,
+    "completed": 2,
+    "diffs": 2,
+    "normalized": 2,
+    "snapshots": 2
+  },
+  "errors": [],
+  "multi_day_mode": true,
+  "status": "ok",
+  "synthetic_second_date_detected": false,
+  "warnings": [
+    "alerts.jsonl line 1 lacks visible caveat fragment: does not assert legal effect",
+    "alerts.jsonl line 1 lacks visible caveat fragment: public alerting",
+    "alerts.jsonl line 2 lacks visible caveat fragment: does not assert legal effect",
+    "alerts.jsonl line 3 lacks visible caveat fragment: does not assert legal effect"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

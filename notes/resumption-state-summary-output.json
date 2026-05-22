@@ -1,0 +1,99 @@
+{
+  "claim_boundary": "Local workflow resumption telemetry only; not endpoint stability evidence, legal effect, signature validation, supervision, listed-entity status evidence, public alerting, regulated trust-service output, warning clearance, legal review, or publication approval.",
+  "created_utc": "2026-05-22T14:32:49Z",
+  "dated_lineages": {
+    "bundles": [
+      "2026-05-20",
+      "2026-05-21",
+      "2026-05-22"
+    ],
+    "diffs": [
+      "2026-05-20",
+      "2026-05-21",
+      "2026-05-22"
+    ],
+    "latest_counts": {
+      "bundle_files": 12,
+      "diff_present": true,
+      "normalized_files": 32,
+      "snapshot_content_files": 42,
+      "snapshot_files": 86,
+      "snapshot_meta_files": 43
+    },
+    "latest_date": "2026-05-22",
+    "latest_snapshot_date": "2026-05-22",
+    "normalized": [
+      "2026-05-20",
+      "2026-05-21",
+      "2026-05-22"
+    ],
+    "snapshots": [
+      "2026-05-20",
+      "2026-05-21",
+      "2026-05-22"
+    ]
+  },
+  "latest_completed_date": "2026-05-22",
+  "latest_counts": {
+    "bundle_files": 12,
+    "diff_present": true,
+    "normalized_files": 32,
+    "snapshot_content_files": 42,
+    "snapshot_files": 86,
+    "snapshot_meta_files": 43
+  },
+  "latest_date": "2026-05-22",
+  "latest_dated_lineage": "2026-05-22",
+  "latest_progress_entry": {
+    "body_line_count": 16,
+    "found": true,
+    "heading_timestamp": "2026-05-22T14:30:09Z",
+    "heading_title": "cadence-gated compact no-fetch validation after exact guard",
+    "next_action": "Next action: when UTC date reaches `2026-05-23` or later, run the guarded real daily fetch/normalize/diff/bundle/alert workflow; before that, prefer a compact gate-state exit or one bounded aggregate-only maintenance action only if it avoids refreshing stable same-output artifacts unnecessarily."
+  },
+  "latest_snapshot_date": "2026-05-22",
+  "resumption_hint": "If the latest progress next action says the UTC gate is closed and latest_snapshot_date is already complete for today, do not refresh validators merely for churn; either make one bounded aggregate-only improvement or append a gate-state exit.",
+  "schema": "cassandra.resumption_state_summary.v1",
+  "state_files": {
+    "ARTIFACT_INDEX.md": {
+      "bytes": 1767791,
+      "is_file": true,
+      "line_count": 4119,
+      "present": true,
+      "sha256": "5d0e2344242c25359f6dd366383344d841525ccf758b57a0f7cd9e9af99e9e7e"
+    },
+    "BLOCKED.md": {
+      "present": false
+    },
+    "CLAIMS.md": {
+      "bytes": 111975,
+      "is_file": true,
+      "line_count": 120,
+      "present": true,
+      "sha256": "df7aaa9cf65c2c7624bae515dd19509831bcb80fc71e0cc3fd620da056889283"
+    },
+    "HERMES_PROGRESS.md": {
+      "bytes": 2528396,
+      "is_file": true,
+      "line_count": 13893,
+      "present": true,
+      "sha256": "c8f5443a6cc4eb679a8425eec7a394e95840e0982daf70cc0a41228ba372c67d"
+    },
+    "PLAN.md": {
+      "bytes": 4663,
+      "is_file": true,
+      "line_count": 103,
+      "present": true,
+      "sha256": "68c4cca0acc6495bb10315e9abff24da09e75bdeaf9b34f2ee7f3b8cb4178d5e"
+    },
+    "SOURCES.md": {
+      "bytes": 57688,
+      "is_file": true,
+      "line_count": 139,
+      "present": true,
+      "sha256": "bd216688e77104a57fc95a221462d0405bf78c87ee32064c88bd7d0690046525"
+    }
+  },
+  "status": "ok",
+  "workspace": "/home/anton/projects/cassandra"
+}

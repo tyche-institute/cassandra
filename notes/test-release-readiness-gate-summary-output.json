@@ -1,0 +1,48 @@
+{
+  "out_of_band_policy_checks": [
+    {
+      "checker_kept_out_of_band": true,
+      "cycle_avoidance_reason": "The checker validates the report's embedded checklist hash; making the checklist depend on the checker would create checklist/report/checker freshness churn.",
+      "name": "status_only_report_reference_checker_policy",
+      "path": "notes/status-only-report-reference-checker-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "safe_to_wire_into_topology_without_operator_review": null,
+      "status": "ok",
+      "warning_count": 1
+    },
+    {
+      "checker_kept_out_of_band": true,
+      "cycle_avoidance_reason": "The checker validates a paper reference and current topology-report artifact-index hash; making the checklist depend on it would create checklist/topology/freshness churn.",
+      "name": "topology_report_reference_freshness_policy",
+      "path": "notes/topology-report-reference-freshness-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "safe_to_wire_into_topology_without_operator_review": null,
+      "status": "ok",
+      "warning_count": 1
+    },
+    {
+      "checker_kept_out_of_band": true,
+      "cycle_avoidance_reason": "The checker reads topology, warning-report, gate-summary, and status-only outputs; making topology or the release checklist depend on it would create topology/context-consistency or checklist/context refresh churn.",
+      "name": "release_readiness_context_consistency_policy",
+      "path": "notes/release-readiness-context-consistency-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "safe_to_wire_into_topology_without_operator_review": false,
+      "status": "ok",
+      "warning_count": 3
+    }
+  ],
+  "output": "notes/release-readiness-gate-summary-output.json",
+  "status": "ok",
+  "validator_count": 16,
+  "warning_classes": {
+    "artifact_index_duplicate_row_current_hash_present": 1,
+    "caveated_alert_risky_phrase": 7,
+    "caveated_bundle_helper_risky_phrase": 8,
+    "caveated_bundle_risky_phrase": 1,
+    "caveated_public_alerting_phrase": 1,
+    "caveated_relying_party_validation_phrase": 1,
+    "caveated_svg_risky_phrase": 12,
+    "legacy_append_only_alert_context": 1,
+    "manual_review_warning": 3
+  }
+}

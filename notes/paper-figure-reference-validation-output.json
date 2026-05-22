@@ -1,0 +1,55 @@
+{
+  "aggregate_results": {
+    "csv": "notes/aggregate-results-table.csv",
+    "dates": [
+      "2026-05-20",
+      "2026-05-21"
+    ],
+    "diff_change_count_total": 0,
+    "path": "notes/aggregate-results-2026-05-21-output.json",
+    "row_count": 2,
+    "sha256": "40005054ed03d565a6f61798cb55130a67a4cfb6fbd5d5f5a217c3c5adc25977"
+  },
+  "data_sources": [
+    {
+      "artifact_index_has_current_sha256": true,
+      "path": "notes/aggregate-results-table.csv",
+      "sha256": "de769c24b8aff180c839be213615ec2f172a92a0b7eb1de6e20d100b5789a476"
+    },
+    {
+      "artifact_index_has_current_sha256": true,
+      "path": "notes/aggregate-results-2026-05-21-output.json",
+      "sha256": "40005054ed03d565a6f61798cb55130a67a4cfb6fbd5d5f5a217c3c5adc25977"
+    }
+  ],
+  "error_count": 0,
+  "errors": [],
+  "figures": [
+    {
+      "artifact_index_has_current_sha256": true,
+      "artifact_index_sha256_rows": [
+        "33fe8bf4800dc06470b60d77da52d5ce93ec194b3bacb215287248bfc3fae00a",
+        "39b43dfa49057362ed4e27ebb43befdcfb9d59be4dac6e6222da241caf142155"
+      ],
+      "path": "figures/aggregate-run-telemetry.svg",
+      "sha256": "39b43dfa49057362ed4e27ebb43befdcfb9d59be4dac6e6222da241caf142155",
+      "svg_root": "{http://www.w3.org/2000/svg}svg"
+    },
+    {
+      "artifact_index_has_current_sha256": true,
+      "artifact_index_sha256_rows": [
+        "c0b503dc6ab99df869f75d940092c5b85c57df3c8cce97800466cf02310fba97",
+        "56153b7b5bb1369eb0b31dd0f84c59dc243a41a0f249dc1a736f29dfa4d1f4e3"
+      ],
+      "path": "figures/aggregate-diff-classes.svg",
+      "sha256": "56153b7b5bb1369eb0b31dd0f84c59dc243a41a0f249dc1a736f29dfa4d1f4e3",
+      "svg_root": "{http://www.w3.org/2000/svg}svg"
+    }
+  ],
+  "paper": "paper/draft.md",
+  "research_caveat": "Local paper/figure cross-reference validation only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-figure-reference-validation:0.2",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": []
+}

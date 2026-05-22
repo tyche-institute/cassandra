@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-05-21T21:17:44.945300+00:00",
+  "checked_items_sample": [
+    {
+      "actual_sha256": "2cb9f07f357c057d00e050043e00729454584e4afc2e51e07c6f5ea003052375",
+      "destination": "snapshots/2026-05-22/01-at.xml",
+      "has_content": true,
+      "http_status": 200,
+      "index": 0,
+      "meta": "snapshots/2026-05-22/01-at.xml.meta.json",
+      "metadata_hash_matches": true,
+      "territory": "AT"
+    },
+    {
+      "actual_sha256": "526dc692f0468b398bd033da6f7ba64c8e5bf1a601ea9bdb899e1b2942d799d1",
+      "destination": "snapshots/2026-05-22/02-be.xml",
+      "has_content": true,
+      "http_status": 200,
+      "index": 1,
+      "meta": "snapshots/2026-05-22/02-be.xml.meta.json",
+      "metadata_hash_matches": true,
+      "territory": "BE"
+    },
+    {
+      "actual_sha256": "6d2b6d7ce041b4fff71b4943617233c83e168cd9cd3ee1bb5809224025af8367",
+      "destination": "snapshots/2026-05-22/03-bg.pdf",
+      "has_content": true,
+      "http_status": 200,
+      "index": 2,
+      "meta": "snapshots/2026-05-22/03-bg.pdf.meta.json",
+      "metadata_hash_matches": true,
+      "territory": "BG"
+    },
+    {
+      "actual_sha256": "8b9454fc97733df5e175175adf55a8bc2fe2a443bbb76a167f6485f494a93242",
+      "destination": "snapshots/2026-05-22/04-bg.xml",
+      "has_content": true,
+      "http_status": 200,
+      "index": 3,
+      "meta": "snapshots/2026-05-22/04-bg.xml.meta.json",
+      "metadata_hash_matches": true,
+      "territory": "BG"
+    },
+    {
+      "actual_sha256": "2163e86af5bc0f8d7f77f7b8b4e454376a81b6e1f68a48d2f7148a3b3ab31690",
+      "destination": "snapshots/2026-05-22/05-cy.xml",
+      "has_content": true,
+      "http_status": 200,
+      "index": 4,
+      "meta": "snapshots/2026-05-22/05-cy.xml.meta.json",
+      "metadata_hash_matches": true,
+      "territory": "CY"
+    }
+  ],
+  "content_type_counts": {
+    "application/pdf": 11,
+    "application/vnd.etsi.tsl+xml": 1,
+    "application/xml": 9,
+    "application/xml;charset=UTF-8": 1,
+    "text/plain": 1,
+    "text/xml": 16,
+    "text/xml; charset=utf-8": 2,
+    "unknown": 1
+  },
+  "date": "2026-05-22",
+  "error_count": 0,
+  "error_count_checked": 1,
+  "error_count_manifest": 1,
+  "errors": [],
+  "item_count": 43,
+  "manifest": "snapshots/2026-05-22/manifest.json",
+  "manifest_sha256": "f962466b02ee911986f58e75f4b87cad7e071edb129be77aae3cdd325d260ca6",
+  "ok_count": 42,
+  "research_caveat": "Local snapshot metadata linkage check only; not trusted-list validation, legal-status determination, supervision, signature validation, public alerting, regulated trust-service output, or publication approval.",
+  "status": "ok",
+  "territory_count": 32,
+  "warning_count": 0,
+  "warnings": []
+}

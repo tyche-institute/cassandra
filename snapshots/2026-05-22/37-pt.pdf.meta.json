@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-21T21:16:26.771150+00:00",
+  "bytes": 3706584,
+  "completed": "2026-05-21T21:16:28.140376+00:00",
+  "content_length_header": "3706584",
+  "content_type": "application/pdf",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-22/37-pt.pdf",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "15a3767ca0337c57357a660b9960b14331b6f7e99627dcbf73ee5c04a2cd4f3d",
+  "url": "https://www.gns.gov.pt/media/TSLPT.pdf"
+}

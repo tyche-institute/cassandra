@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T23:34:10.040415+00:00",
+  "bytes": 64603,
+  "completed": "2026-05-20T23:34:10.370483+00:00",
+  "content_length_header": "64603",
+  "content_type": "text/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-21/25-is.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "b2c1fdfa09cd8f6ae39b90c1a8d64b872b257901bb6b99af43a74975153b2b15",
+  "url": "https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.xml"
+}

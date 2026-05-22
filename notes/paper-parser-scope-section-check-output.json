@@ -1,0 +1,13 @@
+{
+  "caveat": "Local paper prose check only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "created": "2026-05-20T23:26:41.651467+00:00",
+  "error_count": 0,
+  "errors": [],
+  "heading": "## Parser scope and signature-shape observation",
+  "inserted": true,
+  "paper": "paper/draft.md",
+  "paper_sha256": "7d853a3a4372e0cb2e3f39917408625caca2f9cb1f774f72d87442e4604f325d",
+  "schema": "urn:tyche:cassandra:paper-parser-scope-section-check:0.1",
+  "status": "ok",
+  "word_count": 283
+}

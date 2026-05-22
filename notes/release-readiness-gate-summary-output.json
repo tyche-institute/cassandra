@@ -1,0 +1,133 @@
+{
+  "aggregate_warning_class_counts": {
+    "artifact_index_duplicate_row_current_hash_present": 1,
+    "caveated_alert_risky_phrase": 10,
+    "caveated_bundle_helper_risky_phrase": 8,
+    "caveated_bundle_risky_phrase": 1,
+    "caveated_public_alerting_phrase": 1,
+    "caveated_relying_party_validation_phrase": 1,
+    "caveated_svg_risky_phrase": 12,
+    "legacy_append_only_alert_context": 1,
+    "manual_review_warning": 4
+  },
+  "created": "2026-05-21T22:10:03.097067+00:00",
+  "error_count": 0,
+  "errors": [],
+  "operator_review_gate": true,
+  "out_of_band_policy_checks": [
+    {
+      "checker_kept_out_of_band": true,
+      "cycle_avoidance_reason": "The checker validates the report's embedded checklist hash; making the checklist depend on the checker would create checklist/report/checker freshness churn.",
+      "name": "status_only_report_reference_checker_policy",
+      "path": "notes/status-only-report-reference-checker-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "safe_to_wire_into_topology_without_operator_review": null,
+      "status": "ok",
+      "warning_count": 1
+    },
+    {
+      "checker_kept_out_of_band": true,
+      "cycle_avoidance_reason": "The checker validates a paper reference and current topology-report artifact-index hash; making the checklist depend on it would create checklist/topology/freshness churn.",
+      "name": "topology_report_reference_freshness_policy",
+      "path": "notes/topology-report-reference-freshness-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "safe_to_wire_into_topology_without_operator_review": null,
+      "status": "ok",
+      "warning_count": 1
+    },
+    {
+      "checker_kept_out_of_band": true,
+      "cycle_avoidance_reason": "The checker reads topology, warning-report, gate-summary, and status-only outputs; making topology or the release checklist depend on it would create topology/context-consistency or checklist/context refresh churn.",
+      "name": "release_readiness_context_consistency_policy",
+      "path": "notes/release-readiness-context-consistency-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "safe_to_wire_into_topology_without_operator_review": false,
+      "status": "ok",
+      "warning_count": 3
+    }
+  ],
+  "persistent_warning_class_count": 9,
+  "persistent_warning_classes": [
+    "artifact_index_duplicate_row_current_hash_present",
+    "caveated_alert_risky_phrase",
+    "caveated_bundle_helper_risky_phrase",
+    "caveated_bundle_risky_phrase",
+    "caveated_public_alerting_phrase",
+    "caveated_relying_party_validation_phrase",
+    "caveated_svg_risky_phrase",
+    "legacy_append_only_alert_context",
+    "manual_review_warning"
+  ],
+  "release_warning_count": 5,
+  "research_caveat": "Local release-readiness gate summary only; it is not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication approval.",
+  "safe_to_auto_clear_warnings": false,
+  "safe_to_auto_publish": false,
+  "schema": "urn:tyche:cassandra:release-readiness-gate-summary:0.1",
+  "sources": {
+    "out_of_band_release_readiness_context_consistency_policy": {
+      "checker_kept_out_of_band": true,
+      "error_count": 0,
+      "path": "notes/release-readiness-context-consistency-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "safe_to_wire_into_topology_without_operator_review": false,
+      "sha256": "c1e4a1df7fc3ef0337325781f09941aec52b697ca21d390a466cfc88e70b1431",
+      "status": "ok",
+      "warning_count": 3
+    },
+    "out_of_band_status_only_report_reference_checker_policy": {
+      "checker_kept_out_of_band": true,
+      "error_count": 0,
+      "path": "notes/status-only-report-reference-checker-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "sha256": "6e08f61fcfe0f84f44160c36cebac036022a502c37948b616e7782db5674bc16",
+      "status": "ok",
+      "warning_count": 1
+    },
+    "out_of_band_topology_report_reference_freshness_policy": {
+      "checker_kept_out_of_band": true,
+      "error_count": 0,
+      "path": "notes/topology-report-reference-freshness-policy-validation-output.json",
+      "safe_to_wire_into_checklist_without_operator_review": false,
+      "sha256": "715d0e5ecd77002d476f8aa6f61af626ea0a3d5949806491f0c683b27e2fad12",
+      "status": "ok",
+      "warning_count": 1
+    },
+    "persistent_warning_policy": {
+      "error_count": 0,
+      "path": "notes/release-readiness-persistent-warning-policy-validation-output.json",
+      "sha256": "5f144e843c7e477da837986a81e064330181ad0fe9ab3323e9730258f02a2642",
+      "status": "ok",
+      "warning_count": 0
+    },
+    "release_readiness_checklist": {
+      "error_count": 0,
+      "path": "notes/release-readiness-checklist-validation-output.json",
+      "sha256": "6f09244a2ed4a290bf52e55dab11a00c54bf2a98a813d1fbfcbe643dbecd54a6",
+      "status": "ok",
+      "warning_count": 5
+    },
+    "warning_report": {
+      "error_count": 0,
+      "path": "notes/release-readiness-warning-report-output.json",
+      "sha256": "bdb15abd42a28ad01a33555fbe2d8cdc09ad41e88bd0b728be9b366a8973e887",
+      "status": "ok",
+      "warning_count": 0
+    }
+  },
+  "status": "ok",
+  "validator_count": 16,
+  "validator_status_counts": {
+    "ok": 16
+  },
+  "warning_count": 0,
+  "warning_validator_count": 5,
+  "warning_validator_names": [
+    "public_artifact_safety",
+    "paper_claim_safety",
+    "paper_evidence_refs",
+    "hash_cycle_policy_references",
+    "status_only_release_gates_report"
+  ],
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}

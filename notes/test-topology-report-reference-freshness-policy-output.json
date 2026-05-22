@@ -1,0 +1,8 @@
+{
+  "checked_policy": "notes/topology-report-reference-freshness-policy.md",
+  "checker_kept_out_of_band": true,
+  "missing_policy_fixture_status": "needs_review",
+  "research_caveat": "Smoke test only; not publication approval, legal review, signature validation, trusted-list supervision, listed-entity status evidence, public alerting, or regulated trust-service output.",
+  "status": "ok",
+  "wired_fixture_status": "needs_review"
+}

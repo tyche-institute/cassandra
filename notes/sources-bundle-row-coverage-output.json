@@ -1,0 +1,37 @@
+{
+  "created": "2026-05-22T02:09:11Z",
+  "error_count": 0,
+  "errors": [],
+  "records": [
+    {
+      "date": "2026-05-20",
+      "exists": true,
+      "manifest": "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json",
+      "sha256": "79212235c4fc8d95be6e62665248f4d8544fa7775e5a19d89fec79df6ccde354",
+      "sources_row_present": true
+    },
+    {
+      "date": "2026-05-21",
+      "exists": true,
+      "manifest": "bundles/2026-05-21/snapshot-summary.json.bundle/manifest.json",
+      "sha256": "0ee927782b37f9b15ded6ad0313b9017dc907ed4489be07fe8617f06250c832e",
+      "sources_row_present": true
+    },
+    {
+      "date": "2026-05-22",
+      "exists": true,
+      "manifest": "bundles/2026-05-22/snapshot-summary.json.bundle/manifest.json",
+      "sha256": "ba7aafaad3b1fbc961192a207be7cc03c8ba5b698bddb75ccd299b9c88ad4c3f",
+      "sources_row_present": true
+    }
+  ],
+  "research_caveat": "Local source-register coverage check only; this does not perform trusted-list validation, relying-party signature validation, supervision, legal-status determination, public alerting, regulated trust-service output, legal review, warning clearance, or publication approval.",
+  "rows_added": [
+    "2026-05-20",
+    "2026-05-21",
+    "2026-05-22"
+  ],
+  "schema": "urn:tyche:cassandra:sources-bundle-row-coverage:0.1",
+  "status": "ok",
+  "workspace": "/home/anton/projects/cassandra"
+}

@@ -1,0 +1,8 @@
+{
+  "checked_report": "notes/status-only-release-gates-report-output.json",
+  "embedded_checklist_matches_current": true,
+  "missing_reference_fixture_status": "needs_review",
+  "research_caveat": "Smoke test only; not publication approval, legal review, signature validation, trusted-list supervision, listed-entity status evidence, public alerting, or regulated trust-service output.",
+  "stale_fixture_status": "needs_review",
+  "status": "ok"
+}

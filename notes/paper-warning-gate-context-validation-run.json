@@ -1,0 +1,47 @@
+{
+  "checked_outputs": [
+    {
+      "artifact_index_has_current_sha256": true,
+      "path": "notes/release-readiness-warning-report-output.json",
+      "sha256": "ad48e95c42086b0fbd5f224a197ea2ebd7fd70900c297288bf285325c5e64b6c"
+    },
+    {
+      "artifact_index_has_current_sha256": true,
+      "path": "notes/release-readiness-gate-summary-output.json",
+      "sha256": "4c9a7ffd72dffd6f70953d50a232b4ce8411c40715be6a92a3a33868a14e4ffe"
+    }
+  ],
+  "error_count": 0,
+  "errors": [],
+  "gate_summary_out_of_band_contexts": [
+    "release_readiness_context_consistency_policy",
+    "status_only_report_reference_checker_policy",
+    "topology_report_reference_freshness_policy"
+  ],
+  "paper": "paper/draft.md",
+  "paper_contexts": {
+    "notes/release-readiness-gate-summary-output.json": {
+      "missing_fragments": [],
+      "paragraph_sha256": "f505335450b97728f9a81166d8d035f5545b15ee1144703758748768edb43049",
+      "present": true
+    },
+    "notes/release-readiness-warning-report-output.json": {
+      "missing_fragments": [],
+      "paragraph_sha256": "826ac6cd09e390ee35fa64913c60f5bcd0ce0df52331c93ed3a3d75c2b3069bf",
+      "present": true
+    }
+  },
+  "research_caveat": "Local paper warning/gate context validation only; verifies wording boundaries and report links, not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, warning clearance, legal review, or publication approval.",
+  "schema": "urn:tyche:cassandra:paper-warning-gate-context-validation:0.1",
+  "status": "ok",
+  "warning_count": 2,
+  "warning_report_out_of_band_contexts": [
+    "release_readiness_context_consistency_policy",
+    "status_only_report_reference_checker_policy",
+    "topology_report_reference_freshness_policy"
+  ],
+  "warnings": [
+    "warning-report paragraph does not repeat 'legal review' exactly; surrounding checklist paragraph carries that caveat",
+    "warning-report paragraph does not repeat 'regulated trust-service output' exactly; release checklist paragraph carries that caveat"
+  ]
+}

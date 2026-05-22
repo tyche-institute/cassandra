@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T20:12:18.907328+00:00",
+  "bytes": 471090,
+  "completed": "2026-05-20T20:12:19.228348+00:00",
+  "content_length_header": null,
+  "content_type": "application/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-20/16-eu.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "aeddb7337486ac9f2e50448f7f61586cfa6acfcd38819a80f4246e4e0d6f4772",
+  "url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml"
+}

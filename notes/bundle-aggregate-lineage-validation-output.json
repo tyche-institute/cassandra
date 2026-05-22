@@ -1,0 +1,96 @@
+{
+  "checked": {
+    "aggregate_csv_sha256": "b97513138467196592f4a2d55ea9e2e474fa62828e4c9ded94944e018a96419d",
+    "aggregate_json_sha256": "c862cd9cbc52bc3cc89a7d69a64baaafddaad85373f5849679c4945df22687d0",
+    "bundle_summary_sha256": "8f9f1a74bf12d97f41c2d5ff46018cc151d63b0d8589aa718ad6312a25d897f8",
+    "count_checks": {
+      "diff_change_count": {
+        "aggregate": 0,
+        "bundle": 0,
+        "matches": true
+      },
+      "diff_current_record_count": {
+        "aggregate": 31,
+        "bundle": 31,
+        "matches": true
+      },
+      "fetch_errors": {
+        "aggregate": 2,
+        "bundle": 2,
+        "matches": true
+      },
+      "fetched_content_files": {
+        "aggregate": 41,
+        "bundle": 41,
+        "matches": true
+      },
+      "normalization_errors": {
+        "aggregate": 1,
+        "bundle": 1,
+        "matches": true
+      },
+      "normalization_inputs": {
+        "aggregate": 41,
+        "bundle": 41,
+        "matches": true
+      },
+      "normalization_skips": {
+        "aggregate": 9,
+        "bundle": 9,
+        "matches": true
+      },
+      "normalized_xml_artifacts": {
+        "aggregate": 31,
+        "bundle": 31,
+        "matches": true
+      },
+      "pointer_attempts": {
+        "aggregate": 43,
+        "bundle": 43,
+        "matches": true
+      }
+    },
+    "hash_checks": {
+      "baseline_sha256": {
+        "bundle_recorded": "1c3c344e5751a405bc5a6a9a24e66e9ef72ff604362904b8205c96e7af4d3e3c",
+        "current": "508e898e2fc7354d6af1fa0bdd82189921640fae264af58252f1d400d9fff555",
+        "matches_current": false
+      },
+      "diff_sha256": {
+        "bundle_recorded": "ec47b2eb2c5da49d083808c0d3fc2bd87e355c2908420ca8d53498812df782f5",
+        "current": "e9c1ada2af5ef6476378ad334a71a5c6c145c2fe9e82d887ea47ea174a49e8b3",
+        "matches_current": false
+      },
+      "normalized_manifest_sha256": {
+        "bundle_recorded": "ed6a15f1f777c7f958d86142d61a5c979c40da99d839d71141a22d7223bf8380",
+        "current": "3249db21d5c6e25ce421cec2b6550ba505f9723bbb1e58f1eb944bdbbbc86d92",
+        "matches_current": false
+      },
+      "snapshot_manifest_sha256": {
+        "bundle_recorded": "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486",
+        "current": "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486",
+        "matches_current": true
+      }
+    },
+    "paths": {
+      "aggregate_csv": "notes/aggregate-results-table.csv",
+      "aggregate_json": "notes/aggregate-results-2026-05-20-output.json",
+      "bundle_manifest": "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json",
+      "bundle_summary": "bundles/2026-05-20/snapshot-summary.json"
+    }
+  },
+  "created_at": "2026-05-20T22:45:54Z",
+  "date": "2026-05-20",
+  "error_count": 0,
+  "errors": [],
+  "research_caveat": "Bundle-to-aggregate lineage validation for local structural-observation telemetry only; not trusted-list validation, legal-status determination, signature verification, supervision, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:bundle-aggregate-lineage-validation:0.1",
+  "status": "ok",
+  "warning_count": 4,
+  "warnings": [
+    "baseline_created differs between frozen bundle summary and refreshed aggregate row; this is expected after same-date baseline refreshes and is not a legal/status claim",
+    "frozen bundle hash for normalized_manifest_sha256 differs from current workspace file; treat as post-bundle artifact refresh lineage, not as legal/status evidence",
+    "frozen bundle hash for diff_sha256 differs from current workspace file; treat as post-bundle artifact refresh lineage, not as legal/status evidence",
+    "frozen bundle hash for baseline_sha256 differs from current workspace file; treat as post-bundle artifact refresh lineage, not as legal/status evidence"
+  ]
+}

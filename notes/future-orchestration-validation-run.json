@@ -1,0 +1,58 @@
+{
+  "checks": {
+    "future_alert_preflight": {
+      "message": "required local artifacts missing for 2099-12-31: ['snapshots/2099-12-31/manifest.json', 'normalized/2099-12-31/manifest.json', 'diffs/2099-12-31.json']",
+      "status": "missing_inputs"
+    },
+    "future_bundle_preflight": {
+      "missing_inputs": [
+        "snapshots/2099-12-31/manifest.json",
+        "normalized/2099-12-31/manifest.json",
+        "diffs/2099-12-31.json",
+        "baselines/2099-12-31.json"
+      ],
+      "status": "missing_inputs"
+    },
+    "future_daily_dry_run": {
+      "planned_steps": [
+        "fetch.fetch_nationals",
+        "parse.normalize_snapshot",
+        "diff.run_diff"
+      ],
+      "status": "dry_run_ok"
+    },
+    "known_alert_dry_run": {
+      "dedupe_key_present": true,
+      "dry_run": true,
+      "jsonl_entry_count": 2,
+      "status": "ok"
+    },
+    "known_bundle_guard": {
+      "existing_outputs": [
+        "bundles/2026-05-20/snapshot-summary.json",
+        "bundles/2026-05-20/snapshot-summary.json.bundle"
+      ],
+      "status": "refused_existing_outputs"
+    },
+    "known_daily_guard": {
+      "existing_outputs": [
+        "snapshots/2026-05-20",
+        "normalized/2026-05-20",
+        "diffs/2026-05-20.json",
+        "baselines/2026-05-20.json"
+      ],
+      "status": "refused_existing_outputs"
+    }
+  },
+  "created_at": "2026-05-20T21:31:43Z",
+  "error_count": 0,
+  "errors": [],
+  "known_date": "2026-05-20",
+  "missing_date": "2099-12-31",
+  "research_caveat": "Local orchestration-guard validation for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:future-orchestration-validation:0.1",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}

@@ -1,0 +1,178 @@
+{
+  "checked_section_count": 10,
+  "created": "2026-05-21T03:09:58.505890+00:00",
+  "error_count": 0,
+  "errors": [],
+  "forbidden_hits": [],
+  "global_caveat_families": [
+    "aggregate_only",
+    "alerts_internal",
+    "baseline_only",
+    "evidence_bundle",
+    "figure_caution",
+    "limitations",
+    "no_authoritative_registry",
+    "no_legal_effect",
+    "no_public_alerting",
+    "no_publication_readiness",
+    "no_ranking",
+    "no_relying_party",
+    "no_signature_validation",
+    "no_supervision",
+    "reproducibility",
+    "research_only",
+    "source_boundary"
+  ],
+  "paper": "paper/draft.md",
+  "paper_sha256": "2050ff56fb6be3befdf0e771bdac891a09e3bf62c208ff841d932bdb862360e9",
+  "research_caveat": "Local paper subsection risk-coverage validation only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-subsection-risk-coverage-validation:0.1",
+  "section_results": [
+    {
+      "heading": "## Background",
+      "line": 27,
+      "max_words": 900,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "research_only",
+        "no_legal_effect",
+        "no_relying_party"
+      ],
+      "word_count": 365
+    },
+    {
+      "heading": "## Dataset boundary and source handling",
+      "line": 37,
+      "max_words": 400,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "source_boundary",
+        "no_authoritative_registry",
+        "no_relying_party"
+      ],
+      "word_count": 343
+    },
+    {
+      "heading": "## Method and evidence-bundle design",
+      "line": 47,
+      "max_words": 400,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "evidence_bundle",
+        "no_legal_effect",
+        "no_supervision",
+        "no_relying_party"
+      ],
+      "word_count": 326
+    },
+    {
+      "heading": "## Initial baseline telemetry (2026-05-20)",
+      "line": 57,
+      "max_words": 500,
+      "min_words": 60,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "no_legal_effect",
+        "baseline_only"
+      ],
+      "word_count": 75
+    },
+    {
+      "heading": "## Planned longitudinal aggregation and alert taxonomy",
+      "line": 61,
+      "max_words": 400,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "alerts_internal",
+        "aggregate_only",
+        "no_public_alerting",
+        "no_legal_effect"
+      ],
+      "word_count": 277
+    },
+    {
+      "heading": "## Aggregate telemetry table interpretation",
+      "line": 71,
+      "max_words": 400,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "aggregate_only",
+        "no_legal_effect",
+        "no_signature_validation"
+      ],
+      "word_count": 287
+    },
+    {
+      "heading": "## Results presentation and figure design",
+      "line": 87,
+      "max_words": 400,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "aggregate_only",
+        "figure_caution",
+        "no_public_alerting"
+      ],
+      "word_count": 318
+    },
+    {
+      "heading": "## Figure reproducibility cross-references",
+      "line": 97,
+      "max_words": 400,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "figure_caution",
+        "reproducibility",
+        "no_publication_readiness"
+      ],
+      "word_count": 286
+    },
+    {
+      "heading": "## Limitations and reproducibility",
+      "line": 173,
+      "max_words": 400,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "limitations",
+        "no_legal_effect",
+        "no_relying_party"
+      ],
+      "word_count": 303
+    },
+    {
+      "heading": "### Threats to validity for early longitudinal interpretation",
+      "line": 183,
+      "max_words": 400,
+      "min_words": 250,
+      "missing_families": [],
+      "present": true,
+      "required_families": [
+        "limitations",
+        "aggregate_only",
+        "no_ranking",
+        "source_boundary"
+      ],
+      "word_count": 291
+    }
+  ],
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}

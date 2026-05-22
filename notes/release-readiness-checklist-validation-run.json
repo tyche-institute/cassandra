@@ -1,0 +1,167 @@
+{
+  "checklist_heading": "## Release-readiness checklist for operator review",
+  "created": "2026-05-21T02:53:56.150107+00:00",
+  "error_count": 0,
+  "errors": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "9b25dc7513d63fcee7084082ad37d87035fa177aa75f9c3fb4f4f0ec4f2be975",
+  "research_caveat": "Local release-readiness checklist validation only; clean status is a manual-review gate and not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication approval.",
+  "schema": "urn:tyche:cassandra:release-readiness-checklist-validation:0.6",
+  "status": "ok",
+  "validator_count": 16,
+  "validators": [
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "snapshot_metadata",
+      "path": "notes/snapshot-metadata-linkage-2026-05-21-output.json",
+      "sha256": "4f9a9c480d470226b5de27b5b14b6cda2ee62e1efc7ec04ab63f398361a2e94d",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "lineage",
+      "path": "notes/lineage-consistency-2026-05-21-output.json",
+      "sha256": "42b4df19dfcf06f76f0e6381bb05afd0433dde055be8eb60f9e0e504ef8b2519",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "aggregate_results",
+      "path": "notes/aggregate-results-validation-output.json",
+      "sha256": "0bf7f91b7a9bf7591c427c8cede3c717677b7af506695300bbf17ac4c1c21da6",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "figure_artifacts",
+      "path": "notes/figure-artifact-validation-output.json",
+      "sha256": "9dc8ee507384403e33a9939012f57158709a257d0c3034e82bdd7ac17add9f1e",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "public_artifact_safety",
+      "path": "notes/public-artifact-safety-validation-output.json",
+      "sha256": "5f1ef72ff97f7b1e3567a664f7a272e0e70cdb679a00c8e732ca13c9ce54cd05",
+      "status": "ok",
+      "warning_count": 29
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "paper_claim_safety",
+      "path": "notes/paper-claim-safety-validation-output.json",
+      "sha256": "d32e0875f8a8549bbff9dc41d2d484d8b34fc318d3ea283c4434f783937cf35e",
+      "status": "ok",
+      "warning_count": 2
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "paper_evidence_refs",
+      "path": "notes/paper-evidence-reference-validation-output.json",
+      "sha256": "74c6d1be0556ac92e0131e1bf476ec4bdcdd25aaa2c1390cbe5e0453b784af2e",
+      "status": "ok",
+      "warning_count": 1
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "paper_figure_refs",
+      "path": "notes/paper-figure-reference-validation-output.json",
+      "sha256": "8c2ed4aadddb206e8f40e8fe756a5e52a58ac2d1dcaa43d3c7d5c9c14bf856db",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "two_date_wording_drift",
+      "path": "notes/two-date-wording-drift-validation-output.json",
+      "sha256": "767601076f1d25d8151be730fd5abe2c9a16047441d98bc8759249167a3459f2",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": null,
+      "exists": true,
+      "name": "multiday_readiness",
+      "path": "notes/multiday-readiness-validation-output.json",
+      "sha256": "c4573444dc5d51474228663c03623b347adc7f3367ef2e79e212e2a64ad2d051",
+      "status": "ok",
+      "warning_count": null
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "source_coverage_policy_note",
+      "path": "notes/source-coverage-policy-note-validation-output.json",
+      "sha256": "41199457744b71ff038ea446aa39fd64c3b4f2ec243f76ace9ec9ec180853e07",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "name": "persistent_warning_policy",
+      "path": "notes/release-readiness-persistent-warning-policy-validation-output.json",
+      "sha256": "5f144e843c7e477da837986a81e064330181ad0fe9ab3323e9730258f02a2642",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "hash_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+      "name": "release_gate_summary_freshness",
+      "path": "notes/release-gate-summary-freshness-validation-output.json",
+      "status": "ok",
+      "warning_count": 0
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "hash_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+      "name": "hash_cycle_policy_references",
+      "path": "notes/hash-cycle-policy-reference-validation-output.json",
+      "status": "ok",
+      "warning_count": 1
+    },
+    {
+      "error_count": 0,
+      "exists": true,
+      "hash_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+      "name": "status_only_release_gates_report",
+      "path": "notes/status-only-release-gates-report-output.json",
+      "status": "ok",
+      "warning_count": 2
+    },
+    {
+      "error_count": null,
+      "exists": true,
+      "name": "artifact_index_current_hashes",
+      "path": "notes/artifact-index-current-hash-validation-output.json",
+      "sha256": "35dc5990cc8bef14b8e1e4c7f896443c789eb97ec05fb8a57111367d48f4f4fe",
+      "status": "ok",
+      "warning_count": null
+    }
+  ],
+  "warning_count": 5,
+  "warnings": [
+    "notes/public-artifact-safety-validation-output.json has warning_count=29; preserve as manual-review context",
+    "notes/paper-claim-safety-validation-output.json has warning_count=2; preserve as manual-review context",
+    "notes/paper-evidence-reference-validation-output.json has warning_count=1; preserve as manual-review context",
+    "notes/hash-cycle-policy-reference-validation-output.json has warning_count=1; preserve as manual-review context",
+    "notes/status-only-release-gates-report-output.json has warning_count=2; preserve as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

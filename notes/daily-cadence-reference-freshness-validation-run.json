@@ -1,0 +1,28 @@
+{
+  "artifact_index_hashes_for_cadence_output": [
+    "78408a187f0192c1804c432e6a579a93c86a2c69416fc09b5fc95428db0a62dc",
+    "93435dc2fc56467208f13d1126b4c83298238b0fe5a7fc4d58cf168f6a57cd83"
+  ],
+  "cadence_output": "notes/daily-cadence-status-output.json",
+  "cadence_output_sha256": "93435dc2fc56467208f13d1126b4c83298238b0fe5a7fc4d58cf168f6a57cd83",
+  "cadence_status": "ok",
+  "cadence_warning_count": 1,
+  "created": "2026-05-21T03:21:33.493866+00:00",
+  "current_hash_indexed": true,
+  "error_count": 0,
+  "errors": [],
+  "latest_completed_date": "2026-05-21",
+  "next_eligible_date": "2026-05-22",
+  "paper": "paper/draft.md",
+  "paper_sha256": "2050ff56fb6be3befdf0e771bdac891a09e3bf62c208ff841d932bdb862360e9",
+  "research_caveat": "Local daily-cadence reference freshness validation only; verifies paper/reference/hash alignment for workflow telemetry, not endpoint stability, legal compliance, trusted-list legal effect, signature validation, supervision, listed-entity status evidence, public alerting, regulated trust-service output, warning clearance, legal review, or publication approval.",
+  "schema": "urn:tyche:cassandra:daily-cadence-reference-freshness-validation:0.1",
+  "status": "ok",
+  "today_utc": "2026-05-21",
+  "warning_count": 2,
+  "warnings": [
+    "notes/daily-cadence-status-output.json has warning_count=1; preserve same-date non-overwrite warning as workflow context",
+    "ARTIFACT_INDEX.md has 2 rows for notes/daily-cadence-status-output.json; require at least one current row and preserve duplicates as maintenance context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

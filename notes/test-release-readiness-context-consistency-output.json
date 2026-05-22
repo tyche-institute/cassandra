@@ -1,0 +1,9 @@
+{
+  "fixtures_checked": [
+    "missing_out_of_band_gate_context",
+    "warning_source_name_mismatch"
+  ],
+  "live_status": "ok",
+  "live_warning_count": 2,
+  "status": "ok"
+}

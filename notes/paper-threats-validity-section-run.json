@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-20T22:25:58.162363+00:00",
+  "error_count": 0,
+  "errors": [],
+  "inserted": true,
+  "paper": "paper/draft.md",
+  "paper_sha256": "b7b8a0042253a985e7ec99a2b69184861b1b7d548fe7231b7931550e4aa90474",
+  "research_caveat": "Local paper drafting helper only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-threats-validity-section:0.1",
+  "section_heading": "### Threats to validity for early longitudinal interpretation",
+  "section_word_count": 291,
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": []
+}

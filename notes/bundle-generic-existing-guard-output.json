@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-05-20T21:22:50.884867Z",
+  "date": "2026-05-20",
+  "dry_run": true,
+  "existing_outputs": [
+    "bundles/2026-05-20/snapshot-summary.json",
+    "bundles/2026-05-20/snapshot-summary.json.bundle"
+  ],
+  "message": "Refusing to overwrite existing bundle outputs without --allow-existing.",
+  "missing_inputs": [],
+  "research_caveat": "Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:bundle-run:0.2",
+  "status": "refused_existing_outputs",
+  "workspace": "/home/anton/projects/cassandra"
+}

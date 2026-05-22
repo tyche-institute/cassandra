@@ -1,0 +1,912 @@
+{
+  "created": "2026-05-20T20:19:56.578425+00:00",
+  "date": "2026-05-20",
+  "manifest": "normalized/2026-05-20/manifest.json",
+  "manifest_sha256": "ed6a15f1f777c7f958d86142d61a5c979c40da99d839d71141a22d7223bf8380",
+  "record_count": 31,
+  "records": {
+    "AT": {
+      "key": "AT",
+      "normalized_path": "normalized/2026-05-20/01-at.xml.normalized.xml",
+      "normalized_sha256": "74ecec0465395481818c742ee3e8fdc3d259432ef3679340e500ccd4b1232cf2",
+      "source": "snapshots/2026-05-20/01-at.xml",
+      "source_sha256": "2cb9f07f357c057d00e050043e00729454584e4afc2e51e07c6f5ea003052375",
+      "summary": {
+        "issue_date_time": "2026-05-18T06:28:43Z",
+        "next_update": "2026-11-18T07:28:43Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "AT",
+        "sequence_number": "74",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 8,
+        "tsp_service_count": 100
+      }
+    },
+    "BE": {
+      "key": "BE",
+      "normalized_path": "normalized/2026-05-20/02-be.xml.normalized.xml",
+      "normalized_sha256": "ac19c8e978b1a039698dccdb2eeeac6c8493cc8d2fd472f22bcd221e9f69eab2",
+      "source": "snapshots/2026-05-20/02-be.xml",
+      "source_sha256": "526dc692f0468b398bd033da6f7ba64c8e5bf1a601ea9bdb899e1b2942d799d1",
+      "summary": {
+        "issue_date_time": "2026-05-19T13:00:00Z",
+        "next_update": "2026-11-19T14:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "BE",
+        "sequence_number": "80",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 16,
+        "tsp_service_count": 127
+      }
+    },
+    "BG": {
+      "key": "BG",
+      "normalized_path": "normalized/2026-05-20/04-bg.xml.normalized.xml",
+      "normalized_sha256": "aa88ae501141826cb16406755d845eb27c188f8b6371d4c3230cea4c11076ecb",
+      "source": "snapshots/2026-05-20/04-bg.xml",
+      "source_sha256": "8b9454fc97733df5e175175adf55a8bc2fe2a443bbb76a167f6485f494a93242",
+      "summary": {
+        "issue_date_time": "2026-04-28T21:00:00Z",
+        "next_update": "2026-10-28T22:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "BG",
+        "sequence_number": "63",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 8,
+        "tsp_service_count": 113
+      }
+    },
+    "CY": {
+      "key": "CY",
+      "normalized_path": "normalized/2026-05-20/05-cy.xml.normalized.xml",
+      "normalized_sha256": "3996c5bf2c4421347321f0cbc04b2678355c672bc130e6de07a24ffb82798b19",
+      "source": "snapshots/2026-05-20/05-cy.xml",
+      "source_sha256": "2163e86af5bc0f8d7f77f7b8b4e454376a81b6e1f68a48d2f7148a3b3ab31690",
+      "summary": {
+        "issue_date_time": "2026-03-31T07:56:45Z",
+        "next_update": "2026-09-30T07:56:45Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "CY",
+        "sequence_number": "53",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 8
+      }
+    },
+    "CZ": {
+      "key": "CZ",
+      "normalized_path": "normalized/2026-05-20/07-cz.xtsl.normalized.xml",
+      "normalized_sha256": "dc4aede4a440c9616b7003e910bbb0ac94cde109525cd92a467213233b7054b0",
+      "source": "snapshots/2026-05-20/07-cz.xtsl",
+      "source_sha256": "9b19d65ad882e04f0c87ba5bfe83ebb3b5e565e8c8fdee482d7c4a4b45fc2f49",
+      "summary": {
+        "issue_date_time": "2026-05-14T20:00:00Z",
+        "next_update": "2026-11-13T12:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "CZ",
+        "sequence_number": "175",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 10,
+        "tsp_service_count": 524
+      }
+    },
+    "DE": {
+      "key": "DE",
+      "normalized_path": "normalized/2026-05-20/08-de.XML.normalized.xml",
+      "normalized_sha256": "cc69ba541316b8d021435d07fea500bdb67975dcb73bb847b7b3de4760507d6a",
+      "source": "snapshots/2026-05-20/08-de.XML",
+      "source_sha256": "3372e125eea5725692be16fd62eb72bd548d4d13722fffb3bedcd0ac3acafd48",
+      "summary": {
+        "issue_date_time": "2026-05-18T12:30:00Z",
+        "next_update": "2026-11-18T13:30:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "DE",
+        "sequence_number": "156",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha256",
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1"
+          ]
+        },
+        "trust_service_provider_count": 30,
+        "tsp_service_count": 977
+      }
+    },
+    "DK": {
+      "key": "DK",
+      "normalized_path": "normalized/2026-05-20/10-dk.xml.normalized.xml",
+      "normalized_sha256": "ddeb75c8717765cfe536372e4002dc6808ded0417918ec60c9c80b9e8a272409",
+      "source": "snapshots/2026-05-20/10-dk.xml",
+      "source_sha256": "7e49fd9de63f2c5711a23db41bef37efed9e302cbb01f121dd31ca2c0d52b4e6",
+      "summary": {
+        "issue_date_time": "2026-02-26T10:27:12Z",
+        "next_update": "2026-08-26T09:27:12Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "DK",
+        "sequence_number": "44",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 4,
+        "tsp_service_count": 16
+      }
+    },
+    "EE": {
+      "key": "EE",
+      "normalized_path": "normalized/2026-05-20/12-ee.xml.normalized.xml",
+      "normalized_sha256": "9c483b2f173aad3cd36d45954d030c2fa33af8c5f148c838821f8b8a98467e82",
+      "source": "snapshots/2026-05-20/12-ee.xml",
+      "source_sha256": "c6b7b872fadcafdd24ad772f7b6649c5c87e3aa27ea44952727ea73d2c435918",
+      "summary": {
+        "issue_date_time": "2026-05-20T11:00:00Z",
+        "next_update": "2026-11-20T12:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "EE",
+        "sequence_number": "73",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 3,
+        "tsp_service_count": 66
+      }
+    },
+    "EL": {
+      "key": "EL",
+      "normalized_path": "normalized/2026-05-20/13-el.xml.normalized.xml",
+      "normalized_sha256": "94970e802c8c4985046a728fa44ad52629c8957f48198dbaeb095de2d9ca4bdb",
+      "source": "snapshots/2026-05-20/13-el.xml",
+      "source_sha256": "344de4bf8ca2b623d2cc5f3e0299a606aabe0f0b7c357263a4dc0970cbe2a3e1",
+      "summary": {
+        "issue_date_time": "2026-04-14T11:30:07Z",
+        "next_update": "2026-10-14T11:30:07Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "EL",
+        "sequence_number": "85",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 5,
+        "tsp_service_count": 133
+      }
+    },
+    "ES": {
+      "key": "ES",
+      "normalized_path": "normalized/2026-05-20/15-es.xml.normalized.xml",
+      "normalized_sha256": "92a3560f2325d8e7ded191efd3e73bd244f7a4ea03c1e29b2bc9cb6f655661ef",
+      "source": "snapshots/2026-05-20/15-es.xml",
+      "source_sha256": "ab1cb863c6536f4cdb542f38eee52b519309b0dd5822ce11eda1a1791f158135",
+      "summary": {
+        "issue_date_time": "2026-05-20T03:00:00Z",
+        "next_update": "2026-11-16T04:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "ES",
+        "sequence_number": "186",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 71,
+        "tsp_service_count": 424
+      }
+    },
+    "EU": {
+      "key": "EU",
+      "normalized_path": "normalized/2026-05-20/16-eu.xml.normalized.xml",
+      "normalized_sha256": "3d534f9113f0c4569e3ec593fbccaf32984b28ba42bfc4f4c38ca6b932255dc1",
+      "source": "snapshots/2026-05-20/16-eu.xml",
+      "source_sha256": "aeddb7337486ac9f2e50448f7f61586cfa6acfcd38819a80f4246e4e0d6f4772",
+      "summary": {
+        "issue_date_time": "2026-04-30T12:20:19Z",
+        "next_update": "2026-10-21T12:20:19Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "EU",
+        "sequence_number": "387",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 0,
+        "tsp_service_count": 0
+      }
+    },
+    "FI": {
+      "key": "FI",
+      "normalized_path": "normalized/2026-05-20/17-fi.xml.normalized.xml",
+      "normalized_sha256": "4aa569595699fc7dcb4d8ecd99afd7ae42e1a36ff85e04a23c7d3a5468ee1e07",
+      "source": "snapshots/2026-05-20/17-fi.xml",
+      "source_sha256": "fec6dcdba44c55085420cfc7f0cd5d101f0b429f017d5e7810877b83221e29a5",
+      "summary": {
+        "issue_date_time": "2026-04-16T21:00:56Z",
+        "next_update": "2026-10-16T21:00:56Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "FI",
+        "sequence_number": "54",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 19
+      }
+    },
+    "FR": {
+      "key": "FR",
+      "normalized_path": "normalized/2026-05-20/19-fr.xml.normalized.xml",
+      "normalized_sha256": "926fe1f8da37138623388780cc0c37c8087576ea917055637aaa4d865defbbc4",
+      "source": "snapshots/2026-05-20/19-fr.xml",
+      "source_sha256": "b533197101f368768c61d520b2c1364d777c873a55142ec79917fab892f93f03",
+      "summary": {
+        "issue_date_time": "2026-05-11T08:28:44Z",
+        "next_update": "2026-11-11T09:28:44Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "FR",
+        "sequence_number": "176",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 39,
+        "tsp_service_count": 340
+      }
+    },
+    "HR": {
+      "key": "HR",
+      "normalized_path": "normalized/2026-05-20/20-hr.xml.normalized.xml",
+      "normalized_sha256": "d8bce1fd8255b6fc6ba00b728efbdcd559af2021a9f1892a87a25bb0852a5694",
+      "source": "snapshots/2026-05-20/20-hr.xml",
+      "source_sha256": "83c51d97f194e0fdb05dd1ff4a3e8b40dbf2b68a8e91064aead7dd8174631a19",
+      "summary": {
+        "issue_date_time": "2026-04-28T22:00:00Z",
+        "next_update": "2026-10-28T23:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "HR",
+        "sequence_number": "66",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 4,
+        "tsp_service_count": 43
+      }
+    },
+    "HU": {
+      "key": "HU",
+      "normalized_path": "normalized/2026-05-20/22-hu.xml.normalized.xml",
+      "normalized_sha256": "095c5533349f1c3fbab6e40b013ce51c71a2c27304079f90b4a31c3cab2e3596",
+      "source": "snapshots/2026-05-20/22-hu.xml",
+      "source_sha256": "ddef6aa69d53919050a87219954ac2e7e86b1fe5bd4ea9a91d31c3a6d9a5c51e",
+      "summary": {
+        "issue_date_time": "2026-05-15T09:00:00Z",
+        "next_update": "2026-11-14T10:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "HU",
+        "sequence_number": "96",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha256"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"
+          ]
+        },
+        "trust_service_provider_count": 11,
+        "tsp_service_count": 323
+      }
+    },
+    "IS": {
+      "key": "IS",
+      "normalized_path": "normalized/2026-05-20/25-is.xml.normalized.xml",
+      "normalized_sha256": "80d063626e987099a2f1e2f2aa76e2a8ae283cd41543d232f617f8ecad12db96",
+      "source": "snapshots/2026-05-20/25-is.xml",
+      "source_sha256": "b2c1fdfa09cd8f6ae39b90c1a8d64b872b257901bb6b99af43a74975153b2b15",
+      "summary": {
+        "issue_date_time": "2026-03-02T11:18:09Z",
+        "next_update": "2026-09-02T10:18:09Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "IS",
+        "sequence_number": "39",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha256",
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
+          ]
+        },
+        "trust_service_provider_count": 2,
+        "tsp_service_count": 8
+      }
+    },
+    "IT": {
+      "key": "IT",
+      "normalized_path": "normalized/2026-05-20/26-it.xml.normalized.xml",
+      "normalized_sha256": "c5a080e1d7d5f9fa7c609221dade000892c21ca88cfc5661d476a559eb279de1",
+      "source": "snapshots/2026-05-20/26-it.xml",
+      "source_sha256": "db815cc38289c11bbd6c7a80c1db1969c2dd0aa4cb853cb80236f75ededa53c4",
+      "summary": {
+        "issue_date_time": "2026-05-05T10:34:19Z",
+        "next_update": "2026-11-05T11:34:19Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "IT",
+        "sequence_number": "220",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha256",
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
+          ]
+        },
+        "trust_service_provider_count": 56,
+        "tsp_service_count": 479
+      }
+    },
+    "LI": {
+      "key": "LI",
+      "normalized_path": "normalized/2026-05-20/27-li.xml.normalized.xml",
+      "normalized_sha256": "334414583317b641c198195a4e1536397b55f0f9fdf1de4f76fe6c0fe97a13df",
+      "source": "snapshots/2026-05-20/27-li.xml",
+      "source_sha256": "51d44032086c637d180544f75258a2aac09397f757de07f708f1c0a61dd5e341",
+      "summary": {
+        "issue_date_time": "2026-04-13T12:23:07Z",
+        "next_update": "2026-10-13T12:23:07Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "LI",
+        "sequence_number": "48",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 4,
+        "tsp_service_count": 10
+      }
+    },
+    "LT": {
+      "key": "LT",
+      "normalized_path": "normalized/2026-05-20/28-lt.xml.normalized.xml",
+      "normalized_sha256": "69cac904582ba9d0bba959b927907117bf5df2bad73e47648313ce08314fe6ed",
+      "source": "snapshots/2026-05-20/28-lt.xml",
+      "source_sha256": "5383f86d8dc73d162549ebf943d78c3e45eea836a3f8f382f662858fa3c5acc7",
+      "summary": {
+        "issue_date_time": "2026-04-28T11:23:35Z",
+        "next_update": "2026-10-28T12:23:35Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "LT",
+        "sequence_number": "87",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 10,
+        "tsp_service_count": 85
+      }
+    },
+    "LU": {
+      "key": "LU",
+      "normalized_path": "normalized/2026-05-20/30-lu.xml.normalized.xml",
+      "normalized_sha256": "5ff1676046f1840a386f4c05992654492f5ffa05189c1866a69cdbfd823818e5",
+      "source": "snapshots/2026-05-20/30-lu.xml",
+      "source_sha256": "979384a04a416d6601c86fdd25a2921602a8e031be0f4df0a50d805f3913666c",
+      "summary": {
+        "issue_date_time": "2026-05-20T05:02:52Z",
+        "next_update": "2026-11-20T06:02:52Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "LU",
+        "sequence_number": "66",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 5,
+        "tsp_service_count": 34
+      }
+    },
+    "LV": {
+      "key": "LV",
+      "normalized_path": "normalized/2026-05-20/31-lv.xml.normalized.xml",
+      "normalized_sha256": "7227ba0ed6de160b71b118ffcc50e5eabd3e0e0865a4ad3813a2a5f0d8409ab4",
+      "source": "snapshots/2026-05-20/31-lv.xml",
+      "source_sha256": "406073daa0dcf04670002803ad91026001d85274da64a9264739027d88566be1",
+      "summary": {
+        "issue_date_time": "2026-04-28T19:00:48Z",
+        "next_update": "2026-10-28T20:00:48Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "LV",
+        "sequence_number": "51",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 40
+      }
+    },
+    "MT": {
+      "key": "MT",
+      "normalized_path": "normalized/2026-05-20/32-mt.xml.normalized.xml",
+      "normalized_sha256": "561e74a9d843f2b9bcabe7992ceaa60cf73a6457b732d4536b5a4a6c9987aeb7",
+      "source": "snapshots/2026-05-20/32-mt.xml",
+      "source_sha256": "cf942917c4855535fddb101f4c10f0ff122e723a1c48bc7f717029e764cf211c",
+      "summary": {
+        "issue_date_time": "2026-04-27T07:47:30Z",
+        "next_update": "2026-10-27T08:47:30Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "MT",
+        "sequence_number": "55",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 3,
+        "tsp_service_count": 10
+      }
+    },
+    "NL": {
+      "key": "NL",
+      "normalized_path": "normalized/2026-05-20/33-nl.xml.normalized.xml",
+      "normalized_sha256": "c97f18496def39c9b788c15bb3bab6fd084ac36ded3f7c91f5e473c32a64e2b0",
+      "source": "snapshots/2026-05-20/33-nl.xml",
+      "source_sha256": "16cc0a17fd64eb3650294f152d17664515e9ae971e40ca15dcab86fa353c99b6",
+      "summary": {
+        "issue_date_time": "2026-04-28T22:00:00Z",
+        "next_update": "2026-10-28T23:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "NL",
+        "sequence_number": "78",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 14,
+        "tsp_service_count": 95
+      }
+    },
+    "NO": {
+      "key": "NO",
+      "normalized_path": "normalized/2026-05-20/35-no.xml.normalized.xml",
+      "normalized_sha256": "c6f4993a7f2102fb8d5ce1f1e2431ea2366dc078143ccbc51c0e88e4ef14f35f",
+      "source": "snapshots/2026-05-20/35-no.xml",
+      "source_sha256": "f7e8f4bbf65062d24da61cf79568fbbb116d76b321d2f57b69e7bcd645261be7",
+      "summary": {
+        "issue_date_time": "2026-04-28T20:00:23Z",
+        "next_update": "2026-10-28T21:00:23Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "NO",
+        "sequence_number": "88",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 16,
+        "tsp_service_count": 53
+      }
+    },
+    "PL": {
+      "key": "PL",
+      "normalized_path": "normalized/2026-05-20/36-pl.xml.normalized.xml",
+      "normalized_sha256": "f414a525837d9ad09d448585d356dee26e565d9d0c13621819d58cb6781d045a",
+      "source": "snapshots/2026-05-20/36-pl.xml",
+      "source_sha256": "7c0a37cd47805485e35b98f81ff7a807e38b04142efd0a3ec3cd765c5ed665d2",
+      "summary": {
+        "issue_date_time": "2026-04-28T22:00:00Z",
+        "next_update": "2026-07-27T22:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "PL",
+        "sequence_number": "158",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 13,
+        "tsp_service_count": 130
+      }
+    },
+    "PT": {
+      "key": "PT",
+      "normalized_path": "normalized/2026-05-20/38-pt.xml.normalized.xml",
+      "normalized_sha256": "5790c86964f2e5dc2e25b9a2c9a9a81662c6c1b940b59d087f1e2aade006fb5b",
+      "source": "snapshots/2026-05-20/38-pt.xml",
+      "source_sha256": "b5450b2b85d6a9bc6fb93e6b8a698fdba346c716806b86850b1d09fb3199d88f",
+      "summary": {
+        "issue_date_time": "2026-05-06T16:10:01Z",
+        "next_update": "2026-11-06T17:10:01Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "PT",
+        "sequence_number": "112",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 10,
+        "tsp_service_count": 105
+      }
+    },
+    "RO": {
+      "key": "RO",
+      "normalized_path": "normalized/2026-05-20/39-ro.xml.normalized.xml",
+      "normalized_sha256": "93ce4be459d73cae42d6f73b0a6abff2bef8a286c357b0f0f21bb110df688b2e",
+      "source": "snapshots/2026-05-20/39-ro.xml",
+      "source_sha256": "73cfe0ac4cfe604ffc5b26eeb655a2e8ec17efe56087488e84fe62aec20b67d8",
+      "summary": {
+        "issue_date_time": "2026-04-23T11:37:19Z",
+        "next_update": "2026-10-23T11:37:19Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "RO",
+        "sequence_number": "80",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 8,
+        "tsp_service_count": 167
+      }
+    },
+    "SE": {
+      "key": "SE",
+      "normalized_path": "normalized/2026-05-20/40-se.xml.normalized.xml",
+      "normalized_sha256": "66d39e74ad3604d27821206ffe86078adc568efd3d9fee44ed430fb0fa09cf0d",
+      "source": "snapshots/2026-05-20/40-se.xml",
+      "source_sha256": "e245fa3433e4c776916dff26aa029f75315aa6b349bd9db859df3850be1fb9ea",
+      "summary": {
+        "issue_date_time": "2026-04-14T12:35:03Z",
+        "next_update": "2026-10-14T12:35:03Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "SE",
+        "sequence_number": "60",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 4,
+        "tsp_service_count": 12
+      }
+    },
+    "SI": {
+      "key": "SI",
+      "normalized_path": "normalized/2026-05-20/41-si.xml.normalized.xml",
+      "normalized_sha256": "e03ac4619bcdc6b20526b597f5422631bb9240d9da0dda2850a11bc4555bf598",
+      "source": "snapshots/2026-05-20/41-si.xml",
+      "source_sha256": "db3d707311a6e8c2302121d48b322b7a4184354c5372fea346e25fa53e092831",
+      "summary": {
+        "issue_date_time": "2026-04-28T21:59:41Z",
+        "next_update": "2026-10-28T22:59:41Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "SI",
+        "sequence_number": "83",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 10,
+        "tsp_service_count": 100
+      }
+    },
+    "SK": {
+      "key": "SK",
+      "normalized_path": "normalized/2026-05-20/42-sk.xml.normalized.xml",
+      "normalized_sha256": "1423eec4dbb46a891602fdf5c86503e7f3c18e3b8700789fd5c768583b62599f",
+      "source": "snapshots/2026-05-20/42-sk.xml",
+      "source_sha256": "4d2878dfa65e380682d0266bfa502175b4a7160c6f7588a02257083d5535bf63",
+      "summary": {
+        "issue_date_time": "2026-04-28T22:00:00Z",
+        "next_update": "2026-10-21T11:00:00Z",
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "SK",
+        "sequence_number": "138",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
+          ]
+        },
+        "trust_service_provider_count": 10,
+        "tsp_service_count": 183
+      }
+    },
+    "UK": {
+      "key": "UK",
+      "normalized_path": "normalized/2026-05-20/43-uk.xml.normalized.xml",
+      "normalized_sha256": "a038fb9022b6e2f70090b94071a3b5ae9384e9559601568cbca0c43056b7471f",
+      "source": "snapshots/2026-05-20/43-uk.xml",
+      "source_sha256": "c6185978315d1470b023b59af02ab1a200e6e6bec8c60f949e9151f61b2583e5",
+      "summary": {
+        "issue_date_time": "2020-12-31T22:59:59Z",
+        "next_update": null,
+        "root_name": "TrustServiceStatusList",
+        "root_namespace": "http://uri.etsi.org/02231/v2#",
+        "scheme_territory": "UK",
+        "sequence_number": "25",
+        "signature_shape": {
+          "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+          "digest_method_algorithms": [
+            "http://www.w3.org/2001/04/xmlenc#sha512"
+          ],
+          "key_info_count": 1,
+          "reference_count": 2,
+          "signature_count": 1,
+          "signature_method_algorithms": [
+            "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+          ]
+        },
+        "trust_service_provider_count": 16,
+        "tsp_service_count": 19
+      }
+    }
+  },
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed."
+}

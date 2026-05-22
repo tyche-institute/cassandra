@@ -1,0 +1,73 @@
+{
+  "created": "2026-05-21T01:58:48.673756+00:00",
+  "error_count": 0,
+  "errors": [],
+  "non_status_only_validator_hash_count": 13,
+  "operator_review_context": true,
+  "research_caveat": "Local status-only release-readiness gate report only; it is not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication approval.",
+  "safe_to_auto_clear_warnings": false,
+  "safe_to_auto_publish": false,
+  "schema": "urn:tyche:cassandra:status-only-release-gates-report:0.2",
+  "source_checklist": {
+    "path": "notes/release-readiness-checklist-validation-output.json",
+    "sha256": "7db12304594b7dedbcb063547383fbc564b67884998853975baa4f0ef36f2b17",
+    "status": "ok",
+    "validator_count": 16,
+    "warning_count": 5
+  },
+  "status": "ok",
+  "status_only_gate_count": 3,
+  "status_only_gates": [
+    {
+      "checklist_hash_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+      "checklist_status": "ok",
+      "checklist_warning_count": 0,
+      "current_output_sha256_for_operator_trace_only": "a730c7ccbf1b4b14f42c22f518279543b42ba09b7fd9db347eeb9cc764fc08a6",
+      "cycle_avoidance_reason": "This validator reads the release-readiness gate summary, which embeds hashes of upstream checklist/warning/policy outputs. Recording its own sha256 in the checklist would induce recurring checklist/summary/freshness hash churn.",
+      "expected_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+      "name": "release_gate_summary_freshness",
+      "not_missing_provenance": true,
+      "output_error_count": 0,
+      "output_status": "ok",
+      "output_warning_count": 0,
+      "path": "notes/release-gate-summary-freshness-validation-output.json",
+      "safe_to_add_checklist_sha256": false
+    },
+    {
+      "checklist_hash_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+      "checklist_status": "ok",
+      "checklist_warning_count": 1,
+      "current_output_sha256_for_operator_trace_only": "17c748532cf31a412f81a5cc0278dff571d599eec7256e9e19cbb17e93f04f55",
+      "cycle_avoidance_reason": "This validator reads paper and checklist-validator wiring for the hash-cycle policy report. Hashing it inside the checklist would create needless checklist/reference/policy hash churn while adding no new provenance authority.",
+      "expected_policy": "status_only_to_avoid_release_checklist_reference_hash_cycle",
+      "name": "hash_cycle_policy_references",
+      "not_missing_provenance": true,
+      "output_error_count": 0,
+      "output_status": "ok",
+      "output_warning_count": 1,
+      "path": "notes/hash-cycle-policy-reference-validation-output.json",
+      "safe_to_add_checklist_sha256": false
+    },
+    {
+      "checklist_hash_policy": "status_only_to_avoid_release_checklist_gate_summary_hash_cycle",
+      "checklist_status": "ok",
+      "checklist_warning_count": 2,
+      "current_output_sha256_for_operator_trace_only": "449c689204eb99890a07d11580a081cb8e2a05a7086b1ce2b6311647d2e0cfd2",
+      "cycle_avoidance_reason": "This report reads the release-readiness checklist it summarizes. Hashing the report inside that checklist would create recurring checklist/report hash churn while adding no new provenance authority beyond the report's own operator trace hashes.",
+      "expected_policy": "status_only_to_avoid_release_checklist_report_hash_cycle",
+      "name": "status_only_release_gates_report",
+      "not_missing_provenance": true,
+      "output_error_count": 0,
+      "output_status": "ok",
+      "output_warning_count": 2,
+      "path": "notes/status-only-release-gates-report-output.json",
+      "safe_to_add_checklist_sha256": false
+    }
+  ],
+  "warning_count": 2,
+  "warnings": [
+    "hash_cycle_policy_references has warning_count=1; preserve as manual-review context",
+    "status_only_release_gates_report has warning_count=2; preserve as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

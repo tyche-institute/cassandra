@@ -1,0 +1,10 @@
+{
+  "checked_sources": [
+    "persistent_warning_policy",
+    "release_readiness_checklist",
+    "warning_report"
+  ],
+  "research_caveat": "Smoke test only; not publication approval, legal review, signature validation, trusted-list supervision, listed-entity status evidence, public alerting, or regulated trust-service output.",
+  "stale_fixture_status": "needs_review",
+  "status": "ok"
+}

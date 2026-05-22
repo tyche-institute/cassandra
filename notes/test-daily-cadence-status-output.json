@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "tests": [
+    "test_live_workspace_reports_ok",
+    "test_future_today_without_completed_lineage_dry_runs",
+    "test_future_dated_completed_lineage_warns_without_blocking",
+    "test_missing_state_warns_but_does_not_claim_status"
+  ]
+}

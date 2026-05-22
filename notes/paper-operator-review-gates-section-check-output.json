@@ -1,0 +1,15 @@
+{
+  "created": "2026-05-20T22:50:06.614385+00:00",
+  "error_count": 0,
+  "errors": [],
+  "inserted": true,
+  "paper": "paper/draft.md",
+  "paper_sha256": "afeed8d4d51b2e186ce005dc406bba021ce3fd870b2b7031ba01d33b4d9c059c",
+  "research_caveat": "Local paper drafting helper only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-operator-review-gates-section:0.1",
+  "section_heading": "## Operator review gates and non-publication status",
+  "section_word_count": 289,
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": []
+}

@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T20:12:19.229328+00:00",
+  "bytes": 133368,
+  "completed": "2026-05-20T20:12:19.508508+00:00",
+  "content_length_header": "133368",
+  "content_type": null,
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-20/17-fi.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "fec6dcdba44c55085420cfc7f0cd5d101f0b429f017d5e7810877b83221e29a5",
+  "url": "https://dp.trustedlist.fi/fi-tl-v6.xml"
+}

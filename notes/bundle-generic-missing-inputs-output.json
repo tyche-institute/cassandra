@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-05-20T21:22:50.905614Z",
+  "date": "2099-01-01",
+  "dry_run": true,
+  "existing_outputs": [],
+  "message": "Required dated local inputs are absent; run daily fetch/normalize/diff first.",
+  "missing_inputs": [
+    "snapshots/2099-01-01/manifest.json",
+    "normalized/2099-01-01/manifest.json",
+    "diffs/2099-01-01.json",
+    "baselines/2099-01-01.json"
+  ],
+  "research_caveat": "Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:bundle-run:0.2",
+  "status": "missing_inputs",
+  "workspace": "/home/anton/projects/cassandra"
+}

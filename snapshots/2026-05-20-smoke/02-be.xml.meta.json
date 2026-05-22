@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T20:10:39.920939+00:00",
+  "bytes": 690080,
+  "completed": "2026-05-20T20:10:40.184484+00:00",
+  "content_length_header": "137292",
+  "content_type": "text/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-20-smoke/02-be.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "526dc692f0468b398bd033da6f7ba64c8e5bf1a601ea9bdb899e1b2942d799d1",
+  "url": "https://tsl.belgium.be/tsl-be-v6.xml"
+}

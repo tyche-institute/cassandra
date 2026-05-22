@@ -1,0 +1,66 @@
+{
+  "checked_context": {
+    "aggregate_warning_class_count": 9,
+    "out_of_band_names": [
+      "status_only_report_reference_checker_policy",
+      "topology_report_reference_freshness_policy"
+    ],
+    "status_only_gate_names": [
+      "hash_cycle_policy_references",
+      "release_gate_summary_freshness",
+      "status_only_release_gates_report"
+    ],
+    "warning_context_validator_names": [
+      "hash_cycle_policy_references",
+      "paper_claim_safety",
+      "paper_evidence_refs",
+      "public_artifact_safety",
+      "status_only_release_gates_report"
+    ]
+  },
+  "created": "2026-05-21T02:32:10.186905+00:00",
+  "error_count": 0,
+  "errors": [],
+  "operator_review_gate": true,
+  "research_caveat": "Local release-readiness context consistency validation only; it is not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication approval.",
+  "safe_to_auto_clear_warnings": false,
+  "safe_to_auto_publish": false,
+  "schema": "urn:tyche:cassandra:release-readiness-context-consistency-validation:0.1",
+  "sources": {
+    "gate_summary": {
+      "error_count": 0,
+      "path": "notes/release-readiness-gate-summary-output.json",
+      "sha256": "914e22aa9adae8d3c6bc37b78557dd351153a7dca518803875cc76b8c6fa6e1d",
+      "status": "ok",
+      "warning_count": null
+    },
+    "status_only_report": {
+      "error_count": 0,
+      "path": "notes/status-only-release-gates-report-output.json",
+      "sha256": "c522e5fd1e773c248ffa7eaaebc4e1ee492847551797051cd1f282cae7dce634",
+      "status": "ok",
+      "warning_count": 2
+    },
+    "topology": {
+      "error_count": 0,
+      "path": "notes/release-readiness-topology-report-output.json",
+      "sha256": "4de5dc6a7d5f8ed9e7b7477d2057411268fa7fefb99a2cc452484de18a21b022",
+      "status": "ok",
+      "warning_count": 4
+    },
+    "warning_report": {
+      "error_count": 0,
+      "path": "notes/release-readiness-warning-report-output.json",
+      "sha256": "5dcf00beff3482d575515f07b13d176a94dede428c2abb7cc769714955c1247a",
+      "status": "ok",
+      "warning_count": 0
+    }
+  },
+  "status": "ok",
+  "warning_count": 2,
+  "warnings": [
+    "topology warning_count=4 preserved as manual-review context",
+    "status_only warning_count=2 preserved as manual-review context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

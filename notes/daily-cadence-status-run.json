@@ -1,0 +1,60 @@
+{
+  "artifacts_checked": [
+    {
+      "path": "snapshots/2026-05-21/manifest.json",
+      "sha256": "686ea52c32b2e159274d407ede3d888f0ff665df2776a41632dc7b827ab8563b"
+    },
+    {
+      "path": "normalized/2026-05-21/manifest.json",
+      "sha256": "76df09aea1a4094fd7dc58eb9fa298f80c35a99c7ead41fafd09cfe09a742532"
+    },
+    {
+      "path": "diffs/2026-05-21.json",
+      "sha256": "04d8a2bc740bda2a1943bec8ebe82f916824798d02dc153b9a475ace9acaf92f"
+    },
+    {
+      "path": "baselines/2026-05-21.json",
+      "sha256": "eaa9912fb9b33a6d7b389b3cb94bef87c9a68e31445b1fc6c9a51df793c9c7ab"
+    }
+  ],
+  "completed_date_count": 2,
+  "completed_dates": [
+    "2026-05-20",
+    "2026-05-21"
+  ],
+  "created": "2026-05-21T03:13:55.735554+00:00",
+  "error_count": 0,
+  "errors": [],
+  "latest_completed_date": "2026-05-21",
+  "next_eligible_date": "2026-05-22",
+  "next_eligible_guard": {
+    "dry_run": true,
+    "existing_outputs": [],
+    "planned_steps": [
+      "fetch.fetch_nationals",
+      "parse.normalize_snapshot",
+      "diff.run_diff"
+    ],
+    "status": "dry_run_ok"
+  },
+  "research_caveat": "Local daily-cadence workflow telemetry only; same-date guard status is not endpoint stability evidence, legal compliance, trusted-list legal effect, signature validation, supervision, listed-entity status evidence, public alerting, regulated trust-service output, or publication approval.",
+  "schema": "urn:tyche:cassandra:daily-cadence-status:0.1",
+  "status": "ok",
+  "today_complete": true,
+  "today_guard": {
+    "dry_run": true,
+    "existing_outputs": [
+      "snapshots/2026-05-21",
+      "normalized/2026-05-21",
+      "diffs/2026-05-21.json",
+      "baselines/2026-05-21.json"
+    ],
+    "status": "refused_existing_outputs"
+  },
+  "today_utc": "2026-05-21",
+  "warning_count": 1,
+  "warnings": [
+    "today already has a completed local lineage; do not rerun same-date fetch without explicit operator-controlled overwrite intent"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

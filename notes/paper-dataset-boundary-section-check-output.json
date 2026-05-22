@@ -1,0 +1,13 @@
+{
+  "caveat": "Local paper wording check only; it does not assert legal compliance, trusted-list legal effect, signature validity, supervision, public alerting, regulated trust-service output, or publication readiness.",
+  "changed": true,
+  "checked_at": "2026-05-20T22:13:17.751580+00:00",
+  "draft_path": "paper/draft.md",
+  "draft_sha256": "a6fd37ef4e3c789dfb511fb373666de20ca453d56a8d62aa3f7cf669924fb7b4",
+  "errors": [],
+  "forbidden_hits": [],
+  "missing_required_phrases": [],
+  "section_title": "## Dataset boundary and source handling",
+  "section_word_count": 343,
+  "status": "ok"
+}

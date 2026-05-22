@@ -1,0 +1,11 @@
+{
+  "changed": false,
+  "created": "2026-05-21T00:38:30.657028+00:00",
+  "forbidden_hits": [],
+  "missing_required_fragments": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "2689c332604ebe36448925599b8bf0a5de78d74f137421c6bf510a513b023773",
+  "research_caveat": "Release-readiness warning-report note check only; this does not clear warnings, approve publication, assert legal effect, validate signatures, supervise trusted lists, provide public alerting, or create regulated trust-service output.",
+  "schema": "urn:tyche:cassandra:paper-release-warning-report-note-check:0.1",
+  "status": "ok"
+}

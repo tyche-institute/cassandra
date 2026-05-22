@@ -1,0 +1,15 @@
+{
+  "changed": true,
+  "created": "2026-05-20T23:05:22.816886+00:00",
+  "error_count": 0,
+  "errors": [],
+  "forbidden_hits": [],
+  "missing_required_fragments": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "20481a6e6c08ec06b5ba8df9a6769a4da7a40de55778d32a430abe4aa00e3701",
+  "research_caveat": "Local Cassandra drafting helper only; not legal compliance, trusted-list legal effect, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-multiday-interpretation-section-check:0.1",
+  "section_title": "## Multi-day comparison interpretation protocol",
+  "section_word_count": 290,
+  "status": "ok"
+}

@@ -1,0 +1,13 @@
+{
+  "created": "2026-05-21T00:24:06.646459+00:00",
+  "error_count": 0,
+  "errors": [],
+  "note": "notes/source-coverage-policy-note.md",
+  "note_sha256": "7fa794c196c1be3767984811b26f4b99494ca7673d4acb443442786468f14e12",
+  "research_caveat": "Local provenance-policy validation only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication approval.",
+  "schema": "urn:tyche:cassandra:source-coverage-policy-note-validation:0.1",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": [],
+  "word_count": 290
+}

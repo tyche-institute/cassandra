@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "tests": [
+    {
+      "status": "ok",
+      "test": "test_aggregate_only_paper_ok"
+    },
+    {
+      "status": "ok",
+      "test": "test_raw_provider_name_is_hash_only_error"
+    },
+    {
+      "status": "ok",
+      "test": "test_latest_snapshot_directory_is_used"
+    }
+  ]
+}

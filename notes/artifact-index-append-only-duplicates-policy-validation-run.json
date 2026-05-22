@@ -1,0 +1,41 @@
+{
+  "created": "2026-05-21T22:48:42.996054Z",
+  "decision": {
+    "duplicate_rows_preserved": true,
+    "requires_current_matching_hash_for_each_ordinary_artifact": true,
+    "safe_to_auto_delete_duplicate_rows": false,
+    "safe_to_wire_cleanup_into_release_gate_without_operator_review": false
+  },
+  "error_count": 0,
+  "errors": [],
+  "inputs": {
+    "notes/artifact-index-append-only-duplicates-policy.md": {
+      "path": "notes/artifact-index-append-only-duplicates-policy.md",
+      "sha256": "b02eb0d3a11968032da8fc58d83c309ee4764aab97707344c048cdfe43297489"
+    },
+    "notes/artifact-index-current-hash-validation-output.json": {
+      "path": "notes/artifact-index-current-hash-validation-output.json",
+      "sha256": "199e6ac1c009d3168e727cb3e0113e20aa969a02d83e5b1b7ea281cc1fa093e2"
+    },
+    "notes/artifact-index-duplicate-report-output.json": {
+      "path": "notes/artifact-index-duplicate-report-output.json",
+      "sha256": "d55cf4e99e7ef28b6c8cf5a80371593d659b13cfa1c9edd33183adcba58ffe71"
+    },
+    "notes/propose_artifact_index_duplicate_cleanup.py": {
+      "path": "notes/propose_artifact_index_duplicate_cleanup.py",
+      "sha256": "b99c82de6ce2f2c532810c89c56bf06ee6bff4a6f72cdd0bf722a532868556c2"
+    },
+    "notes/report_artifact_index_duplicates.py": {
+      "path": "notes/report_artifact_index_duplicates.py",
+      "sha256": "5cbb278e0a71fc346bab7a567cef2836dd761636a5e9a4e59fca863798d73b4f"
+    }
+  },
+  "research_caveat": "Local artifact-index append-only duplicate-row policy validation only; it does not assert endpoint stability, legal effect, signature validity, supervision, listed-entity status, public alerting, regulated trust-service output, legal review, warning clearance, or publication approval.",
+  "schema": "urn:tyche:cassandra:artifact-index-append-only-duplicates-policy-validation:0.1",
+  "status": "ok",
+  "warning_count": 1,
+  "warnings": [
+    "duplicate_path_count=119 preserved as append-only ledger context"
+  ],
+  "workspace": "/home/anton/projects/cassandra"
+}

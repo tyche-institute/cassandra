@@ -1,0 +1,15 @@
+{
+  "changed": true,
+  "created": "2026-05-20T23:00:53.761319+00:00",
+  "error_count": 0,
+  "errors": [],
+  "forbidden_hits": [],
+  "missing_required_fragments": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "5faa570ea4629659f5b040fef30dfb3eabd86b7ea631c893f268db22ca475fae",
+  "research_caveat": "Local Cassandra drafting helper only; not legal compliance, trusted-list legal effect, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-data-retention-section-check:0.1",
+  "section_title": "## Data retention and local redaction discipline",
+  "section_word_count": 257,
+  "status": "ok"
+}

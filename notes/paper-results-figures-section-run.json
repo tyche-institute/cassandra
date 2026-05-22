@@ -1,0 +1,24 @@
+{
+  "caveats": [
+    "research-only structural observation",
+    "figures summarize local telemetry only",
+    "no relying-party validation claim",
+    "no legal-status determination",
+    "no listed-entity names in narrative prose without approval"
+  ],
+  "changed": true,
+  "checks": {
+    "avoids_status_interpretation": true,
+    "has_tych_institute_affiliation": true,
+    "mentions_zetes": false,
+    "requires_evidence_pointers": true,
+    "uses_aggregate_only_named_entity_policy": true
+  },
+  "created": "2026-05-20T21:02:26.511777Z",
+  "draft_path": "paper/draft.md",
+  "draft_sha256": "88b96b15c2151818cdf2cf31b31b7a7d7e1e4a67ccba08a3f95d6ec9e6b7970a",
+  "forbidden_hits": [],
+  "section_heading": "## Results presentation and figure design",
+  "section_word_count": 312,
+  "status": "ok"
+}

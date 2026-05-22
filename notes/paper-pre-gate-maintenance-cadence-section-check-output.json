@@ -1,0 +1,18 @@
+{
+  "caveats": [
+    "local workflow hygiene only",
+    "not endpoint/status evidence",
+    "not legal effect",
+    "not signature validation",
+    "not supervision",
+    "not listed-entity status evidence",
+    "not public alerting",
+    "not legal review",
+    "not publication approval"
+  ],
+  "changed": true,
+  "heading": "## Pre-gate maintenance cadence limits",
+  "raw_listed_names_intended": false,
+  "status": "ok",
+  "word_count": 262
+}

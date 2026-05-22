@@ -1,0 +1,14 @@
+{
+  "aggregate_results": {
+    "dates": [
+      "2026-05-20",
+      "2026-05-21"
+    ],
+    "diff_change_count_total": 0,
+    "path": "notes/aggregate-results-2026-05-21-output.json",
+    "row_count": 2,
+    "sha256": "40005054ed03d565a6f61798cb55130a67a4cfb6fbd5d5f5a217c3c5adc25977"
+  },
+  "output": "notes/two-date-wording-drift-validation-output.json",
+  "status": "ok"
+}

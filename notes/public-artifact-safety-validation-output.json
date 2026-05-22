@@ -1,0 +1,498 @@
+{
+  "caveat": "Passing this check does not assert legal compliance, trusted-list legal effect, signature validity, supervision, public alerting, or publication readiness.",
+  "created": "2026-05-21T21:32:53.298815+00:00",
+  "error_count": 0,
+  "file_stats": [
+    {
+      "bytes": 1275,
+      "line_count": 24,
+      "path": "bundles/2026-05-20/snapshot-summary.json.bundle/notes.md",
+      "required_presence": {
+        "aggregate-only": true,
+        "does not determine or assert legal status": true,
+        "does not perform cryptographic signature verification": true,
+        "research-only evidence bundle": true
+      },
+      "sha256": "c60fac24ae4184299d2e974d621e3fc1216092124fbcb869e8888cfb753dba54",
+      "word_count": 186
+    },
+    {
+      "bytes": 4968,
+      "line_count": 36,
+      "path": "figures/aggregate-run-telemetry.svg",
+      "required_presence": {
+        "Listed names are intentionally absent from this figure.": true,
+        "Local structural-observation telemetry only": true,
+        "not legal-status determination": true,
+        "not public alerting": true,
+        "not publication approval": true,
+        "not signature validation": true,
+        "not supervision": true,
+        "not trusted-list validation": true
+      },
+      "sha256": "e9ddb46e807ab2d904661d48b34a50eaf1a3c30fceb19396327c8bc358167a6e",
+      "word_count": 773
+    },
+    {
+      "bytes": 4704,
+      "line_count": 33,
+      "path": "figures/aggregate-diff-classes.svg",
+      "required_presence": {
+        "Listed names are intentionally absent from this figure.": true,
+        "Local structural-observation telemetry only": true,
+        "not legal-status determination": true,
+        "not public alerting": true,
+        "not publication approval": true,
+        "not signature validation": true,
+        "not supervision": true,
+        "not trusted-list validation": true
+      },
+      "sha256": "f0ec8f0a5c885f7c9dd95d41dffd08f8af88bbecc50be9b15948ae6a8eb97187",
+      "word_count": 721
+    },
+    {
+      "assumption_count": 3,
+      "bytes": 4048,
+      "kind": "bundle_json",
+      "line_count": 132,
+      "path": "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json",
+      "required_presence": {
+        "No regulated trust-service output is created by this bundle.": true,
+        "Tyche Institute, Tallinn, Estonia": true,
+        "research-only structural observation": true
+      },
+      "schema": "urn:tyche:mirror:bundle:0.1",
+      "sha256": "79212235c4fc8d95be6e62665248f4d8544fa7775e5a19d89fec79df6ccde354",
+      "source_count": 7,
+      "word_count": 355
+    },
+    {
+      "bytes": 2101,
+      "claim_count": 3,
+      "kind": "bundle_json",
+      "line_count": 49,
+      "path": "bundles/2026-05-20/snapshot-summary.json.bundle/claims.json",
+      "required_presence": {
+        "No signature validity or legal effect is asserted.": true,
+        "No trusted-list legal status is inferred.": true,
+        "safe_wording": true
+      },
+      "schema": "urn:tyche:mirror:claims:0.1",
+      "sha256": "ef7217de8797091d6958e48ac9eb15762d3b612ad07f1db7fdcdd388ee16f7a7",
+      "word_count": 245
+    },
+    {
+      "bytes": 726,
+      "existing_output_count": 2,
+      "kind": "bundle_helper_output",
+      "line_count": 16,
+      "missing_input_count": 0,
+      "path": "notes/bundle-generic-existing-guard-output.json",
+      "required_presence": {
+        "not legal-status determination": true,
+        "not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness": true,
+        "research-only structural observation": true,
+        "urn:tyche:cassandra:bundle-run:0.2": true
+      },
+      "schema": "urn:tyche:cassandra:bundle-run:0.2",
+      "sha256": "cd5e2de7b9ef332c0eac05f3bf4c64b0315125e0186cac08cf8ca2463ab2f555",
+      "status": "refused_existing_outputs",
+      "word_count": 82
+    },
+    {
+      "bytes": 766,
+      "existing_output_count": 0,
+      "kind": "bundle_helper_output",
+      "line_count": 18,
+      "missing_input_count": 4,
+      "path": "notes/bundle-generic-missing-inputs-output.json",
+      "required_presence": {
+        "not legal-status determination": true,
+        "not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness": true,
+        "research-only structural observation": true,
+        "urn:tyche:cassandra:bundle-run:0.2": true
+      },
+      "schema": "urn:tyche:cassandra:bundle-run:0.2",
+      "sha256": "06dd24d5b44ecf630334ea01b633038533ce310e5a290064e1ecce68274b51aa",
+      "status": "missing_inputs",
+      "word_count": 92
+    },
+    {
+      "bytes": 1684,
+      "existing_output_count": 0,
+      "kind": "bundle_helper_output",
+      "line_count": 38,
+      "missing_input_count": 0,
+      "path": "notes/bundle-generic-helper-check-output.json",
+      "required_presence": {
+        "missing_inputs": true,
+        "refused_existing_outputs": true,
+        "research-only structural observation": true
+      },
+      "schema": null,
+      "sha256": "6a82c450a387b14eda0ad2e1fe3f47c4a0cefe86cece46232c7e67fe9ba4342b",
+      "status": "ok",
+      "word_count": 179
+    },
+    {
+      "bytes": 9965,
+      "line_count": 5,
+      "path": "alerts.jsonl",
+      "required_presence": {
+        "Machine-readable research telemetry": true,
+        "legal_effect": true,
+        "not asserted": true,
+        "not performed": true,
+        "signature_validation": true
+      },
+      "sha256": "0f97f81c1f4b35bb2c46ab9a13ac157a7f0971d854c8f2643bf6b08b6174fa72",
+      "word_count": 917
+    }
+  ],
+  "findings": [
+    {
+      "category": "risky_phrase_review",
+      "line": 13,
+      "path": "bundles/2026-05-20/snapshot-summary.json.bundle/notes.md",
+      "pattern": "signature verification",
+      "severity": "warning",
+      "snippet": "producing every large raw XML/PDF file. ## Known gaps - The bundle does not perform cryptographic signature verification. - The bundle does not determine or assert legal status for any listed entity or service. - Two end"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 2,
+      "path": "figures/aggregate-run-telemetry.svg",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "t;caveat&quot;: &quot;Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 4,
+      "path": "figures/aggregate-run-telemetry.svg",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "and alert manifests. Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</des"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 8,
+      "path": "figures/aggregate-run-telemetry.svg",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "serif\" font-size=\"12\">Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</tex"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 2,
+      "path": "figures/aggregate-run-telemetry.svg",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-21T21:17:08Z&quot;, &qu"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 4,
+      "path": "figures/aggregate-run-telemetry.svg",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</desc> <rect width=\"100%\" height=\"100%\" fill=\"#0f172a\"/> <text x=\"40"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 8,
+      "path": "figures/aggregate-run-telemetry.svg",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</text> <text x=\"40\" y=\"168\" fill=\"#cbd5e1\" font-family=\"Inter, Arial"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 2,
+      "path": "figures/aggregate-diff-classes.svg",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "t;caveat&quot;: &quot;Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 4,
+      "path": "figures/aggregate-diff-classes.svg",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "ized as local counts. Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</des"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 8,
+      "path": "figures/aggregate-diff-classes.svg",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "serif\" font-size=\"12\">Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</tex"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 2,
+      "path": "figures/aggregate-diff-classes.svg",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-21T21:17:08Z&quot;, &qu"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 4,
+      "path": "figures/aggregate-diff-classes.svg",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</desc> <rect width=\"100%\" height=\"100%\" fill=\"#0f172a\"/> <text x=\"40"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 8,
+      "path": "figures/aggregate-diff-classes.svg",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</text> <text x=\"40\" y=\"168\" fill=\"#cbd5e1\" font-family=\"Inter, Arial"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 11,
+      "path": "notes/bundle-generic-existing-guard-output.json",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "g_inputs\": [], \"research_caveat\": \"Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-serv"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 11,
+      "path": "notes/bundle-generic-existing-guard-output.json",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.\", \"schema\": \"urn:tyche:cassandra:bundl"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 13,
+      "path": "notes/bundle-generic-missing-inputs-output.json",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "-01.json\" ], \"research_caveat\": \"Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-serv"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 13,
+      "path": "notes/bundle-generic-missing-inputs-output.json",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.\", \"schema\": \"urn:tyche:cassandra:bundl"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 13,
+      "path": "notes/bundle-generic-helper-check-output.json",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "puts\": [], \"research_caveat\": \"Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-serv"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 30,
+      "path": "notes/bundle-generic-helper-check-output.json",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "\" ], \"research_caveat\": \"Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-serv"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 13,
+      "path": "notes/bundle-generic-helper-check-output.json",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.\", \"schema\": \"urn:tyche:cassandra:b"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 30,
+      "path": "notes/bundle-generic-helper-check-output.json",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.\", \"schema\": \"urn:tyche:cassandra:b"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 1,
+      "path": "alerts.jsonl",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "ine-readable research telemetry only; do not treat as trusted-list validation, supervisory finding, legal-status determination, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wording\":\"The 2026-0"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 2,
+      "path": "alerts.jsonl",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "ine-readable research telemetry only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 3,
+      "path": "alerts.jsonl",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "ine-readable research telemetry only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 4,
+      "path": "alerts.jsonl",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "ine-readable research telemetry only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 2,
+      "path": "alerts.jsonl",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "s trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wording\":\"The 2026-0"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 3,
+      "path": "alerts.jsonl",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "s trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wording\":\"The 2026-0"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 4,
+      "path": "alerts.jsonl",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "s trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wording\":\"The 2026-0"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 4,
+      "path": "alerts.jsonl",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "ssert legal effect, trusted-list validation, signature validity, supervision, listed-entity status, public alerting, regulated trust-service output, legal review, or publication approval.\",\"keys_with_selected_moveme"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 2,
+      "path": "alerts.jsonl",
+      "pattern": "signature verification",
+      "severity": "warning",
+      "snippet": "try only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wor"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 3,
+      "path": "alerts.jsonl",
+      "pattern": "signature verification",
+      "severity": "warning",
+      "snippet": "try only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wor"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 4,
+      "path": "alerts.jsonl",
+      "pattern": "signature verification",
+      "severity": "warning",
+      "snippet": "try only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wor"
+    },
+    {
+      "category": "alert_schema",
+      "line": 1,
+      "path": "alerts.jsonl",
+      "pattern": "legacy_entry_without_dedupe_key",
+      "severity": "warning",
+      "snippet": "baseline_initialized"
+    }
+  ],
+  "jsonl_stats": {
+    "alerts.jsonl": {
+      "entry_count": 4,
+      "event_types": [
+        "baseline_initialized",
+        "no_structural_diff_observed",
+        "structural_diff_observed"
+      ],
+      "legacy_entries_without_dedupe_key": 1
+    }
+  },
+  "missing_files": [],
+  "missing_required": [],
+  "required_presence_by_path": {
+    "alerts.jsonl": {
+      "Machine-readable research telemetry": true,
+      "legal_effect": true,
+      "not asserted": true,
+      "not performed": true,
+      "signature_validation": true
+    },
+    "bundles/2026-05-20/snapshot-summary.json.bundle/claims.json": {
+      "No signature validity or legal effect is asserted.": true,
+      "No trusted-list legal status is inferred.": true,
+      "safe_wording": true
+    },
+    "bundles/2026-05-20/snapshot-summary.json.bundle/manifest.json": {
+      "No regulated trust-service output is created by this bundle.": true,
+      "Tyche Institute, Tallinn, Estonia": true,
+      "research-only structural observation": true
+    },
+    "bundles/2026-05-20/snapshot-summary.json.bundle/notes.md": {
+      "aggregate-only": true,
+      "does not determine or assert legal status": true,
+      "does not perform cryptographic signature verification": true,
+      "research-only evidence bundle": true
+    },
+    "figures/aggregate-diff-classes.svg": {
+      "Listed names are intentionally absent from this figure.": true,
+      "Local structural-observation telemetry only": true,
+      "not legal-status determination": true,
+      "not public alerting": true,
+      "not publication approval": true,
+      "not signature validation": true,
+      "not supervision": true,
+      "not trusted-list validation": true
+    },
+    "figures/aggregate-run-telemetry.svg": {
+      "Listed names are intentionally absent from this figure.": true,
+      "Local structural-observation telemetry only": true,
+      "not legal-status determination": true,
+      "not public alerting": true,
+      "not publication approval": true,
+      "not signature validation": true,
+      "not supervision": true,
+      "not trusted-list validation": true
+    },
+    "notes/bundle-generic-existing-guard-output.json": {
+      "not legal-status determination": true,
+      "not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness": true,
+      "research-only structural observation": true,
+      "urn:tyche:cassandra:bundle-run:0.2": true
+    },
+    "notes/bundle-generic-helper-check-output.json": {
+      "missing_inputs": true,
+      "refused_existing_outputs": true,
+      "research-only structural observation": true
+    },
+    "notes/bundle-generic-missing-inputs-output.json": {
+      "not legal-status determination": true,
+      "not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness": true,
+      "research-only structural observation": true,
+      "urn:tyche:cassandra:bundle-run:0.2": true
+    }
+  },
+  "schema_version": "cassandra-public-artifact-safety-validator-v0.2",
+  "scope": "bundle notes, bundle manifest/claims JSON, and alert JSONL; local wording/schema check, not legal analysis or publication approval",
+  "status": "ok",
+  "warning_count": 33,
+  "workspace": "/home/anton/projects/cassandra"
+}

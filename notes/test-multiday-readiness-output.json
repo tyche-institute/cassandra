@@ -1,0 +1,8 @@
+{
+  "completed_dates": [
+    "2026-05-20",
+    "2026-05-21"
+  ],
+  "output": "notes/multiday-readiness-validation-output.json",
+  "status": "ok"
+}

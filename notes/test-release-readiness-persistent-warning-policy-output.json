@@ -1,0 +1,34 @@
+{
+  "non_mutation_hashes": {
+    "notes/release-readiness-checklist-validation-output.json": "59af49f7c2bd18d736007e48c5c2cd8af58c17786e9fa17ef012437c11eee034",
+    "notes/release-readiness-warning-report-output.json": "cc122fadf910f6eb4c997455df1f560aecd23596d903fc3674986067ba00c96e"
+  },
+  "result": {
+    "created": "2026-05-21T01:34:33.916673+00:00",
+    "error_count": 0,
+    "errors": [],
+    "note": "notes/release-readiness-persistent-warning-policy.md",
+    "note_sha256": "4fa6ed668df096121b6a4d9358283db6ac2a09e66a180a48eed96f6033dcd7f7",
+    "research_caveat": "Local persistent-warning policy validation only; warning persistence is manual-review context, not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication approval.",
+    "schema": "urn:tyche:cassandra:release-readiness-persistent-warning-policy-validation:0.1",
+    "source_report": "notes/release-readiness-warning-report-output.json",
+    "source_report_sha256": "cc122fadf910f6eb4c997455df1f560aecd23596d903fc3674986067ba00c96e",
+    "status": "ok",
+    "warning_class_count": 9,
+    "warning_classes": [
+      "artifact_index_duplicate_row_current_hash_present",
+      "caveated_alert_risky_phrase",
+      "caveated_bundle_helper_risky_phrase",
+      "caveated_bundle_risky_phrase",
+      "caveated_public_alerting_phrase",
+      "caveated_relying_party_validation_phrase",
+      "caveated_svg_risky_phrase",
+      "legacy_append_only_alert_context",
+      "manual_review_warning"
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "workspace": "/home/anton/projects/cassandra"
+  },
+  "status": "ok"
+}
