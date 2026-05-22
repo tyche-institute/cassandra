@@ -14813,3 +14813,22 @@ Next action: when UTC date reaches `2026-05-23` or later, run the guarded real d
 Post-append verification (2026-05-22T16:45:46Z): `.venv/bin/python notes/validate_artifact_index_current_hashes.py --workspace . --output /tmp/cassandra-artifact-index-current-hash-validation-post.json`; exit code `1`; status `needs_review`, missing_path_count `0`, stale_path_count `1`, duplicate_path_count `125`.
 
 Follow-up artifact-index repair (2026-05-22T16:46:10Z): added a current `HERMES_PROGRESS.md` hash row to `ARTIFACT_INDEX.md` after the first post-append validator correctly reported stale progress hash caused by this iteration's diary append. Re-ran `.venv/bin/python notes/validate_artifact_index_current_hashes.py --workspace . --output /tmp/cassandra-artifact-index-current-hash-validation-final.json`; exit code `0`; status `ok`, missing_path_count `0`, stale_path_count `0`, duplicate_path_count `126`.
+
+
+## 2026-05-22T16:48:53Z — cadence-gated compact validation after exact guard
+
+Performed one bounded gate-state validation because live UTC remains `2026-05-22`, the latest completed local dated lineage remains `2026-05-22`, and the guarded real daily fetch/normalize/diff/bundle/alert workflow is not eligible until `2026-05-23` or later.
+
+- Reconfirmed workspace and exact state-file guard at iteration start: `/home/anton/projects/cassandra`; `PLAN.md`, `HERMES_PROGRESS.md`, `ARTIFACT_INDEX.md`, `SOURCES.md`, and `CLAIMS.md` were present; `BLOCKED.md` was absent. Mature state was preserved and no bootstrap path was taken.
+- Read `PLAN.md` and `SOURCES.md`; read bounded tails/chunks of oversized `HERMES_PROGRESS.md`, `ARTIFACT_INDEX.md`, and `CLAIMS.md` where direct full rendering exceeds tool safety limits; used local validators for full-file hash/state checks.
+- Checked live UTC with `date -u +%Y-%m-%dT%H:%M:%SZ`: `2026-05-22T16:48:53Z`; no public endpoint fetch was eligible.
+- Ran `.venv/bin/python notes/report_daily_cadence_status.py --workspace . --output /tmp/cassandra-daily-cadence-status-current.json`; exit_code `0`, status `ok`, today_complete `True`, completed_date_count `3`, latest_completed_date `2026-05-22`, next_eligible_date `2026-05-23`, warning_count `1`.
+- Ran `.venv/bin/python notes/validate_no_fetch_before_gate.py --workspace . --output /tmp/cassandra-no-fetch-before-gate-current.json`; exit_code `0`, status `ok`, warning_count `0`, error_count `0`, snapshot_output_roots_mutated `[]`.
+- Ran `.venv/bin/python notes/validate_artifact_index_current_hashes.py --workspace . --output /tmp/cassandra-artifact-index-current-hash-validation-current.json`; exit_code `0`, status `ok`, missing_path_count `0`, stale_path_count `0`, duplicate_path_count `126`, ignored_self_output_count `3`.
+- Ran `.venv/bin/python notes/summarize_resumption_state.py --workspace . --output /tmp/cassandra-resumption-state-current.json --markdown /tmp/cassandra-resumption-state-current.md`; exit_code `0`, status `ok`, latest_snapshot_date `2026-05-22`. Temporary `/tmp` outputs were not committed as workspace artifacts.
+- Ran `.venv/bin/python notes/test_resumption_state_summary.py`; exit_code `0`, output_tail ``.
+- Verified pre-append state-register hashes and sizes: `PLAN.md` sha256:68c4cca0acc6495bb10315e9abff24da09e75bdeaf9b34f2ee7f3b8cb4178d5e (103 lines / 4663 bytes), `HERMES_PROGRESS.md` sha256:fe13b6a6b57e63c9d63dcc8ff5281b3a595c5f3d06b64faef51811f15daf3018 (14815 lines / 2720815 bytes), `ARTIFACT_INDEX.md` sha256:574d0e5ac6f61d8bf63e49cc3d1bb4b9855b2f3a736ad9c4babbf2f0431aa01a (4329 lines / 1851395 bytes), `SOURCES.md` sha256:bd216688e77104a57fc95a221462d0405bf78c87ee32064c88bd7d0690046525 (139 lines / 57688 bytes), `CLAIMS.md` sha256:df7aaa9cf65c2c7624bae515dd19509831bcb80fc71e0cc3fd620da056889283 (120 lines / 111975 bytes).
+- Did not fetch public endpoints, overwrite same-date outputs, publish, push, upload, modify sibling workspaces, validate trusted-list signatures as a relying party, supervise trusted lists, determine listed-entity status, clear warnings, perform legal review, approve publication, or create regulated trust-service output.
+
+Next action: when UTC date reaches `2026-05-23` or later, run the guarded real daily fetch/normalize/diff/bundle/alert workflow; before that, prefer a compact gate-state exit or one bounded aggregate-only maintenance action only if it avoids repeated same-output refresh churn.
+
