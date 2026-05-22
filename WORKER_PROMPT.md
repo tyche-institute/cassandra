@@ -147,6 +147,42 @@ HALT: yes        # include this line to stop the outer loop
 Without `HALT`, the outer loop will keep waking you. Use HALT only
 when no future iteration could make progress without operator action.
 
+## Completion — recognise when the lane is DONE
+
+A lane is **not** an infinite job. It has a deliverable: ONE paper of
+its own — `paper/draft.md` — with its evidence bundle and supporting
+artifacts. When that paper is finished, the lane is DONE and must STOP.
+
+**The paper is finished when ALL of these hold:**
+
+- It has a real abstract, a structured body presenting the lane's own
+  findings, and a conclusion that states a defensible position.
+- It is the length of a research paper: **6,000–14,000 words**. A
+  `paper/draft.md` over ~15,000 words is bloated — your next iterations
+  must CUT and consolidate, never expand. Over ~25,000 words is a
+  runaway failure: cutting it back to the cap is then your only task.
+- Compliance rails / banned names are clean (zero hits).
+- Every substantive claim traces to a source; the evidence bundle
+  verifies.
+
+**When the paper is finished, STOP.** Write `BLOCKED.md` with
+`Reason: lane deliverable complete` and the `HALT: yes` line. This is a
+*successful* terminus, not a failure. Do not start new work.
+
+**Busywork is forbidden — it is the signal that you are already DONE.**
+If an iteration would only re-verify, re-check, replay, "guard",
+snapshot, or re-confirm already-verified state — or would create a file
+whose name contains `recheck`, `replay`, `guard`, `boundary`,
+`stability`, `snapshot`, `diagnostic`, `no-op`, a `layer-N` expansion,
+or a running sequence index (`a591`, `bound-1208`, micro-preprint
+`0713`) — then the substantive work is over. Do NOT write that file.
+Write the completion `HALT` instead.
+
+You produce ONE capped paper, well, and then you stop. Endless
+verification passes, per-iteration "slices", combinatorial vector
+enumeration, and micro-preprint mills are not the deliverable — they
+are the failure mode this section exists to prevent.
+
 ## Tooling defaults
 
 - Python: prefer `uv` if available, else venv. Pin versions in
