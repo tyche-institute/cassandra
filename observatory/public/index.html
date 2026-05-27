@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cassandra Observatory</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Cassandra Observatory</p>
+        <h1>From governance infrastructure to evidence infrastructure</h1>
+      </div>
+      <div class="status-block">
+        <span id="lastUpdated">Loading</span>
+        <a href="./data/index.json">index.json</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="metric-grid" aria-label="Current observatory metrics">
+        <article class="metric">
+          <span class="metric-label">Latest Run</span>
+          <strong id="metricLatest">-</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Runs</span>
+          <strong id="metricRuns">-</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Diff Entries</span>
+          <strong id="metricDiffs">-</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">EATF Verified</span>
+          <strong id="metricEatf">-</strong>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Observation Timeline</h2>
+          <span id="claimBoundary" class="subtle"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Fetched</th>
+                <th>Normalized</th>
+                <th>Records</th>
+                <th>Diffs</th>
+                <th>Event</th>
+                <th>EATF</th>
+              </tr>
+            </thead>
+            <tbody id="runsTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="chart-grid" aria-label="Aggregate figures">
+        <figure>
+          <img src="./data/figures/aggregate-run-telemetry.svg" alt="Aggregate Cassandra run telemetry chart" />
+        </figure>
+        <figure>
+          <img src="./data/figures/aggregate-diff-classes.svg" alt="Aggregate Cassandra diff class telemetry chart" />
+        </figure>
+      </section>
+
+      <section class="panel evidence-panel">
+        <div>
+          <h2>Latest Evidence Package</h2>
+          <dl id="latestEvidence"></dl>
+        </div>
+        <p id="caveat" class="caveat"></p>
+      </section>
+    </main>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

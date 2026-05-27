@@ -1,0 +1,260 @@
+name: Cassandra Observatory
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Observation date, YYYY-MM-DD. Defaults to current UTC date."
+        required: false
+      run_fetch:
+        description: "Fetch a fresh dated observation if it does not already exist."
+        type: boolean
+        default: true
+        required: false
+      package_all_existing:
+        description: "Backfill EATF packages for every existing dated snapshot."
+        type: boolean
+        default: true
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cassandra-observatory
+  cancel-in-progress: false
+
+jobs:
+  observe-package-deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+      CASSANDRA_EATF_PRIVATE_KEY_PEM: ${{ secrets.CASSANDRA_EATF_PRIVATE_KEY_PEM }}
+      CASSANDRA_EATF_PUBLIC_KEY_PEM: ${{ secrets.CASSANDRA_EATF_PUBLIC_KEY_PEM }}
+      CASSANDRA_EATF_TIMESTAMP_TSR_BASE64: ${{ secrets.CASSANDRA_EATF_TIMESTAMP_TSR_BASE64 }}
+
+    steps:
+      - name: Checkout Cassandra
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve run date
+        id: run_date
+        shell: bash
+        run: |
+          set -euo pipefail
+          INPUT_DATE="${{ github.event.inputs.date }}"
+          if [ -n "$INPUT_DATE" ]; then
+            DATE="$INPUT_DATE"
+          else
+            DATE="$(date -u +%F)"
+          fi
+          python - <<PY
+          import datetime as dt
+          dt.date.fromisoformat("$DATE")
+          PY
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "Run date: $DATE"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          python -m pip install lxml requests requests-cache signxml
+
+      - name: Run observation lane
+        shell: bash
+        env:
+          DATE: ${{ steps.run_date.outputs.date }}
+          RUN_FETCH: ${{ github.event.inputs.run_fetch }}
+        run: |
+          set -euo pipefail
+          if [ -z "${RUN_FETCH:-}" ]; then
+            RUN_FETCH=true
+          fi
+          if [ "$RUN_FETCH" != "false" ]; then
+            if [ -f "snapshots/$DATE/manifest.json" ]; then
+              python run_daily.py \
+                --workspace . \
+                --date "$DATE" \
+                --dry-run \
+                --output "notes/daily-run-$DATE-dry-run.json"
+            else
+              python run_daily.py \
+                --workspace . \
+                --date "$DATE" \
+                --output "notes/daily-run-$DATE-output.json"
+            fi
+          fi
+          if [ -f "snapshots/$DATE/manifest.json" ]; then
+            python create_bundle.py \
+              --workspace . \
+              --date "$DATE" \
+              --allow-existing \
+              --output "notes/bundle-$DATE-output.json"
+            python alert_rollup.py \
+              --workspace . \
+              --date "$DATE" \
+              --output "notes/alert-rollup-$DATE-output.json"
+          else
+            echo "::warning::No snapshot exists for $DATE; aggregate/dashboard refresh will use existing dates."
+          fi
+
+      - name: Refresh aggregate outputs and figures
+        shell: bash
+        env:
+          DATE: ${{ steps.run_date.outputs.date }}
+        run: |
+          set -euo pipefail
+          python notes/aggregate_results.py \
+            --workspace . \
+            --output "notes/aggregate-results-$DATE-output.json" \
+            --csv notes/aggregate-results-table.csv
+          python notes/render_aggregate_figures.py \
+            --workspace . \
+            --aggregate-json "notes/aggregate-results-$DATE-output.json" \
+            --aggregate-csv notes/aggregate-results-table.csv \
+            --output "notes/figure-render-$DATE-output.json" \
+            --figures-dir figures
+          python notes/validate_aggregate_results.py \
+            --workspace . \
+            --aggregate-json "notes/aggregate-results-$DATE-output.json" \
+            --aggregate-csv notes/aggregate-results-table.csv \
+            --output "notes/aggregate-results-$DATE-validation-output.json"
+          python notes/validate_figure_artifacts.py \
+            --workspace . \
+            --render-output "notes/figure-render-$DATE-output.json" \
+            --output "notes/figure-render-$DATE-validation-output.json"
+
+      - name: Clone EATF tooling
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .eatf
+          git clone --depth 1 https://github.com/tyche-institute/eatf.git .eatf
+          npm ci --prefix .eatf/lib
+          npm ci --prefix .eatf/cli/eatf-sign
+          npm ci --prefix .eatf/cli/eatf-verify
+
+      - name: Package EATF evidence
+        shell: bash
+        env:
+          DATE: ${{ steps.run_date.outputs.date }}
+        run: |
+          set -euo pipefail
+          mkdir -p .github-tmp/eatf
+          KEY_ARGS=()
+          SIGNING_PROFILE="unsigned"
+          if [ -n "${CASSANDRA_EATF_PRIVATE_KEY_PEM:-}" ] && [ -n "${CASSANDRA_EATF_PUBLIC_KEY_PEM:-}" ]; then
+            printf '%s\n' "$CASSANDRA_EATF_PRIVATE_KEY_PEM" > .github-tmp/eatf/private.pem
+            printf '%s\n' "$CASSANDRA_EATF_PUBLIC_KEY_PEM" > .github-tmp/eatf/public.pem
+            chmod 600 .github-tmp/eatf/private.pem
+            KEY_ARGS=(--key .github-tmp/eatf/private.pem --public-key .github-tmp/eatf/public.pem)
+            SIGNING_PROFILE="github-secret:cassandra-eatf-key"
+          else
+            echo "::warning::CASSANDRA_EATF_PRIVATE_KEY_PEM/PUBLIC_KEY_PEM are missing; writing an explicit unsigned receipt."
+          fi
+
+          if [ -n "${CASSANDRA_EATF_TIMESTAMP_TSR_BASE64:-}" ]; then
+            printf '%s' "$CASSANDRA_EATF_TIMESTAMP_TSR_BASE64" | base64 -d > .github-tmp/eatf/timestamp.tsr
+            TIMESTAMP_ARG=".github-tmp/eatf/timestamp.tsr"
+            TIMESTAMP_LABEL="github-secret:CASSANDRA_EATF_TIMESTAMP_TSR_BASE64"
+          else
+            TIMESTAMP_ARG=".eatf/test-vectors/valid/valid-overt-profile/package.aep:timestamp.tsr"
+            TIMESTAMP_LABEL="eatf-test-vector:valid-overt-profile/timestamp.tsr"
+            echo "::notice::Using EATF fixture timestamp. Configure CASSANDRA_EATF_TIMESTAMP_TSR_BASE64 for production timestamps."
+          fi
+
+          if [ -f "snapshots/$DATE/manifest.json" ]; then
+            PACKAGE_ALL="${{ github.event.inputs.package_all_existing }}"
+            if [ -z "${PACKAGE_ALL:-}" ]; then
+              PACKAGE_ALL=true
+            fi
+            if [ "$PACKAGE_ALL" = "true" ]; then
+              mapfile -t DATES_TO_PACKAGE < <(find snapshots -mindepth 1 -maxdepth 1 -type d -name '????-??-??' -printf '%f\n' | sort)
+            else
+              DATES_TO_PACKAGE=("$DATE")
+            fi
+            for RUN_DATE in "${DATES_TO_PACKAGE[@]}"; do
+              if [ -f "evidence/$RUN_DATE/eatf-verification.json" ] && python - "$RUN_DATE" "$SIGNING_PROFILE" <<'PY'
+          import json
+          import pathlib
+          import sys
+          date, expected = sys.argv[1:3]
+          receipt = pathlib.Path("evidence") / date / "eatf-verification.json"
+          data = json.loads(receipt.read_text(encoding="utf-8"))
+          target = "skipped_missing_signing_inputs" if expected == "unsigned" else "ok"
+          ok = data.get("status") == target and data.get("signing_profile") == expected
+          raise SystemExit(0 if ok else 1)
+          PY
+              then
+                echo "EATF package already current for $RUN_DATE"
+                continue
+              fi
+              python scripts/eatf_package_snapshot.py \
+                --workspace . \
+                --date "$RUN_DATE" \
+                --out-dir evidence \
+                --eatf-root .eatf \
+                "${KEY_ARGS[@]}" \
+                --timestamp "$TIMESTAMP_ARG" \
+                --timestamp-label "$TIMESTAMP_LABEL" \
+                --signing-profile "$SIGNING_PROFILE" \
+                --output "notes/eatf-package-$RUN_DATE-output.json"
+            done
+          else
+            echo "::warning::Skipping EATF packaging because no snapshot exists for $DATE."
+          fi
+
+      - name: Build public observatory data
+        shell: bash
+        env:
+          DATE: ${{ steps.run_date.outputs.date }}
+        run: |
+          set -euo pipefail
+          python scripts/build_observatory_index.py \
+            --workspace . \
+            --public-dir observatory/public \
+            --aggregate-json "notes/aggregate-results-$DATE-output.json" \
+            --output "notes/observatory-index-$DATE-output.json"
+
+      - name: Commit refreshed artifacts
+        shell: bash
+        env:
+          DATE: ${{ steps.run_date.outputs.date }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add alerts.jsonl baselines bundles diffs evidence figures normalized notes observatory/public/data snapshots
+          if git diff --cached --quiet; then
+            echo "No observatory artifact changes to commit."
+          else
+            git commit -m "data: refresh cassandra observatory $DATE"
+            git push
+          fi
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          PROJECT="${CLOUDFLARE_PROJECT_NAME:-cassandra-observatory}"
+          npx --yes wrangler@latest pages deploy observatory/public --project-name "$PROJECT" --branch main
+
+      - name: Cloudflare deployment notice
+        if: ${{ env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == '' }}
+        shell: bash
+        run: |
+          echo "::notice::Cloudflare deploy skipped. Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets to enable production deployment."

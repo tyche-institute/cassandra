@@ -1,0 +1,16 @@
+{
+  "action_type": "cassandra.public-trust-list-observation",
+  "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory",
+  "attestation_id": "att_cassandra_2026_05_27",
+  "case_study": "Cassandra: from governance infrastructure to evidence infrastructure.",
+  "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
+  "created_at": "2026-05-27T14:58:44Z",
+  "policy": {
+    "disclosure": "hashes, counts, paths, and cautious claim boundary only",
+    "purpose": "research evidence packaging",
+    "retention": "commit history and public observatory artifact"
+  },
+  "schema": "urn:tyche:cassandra:eatf-observation-package:0.1",
+  "signing_profile": "dev-local-fixture",
+  "tenant_id": "tyche-research"
+}
