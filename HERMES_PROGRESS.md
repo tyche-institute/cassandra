@@ -15232,3 +15232,14 @@ Next action: create `paper/related-work-card.md`, create `notes/case-study-matur
 - Claim boundary: scaffolding only; no legal-status, signature-validity, supervision, public-alerting, deployment, endorsement, or publication-approval claim.
 - 2026-05-27T17:23:59Z: Refreshed aggregate-only naming validator after related-work section insertion; output `notes/paper-aggregate-only-naming-validation-output.json` status ok and artifact-index row appended.
 - 2026-05-27T17:24:39Z: Reran full aggregate-only naming validator after initial unit-test output overwrite; current validation output hash recorded in append-only artifact index.
+
+
+## 2026-05-27T17:25:59Z — Publication-status discipline card
+
+- Added `notes/publication-status-discipline.md` to separate working drafts, local evidence artifacts, public dashboard data, synthetic fixtures, preprints, submitted manuscripts, internal/prototype cases, and operator-approved releases.
+- Patched `paper/draft.md` operator-review section to cite the discipline explicitly.
+- Validation output: `notes/publication-status-discipline-validation-output.json`.
+- Claim boundary: review scaffold only; no publication approval, legal review, signature validation, supervision, listed-entity status determination, public alerting, deployment, or endorsement claim.
+- 2026-05-27T17:26:20Z: Corrected publication-status validation boundary phrase and appended current artifact-index hashes.
+- 2026-05-27T17:26:38Z: Rewrote publication-status validation output without embedding its own hash to avoid self-referential hash churn; current output hash appended to artifact index.
+- 2026-05-27T17:26:55Z: Refreshed aggregate-only naming validator after publication-status section insertion; current output hash appended to artifact index.

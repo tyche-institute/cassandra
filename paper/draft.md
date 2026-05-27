@@ -152,6 +152,8 @@ This check is useful because the draft's default explanatory units should remain
 
 ## Operator review gates and non-publication status
 
+Publication-status discipline is part of the method. `notes/publication-status-discipline.md` separates working drafts, local evidence artifacts, public dashboard data, synthetic fixtures, preprints, submitted manuscripts, internal/prototype cases, and operator-approved releases. That separation prevents hashes, receipts, validator output, or dashboard availability from being read as publication approval, legal review, deployment endorsement, public alerting, or trusted-list status determination.
+
 Cassandra's artifacts are useful only if they remain visibly separated from publication and service-provision decisions. The lane can collect public documents, preserve hashes, normalize XML, compare local records, render aggregate figures, and draft cautious explanatory prose. It should not decide whether a result is publishable, whether a named example is acceptable, or whether a structural observation has legal, supervisory, or reliance significance. Those decisions require operator review outside the autonomous worker loop.
 
 The first review gate is named-entity use. Machine-readable records may contain names or source strings that appear in public XML, but narrative prose should stay aggregate-only unless the operator explicitly approves a case study and its wording. A proposed case study should identify the local artifact path, the exact diff class, the evidence bundle, and the reason the example is necessary. Even then, the text should describe document structure rather than the status, compliance, quality, or trustworthiness of any provider, service, authority, or scheme.

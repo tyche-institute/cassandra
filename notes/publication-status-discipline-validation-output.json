@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "created_at": "2026-05-27T17:26:38+00:00",
+  "checks": {
+    "card_exists": true,
+    "draft_references_card": true,
+    "status_labels_present": true,
+    "external_gate_present": true,
+    "claim_boundary_present": true
+  },
+  "claim_boundary": "Publication-status discipline is a review scaffold only; it does not approve publication, perform legal review, validate signatures, supervise trusted lists, determine listed-entity status, provide public alerting, or claim deployment/endorsement.",
+  "files": [
+    {
+      "path": "notes/publication-status-discipline.md",
+      "sha256": "b12a7eb6f099a3dc83885e14943a8846a206be24d805b389c1c6cc340f96b90a",
+      "size_bytes": 4974
+    },
+    {
+      "path": "paper/draft.md",
+      "sha256": "273581a2521f2d77377247f4fcb7491f95f733f67a7a7044539bc11504803ce7",
+      "size_bytes": 74497
+    }
+  ],
+  "hash_cycle_note": "This validation output does not embed its own hash; ARTIFACT_INDEX.md records the current validation-output hash to avoid a self-referential hash cycle."
+}
