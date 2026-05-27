@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T18:20:50.487193+00:00",
+  "created": "2026-05-27T18:33:49.584472+00:00",
   "error_count": 0,
   "errors": [],
   "groups": {
@@ -201,15 +201,22 @@
         "boundary_fragment_count": 11,
         "exists": true,
         "path": "notes/preprint-deposit-metadata-draft-2026-05-27.md",
-        "sha256": "ff305bbaaf48ffe33069bc704801a6f6afb88c5959dd77e20fa2211a282d10c1",
-        "size_bytes": 6660
+        "sha256": "0c30d35103c84a540318a8c0933d07b19ad342e46735782f41a741ea815c2fbc",
+        "size_bytes": 6745
+      },
+      {
+        "exists": true,
+        "json_ok": true,
+        "path": "notes/preprint-deposit-metadata-draft-2026-05-27.json",
+        "sha256": "4a2bf20d3e7b32e70bd4ef5d7aec35fa5904ff8cad76b69f006592cb0a3e5593",
+        "size_bytes": 6216
       },
       {
         "exists": true,
         "json_ok": true,
         "path": "notes/preprint-deposit-metadata-validation-output.json",
-        "sha256": "acac02ee5ced41e1ac5bbef90ffb7f0fbf7b29bbcbb7e6810f34de7df0d7a8ee",
-        "size_bytes": 509
+        "sha256": "da3190c4c72724e7f913aea6ef52a9741d7826b5c2ca4ebff382b7aab0c4b7f4",
+        "size_bytes": 643
       },
       {
         "boundary_fragment_count": 8,
@@ -222,8 +229,8 @@
         "boundary_fragment_count": 7,
         "exists": true,
         "path": "notes/validate_preprint_deposit_metadata_draft.py",
-        "sha256": "9b5fe099da2f640808581ac472590bd030ca918e0b8ed1e74fba9b3a321d8b0b",
-        "size_bytes": 4408
+        "sha256": "31fdb1b03650a64432c86719b6160b96457292e5f6371baf3b7eb62b4b4a42a3",
+        "size_bytes": 7772
       },
       {
         "boundary_fragment_count": 5,
@@ -350,8 +357,8 @@
       }
     ]
   },
-  "present_file_count": 48,
-  "required_file_count": 48,
+  "present_file_count": 49,
+  "required_file_count": 49,
   "research_caveat": "Publication-kit inventory check only; not trusted-list validation, source-signature validation, legal-status determination, supervision, compliance judgment, public alerting, endorsement, legal review, or publication approval.",
   "schema": "urn:tyche:cassandra:publication-case-kit-readiness:0.1",
   "status": "ok",

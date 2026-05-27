@@ -33,6 +33,8 @@ Primary local manuscript path: `paper/preprint/cassandra-preprint-v0.1.md`
 
 Rendered local files: `paper/preprint/cassandra-preprint-v0.1.pdf`; `paper/preprint/cassandra-preprint-v0.1.docx`
 
+Machine-readable companion: `notes/preprint-deposit-metadata-draft-2026-05-27.json`
+
 Review packet: `notes/preprint-review-packet-2026-05-27.md`
 
 Reference-control ledger: `notes/cassandra-checked-reference-ledger-2026-05-27.md`

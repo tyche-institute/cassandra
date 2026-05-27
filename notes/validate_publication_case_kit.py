@@ -43,6 +43,7 @@ REQUIRED_FILES = {
         "notes/preprint-review-packet-2026-05-27.md",
         "notes/preprint-review-packet-validation-output.json",
         "notes/preprint-deposit-metadata-draft-2026-05-27.md",
+        "notes/preprint-deposit-metadata-draft-2026-05-27.json",
         "notes/preprint-deposit-metadata-validation-output.json",
         "notes/validate_preprint_review_packet.py",
         "notes/validate_preprint_deposit_metadata_draft.py",

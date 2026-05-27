@@ -15375,3 +15375,14 @@ Completed bounded preprint deposit-metadata draft unit:
 - Did not upload, deposit, reserve DOI, fetch live endpoints, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
 
 Next action: update artifact hashes, commit and push the deposit-metadata draft unit, then continue only if `STOP_CASSANDRA_HERMES` remains absent.
+
+### 2026-05-27T18:29:00Z
+
+Finalized bounded preprint deposit-metadata draft unit for commit:
+- Added and validated the machine-readable companion `notes/preprint-deposit-metadata-draft-2026-05-27.json` referenced by the Markdown draft.
+- Refreshed `notes/validate_preprint_deposit_metadata_draft.py` and `notes/validate_publication_case_kit.py` outputs after indexing the JSON companion; deposit metadata validation status `ok`, error_count `0`, warning_count `0`; publication/case-study kit readiness status `ok`, required_file_count `49`, present_file_count `49`, warning_count `0`.
+- Updated `ARTIFACT_INDEX.md` with current hashes for the deposit metadata draft, JSON companion, validators, and final validation outputs.
+- Ran `python3 -m py_compile notes/validate_preprint_deposit_metadata_draft.py notes/validate_publication_case_kit.py notes/validate_artifact_index_current_hashes.py`, deposit metadata validation, publication-kit readiness validation, ARTIFACT_INDEX current-hash validation, and `git diff --check`; all required verification commands exited 0 after hash indexing.
+- Did not upload or deposit the preprint, reserve a DOI, fetch live endpoints, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
+
+Next action: commit and push the deposit-metadata draft unit, then continue with a fresh bounded unit if `STOP_CASSANDRA_HERMES` remains absent.

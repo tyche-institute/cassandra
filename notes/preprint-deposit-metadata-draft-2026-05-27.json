@@ -1,0 +1,97 @@
+{
+  "schema": "urn:tyche:cassandra:preprint-deposit-metadata-draft:0.1",
+  "date": "2026-05-27",
+  "status": "operator-review required; draft only; no upload action",
+  "claim_boundary": {
+    "purpose": "Local deposit-metadata planning aid only; not trusted-list validation, not source-signature validation, not supervision, and not public alerting.",
+    "does_not_do": [
+      "request DOI",
+      "upload or transmit repository, dashboard, artifact, or manuscript files",
+      "approve publication",
+      "complete legal review",
+      "validate trusted lists",
+      "validate source signatures for relying-party purposes",
+      "determine provider or service legal status",
+      "supervise trust services",
+      "issue public alerts",
+      "assert compliance",
+      "claim endorsement from cited organizations"
+    ]
+  },
+  "metadata": {
+    "title": "Cassandra: From Governance Infrastructure to Evidence Infrastructure",
+    "creators": [
+      {
+        "name": "Anton Sokolov",
+        "affiliation": "Tyche Institute, Tallinn, Estonia"
+      }
+    ],
+    "version": "v0.1 preprint candidate",
+    "resource_type": "Preprint / working paper candidate",
+    "language": "English",
+    "license_planning_note": "To be chosen by operator before deposit. Default planning option: CC BY 4.0 for text only if rights review allows it; otherwise leave rights unspecified until cleared.",
+    "description": "Cassandra is a bounded research observatory for public LOTL-derived trusted-list artifacts. It records dated collection attempts, normalizes comparable XML artifacts, emits aggregate structural diff classes, packages evidence objects, exposes a caveated dashboard index, and records EATF/AEP receipt metadata. The core contribution is methodological: Cassandra shows how public governance artifacts can become reproducible evidence infrastructure while preserving the boundary between evidence integrity and legal interpretation.",
+    "abstract": "Public-key infrastructure is governance infrastructure as well as cryptographic substrate: certificates, policies, revocation channels, trusted lists, audits, supervisory conventions, and software distribution coordinate digital trust. Cassandra studies one public surface of that infrastructure: European list-of-lists-derived trusted-list artifacts. The system records dated collection attempts, normalizes comparable XML artifacts, emits structural diff classes, packages local evidence bundles, exposes aggregate dashboard data, and attaches EATF/AEP receipt metadata to evidence packages. The case demonstrates a movement from governance infrastructure to evidence infrastructure: public legal-technical artifacts can be observed, hashed, bundled, displayed, and independently checked while preserving the distinction between evidence integrity and legal interpretation. Cassandra is not a trusted-list validator, not a relying-party source-signature validator, not a supervisory tool, and not a public alerting system. It is a bounded methodological case for reproducible public-governance-artifact observation and for adjacent AI-governance evidence discussions.",
+    "keywords": [
+      "evidence infrastructure",
+      "public-key infrastructure",
+      "trusted lists",
+      "eIDAS",
+      "EATF",
+      "MIRROR",
+      "digital government",
+      "computational public administration",
+      "reproducibility",
+      "AI governance",
+      "structural observation",
+      "public governance artifacts"
+    ]
+  },
+  "local_files": {
+    "primary_manuscript": "paper/preprint/cassandra-preprint-v0.1.md",
+    "rendered_files": [
+      "paper/preprint/cassandra-preprint-v0.1.pdf",
+      "paper/preprint/cassandra-preprint-v0.1.docx"
+    ],
+    "review_packet": "notes/preprint-review-packet-2026-05-27.md",
+    "reference_control_ledger": "notes/cassandra-checked-reference-ledger-2026-05-27.md",
+    "status_control_note": "notes/publication-status-discipline.md"
+  },
+  "related_identifiers_to_verify_before_deposit": [
+    {
+      "label": "Repository URL candidate",
+      "value": "https://github.com/sapsan14/cassandra",
+      "pre_use_check": "Verify current publicness and intended citation posture before use."
+    },
+    {
+      "label": "Dashboard URL candidate",
+      "value": "https://cassandra-observatory.pages.dev/",
+      "pre_use_check": "Verify current deployment and public index contents before use."
+    },
+    {
+      "label": "Public data index candidate",
+      "value": "https://cassandra-observatory.pages.dev/data/index.json",
+      "pre_use_check": "Verify latest_date, run_count, and eatf_verified_count before use."
+    }
+  ],
+  "files_to_attach_only_after_operator_approval": [
+    "paper/preprint/cassandra-preprint-v0.1.pdf",
+    "paper/preprint/cassandra-preprint-v0.1.docx",
+    "paper/preprint/cassandra-preprint-v0.1.md",
+    "notes/fixture-to-claim-map.md",
+    "notes/publication-case-kit-readiness-output.json"
+  ],
+  "pre_deposit_checklist": [
+    "Operator chooses target venue or repository and confirms that deposit metadata is wanted.",
+    "Operator confirms license, rights, and any employment/IP/confidentiality constraints.",
+    "Live repository URL, dashboard URL, and public index are rechecked on the actual deposit date.",
+    "Manuscript PDF/DOCX/Markdown are regenerated after any edits and revalidated.",
+    "notes/preprint-review-packet-2026-05-27.md blockers are reviewed and either resolved or explicitly accepted as limitations.",
+    "References are restricted to notes/cassandra-checked-reference-ledger-2026-05-27.md or newly checked ledger entries.",
+    "No provider-specific trusted-list prose is introduced without separate approval.",
+    "Abstract and keywords are adjusted to match the final target's metadata fields.",
+    "External identifiers and adjacent-project status labels are rechecked immediately before use.",
+    "A final no-secrets/no-private-data/no-overclaim scan is run before any manual upload."
+  ],
+  "future_agent_rule": "Do not use this JSON file as permission to deposit. Safe autonomous action is editing and validating local drafts only; upload, DOI reservation, public release note, or venue routing requires explicit operator approval."
+}
