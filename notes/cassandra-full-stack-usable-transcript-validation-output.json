@@ -1,13 +1,13 @@
 {
-  "bytes": 25278,
+  "bytes": 25623,
   "claim_boundary_note": "Transcript validation checks structure and local artifact references only; it is not legal review, publication approval, trusted-list validation, signature validation, supervision, public alerting, or listed-entity status evidence.",
-  "line_count": 405,
+  "line_count": 409,
   "missing_referenced_path_count": 0,
   "missing_referenced_paths": [],
   "missing_required_sections": [],
   "path": "notes/cassandra-full-stack-usable-transcript-2026-05-27.md",
   "required_section_count": 9,
-  "sha256": "22d61ad549e503e8fb2e82876465bfdb3a15a9f9ff8136604d30d1bd4b8a311d",
+  "sha256": "f8d2b25231d9285c4f5695e72f8cb8df549b8f0f6a1df21c16d45f9890742bed",
   "status": "ok",
   "warnings": []
 }

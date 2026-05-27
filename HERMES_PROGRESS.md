@@ -15196,3 +15196,16 @@ Created the full-stack usable transcript requested by the operator directive:
 - Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
 
 Next action: consolidate `paper/draft.md` into a cleaner 6k-8k word submission narrative using the transcript and existing cards, or add the remaining EATF success/tamper fixtures with synthetic non-secret inputs.
+
+### 2026-05-27T17:18:00Z
+
+Added synthetic EATF success/tamper fixture coverage:
+- Confirmed `STOP_CASSANDRA_HERMES` remained absent and `origin/main` was up to date after the transcript commit; unrelated untracked `logs/` remained unstaged.
+- Added `notes/test_eatf_success_tamper_fixture.py`. The fixture creates a temporary minimal Cassandra workspace, writes a fake local EATF sign/verify CLI, uses non-secret fixture key files and a fixture timestamp token, runs `scripts/eatf_package_snapshot.py`, and asserts an `ok` package receipt.
+- The same fixture tampers with the synthetic AEP package and asserts that the fake verifier returns `valid: false` / `verify_failed`.
+- Captured validation output in `notes/eatf-success-tamper-fixture-validation-output.json`; status `ok`; tested cases `eatf_success_fixture` and `eatf_tamper_fixture`.
+- Updated `notes/fixture-matrix.md` and refreshed `notes/cassandra-full-stack-usable-transcript-2026-05-27.md` / validation output so the transcript no longer lists EATF success/tamper as gaps.
+- Updated `ARTIFACT_INDEX.md` with hashes for the new fixture test, validation output, fixture matrix, and refreshed transcript validation.
+- Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
+
+Next action: consolidate `paper/draft.md` into a cleaner 6k-8k word submission narrative using the transcript and cards, or add a small dashboard-card consumer/reviewer fixture if the dashboard cards become a cited surface.

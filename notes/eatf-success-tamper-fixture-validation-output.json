@@ -1,0 +1,11 @@
+{
+  "caveat": "Synthetic EATF success/tamper fixture for Cassandra package handling only; not trusted-list validation, signature validation, legal-status determination, supervision, compliance, public alerting, or publication approval.",
+  "signing_profile": "fixture:synthetic-non-secret-key",
+  "status": "ok",
+  "success_receipt_status": "ok",
+  "tamper_expected_status": "verify_failed",
+  "tested_cases": [
+    "eatf_success_fixture",
+    "eatf_tamper_fixture"
+  ]
+}

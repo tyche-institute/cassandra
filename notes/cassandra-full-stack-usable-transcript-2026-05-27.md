@@ -293,11 +293,15 @@ Current implemented fixture classes include:
 | Dashboard multistate | Small public index with multiple run states. | `notes/test_dashboard_public_index_fixture.py`, `notes/fixtures/dashboard-public-index-multistate.json` |
 | Claim safety | Forbidden wording scanner catches overclaiming. | `notes/test_claim_safety_fixture.py`, `notes/fixtures/claim-safety-wording-fixtures.json` |
 
+Recent fixture expansion note:
+
+- EATF success and tamper fixtures are now covered by `notes/test_eatf_success_tamper_fixture.py` and `notes/eatf-success-tamper-fixture-validation-output.json` using synthetic non-secret inputs and a fake local EATF CLI.
+- The success fixture checks package-wrapper handling of an `ok` receipt; the tamper fixture alters the synthetic AEP and expects `verify_failed`.
+
 Remaining high-value fixture gaps:
 
-- EATF success fixture with a minimal synthetic package verifying `ok`.
-- EATF tamper fixture with altered payload or AEP failing verification.
 - Broader dashboard card pack fixture if dashboard cards become a cited reviewer surface.
+- Optional fixture documentation that maps each fixture directly to a paper claim row.
 
 Fixture claim boundary: fixtures prove expected software behavior on synthetic inputs. They do not validate any real trusted list, provider, service, legal status, source signature, or compliance claim.
 
