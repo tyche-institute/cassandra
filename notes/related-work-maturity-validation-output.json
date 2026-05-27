@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "created_at": "2026-05-27T17:23:24+00:00",
+  "checks": {
+    "related_work_card_exists": true,
+    "maturity_matrix_exists": true,
+    "draft_has_related_work_section": true,
+    "draft_has_core_sentence": true,
+    "matrix_marks_unknown_kolmogorov": true,
+    "status_discipline_present": true
+  },
+  "claim_boundary": "Related-work and maturity materials are thesis/paper scaffolds only; they do not assert legal status, signature validity, supervision, public alerting, publication approval, deployment, endorsement, or compliance.",
+  "files": [
+    {
+      "path": "paper/related-work-card.md",
+      "sha256": "183b19b44080ec57ab4cef5b69c520d8ef9460b0250988979af13c2f4b8c79cd",
+      "size_bytes": 8038
+    },
+    {
+      "path": "notes/case-study-maturity-matrix.md",
+      "sha256": "ff19bff7db7255700d0e0afc4490097f979ff85022c15681dd3529deb358e63c",
+      "size_bytes": 9163
+    },
+    {
+      "path": "paper/draft.md",
+      "sha256": "12e3d49cda4b69b3d5b9cf9ad8c896581fd616dc8168e9a81f947992749493f9",
+      "size_bytes": 73994
+    }
+  ]
+}

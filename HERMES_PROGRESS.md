@@ -15221,3 +15221,14 @@ Added thesis/reference expansion layer after operator requested heavier referenc
 - This unit is documentation/orchestration only. It did not fetch public endpoints, overwrite dated observatory outputs, use secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
 
 Next action: create `paper/related-work-card.md`, create `notes/case-study-maturity-matrix.md`, then update `paper/draft.md` so the PKI-as-governance vertical and evidence-infrastructure thesis are explicit in the submission narrative.
+
+
+## 2026-05-27T17:23:24Z — Related-work scaffold and case maturity matrix
+
+- Added `paper/related-work-card.md` as a merge-ready reference scaffold for PKI/eIDAS/AI-governance/public-administration/infrastructure-method literature clusters.
+- Added `notes/case-study-maturity-matrix.md` to compare Cassandra, MIRROR, EATF/AEP, Janus, MATx, Vesta, Icarus, eaudit, h2oatlas, Aletheia, PKI Atlas, X-Road, breakable receipts, and Kolmogorov with conservative citation/publicness posture.
+- Patched `paper/draft.md` with the core governance-to-evidence sentence and a compact related-work/governance-infrastructure positioning section.
+- Validation output: `notes/related-work-maturity-validation-output.json`.
+- Claim boundary: scaffolding only; no legal-status, signature-validity, supervision, public-alerting, deployment, endorsement, or publication-approval claim.
+- 2026-05-27T17:23:59Z: Refreshed aggregate-only naming validator after related-work section insertion; output `notes/paper-aggregate-only-naming-validation-output.json` status ok and artifact-index row appended.
+- 2026-05-27T17:24:39Z: Reran full aggregate-only naming validator after initial unit-test output overwrite; current validation output hash recorded in append-only artifact index.

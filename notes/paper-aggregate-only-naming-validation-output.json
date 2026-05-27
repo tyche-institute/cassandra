@@ -1,32 +1,32 @@
 {
-  "candidate_count": 4873,
+  "candidate_count": 4905,
   "candidate_elements": [
     "ServiceName",
     "TSPName",
     "TSPTradeName"
   ],
-  "candidate_inventory_hash": "3c24e0db3bb2557df9abef0e0608001883ab4fd7b929c7c8e211d99b71c4294a",
-  "created": "2026-05-22T17:16:57.166161+00:00",
+  "candidate_inventory_hash": "1d1ddabdc0155517440130ab3b5ef987e2ce142816018b996a6e6530fe922538",
+  "created": "2026-05-27T17:24:31.387458+00:00",
   "error_count": 0,
   "findings": [],
   "missing_files": [],
   "paper_stats": {
-    "bytes": 70180,
-    "line_count": 328,
+    "bytes": 73994,
+    "line_count": 344,
     "path": "paper/draft.md",
-    "sha256": "0c1cdc5ef9b8060317914d243e38811cd5ceda16ac211441fb85c1c2d936d9ef"
+    "sha256": "12e3d49cda4b69b3d5b9cf9ad8c896581fd616dc8168e9a81f947992749493f9"
   },
   "parse_error_count": 1,
   "parse_errors": [
     {
       "error": "ParseError",
-      "path": "snapshots/2026-05-22/09-dk.xml"
+      "path": "snapshots/2026-05-27/09-dk.xml"
     }
   ],
   "raw_names_echoed": false,
   "research_caveat": "Local aggregate-only naming check for Cassandra paper prose; candidate names are derived from saved XML snapshots and findings are hash-only. This does not assert legal effect, trusted-list status, signature validity, supervision, public alerting, regulated trust-service output, legal review, or publication approval.",
   "schema": "urn:tyche:cassandra:paper-aggregate-only-naming:0.1",
-  "snapshot_date_scanned": "2026-05-22",
+  "snapshot_date_scanned": "2026-05-27",
   "status": "ok",
   "warning_count": 1,
   "workspace": "/home/anton/projects/cassandra"
