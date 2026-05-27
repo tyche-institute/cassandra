@@ -43,12 +43,23 @@ def fetch_url(
     headers = {"User-Agent": USER_AGENT, "Accept": "application/xml,text/xml,*/*;q=0.8"}
     started = now_iso()
     dest.parent.mkdir(parents=True, exist_ok=True)
+    response = None
     try:
         response = requests.get(url, headers=headers, timeout=timeout)
         content = response.content
         dest.write_bytes(content)
         meta = {
             "url": url,
+            "final_url": getattr(response, "url", url),
+            "redirect_count": len(getattr(response, "history", []) or []),
+            "redirect_history": [
+                {
+                    "status_code": getattr(item, "status_code", None),
+                    "url": getattr(item, "url", None),
+                    "location": getattr(item, "headers", {}).get("Location") if getattr(item, "headers", None) else None,
+                }
+                for item in (getattr(response, "history", []) or [])
+            ],
             "accessed": started,
             "completed": now_iso(),
             "http_status": response.status_code,
@@ -57,24 +68,54 @@ def fetch_url(
             "bytes": len(content),
             "sha256": sha256_bytes(content),
             "destination": str(dest),
-            "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+            "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
         }
         write_json(dest.with_suffix(dest.suffix + ".meta.json"), meta)
         response.raise_for_status()
         return meta
     except requests.RequestException as exc:
-        meta = {
-            "url": url,
-            "accessed": started,
-            "completed": now_iso(),
-            "http_status": None,
-            "bytes": 0,
-            "sha256": None,
-            "destination": str(dest),
-            "error": exc.__class__.__name__,
-            "error_detail": str(exc),
-            "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
-        }
+        if response is not None:
+            content = getattr(response, "content", b"") or b""
+            meta = {
+                "url": url,
+                "final_url": getattr(response, "url", url),
+                "redirect_count": len(getattr(response, "history", []) or []),
+                "redirect_history": [
+                    {
+                        "status_code": getattr(item, "status_code", None),
+                        "url": getattr(item, "url", None),
+                        "location": getattr(item, "headers", {}).get("Location") if getattr(item, "headers", None) else None,
+                    }
+                    for item in (getattr(response, "history", []) or [])
+                ],
+                "accessed": started,
+                "completed": now_iso(),
+                "http_status": getattr(response, "status_code", None),
+                "content_type": getattr(response, "headers", {}).get("Content-Type") if getattr(response, "headers", None) else None,
+                "content_length_header": getattr(response, "headers", {}).get("Content-Length") if getattr(response, "headers", None) else None,
+                "bytes": len(content),
+                "sha256": sha256_bytes(content) if content else None,
+                "destination": str(dest),
+                "error": exc.__class__.__name__,
+                "error_detail": str(exc),
+                "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+            }
+        else:
+            meta = {
+                "url": url,
+                "final_url": None,
+                "redirect_count": None,
+                "redirect_history": [],
+                "accessed": started,
+                "completed": now_iso(),
+                "http_status": None,
+                "bytes": 0,
+                "sha256": None,
+                "destination": str(dest),
+                "error": exc.__class__.__name__,
+                "error_detail": str(exc),
+                "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+            }
         write_json(dest.with_suffix(dest.suffix + ".meta.json"), meta)
         if allow_error:
             return meta

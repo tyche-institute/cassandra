@@ -15073,3 +15073,15 @@ Expanded the synthetic provider/service/detail diff fixture suite with bounded v
 - Artifact hashes: `notes/fixture-matrix.md` ac8b14eafe0955e3c08cd943347af1769d603747ac94bab18520dcc5a09501e9; `notes/fixtures/synthetic-diff-fixtures.json` 3c1d85ce36b19557d46d5e346821e2c9fa6a4dd59df98aa85a02ed4285e9f21c; `notes/test_synthetic_diff_fixtures.py` 462e75a9b425761622e12d014d99661f834d326f6cd6a27efee9ab95a5ff7a4d; `notes/synthetic-diff-fixture-validation-output.json` 167fa1ac01d9f223084833677602c57199b5e8c2f8ccbd3e7fe6afb04a5e2b9a.
 
 Next action: continue fixture expansion with fetch-failure and non-XML temporary-workspace fixtures, keeping real dated observatory runs untouched.
+
+### 2026-05-27T16:06:03Z
+
+Added fetch-failure and non-XML synthetic fixtures with bounded verification:
+- Confirmed `STOP_CASSANDRA_HERMES` was absent, pulled `origin/main` with `--ff-only`, and left unrelated untracked `logs/` files unstaged.
+- Updated `fetch.py` so fetch metadata now records `final_url`, redirect count/history, and preserves HTTP-error response status/body hash when `allow_error=True`; timeout and unreachable-pointer failures remain explicit operational telemetry.
+- Added `notes/test_fetch_and_non_xml_fixtures.py`, a temporary-workspace synthetic harness covering timeout, HTTP 500, redirect, unreachable pointer, valid XML, PDF/HTML/TXT skip behavior, and malformed XML parse-error behavior.
+- Wrote deterministic validation output to `notes/fetch-non-xml-fixture-validation-output.json` and updated `notes/fixture-matrix.md` plus `ARTIFACT_INDEX.md`.
+- Verification command: `.venv/bin/python -m py_compile fetch.py parse.py notes/test_fetch_and_non_xml_fixtures.py notes/test_synthetic_diff_fixtures.py && .venv/bin/python notes/test_fetch_and_non_xml_fixtures.py > notes/fetch-non-xml-fixture-validation-output.json && .venv/bin/python notes/test_synthetic_diff_fixtures.py > notes/synthetic-diff-fixture-validation-output.json`; exit code 0.
+- Artifact hashes: `fetch.py` 2209a9fb57f110503d7d9f29752010394e06900bb0aa4b58b93baab4d625741f; `notes/fixture-matrix.md` e59f5183fcce6564ac9aae02e55585bb5ace631106cdc9c66cbf2e0089d4f1a5; `notes/test_fetch_and_non_xml_fixtures.py` 424c86a3074f1abd725851945480cbbee0d53c13c54d9a555653e4ecc3432dc9; `notes/fetch-non-xml-fixture-validation-output.json` 3169be833e07a35b046c6b99f87a370a7e16a8419d8c12efc1b717d69ed0e305.
+
+Next action: continue fixture expansion with EATF success/tamper/missing-signing-input cases or dashboard public-index states, depending on which support the paper argument best.

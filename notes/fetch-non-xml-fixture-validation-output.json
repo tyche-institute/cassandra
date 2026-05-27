@@ -1,0 +1,44 @@
+{
+  "caveat": "Synthetic Cassandra fetch/non-XML fixtures for operational telemetry only; not legal-status, signature-validation, supervision, compliance, public-alerting, or publication evidence.",
+  "status": "ok",
+  "tested_cases": {
+    "fetch_failure_timeout_http_redirect_unreachable": {
+      "http_error": {
+        "bytes": 17,
+        "error": "HTTPError",
+        "http_status": 500,
+        "status": "ok"
+      },
+      "redirect": {
+        "final_url": "https://fixture.example/final.xml",
+        "redirect_count": 1,
+        "status": "ok"
+      },
+      "timeout": {
+        "error": "Timeout",
+        "http_status": null,
+        "status": "ok"
+      },
+      "unreachable_pointer": {
+        "error": "ConnectionError",
+        "http_status": null,
+        "status": "ok"
+      }
+    },
+    "non_xml_and_non_parseable_input": {
+      "count": 5,
+      "error_count": 1,
+      "manifest": "normalized/synthetic-non-xml/manifest.json",
+      "ok_count": 1,
+      "skipped_count": 3,
+      "status": "ok",
+      "status_by_source": {
+        "01-valid.xml": "ok",
+        "02-document.pdf": "skipped_non_xml",
+        "03-page.html": "skipped_non_xml",
+        "04-text.txt": "skipped_non_xml",
+        "05-broken.xml": "xml_parse_error"
+      }
+    }
+  }
+}
