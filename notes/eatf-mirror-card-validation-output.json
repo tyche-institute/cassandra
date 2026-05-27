@@ -1,0 +1,12 @@
+{
+  "caveat": "Card validation checks local wording and anchors only; it is not legal review, trusted-list validation, signature validation, supervision, public alerting, or publication approval.",
+  "checked_files": [
+    "notes/eatf-claim-boundary-card.md",
+    "notes/mirror-bundle-card.md"
+  ],
+  "created_at": "2026-05-27T16:42:00Z",
+  "error_count": 0,
+  "errors": [],
+  "schema": "urn:tyche:cassandra:eatf-mirror-card-validation:0.1",
+  "status": "ok"
+}

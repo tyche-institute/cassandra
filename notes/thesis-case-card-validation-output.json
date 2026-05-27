@@ -1,0 +1,53 @@
+{
+  "boundary": "Thesis/case cards are positioning aids only; this validation is not legal review, publication approval, trusted-list validation, signature validation, supervision, compliance judgment, or public alerting.",
+  "checked_files": 5,
+  "error_count": 0,
+  "results": [
+    {
+      "bytes": 1449,
+      "exists": true,
+      "lines": 30,
+      "missing_required_terms": [],
+      "path": "notes/thesis-integration-card.md",
+      "positive_forbidden_hits": [],
+      "sha256": "9dc9cf95eb6ccd52dacb8151f15f43a1320d2ad35c3315fd99c939286c2b9d4f"
+    },
+    {
+      "bytes": 1815,
+      "exists": true,
+      "lines": 18,
+      "missing_required_terms": [],
+      "path": "notes/cassandra-vesta-icarus-xroad-map.md",
+      "positive_forbidden_hits": [],
+      "sha256": "c23c6604cb64b94fdb61a8fb9a22accb270d3f3944e10713cb56ce0e806bea30"
+    },
+    {
+      "bytes": 2043,
+      "exists": true,
+      "lines": 24,
+      "missing_required_terms": [],
+      "path": "notes/eidas-to-ai-act-evidence-map.md",
+      "positive_forbidden_hits": [],
+      "sha256": "65b7522de709116bb870d6273d38b5f244007d15ce5c3649cd4d35ed32f26f7b"
+    },
+    {
+      "bytes": 1651,
+      "exists": true,
+      "lines": 36,
+      "missing_required_terms": [],
+      "path": "notes/case-study-one-pager.md",
+      "positive_forbidden_hits": [],
+      "sha256": "59b1e5892a76b62f2194cf215901cb6e0a3a62f36537253b910809e125cae0bb"
+    },
+    {
+      "bytes": 1556,
+      "exists": true,
+      "lines": 32,
+      "missing_required_terms": [],
+      "path": "notes/press-safe-summary.md",
+      "positive_forbidden_hits": [],
+      "sha256": "b8cd6fa99a06f470cc24e3c555f774b8ef620701101d1d0c65cce825447f2adc"
+    }
+  ],
+  "status": "ok"
+}

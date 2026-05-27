@@ -15131,3 +15131,27 @@ Added paper/reviewer card pack with bounded validation:
 - Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
 
 Next action: add the remaining thesis/case public summary cards or consolidate `paper/draft.md` toward the clean 6k-8k word submission narrative.
+
+
+### 2026-05-27T16:32:19Z
+
+Added thesis/case/public summary card pack with bounded validation:
+- Confirmed `STOP_CASSANDRA_HERMES` remained absent, pulled `origin/main`, and left unrelated untracked `logs/` files unstaged.
+- Created `notes/thesis-integration-card.md`, `notes/cassandra-vesta-icarus-xroad-map.md`, `notes/eidas-to-ai-act-evidence-map.md`, `notes/case-study-one-pager.md`, and `notes/press-safe-summary.md`.
+- The cards position Cassandra inside the Tyche thesis, separate it from Vesta/Icarus/X-Road, explain the eIDAS-to-AI-Act method bridge, and provide a press-safe summary.
+- Validation output: `notes/thesis-case-card-validation-output.json`; status `ok`; checked files `5`; error_count `0`.
+- Updated `ARTIFACT_INDEX.md` with the card and validation artifacts.
+- Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
+
+Next action: add EATF claim-boundary and MIRROR bundle cards, or consolidate `paper/draft.md` using the new card pack.
+
+### 2026-05-27T16:42:00Z
+
+Added EATF claim-boundary and MIRROR bundle cards with bounded validation:
+- Confirmed this unit is documentation/evidence-boundary only and did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, or run trusted-list signature/legal validation.
+- Created `notes/eatf-claim-boundary-card.md` to define the exact EATF/AEP receipt claim: package/payload/hash verification for Cassandra observations, not trusted-list legal validity, source signature validity, supervision, compliance, public alerting, absence of legally relevant change, or provider-specific status.
+- Created `notes/mirror-bundle-card.md` to distinguish MIRROR-style provenance bundles from EATF receipts and from the dashboard presentation layer.
+- Wrote `notes/eatf-mirror-card-validation-output.json`; status `ok`; checked files `2`; error_count `0`.
+- Updated `ARTIFACT_INDEX.md` and `CLAIMS.md` with hashes and claim-boundary wording.
+
+Next action: consolidate `paper/draft.md` using the new card pack, or add `notes/replay-capsule.md` to make future reviewer/agent replay steps explicit.
