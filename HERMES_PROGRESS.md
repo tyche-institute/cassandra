@@ -15184,3 +15184,15 @@ Validation follow-up for the dashboard-card JSON pack:
 - Ran `.venv/bin/python notes/validate_artifact_index_current_hashes.py --workspace . --output notes/artifact-index-current-hash-validation-output.json > notes/artifact-index-current-hash-validation-run.json`; after adding current-hash maintenance rows for eight pre-existing stale-only artifact-index entries, final status was `ok`, missing_path_count `0`, stale_path_count `0`.
 - Ran JSON parse checks for `observatory/public/data/cards/index.json` and `observatory/public/data/index.json`; both parsed successfully.
 - Ran `git diff --check`; it reported no whitespace errors.
+
+### 2026-05-27T17:10:00Z
+
+Created the full-stack usable transcript requested by the operator directive:
+- Confirmed no `STOP_CASSANDRA_HERMES` file was present, pulled `origin/main` with `--ff-only`, and left unrelated untracked `logs/` files unstaged.
+- Read the required lane state and public-contract files: `PLAN.md`, `CLAIMS.md`, `SOURCES.md`, `ARTIFACT_INDEX.md`, `BLOCKED.md`, `HERMES_PROGRESS.md`, `paper/draft.md`, `observatory/README.md`, and `observatory/public/data/index.json`.
+- Created `notes/cassandra-full-stack-usable-transcript-2026-05-27.md` for Anton, thesis committee, reviewers, and future agents. It covers architecture, data flow, EATF/MIRROR/dashboard evidence boundaries, paper argument, fixture expansion, risk register, cross-project map, reviewer objections, artifact map, and next experiments.
+- Wrote `notes/cassandra-full-stack-usable-transcript-validation-output.json`; status `ok`; line_count `405`; missing required sections `0`; missing referenced paths `0`; transcript sha256 `22d61ad549e503e8fb2e82876465bfdb3a15a9f9ff8136604d30d1bd4b8a311d`.
+- Updated `ARTIFACT_INDEX.md` with transcript and validation-output hashes.
+- Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
+
+Next action: consolidate `paper/draft.md` into a cleaner 6k-8k word submission narrative using the transcript and existing cards, or add the remaining EATF success/tamper fixtures with synthetic non-secret inputs.
