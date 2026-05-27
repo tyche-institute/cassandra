@@ -1,0 +1,21 @@
+{
+  "caveat": "Synthetic Cassandra fixtures for structural-observation tests only; not legal-status, signature-validation, supervision, compliance, public-alerting, or publication evidence.",
+  "fixture_path": "/home/anton/projects/cassandra/notes/fixtures/synthetic-diff-fixtures.json",
+  "status": "ok",
+  "tested_cases": {
+    "normalized_hash_change": {
+      "classes": [
+        "normalized_hash_changed"
+      ],
+      "expected_classes": [
+        "normalized_hash_changed"
+      ],
+      "status": "ok"
+    },
+    "stable_no_change": {
+      "classes": [],
+      "expected_classes": [],
+      "status": "ok"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "caveat": "Synthetic Cassandra fixtures for structural-observation tests only; not legal-status, signature-validation, supervision, compliance, public-alerting, or publication evidence.",
+  "normalized_hash_change": {
+    "expected_classes": [
+      "normalized_hash_changed"
+    ],
+    "new": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha256-after",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    },
+    "old": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha256-before",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    }
+  },
+  "stable_no_change": {
+    "expected_classes": [],
+    "new": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha256-stable",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            }
+          ],
+          "service_count": 2,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    },
+    "old": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha256-stable",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            }
+          ],
+          "service_count": 2,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    }
+  }
+}

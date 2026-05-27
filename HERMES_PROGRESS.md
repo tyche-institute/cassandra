@@ -15025,3 +15025,15 @@ Completed full-stack usable transcript unit under the 2026-05-27 Hermes Full-Sta
 - Updated `BLOCKED.md` from stale previous-lane halt to `HALT: no` because the 2026-05-27 operator directive explicitly reopens autonomous Cassandra publication work until the stop file exists.
 
 Next action: add fixture matrix plus first synthetic stable/no-change and normalized-hash-change fixture tests, preserving aggregate-only and claim-safety boundaries.
+
+
+### 2026-05-27T15:44:16Z
+
+Completed first fixture-expansion unit:
+- Created `notes/fixture-matrix.md` covering the twelve priority synthetic fixtures requested by the 2026-05-27 publication directive.
+- Added `notes/fixtures/synthetic-diff-fixtures.json` with stable no-change and normalized-hash-change synthetic records.
+- Added `notes/test_synthetic_diff_fixtures.py`, which exercises `diff.compare_baselines` without real trusted-list names.
+- Verification commands: `.venv/bin/python notes/test_synthetic_diff_fixtures.py > notes/synthetic-diff-fixture-validation-output.json`; `.venv/bin/python -m py_compile notes/test_synthetic_diff_fixtures.py diff.py`; JSON parse checks for fixture and validation outputs. All exited 0.
+- Fixture validation status: `ok`; tested cases: `stable_no_change`, `normalized_hash_change`.
+
+Next action: extend synthetic fixture coverage to provider/service inventory changes or start the evidence package format/data dictionary cards.
