@@ -1,0 +1,48 @@
+{
+  "bundle_id": "urn:tyche:mirror:bundle:c678cce206e02b7a12416c955d9c7fc4",
+  "claims": [
+    {
+      "evidence": [
+        {
+          "locator": "$.count,$.ok_count,$.error_count",
+          "pointer": "sources/snapshot-manifest.json",
+          "source_id": "src-001"
+        }
+      ],
+      "id": "claim-001",
+      "notes": "No trusted-list legal status is inferred.",
+      "risk": "low",
+      "safe_wording": "The 2026-05-27 structural-observation run recorded fetched snapshot-file and fetch-error counts among LOTL-derived pointers; these are operational observations only.",
+      "text": "The 2026-05-27 Cassandra run recorded 43 LOTL-derived pointer attempts, 42 fetched content files, and 1 fetch errors."
+    },
+    {
+      "evidence": [
+        {
+          "locator": "$.ok_count,$.skipped_count,$.error_count",
+          "pointer": "sources/normalized-manifest.json",
+          "source_id": "src-002"
+        }
+      ],
+      "id": "claim-002",
+      "notes": "No signature validity, relying-party validation, or legal effect is asserted.",
+      "risk": "low",
+      "safe_wording": "The 2026-05-27 normalizer recorded aggregate parser telemetry only.",
+      "text": "The 2026-05-27 normalizer recorded 31 normalized XML artifacts, 10 skips, and 1 parser errors."
+    },
+    {
+      "evidence": [
+        {
+          "locator": "$.current_record_count,$.change_count,$.summary",
+          "pointer": "sources/diff-2026-05-27.json",
+          "source_id": "src-003"
+        }
+      ],
+      "id": "claim-003",
+      "notes": "Diff counts do not assert legal effect, supervision, listed-entity status, or absence of legally relevant change.",
+      "risk": "medium",
+      "safe_wording": "The 2026-05-27 diff records machine-readable structural observations against the configured baseline only.",
+      "text": "The 2026-05-27 diff recorded 40 machine-readable structural diff entries over 31 comparable records."
+    }
+  ],
+  "schema": "urn:tyche:mirror:claims:0.1"
+}

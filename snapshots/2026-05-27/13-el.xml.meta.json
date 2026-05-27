@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-27T14:18:00.591355+00:00",
+  "bytes": 700047,
+  "completed": "2026-05-27T14:18:02.924419+00:00",
+  "content_length_header": null,
+  "content_type": "text/xml; charset=utf-8",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-27/13-el.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "344de4bf8ca2b623d2cc5f3e0299a606aabe0f0b7c357263a4dc0970cbe2a3e1",
+  "url": "https://www.eett.gr/tsl/tl-el.xml"
+}

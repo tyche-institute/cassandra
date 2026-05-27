@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-27T14:18:00.431775+00:00",
+  "bytes": 2267972,
+  "completed": "2026-05-27T14:18:00.541107+00:00",
+  "content_length_header": "2267972",
+  "content_type": "application/pdf",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-27/11-ee.pdf",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "14402072915bef5ad8de871b517477a061a9ad5b067cd862c72831f961679115",
+  "url": "https://sr.riik.ee/tsl/estonian-tsl.pdf"
+}

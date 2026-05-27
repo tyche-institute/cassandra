@@ -1,6 +1,6 @@
 {
   "caveat": "Passing this check does not assert legal compliance, trusted-list legal effect, signature validity, supervision, public alerting, or publication readiness.",
-  "created": "2026-05-21T21:32:53.298815+00:00",
+  "created": "2026-05-27T14:19:07.859734+00:00",
   "error_count": 0,
   "file_stats": [
     {
@@ -17,7 +17,7 @@
       "word_count": 186
     },
     {
-      "bytes": 4968,
+      "bytes": 5006,
       "line_count": 36,
       "path": "figures/aggregate-run-telemetry.svg",
       "required_presence": {
@@ -30,11 +30,11 @@
         "not supervision": true,
         "not trusted-list validation": true
       },
-      "sha256": "e9ddb46e807ab2d904661d48b34a50eaf1a3c30fceb19396327c8bc358167a6e",
-      "word_count": 773
+      "sha256": "416a6352e3c2e576b4d0d585b8edb809734b96f506389e0456263d464ab52631",
+      "word_count": 781
     },
     {
-      "bytes": 4704,
+      "bytes": 4741,
       "line_count": 33,
       "path": "figures/aggregate-diff-classes.svg",
       "required_presence": {
@@ -47,8 +47,8 @@
         "not supervision": true,
         "not trusted-list validation": true
       },
-      "sha256": "f0ec8f0a5c885f7c9dd95d41dffd08f8af88bbecc50be9b15948ae6a8eb97187",
-      "word_count": 721
+      "sha256": "85841e2210ec4a5a26e3988c09928b5fbe795b7fe3c815b9da98d0aa8a4d15b0",
+      "word_count": 729
     },
     {
       "assumption_count": 3,
@@ -135,8 +135,8 @@
       "word_count": 179
     },
     {
-      "bytes": 9965,
-      "line_count": 5,
+      "bytes": 12161,
+      "line_count": 6,
       "path": "alerts.jsonl",
       "required_presence": {
         "Machine-readable research telemetry": true,
@@ -145,8 +145,8 @@
         "not performed": true,
         "signature_validation": true
       },
-      "sha256": "0f97f81c1f4b35bb2c46ab9a13ac157a7f0971d854c8f2643bf6b08b6174fa72",
-      "word_count": 917
+      "sha256": "0fffdbec765d1c2063dd324f79d94fedd52a7090c67393eee5089e36de3c0acd",
+      "word_count": 1113
     }
   ],
   "findings": [
@@ -188,7 +188,7 @@
       "path": "figures/aggregate-run-telemetry.svg",
       "pattern": "public alerting",
       "severity": "warning",
-      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-21T21:17:08Z&quot;, &qu"
+      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-27T14:19:07Z&quot;, &qu"
     },
     {
       "category": "risky_phrase_review",
@@ -236,7 +236,7 @@
       "path": "figures/aggregate-diff-classes.svg",
       "pattern": "public alerting",
       "severity": "warning",
-      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-21T21:17:08Z&quot;, &qu"
+      "snippet": "ted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-27T14:19:07Z&quot;, &qu"
     },
     {
       "category": "risky_phrase_review",
@@ -352,6 +352,14 @@
     },
     {
       "category": "risky_phrase_review",
+      "line": 5,
+      "path": "alerts.jsonl",
+      "pattern": "legal-status determination",
+      "severity": "warning",
+      "snippet": "ine-readable research telemetry only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":"
+    },
+    {
+      "category": "risky_phrase_review",
       "line": 2,
       "path": "alerts.jsonl",
       "pattern": "public alerting",
@@ -384,6 +392,14 @@
     },
     {
       "category": "risky_phrase_review",
+      "line": 5,
+      "path": "alerts.jsonl",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "s trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wording\":\"The 2026-0"
+    },
+    {
+      "category": "risky_phrase_review",
       "line": 2,
       "path": "alerts.jsonl",
       "pattern": "signature verification",
@@ -407,6 +423,14 @@
       "snippet": "try only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wor"
     },
     {
+      "category": "risky_phrase_review",
+      "line": 5,
+      "path": "alerts.jsonl",
+      "pattern": "signature verification",
+      "severity": "warning",
+      "snippet": "try only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.\",\"claim_safety\":{\"legal_effect\":\"not asserted\",\"safe_wor"
+    },
+    {
       "category": "alert_schema",
       "line": 1,
       "path": "alerts.jsonl",
@@ -417,7 +441,7 @@
   ],
   "jsonl_stats": {
     "alerts.jsonl": {
-      "entry_count": 4,
+      "entry_count": 5,
       "event_types": [
         "baseline_initialized",
         "no_structural_diff_observed",
@@ -493,6 +517,6 @@
   "schema_version": "cassandra-public-artifact-safety-validator-v0.2",
   "scope": "bundle notes, bundle manifest/claims JSON, and alert JSONL; local wording/schema check, not legal analysis or publication approval",
   "status": "ok",
-  "warning_count": 33,
+  "warning_count": 36,
   "workspace": "/home/anton/projects/cassandra"
 }
