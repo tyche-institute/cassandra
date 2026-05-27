@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:tyche:cassandra:observatory-public-index:0.1",
+  "title": "Public Cassandra observatory index schema",
+  "description": "Schema for Cassandra public structural-observation dashboard data. This schema describes evidence-index telemetry only; it does not define trusted-list validation, legal-status determination, signature validation, supervision, or public alerting.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "created_at",
+    "project",
+    "case_study_sentence",
+    "repo",
+    "latest_date",
+    "run_count",
+    "packaged_evidence_count",
+    "eatf_verified_count",
+    "aggregate",
+    "figures",
+    "runs",
+    "claim_boundary",
+    "caveat"
+  ],
+  "properties": {
+    "schema": {
+      "const": "urn:tyche:cassandra:observatory-public-index:0.1"
+    },
+    "created_at": {
+      "type": "string",
+      "description": "UTC build timestamp for the public index. It is not an endpoint-currentness or legal-status timestamp."
+    },
+    "project": {
+      "const": "cassandra"
+    },
+    "case_study_sentence": {
+      "const": "Cassandra: from governance infrastructure to evidence infrastructure."
+    },
+    "repo": {
+      "type": "string"
+    },
+    "latest_date": {
+      "type": "string",
+      "pattern": "^20[0-9]{2}-[0-9]{2}-[0-9]{2}$"
+    },
+    "run_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "packaged_evidence_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "eatf_verified_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of runs whose EATF receipt status is ok. This verifies package bytes and declared hashes only."
+    },
+    "aggregate": {
+      "type": "object",
+      "required": ["source", "source_sha256", "public_json", "public_json_sha256", "totals", "diff_class_totals"],
+      "additionalProperties": true,
+      "properties": {
+        "source": {"type": "string"},
+        "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "public_json": {"type": "string"},
+        "public_json_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "public_csv": {"type": ["string", "null"]},
+        "public_csv_sha256": {"type": ["string", "null"]},
+        "totals": {"$ref": "#/$defs/counts"},
+        "diff_class_totals": {"$ref": "#/$defs/diff_classes"}
+      }
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "size_bytes"],
+        "additionalProperties": true,
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "size_bytes": {"type": "integer", "minimum": 0},
+          "source": {"type": "string"}
+        }
+      }
+    },
+    "runs": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/run"}
+    },
+    "claim_boundary": {
+      "type": "object",
+      "required": ["asserts", "does_not_assert"],
+      "properties": {
+        "asserts": {"type": "array", "items": {"type": "string"}},
+        "does_not_assert": {
+          "type": "array",
+          "items": {"type": "string"},
+          "contains": {"const": "legal effect of any trusted list"}
+        }
+      },
+      "additionalProperties": true
+    },
+    "caveat": {
+      "type": "string",
+      "description": "Boundary text that should remain visible in consumers."
+    }
+  },
+  "$defs": {
+    "counts": {
+      "type": "object",
+      "additionalProperties": {"type": ["integer", "number", "null"]},
+      "properties": {
+        "pointer_attempts": {"type": ["integer", "null"], "minimum": 0},
+        "fetched_content_files": {"type": ["integer", "null"], "minimum": 0},
+        "fetch_errors": {"type": ["integer", "null"], "minimum": 0},
+        "normalized_xml_artifacts": {"type": ["integer", "null"], "minimum": 0},
+        "normalization_errors": {"type": ["integer", "null"], "minimum": 0},
+        "diff_current_record_count": {"type": ["integer", "null"], "minimum": 0},
+        "diff_change_count": {"type": ["integer", "null"], "minimum": 0},
+        "provider_count_total": {"type": ["integer", "null"], "minimum": 0},
+        "service_count_total": {"type": ["integer", "null"], "minimum": 0},
+        "alert_entry_count": {"type": ["integer", "null"], "minimum": 0}
+      }
+    },
+    "diff_classes": {
+      "type": "object",
+      "additionalProperties": {"type": ["integer", "null"]},
+      "properties": {
+        "listed_document_added": {"type": ["integer", "null"], "minimum": 0},
+        "listed_document_removed": {"type": ["integer", "null"], "minimum": 0},
+        "normalized_hash_changed": {"type": ["integer", "null"], "minimum": 0},
+        "summary_field_changed": {"type": ["integer", "null"], "minimum": 0},
+        "provider_inventory_changed": {"type": ["integer", "null"], "minimum": 0},
+        "service_inventory_changed": {"type": ["integer", "null"], "minimum": 0},
+        "provider_service_detail_changed": {"type": ["integer", "null"], "minimum": 0}
+      }
+    },
+    "run": {
+      "type": "object",
+      "required": ["date", "counts", "diff_classes", "artifacts", "eatf", "caveat"],
+      "additionalProperties": true,
+      "properties": {
+        "date": {"type": "string", "pattern": "^20[0-9]{2}-[0-9]{2}-[0-9]{2}$"},
+        "counts": {"$ref": "#/$defs/counts"},
+        "diff_classes": {"$ref": "#/$defs/diff_classes"},
+        "artifacts": {
+          "type": "object",
+          "required": ["snapshot_manifest", "snapshot_manifest_sha256", "normalized_manifest", "normalized_manifest_sha256", "diff", "diff_sha256"],
+          "additionalProperties": true
+        },
+        "eatf": {
+          "type": "object",
+          "required": ["status", "valid"],
+          "additionalProperties": true,
+          "properties": {
+            "status": {"type": ["string", "null"]},
+            "valid": {"type": ["boolean", "null"]},
+            "receipt_sha256": {"type": ["string", "null"]},
+            "package_sha256": {"type": ["string", "null"]},
+            "payload_sha256": {"type": ["string", "null"]},
+            "caveat": {"type": ["string", "null"]}
+          }
+        },
+        "alert_event_types": {"type": "object", "additionalProperties": {"type": "integer"}},
+        "caveat": {"type": "string"}
+      }
+    }
+  }
+}

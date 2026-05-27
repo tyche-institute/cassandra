@@ -64,6 +64,12 @@ python scripts/build_observatory_index.py \
 
 The static site can be served from `observatory/public`.
 
+## Public Data Contract
+
+The dashboard index is published at `observatory/public/data/index.json` and declares schema id `urn:tyche:cassandra:observatory-public-index:0.1`. The companion JSON Schema is `observatory/public/data/schema.json`; reviewer-facing notes are in `notes/public-index-schema.md` and the broader field dictionary is in `notes/data-dictionary.md`.
+
+The schema is a data-contract aid for consumers. It does not assert trusted-list legal effect, signature validity, supervision, relying-party processing, public alerting, or publication approval.
+
 ## Claim Boundary
 
 EATF/AEP evidence packaging verifies package bytes and declared hashes. It does

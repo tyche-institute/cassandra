@@ -6,10 +6,15 @@ Current public index source: `observatory/public/data/index.json`
 Current latest date: `2026-05-27`  
 Current run count: `4`
 
+## Schema companion
+
+The public index now has a machine-readable companion schema at `observatory/public/data/schema.json`, documented in `notes/public-index-schema.md`. The top-level `schema` field in `index.json` is a compatibility identifier for dashboard consumers; it is not a legal-status, signature-validation, supervision, or publication-readiness assertion.
+
 ## Top-level public index fields
 
 | Field | Type | Meaning | Claim boundary |
 |---|---|---|---|
+| `schema` | string | Schema identifier, currently `urn:tyche:cassandra:observatory-public-index:0.1`. | Data-contract compatibility only. |
 | `project` | string | Project identifier, currently `cassandra`. | Naming only. |
 | `repo` | string | Public repository URL. | Source location, not endorsement or legal status. |
 | `case_study_sentence` | string | Narrative spine for the case study. | Method framing only. |

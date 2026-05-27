@@ -15047,3 +15047,17 @@ Completed reviewer/card documentation unit:
 - Verification command: Python markdown sanity check confirmed required boundary wording and recorded line/byte counts; no code paths or public data were modified.
 
 Next action: add `notes/public-index-schema.md` or a machine-readable `observatory/public/data/schema.json`, then continue fixture expansion.
+
+
+### 2026-05-27T15:54:51Z
+
+Completed public-index schema unit:
+- Added machine-readable JSON Schema `observatory/public/data/schema.json` for the public dashboard index contract (`urn:tyche:cassandra:observatory-public-index:0.1`).
+- Added `notes/public-index-schema.md` explaining schema identity, required sections, consumer rules, and claim boundaries.
+- Added `notes/test_public_index_schema.py` to verify that the current `observatory/public/data/index.json` declares the schema id, preserves required top-level sections, and keeps per-run counts, diff classes, artifacts, EATF status, and caveats.
+- Updated `notes/data-dictionary.md` and `observatory/README.md` to point dashboard consumers and reviewers to the schema.
+- Verification commands: `.venv/bin/python -m json.tool observatory/public/data/schema.json`; `.venv/bin/python notes/test_public_index_schema.py > notes/public-index-schema-test-run.txt 2>&1`; `.venv/bin/python notes/test_public_index_schema.py`. All exited 0.
+- Artifact hashes: schema `416fe081b0bf407db99610e899dbbf4c9458cbedff7424cf7c3d36d2b2cc011c`; test `cbdfa8765b387cbf9761c618805f8b27045efceec1c00b7e0c5c0ee1011964e3`; note `3fd597d6f5f2e7859bb6c7e71e290ab0cb6f1d0227ad93f8f0bb8689414c9dcc`; test run `33060fd73862c5e1af97335504d5b45211fce6d229657f556d8deceeadc52ce4`.
+- Did not fetch public endpoints, overwrite dated observation outputs, publish outside GitHub, validate trusted-list signatures as a relying party, supervise trusted lists, determine listed-entity status, provide public alerting, perform legal review, or approve publication.
+
+Next action: continue fixture expansion with provider/service inventory fixtures or add dashboard card JSON pack.
