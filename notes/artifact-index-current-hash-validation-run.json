@@ -1,7 +1,7 @@
 {
-  "created": "2026-05-27T16:57:35.217790+00:00",
-  "current_match_count": 890,
-  "duplicate_path_count": 133,
+  "created": "2026-05-27T17:18:39.725776+00:00",
+  "current_match_count": 896,
+  "duplicate_path_count": 134,
   "duplicate_paths": [
     {
       "current_hash": "sha256:2e9a94d9fed56e59777d59747f253f5e7c7c5341b9459cebe01fe8f9988c9805",
@@ -67,12 +67,12 @@
       ]
     },
     {
-      "current_hash": "sha256:fc6c209d78a260404fc3d2ac30bc2eb849a959d8d7ddabeff7d99670341f0765",
+      "current_hash": "sha256:bb0f0f6163d6e87b85ecfbb26e56d5af1b5a0ee7b1e6c9cb961ea472c654b860",
       "matching_lines": [
-        4475
+        4486
       ],
       "path": "HERMES_PROGRESS.md",
-      "row_count": 1240,
+      "row_count": 1241,
       "stale_lines": [
         1135,
         1153,
@@ -1312,7 +1312,8 @@
         4423,
         4446,
         4452,
-        4466
+        4466,
+        4475
       ]
     },
     {
@@ -1540,6 +1541,17 @@
       "row_count": 2,
       "stale_lines": [
         153
+      ]
+    },
+    {
+      "current_hash": "sha256:f8d2b25231d9285c4f5695e72f8cb8df549b8f0f6a1df21c16d45f9890742bed",
+      "matching_lines": [
+        4477
+      ],
+      "path": "notes/cassandra-full-stack-usable-transcript-2026-05-27.md",
+      "row_count": 2,
+      "stale_lines": [
+        4381
       ]
     },
     {
@@ -2054,16 +2066,17 @@
       ]
     },
     {
-      "current_hash": "sha256:33514d6f716c396702b27387f76250a09db67618ff1ca2615b20f9e591e8c049",
+      "current_hash": "sha256:bf2e96d5770232dd2d79fc204483ebcbdddacd3366812aaaf11453167aca9980",
       "matching_lines": [
-        4422
+        4481
       ],
       "path": "notes/fixture-matrix.md",
-      "row_count": 4,
+      "row_count": 5,
       "stale_lines": [
         4385,
         4405,
-        4415
+        4415,
+        4422
       ]
     },
     {
@@ -4386,13 +4399,13 @@
   "missing_path_count": 0,
   "missing_paths": [],
   "research_caveat": "Local artifact-index hash freshness telemetry only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication readiness.",
-  "row_count": 3921,
+  "row_count": 3930,
   "stale_path_count": 0,
   "stale_paths": [],
   "status": "ok",
-  "unique_path_count": 893,
+  "unique_path_count": 899,
   "warnings": [
-    "133 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
+    "134 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
   ],
   "workspace": "/home/anton/projects/cassandra"
 }

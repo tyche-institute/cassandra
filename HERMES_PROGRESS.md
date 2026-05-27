@@ -15209,3 +15209,15 @@ Added synthetic EATF success/tamper fixture coverage:
 - Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
 
 Next action: consolidate `paper/draft.md` into a cleaner 6k-8k word submission narrative using the transcript and cards, or add a small dashboard-card consumer/reviewer fixture if the dashboard cards become a cited surface.
+
+### 2026-05-27T17:35:00Z
+
+Added thesis/reference expansion layer after operator requested heavier references and final-thesis positioning:
+- Created `notes/cassandra-thesis-reference-atlas-2026-05-27.md` as the reference spine for Cassandra, separating official/published, Zenodo/preprint, submitted/under review, internal, prototype, and synthetic citation statuses.
+- Created `notes/cassandra-evidence-infrastructure-manifest-2026-05-27.md` as the thesis-facing statement for "Cassandra: from governance infrastructure to evidence infrastructure."
+- Updated `notes/hermes-full-stack-publication-directive-2026-05-27.md` so the next autonomous units must read the atlas/manifest, add references and related work, build a case-study maturity matrix, and connect Cassandra to PKI as governance infrastructure rather than producing more thin cards.
+- Added explicit cross-case instructions for MIRROR, EATF/eatf.eu, Janus, MATx, h2oatlas, eaudit, Aletheia AI / `avatar.eatf.eu`, Vesta, Icarus, PKI Atlas, X-Road, Breakable Receipts, PKIC, and Kolmogorov as an unresolved inventory item.
+- Reference clusters now include eIDAS, eIDAS2, AI Act, ETSI TS/EN trust-service standards, RFC 5280/3161, CA/B Forum, PKIC, NIST FIPS 203/204/205, W3C VC, OpenID, ISO, public-administration literature, infrastructure studies, Carlota Perez, and computational social science.
+- This unit is documentation/orchestration only. It did not fetch public endpoints, overwrite dated observatory outputs, use secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
+
+Next action: create `paper/related-work-card.md`, create `notes/case-study-maturity-matrix.md`, then update `paper/draft.md` so the PKI-as-governance vertical and evidence-infrastructure thesis are explicit in the submission narrative.

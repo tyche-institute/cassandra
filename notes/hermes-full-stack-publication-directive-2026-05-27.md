@@ -33,6 +33,13 @@ Vault handoff:
 
 Build Cassandra into a clean publishable paper and case-study kit.
 
+Operator addendum after the first full-stack pass:
+
+- Read `notes/cassandra-thesis-reference-atlas-2026-05-27.md` before the next paper/editing unit.
+- Read `notes/cassandra-evidence-infrastructure-manifest-2026-05-27.md` before writing public thesis-facing prose.
+- Treat the first pass as successful groundwork: transcript, fixtures, schema, cards, replay capsule, dashboard cards, and EATF/MIRROR boundary cards now exist.
+- The next pass must add references, related work, thesis structure, publication-status discipline, and a case-study maturity matrix. Do not simply create more thin cards.
+
 First create a full-stack usable transcript:
 
 - output path: `notes/cassandra-full-stack-usable-transcript-YYYY-MM-DD.md`
@@ -130,8 +137,31 @@ Connect Cassandra to:
 - Icarus: reproducibility audit as evidence infrastructure.
 - Breakable receipts: verifier UX and failure-mode education.
 - Tyche thesis hub: paper map and chapter placement.
+- Janus: AI-assisted multilingual review queues and MIRROR-bundled drift evidence.
+- MATx: AI decision-level AEP replay/tamper evidence; cite only with synthetic/no-real-learner-data boundary unless public deployment facts are rechecked.
+- h2oatlas.ee / water-quality-ee: public environmental information evidence case; verify current deployment and data rights before public claims.
+- eaudit.ee: professional AI assistance disclosure/human-final-decision case; verify current public wording before public claims.
+- Aletheia AI / `avatar.eatf.eu`: hidden showcase and partner-integration attempts; treat as prototype unless publicness and permission are explicit.
+- Kolmogorov: inventory first. Current local scan did not establish a citeable case record.
+- PKIC / PKI Consortium: use as contemporary PKI governance and PQC ecosystem context, not as endorsement.
 
 Do not merge these projects. Build a careful map of distinct roles.
+
+## Reference And Literature Mission
+
+The paper and thesis packet must now cite more than the local Cassandra artifacts.
+
+Required reference clusters:
+
+1. PKI and cryptographic governance: Maurer, Ellison/Schneier, RFC 5280, RFC 3161, CA/B Forum, PKIC, NIST FIPS 140-3/186-5/203/204/205.
+2. eIDAS and trust services: Regulation 910/2014, Regulation 2024/1183, Implementing Decision 2015/1505, ETSI TS 119 612, ETSI EN 319 401, ETSI EN 319 411/412/102/422.
+3. AI governance: Regulation 2024/1689, AI Act evidence/logging/transparency/post-market duties, EATF/AEP mapping manuscripts.
+4. Public administration and digital state: Drechsler, Kattel, Lember, Tonurist, Mazzucato, Bannister/Connolly, Margetts/Dorobantu, OECD, Estonian e-state/X-Road literature.
+5. Infrastructure and turning-point theory: Carlota Perez, Star/Ruhleder, Bowker/Star, Edwards, Plantin, Larkin, Jasanoff where useful.
+6. Evidence and computational method: Lazer, Salganik, Grimmer/Roberts/Stewart, Edelmann, Bail.
+7. Tyche internal/public works: use the status rules in `notes/cassandra-thesis-reference-atlas-2026-05-27.md`; published/Zenodo/submitted/internal must be clearly separated.
+
+Add a real related-work section to `paper/draft.md` or a `paper/related-work-card.md` that can be merged into the draft. Add a case-study maturity matrix comparing Cassandra, MIRROR, EATF, Janus, MATx, Vesta, Icarus, eaudit, h2oatlas, and Aletheia prototypes, but mark unknown/unverified cases honestly.
 
 ## Paper Shape
 
@@ -197,5 +227,9 @@ Preferred early units:
 - Add data dictionary and evidence package schema.
 - Add dashboard card JSON pack.
 - Add cross-case map to thesis/vault if appropriate.
+- Add `paper/related-work-card.md` with references from the atlas.
+- Add `notes/case-study-maturity-matrix.md` with citation posture and applicability.
+- Add or update `paper/draft.md` so PKI as governance infrastructure is a named vertical above Cassandra.
+- Add EATF success/tamper fixtures using non-secret synthetic test material.
 
 Never stage unrelated local files. Never force-push. Never leak secrets.
