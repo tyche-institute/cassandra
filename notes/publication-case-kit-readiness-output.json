@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T18:04:43.896947+00:00",
+  "created": "2026-05-27T18:06:35.742645+00:00",
   "error_count": 0,
   "errors": [],
   "groups": {
@@ -26,7 +26,7 @@
         "size_bytes": 1425
       },
       {
-        "boundary_fragment_count": 6,
+        "boundary_fragment_count": 10,
         "exists": true,
         "path": "notes/dashboard-card-pack-2026-05-27.md",
         "sha256": "cfb75b81dc42f53643db8231c3c224733d87d11bfe258d37cab7988c9514c149",
@@ -42,56 +42,56 @@
     ],
     "dataset_evidence": [
       {
-        "boundary_fragment_count": 3,
+        "boundary_fragment_count": 7,
         "exists": true,
         "path": "notes/data-dictionary.md",
         "sha256": "99375db2ba3c9c3d2e856f8e207c413307b269add7a2c46ac9b38613ec2af7bb",
         "size_bytes": 6663
       },
       {
-        "boundary_fragment_count": 6,
+        "boundary_fragment_count": 11,
         "exists": true,
         "path": "notes/fixture-matrix.md",
         "sha256": "fd87b53eafc597545fca1210dee363cd55236eb29bad079f7dad2a2115eaa4c9",
         "size_bytes": 6735
       },
       {
-        "boundary_fragment_count": 6,
+        "boundary_fragment_count": 12,
         "exists": true,
         "path": "notes/fixture-to-claim-map.md",
         "sha256": "18c17cbaede4ed4416152b8a2f4af4529ddfb3934c84b4e5264ce70ac32b765f",
         "size_bytes": 9000
       },
       {
-        "boundary_fragment_count": 3,
+        "boundary_fragment_count": 6,
         "exists": true,
         "path": "notes/evidence-package-format.md",
         "sha256": "598a77eefdba0fb882bf850c89c14b0a8e99f30afb6f050f420df21320c985be",
         "size_bytes": 4055
       },
       {
-        "boundary_fragment_count": 3,
+        "boundary_fragment_count": 8,
         "exists": true,
         "path": "notes/replay-capsule.md",
         "sha256": "494be38628d8eb597e855d1f7a2be5612e1034534cd614e43c70f14d0d7eaee0",
         "size_bytes": 5119
       },
       {
-        "boundary_fragment_count": 2,
+        "boundary_fragment_count": 3,
         "exists": true,
         "path": "notes/public-index-schema.md",
         "sha256": "3fd597d6f5f2e7859bb6c7e71e290ab0cb6f1d0227ad93f8f0bb8689414c9dcc",
         "size_bytes": 3278
       },
       {
-        "boundary_fragment_count": 1,
+        "boundary_fragment_count": 3,
         "exists": true,
         "path": "notes/eatf-claim-boundary-card.md",
         "sha256": "c9aca6ac4a269a1a3130ab2ac6ee4d0694726af38a5688a632783dc301628436",
         "size_bytes": 3155
       },
       {
-        "boundary_fragment_count": 0,
+        "boundary_fragment_count": 5,
         "exists": true,
         "path": "notes/mirror-bundle-card.md",
         "sha256": "9dbe275db46cd6ecf2ac8c560ae5b770a17e72a9bc810bff3a86ed6629d8da3e",
@@ -100,63 +100,63 @@
     ],
     "paper": [
       {
-        "boundary_fragment_count": 6,
+        "boundary_fragment_count": 14,
         "exists": true,
         "path": "paper/draft.md",
         "sha256": "ea751aed82ea3123a55af046f2f6c2180715d44b777bf9f9c0ded1b55e72c059",
         "size_bytes": 53188
       },
       {
-        "boundary_fragment_count": 2,
+        "boundary_fragment_count": 6,
         "exists": true,
         "path": "paper/abstract-card.md",
         "sha256": "04fb2152e56043c136eb35617e03ed28e70736ac2a0fc6ff7a1296efb46966cf",
         "size_bytes": 2193
       },
       {
-        "boundary_fragment_count": 2,
+        "boundary_fragment_count": 6,
         "exists": true,
         "path": "paper/venue-fit-card.md",
         "sha256": "5be8842908cb355d854da8942711f6f36b6bb258bf3077d816697a3d42d12218",
         "size_bytes": 2407
       },
       {
-        "boundary_fragment_count": 1,
+        "boundary_fragment_count": 5,
         "exists": true,
         "path": "paper/reviewer-objection-card.md",
         "sha256": "f5dbf516ee0fd029b348e665f8ec8d78a3296864a8b9784cc0c058c23f7fe33c",
         "size_bytes": 2824
       },
       {
-        "boundary_fragment_count": 2,
+        "boundary_fragment_count": 5,
         "exists": true,
         "path": "paper/claims-and-evidence-table.md",
         "sha256": "e5af66ac550d42b22675ad567e56680977c29c71eec44557bb210f229d0a4518",
         "size_bytes": 2797
       },
       {
-        "boundary_fragment_count": 1,
+        "boundary_fragment_count": 5,
         "exists": true,
         "path": "paper/limitations-card.md",
         "sha256": "4c5673e64a374eac2c789a42dc9c13517610d63cfeea0947f8e1663bf7e40115",
         "size_bytes": 2042
       },
       {
-        "boundary_fragment_count": 2,
+        "boundary_fragment_count": 5,
         "exists": true,
         "path": "paper/thesis-chapter-card.md",
         "sha256": "b2c6f6596b122c0bee136646da23029176819809b862a98793d32dd977e9afe7",
         "size_bytes": 2856
       },
       {
-        "boundary_fragment_count": 1,
+        "boundary_fragment_count": 3,
         "exists": true,
         "path": "paper/related-work-card.md",
         "sha256": "dc982465279f6afb768d9c70b85460db0a98dae2ce2227166490047eb5a0caef",
         "size_bytes": 10342
       },
       {
-        "boundary_fragment_count": 2,
+        "boundary_fragment_count": 7,
         "exists": true,
         "path": "paper/reference-seed-bibliography.md",
         "sha256": "db20b4d856b66a5638d932051131cbad5bab3001d2f65a7a61ec1da107a5d37d",
@@ -165,63 +165,63 @@
     ],
     "thesis_case": [
       {
-        "boundary_fragment_count": 2,
+        "boundary_fragment_count": 6,
         "exists": true,
         "path": "notes/thesis-integration-card.md",
         "sha256": "9dc9cf95eb6ccd52dacb8151f15f43a1320d2ad35c3315fd99c939286c2b9d4f",
         "size_bytes": 1449
       },
       {
-        "boundary_fragment_count": 2,
+        "boundary_fragment_count": 4,
         "exists": true,
         "path": "notes/cassandra-vesta-icarus-xroad-map.md",
         "sha256": "c23c6604cb64b94fdb61a8fb9a22accb270d3f3944e10713cb56ce0e806bea30",
         "size_bytes": 1815
       },
       {
-        "boundary_fragment_count": 3,
+        "boundary_fragment_count": 5,
         "exists": true,
         "path": "notes/eidas-to-ai-act-evidence-map.md",
         "sha256": "65b7522de709116bb870d6273d38b5f244007d15ce5c3649cd4d35ed32f26f7b",
         "size_bytes": 2043
       },
       {
-        "boundary_fragment_count": 0,
+        "boundary_fragment_count": 3,
         "exists": true,
         "path": "notes/case-study-one-pager.md",
         "sha256": "59b1e5892a76b62f2194cf215901cb6e0a3a62f36537253b910809e125cae0bb",
         "size_bytes": 1651
       },
       {
-        "boundary_fragment_count": 1,
+        "boundary_fragment_count": 5,
         "exists": true,
         "path": "notes/press-safe-summary.md",
         "sha256": "b8cd6fa99a06f470cc24e3c555f774b8ef620701101d1d0c65cce825447f2adc",
         "size_bytes": 1556
       },
       {
-        "boundary_fragment_count": 0,
+        "boundary_fragment_count": 1,
         "exists": true,
         "path": "notes/case-study-maturity-matrix.md",
         "sha256": "ff19bff7db7255700d0e0afc4490097f979ff85022c15681dd3529deb358e63c",
         "size_bytes": 9163
       },
       {
-        "boundary_fragment_count": 0,
+        "boundary_fragment_count": 5,
         "exists": true,
         "path": "notes/cassandra-thesis-reference-atlas-2026-05-27.md",
         "sha256": "e4d627ef7f60a21ed319ebdd55c809a298b27398001d86d41f087212b18d5b00",
         "size_bytes": 21758
       },
       {
-        "boundary_fragment_count": 1,
+        "boundary_fragment_count": 3,
         "exists": true,
         "path": "notes/cassandra-evidence-infrastructure-manifest-2026-05-27.md",
         "sha256": "a5b30ad719efee80a70917746f654babb25afbbbc0a88c91339c8397a8b464d6",
         "size_bytes": 2907
       },
       {
-        "boundary_fragment_count": 0,
+        "boundary_fragment_count": 1,
         "exists": true,
         "path": "notes/cassandra-checked-reference-ledger-2026-05-27.md",
         "sha256": "f65abf579db89897f68933252a6f90dc05ead5d86d721bd01d242edb73a5d714",
@@ -278,13 +278,7 @@
   "research_caveat": "Publication-kit inventory check only; not trusted-list validation, source-signature validation, legal-status determination, supervision, compliance judgment, public alerting, endorsement, legal review, or publication approval.",
   "schema": "urn:tyche:cassandra:publication-case-kit-readiness:0.1",
   "status": "ok",
-  "warning_count": 5,
-  "warnings": [
-    "markdown artifact has no explicit boundary fragment from configured list: notes/mirror-bundle-card.md",
-    "markdown artifact has no explicit boundary fragment from configured list: notes/case-study-one-pager.md",
-    "markdown artifact has no explicit boundary fragment from configured list: notes/case-study-maturity-matrix.md",
-    "markdown artifact has no explicit boundary fragment from configured list: notes/cassandra-thesis-reference-atlas-2026-05-27.md",
-    "markdown artifact has no explicit boundary fragment from configured list: notes/cassandra-checked-reference-ledger-2026-05-27.md"
-  ],
+  "warning_count": 0,
+  "warnings": [],
   "workspace": "/home/anton/projects/cassandra"
 }

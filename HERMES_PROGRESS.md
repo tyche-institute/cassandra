@@ -15327,3 +15327,15 @@ Completed bounded publication/case-study kit readiness unit:
 - Did not fetch live endpoints, modify public dashboard JSON, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
 
 Next action: commit and push the publication-case-kit readiness unit, then continue if `STOP_CASSANDRA_HERMES` remains absent.
+
+
+### 2026-05-27T18:09:12Z
+
+Completed follow-up publication-kit validator refinement:
+- Updated `notes/validate_publication_case_kit.py` so boundary-vocabulary recognition catches safe variants already used in the kit, including legal effect/interpretation, supervisory wording, public alerts, not-a-claim, not-a-substitute, and no-endorsement style phrasing.
+- Re-ran the readiness validator; status `ok`, required_file_count 37, present_file_count 37, error_count 0, warning_count 0.
+- Verified the validator with `python3 -m py_compile` and `git diff --check`.
+- Updated `ARTIFACT_INDEX.md` with current hashes.
+- Did not fetch live endpoints, modify public dashboard JSON, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
+
+Next action: commit and push the validator-refinement unit, then continue if `STOP_CASSANDRA_HERMES` remains absent.

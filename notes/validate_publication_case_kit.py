@@ -76,11 +76,23 @@ REQUIRED_FILES = {
 
 BOUNDARY_FRAGMENTS = [
     "not trusted-list validation",
+    "trusted-list validation",
     "legal-status determination",
+    "legal status",
+    "legal interpretation",
+    "legal effect",
     "signature validation",
+    "signature validity",
     "supervision",
+    "supervisory",
     "public alerting",
+    "public alerts",
     "publication approval",
+    "not a claim of deployment",
+    "not a substitute",
+    "without pretending",
+    "do not imply",
+    "do not use as proof",
 ]
 
 FORBIDDEN_TOKENS = [
