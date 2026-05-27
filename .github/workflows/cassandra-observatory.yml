@@ -256,7 +256,7 @@ jobs:
         run: |
           set -euo pipefail
           PROJECT="${CLOUDFLARE_PROJECT_NAME:-cassandra-observatory}"
-          npx --yes wrangler@latest pages deploy observatory/public --project-name "$PROJECT" --branch main
+          npx --yes wrangler@latest pages deploy observatory/public --project-name "$PROJECT" --branch main --commit-dirty=true
 
       - name: Cloudflare deployment notice
         if: ${{ env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == '' }}
