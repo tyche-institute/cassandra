@@ -12,9 +12,9 @@
     "public_csv": "data/aggregate-results-table.csv",
     "public_csv_sha256": "79aad23308d7a670b52320a1b698e1ba4be7149b22217130c73634c716b59822",
     "public_json": "data/aggregate-results.json",
-    "public_json_sha256": "f2745950ef18ffb51bd9e40d3ef2934fbbf59071b3e709e66b0728f2c3f5bdc9",
+    "public_json_sha256": "4a49fc6efdc90a187ef9960fb5da821a2779083bfa4d5de548c67812d8665bb8",
     "source": "notes/aggregate-results-2026-05-27-output.json",
-    "source_sha256": "f2745950ef18ffb51bd9e40d3ef2934fbbf59071b3e709e66b0728f2c3f5bdc9",
+    "source_sha256": "4a49fc6efdc90a187ef9960fb5da821a2779083bfa4d5de548c67812d8665bb8",
     "totals": {
       "alert_entry_count": 5,
       "diff_change_count": 66,
@@ -42,18 +42,18 @@
       "absence of legally relevant change"
     ]
   },
-  "created_at": "2026-05-27T15:04:38Z",
+  "created_at": "2026-05-27T15:34:24Z",
   "eatf_verified_count": 4,
   "figures": [
     {
       "path": "aggregate-diff-classes.svg",
-      "sha256": "8ed7af21932ffb3a4575423778b749aaca3cbf7f72ebac35769d5eea8683db43",
+      "sha256": "53be6fb10b676bdd5b291efaf15e960c3bd2bf8b1972bf7b34c0599aef8e0672",
       "size_bytes": 4741,
       "source": "figures/aggregate-diff-classes.svg"
     },
     {
       "path": "aggregate-run-telemetry.svg",
-      "sha256": "d534996ebc9b072397976de04e7fbd5bd3afeb821f0381d85df8e8be67acb7fd",
+      "sha256": "f48cbd50f62df3bf94790f34a6dc750ffd2e6669957c7c32895a3d3d349a87dc",
       "size_bytes": 5006,
       "source": "figures/aggregate-run-telemetry.svg"
     }
@@ -230,9 +230,9 @@
       },
       "artifacts": {
         "bundle_manifest": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-        "bundle_manifest_sha256": "2d3a13654307bac39d60c1f2a5683a21b66607c6088800109a65d560f3e2aa3f",
+        "bundle_manifest_sha256": "c6a2676c1b965d33caadbf1d199f7e82b3238fa23c2c3e50ccd2d1772c8c16f8",
         "bundle_summary": "bundles/2026-05-27/snapshot-summary.json",
-        "bundle_summary_sha256": "471795c59ba820b8e2fbfbfff01ac39a4a4ddcb6c2cbb5df5939021a294f5a34",
+        "bundle_summary_sha256": "461ce258be88d2b3ba228d45b3ca4d84eb5e7b6bde144aa7ee7e15f4de3ab72a",
         "diff": "diffs/2026-05-27.json",
         "diff_sha256": "036692b010f6f8b34d5483384403a918bb828f2ab43cb66d986729776c5ad2da",
         "normalized_manifest": "normalized/2026-05-27/manifest.json",

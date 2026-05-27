@@ -1,6 +1,6 @@
 {
   "caveat": "URLs are public LOTL-derived fetch targets recorded for structural observation only; this record does not determine legal status or endpoint validity.",
-  "created_at": "2026-05-27T15:04:27.619665Z",
+  "created_at": "2026-05-27T15:34:12.770859Z",
   "schema": "urn:tyche:cassandra:pointer-url-records:0.2",
   "source": "snapshots/2026-05-27/manifest.json",
   "urls": [

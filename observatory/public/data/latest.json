@@ -4,9 +4,9 @@
   },
   "artifacts": {
     "bundle_manifest": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-    "bundle_manifest_sha256": "2d3a13654307bac39d60c1f2a5683a21b66607c6088800109a65d560f3e2aa3f",
+    "bundle_manifest_sha256": "c6a2676c1b965d33caadbf1d199f7e82b3238fa23c2c3e50ccd2d1772c8c16f8",
     "bundle_summary": "bundles/2026-05-27/snapshot-summary.json",
-    "bundle_summary_sha256": "471795c59ba820b8e2fbfbfff01ac39a4a4ddcb6c2cbb5df5939021a294f5a34",
+    "bundle_summary_sha256": "461ce258be88d2b3ba228d45b3ca4d84eb5e7b6bde144aa7ee7e15f4de3ab72a",
     "diff": "diffs/2026-05-27.json",
     "diff_sha256": "036692b010f6f8b34d5483384403a918bb828f2ab43cb66d986729776c5ad2da",
     "normalized_manifest": "normalized/2026-05-27/manifest.json",
