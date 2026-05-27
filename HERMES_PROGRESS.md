@@ -15348,3 +15348,17 @@ Next action: commit and push the validator-refinement unit, then continue if `ST
 - The preprint uses checked external anchors, aggregate Cassandra run telemetry, EATF/AEP receipt boundaries, and the fixture-to-claim map. It remains operator-review required before external submission and is not legal review, trusted-list validation, source-signature validation, supervision, public alerting, endorsement, or publication approval.
 
 Next action: operator review of the preprint text and then either (a) expand into a longer venue-specific submission, (b) prepare Zenodo/OSF-style deposit metadata, or (c) route to a target journal/conference with formatting changes.
+
+### 2026-05-27T18:16:00Z
+
+Completed bounded preprint operator-review packet unit:
+- Confirmed `STOP_CASSANDRA_HERMES` was absent, pulled `origin/main`, and left unrelated untracked `logs/` files unstaged.
+- Read the directive-required lane state plus the thesis reference atlas, evidence-infrastructure manifest, and checked reference ledger before touching publication-facing material.
+- Wrote failing validator `notes/validate_preprint_review_packet.py` first; the RED run failed because `notes/preprint-review-packet-2026-05-27.md` did not yet exist and required sections, boundary phrases, paths, checkboxes, and blockers were missing.
+- Added `notes/preprint-review-packet-2026-05-27.md`, an operator/committee review packet for `paper/preprint/cassandra-preprint-v0.1.md` with reading order, 18 open review checkboxes, 7 explicit blockers, and safe next actions.
+- Expanded `notes/validate_publication_case_kit.py` so the kit inventory now includes preprint and preprint-review artifacts; refined its forbidden-token scan so validator source code examples are not treated as release prose.
+- Verification commands exited 0: `python3 -m py_compile notes/validate_preprint_review_packet.py notes/validate_publication_case_kit.py`; `python3 notes/validate_preprint_review_packet.py --workspace . --output notes/preprint-review-packet-validation-output.json > notes/preprint-review-packet-validation-run.json`; `python3 notes/validate_publication_case_kit.py --workspace . --output notes/publication-case-kit-readiness-output.json > notes/publication-case-kit-readiness-run.json`; `git diff --check`.
+- Updated `CLAIMS.md` and `ARTIFACT_INDEX.md` with the new review-packet claim, refreshed publication-kit counts, and current hashes.
+- Did not fetch live endpoints, upload/deposit the preprint, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
+
+Next action: commit and push the preprint review-packet unit, then continue with a fresh bounded unit if `STOP_CASSANDRA_HERMES` remains absent.

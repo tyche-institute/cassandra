@@ -1,7 +1,7 @@
 {
-  "created": "2026-05-27T17:42:22.085282+00:00",
-  "current_match_count": 909,
-  "duplicate_path_count": 138,
+  "created": "2026-05-27T18:18:14.053911+00:00",
+  "current_match_count": 930,
+  "duplicate_path_count": 148,
   "duplicate_paths": [
     {
       "current_hash": "sha256:2e9a94d9fed56e59777d59747f253f5e7c7c5341b9459cebe01fe8f9988c9805",
@@ -15,12 +15,12 @@
       ]
     },
     {
-      "current_hash": "sha256:09acda1238601085285d3653f5679175ff26ccdc34130105273356b9b5d1bc50",
+      "current_hash": "sha256:60c6603529fd62a34a44844b765a330c9e5346dafaea67f743ecb02798d297f8",
       "matching_lines": [
-        4519
+        4604
       ],
       "path": "CLAIMS.md",
-      "row_count": 44,
+      "row_count": 45,
       "stale_lines": [
         1132,
         1152,
@@ -64,16 +64,17 @@
         4424,
         4445,
         4451,
-        4465
+        4465,
+        4519
       ]
     },
     {
-      "current_hash": "sha256:75f597d61f3d2ed4abaef586aa72cf1ec03f7c75f9fc998ce84f59bb78957586",
+      "current_hash": "sha256:97f48d739a480f61b18e0544b8910de8f07bc2acb43bc9f18cde722a09cf17ac",
       "matching_lines": [
-        4520
+        4605
       ],
       "path": "HERMES_PROGRESS.md",
-      "row_count": 1242,
+      "row_count": 1245,
       "stale_lines": [
         1135,
         1153,
@@ -1315,7 +1316,10 @@
         4452,
         4466,
         4475,
-        4486
+        4486,
+        4520,
+        4538,
+        4545
       ]
     },
     {
@@ -2109,6 +2113,17 @@
       ]
     },
     {
+      "current_hash": "sha256:1c29d7000611477a0dce26b7de725df55863b8c54ffb89fe8efce4582dae4c62",
+      "matching_lines": [
+        4533
+      ],
+      "path": "notes/hermes-full-stack-publication-directive-2026-05-27.md",
+      "row_count": 2,
+      "stale_lines": [
+        4485
+      ]
+    },
+    {
       "current_hash": "sha256:c4573444dc5d51474228663c03623b347adc7f3367ef2e79e212e2a64ad2d051",
       "matching_lines": [
         663
@@ -2176,12 +2191,12 @@
       ]
     },
     {
-      "current_hash": "sha256:9032dfbaf2a5d0d4de7b73a22af3bbfd4e7dac69aa5af8632e7e3b1f9d31f89d",
+      "current_hash": "sha256:b0a602acad4fa27cd22f564444b0bee8c1ce8d40569b17321e0fe8fbf21be5ea",
       "matching_lines": [
-        4522
+        4595
       ],
       "path": "notes/paper-aggregate-only-naming-validation-output.json",
-      "row_count": 30,
+      "row_count": 36,
       "stale_lines": [
         2925,
         2932,
@@ -2211,7 +2226,28 @@
         4376,
         4492,
         4493,
-        4504
+        4504,
+        4522,
+        4536,
+        4543,
+        4548,
+        4556,
+        4568
+      ]
+    },
+    {
+      "current_hash": "sha256:b0a602acad4fa27cd22f564444b0bee8c1ce8d40569b17321e0fe8fbf21be5ea",
+      "matching_lines": [
+        4596
+      ],
+      "path": "notes/paper-aggregate-only-naming-validation-run.json",
+      "row_count": 6,
+      "stale_lines": [
+        4537,
+        4544,
+        4549,
+        4557,
+        4569
       ]
     },
     {
@@ -2263,12 +2299,12 @@
       ]
     },
     {
-      "current_hash": "sha256:832f274afc62a556ed9157a03ee9270a23e7071253505ccf0dce97385f0b3fd3",
+      "current_hash": "sha256:bbf3168f49a20a747f0c386bd8132aebc6da3bc96f9a8fc9f8f25e1dd9c63229",
       "matching_lines": [
-        4472
+        4593
       ],
       "path": "notes/paper-claim-safety-validation-output.json",
-      "row_count": 62,
+      "row_count": 68,
       "stale_lines": [
         243,
         273,
@@ -2330,16 +2366,22 @@
         3358,
         4347,
         4360,
-        4372
+        4372,
+        4472,
+        4534,
+        4541,
+        4546,
+        4554,
+        4566
       ]
     },
     {
-      "current_hash": "sha256:19224f34b2192967c244d1fbba20ee57c4976431def76eb83a2a497116c4f8e3",
+      "current_hash": "sha256:bbf3168f49a20a747f0c386bd8132aebc6da3bc96f9a8fc9f8f25e1dd9c63229",
       "matching_lines": [
-        1277
+        4594
       ],
       "path": "notes/paper-claim-safety-validation-run.json",
-      "row_count": 28,
+      "row_count": 34,
       "stale_lines": [
         244,
         274,
@@ -2367,18 +2409,33 @@
         964,
         1017,
         1091,
-        1229
+        1229,
+        1277,
+        4535,
+        4542,
+        4547,
+        4555,
+        4567
       ]
     },
     {
-      "current_hash": "sha256:4b969328cdb45667780143ab2c5f73bc0061f8f75197e80c5d444e8576f8d4e3",
+      "current_hash": "sha256:ee97fe3f52f7b51f33e73d2a30f022475ef0376ec8ff3fd7199de73fdf4b099e",
       "matching_lines": [
-        4348,
-        4361,
-        4373
+        4565
+      ],
+      "path": "notes/paper-draft-consolidation-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        4553
+      ]
+    },
+    {
+      "current_hash": "sha256:4932f1df13fb70d1ad155188fe04a6ac30c8b18cc17e8ba6d737bcbeddf449ae",
+      "matching_lines": [
+        4572
       ],
       "path": "notes/paper-evidence-reference-validation-output.json",
-      "row_count": 45,
+      "row_count": 47,
       "stale_lines": [
         250,
         275,
@@ -2421,16 +2478,20 @@
         3277,
         3297,
         3308,
-        3360
+        3360,
+        4348,
+        4361,
+        4373,
+        4560
       ]
     },
     {
-      "current_hash": "sha256:dabe4ec50384295fbf9b986a8a34d61de009c7824f965fc2b1a3a154d9c14615",
+      "current_hash": "sha256:4932f1df13fb70d1ad155188fe04a6ac30c8b18cc17e8ba6d737bcbeddf449ae",
       "matching_lines": [
-        1281
+        4573
       ],
       "path": "notes/paper-evidence-reference-validation-run.json",
-      "row_count": 26,
+      "row_count": 28,
       "stale_lines": [
         251,
         276,
@@ -2456,7 +2517,9 @@
         968,
         1021,
         1095,
-        1233
+        1233,
+        1281,
+        4561
       ]
     },
     {
@@ -2506,12 +2569,12 @@
       ]
     },
     {
-      "current_hash": "sha256:8556598a60515b264c19fb79ec70316db1c7028b75a41a280b2b812d01689de1",
+      "current_hash": "sha256:6887d8103bf6e509e0371c3b6b08f90bee7444a8cc6e876046c3685590601eba",
       "matching_lines": [
-        4523
+        4570
       ],
       "path": "notes/paper-section-order-validation-output.json",
-      "row_count": 44,
+      "row_count": 46,
       "stale_lines": [
         282,
         312,
@@ -2555,16 +2618,18 @@
         3359,
         4349,
         4362,
-        4374
+        4374,
+        4523,
+        4558
       ]
     },
     {
-      "current_hash": "sha256:aecc08dc79ff7f919587c4f5af77626ba4b5a6eacfa779108d555e2e1cae272d",
+      "current_hash": "sha256:6887d8103bf6e509e0371c3b6b08f90bee7444a8cc6e876046c3685590601eba",
       "matching_lines": [
-        1279
+        4571
       ],
       "path": "notes/paper-section-order-validation-run.json",
-      "row_count": 25,
+      "row_count": 27,
       "stale_lines": [
         283,
         313,
@@ -2589,7 +2654,9 @@
         966,
         1019,
         1093,
-        1231
+        1231,
+        1279,
+        4559
       ]
     },
     {
@@ -2698,6 +2765,52 @@
       ]
     },
     {
+      "current_hash": "sha256:a45b768f240e8ea981786a7e074c370d4c42f6182c78900cc234838f218956b6",
+      "matching_lines": [
+        4606
+      ],
+      "path": "notes/preprint-candidate-validation-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        4591
+      ]
+    },
+    {
+      "current_hash": "sha256:a45b768f240e8ea981786a7e074c370d4c42f6182c78900cc234838f218956b6",
+      "matching_lines": [
+        4607
+      ],
+      "path": "notes/preprint-candidate-validation-run.json",
+      "row_count": 2,
+      "stale_lines": [
+        4592
+      ]
+    },
+    {
+      "current_hash": "sha256:29bfb8160a24b2fb75eade57caf4e9a2800ed6e0e83a56999291a697b0a2f5bf",
+      "matching_lines": [
+        4614
+      ],
+      "path": "notes/preprint-review-packet-validation-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        4599,
+        4608
+      ]
+    },
+    {
+      "current_hash": "sha256:29bfb8160a24b2fb75eade57caf4e9a2800ed6e0e83a56999291a697b0a2f5bf",
+      "matching_lines": [
+        4615
+      ],
+      "path": "notes/preprint-review-packet-validation-run.json",
+      "row_count": 3,
+      "stale_lines": [
+        4600,
+        4609
+      ]
+    },
+    {
       "current_hash": "sha256:dad64f006301f7a349fe5abad7cf918da3f3210d016ba0e14afd3868db6efc4e",
       "matching_lines": [
         4473
@@ -2720,6 +2833,34 @@
       "row_count": 2,
       "stale_lines": [
         213
+      ]
+    },
+    {
+      "current_hash": "sha256:90ce907f9264525f903653da295dcd2d9463e2e0b266bf669b340d61e3d1e296",
+      "matching_lines": [
+        4616
+      ],
+      "path": "notes/publication-case-kit-readiness-output.json",
+      "row_count": 5,
+      "stale_lines": [
+        4581,
+        4585,
+        4602,
+        4610
+      ]
+    },
+    {
+      "current_hash": "sha256:90ce907f9264525f903653da295dcd2d9463e2e0b266bf669b340d61e3d1e296",
+      "matching_lines": [
+        4617
+      ],
+      "path": "notes/publication-case-kit-readiness-run.json",
+      "row_count": 5,
+      "stale_lines": [
+        4582,
+        4586,
+        4603,
+        4611
       ]
     },
     {
@@ -3641,14 +3782,28 @@
       ]
     },
     {
-      "current_hash": "sha256:c4321dba6bc8adc59f046c677da1b2e0504695da9a742fab52f798997ad6d9fb",
+      "current_hash": "sha256:4d781db80a29a3411887719d5a9d70568b84ded45285de8e399f4503e48254bd",
       "matching_lines": [
-        4346
+        4552,
+        4564
       ],
       "path": "notes/validate_paper_section_order.py",
-      "row_count": 2,
+      "row_count": 4,
       "stale_lines": [
-        281
+        281,
+        4346
+      ]
+    },
+    {
+      "current_hash": "sha256:ba546936b6dee45d8590b300a4d5397d3dcf97543520c83608839bb6b767e769",
+      "matching_lines": [
+        4601
+      ],
+      "path": "notes/validate_publication_case_kit.py",
+      "row_count": 3,
+      "stale_lines": [
+        4580,
+        4584
       ]
     },
     {
@@ -3717,12 +3872,12 @@
       ]
     },
     {
-      "current_hash": "sha256:7280e45ca6d58f3015b4ea5683fde49a85f5db4acabd18973948a6a3fbe341db",
+      "current_hash": "sha256:ea751aed82ea3123a55af046f2f6c2180715d44b777bf9f9c0ded1b55e72c059",
       "matching_lines": [
-        4518
+        4563
       ],
       "path": "paper/draft.md",
-      "row_count": 39,
+      "row_count": 43,
       "stale_lines": [
         236,
         269,
@@ -3761,7 +3916,11 @@
         4345,
         4491,
         4497,
-        4501
+        4501,
+        4518,
+        4532,
+        4540,
+        4551
       ]
     },
     {
@@ -3797,14 +3956,16 @@
       ]
     },
     {
-      "current_hash": "sha256:9fbb0523650d4b7631ce214059b5025e1c4479b6e395bceabd20138a11c7b9a4",
+      "current_hash": "sha256:dc982465279f6afb768d9c70b85460db0a98dae2ce2227166490047eb5a0caef",
       "matching_lines": [
-        4517
+        4539
       ],
       "path": "paper/related-work-card.md",
-      "row_count": 2,
+      "row_count": 4,
       "stale_lines": [
-        4488
+        4488,
+        4517,
+        4531
       ]
     }
   ],
@@ -4377,7 +4538,8 @@
         3283,
         3368,
         3522,
-        3669
+        3669,
+        4612
       ],
       "path": "notes/artifact-index-current-hash-validation-output.json",
       "reason": "validator output is rewritten by this command and cannot be self-validated against a pre-run index row"
@@ -4450,7 +4612,8 @@
         1272,
         1288,
         1297,
-        1307
+        1307,
+        4613
       ],
       "path": "notes/artifact-index-current-hash-validation-run.json",
       "reason": "validator output is rewritten by this command and cannot be self-validated against a pre-run index row"
@@ -4460,13 +4623,13 @@
   "missing_path_count": 0,
   "missing_paths": [],
   "research_caveat": "Local artifact-index hash freshness telemetry only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication readiness.",
-  "row_count": 3964,
+  "row_count": 4048,
   "stale_path_count": 0,
   "stale_paths": [],
   "status": "ok",
-  "unique_path_count": 912,
+  "unique_path_count": 933,
   "warnings": [
-    "138 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
+    "148 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
   ],
   "workspace": "/home/anton/projects/cassandra"
 }

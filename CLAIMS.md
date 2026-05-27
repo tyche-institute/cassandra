@@ -170,6 +170,12 @@ Boundary: the card pack is a presentation and reviewer-inspection artifact only.
 
 ## 2026-05-27 publication case kit readiness claim
 
-Allowed claim: `notes/validate_publication_case_kit.py` mechanically checks the configured Cassandra paper, dataset/evidence, dashboard/product, thesis/case, and validator artifacts. `notes/publication-case-kit-readiness-output.json` reports `status=ok`, `required_file_count=37`, `present_file_count=37`, and `error_count=0`.
+Allowed claim: `notes/validate_publication_case_kit.py` mechanically checks the configured Cassandra paper, preprint-review, dataset/evidence, dashboard/product, thesis/case, and validator artifacts. `notes/publication-case-kit-readiness-output.json` reports `status=ok`, `required_file_count=45`, `present_file_count=45`, and `error_count=0`.
 
 Boundary: the readiness output is an inventory and formatting/safety aid only. It does not validate trusted lists, verify source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.
+
+## 2026-05-27 preprint operator-review packet claim
+
+Allowed claim: `notes/preprint-review-packet-2026-05-27.md` converts the v0.1 preprint candidate into a bounded operator/committee review packet with reading order, review checkboxes, release blockers, and safe next actions. `notes/validate_preprint_review_packet.py` reports `status=ok`, 18 open review checkboxes, 7 explicit blockers, and 0 errors.
+
+Boundary: the review packet is a local decision-support artifact only. It does not approve publication, perform legal review, validate trusted lists, validate source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, or imply endorsement.

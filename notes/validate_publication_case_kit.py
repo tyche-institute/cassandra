@@ -35,6 +35,16 @@ REQUIRED_FILES = {
         "paper/thesis-chapter-card.md",
         "paper/related-work-card.md",
         "paper/reference-seed-bibliography.md",
+        "paper/preprint/cassandra-preprint-v0.1.md",
+        "paper/preprint/cassandra-preprint-v0.1.pdf",
+        "paper/preprint/cassandra-preprint-v0.1.docx",
+    ],
+    "preprint_review": [
+        "notes/preprint-review-packet-2026-05-27.md",
+        "notes/preprint-review-packet-validation-output.json",
+        "notes/validate_preprint_review_packet.py",
+        "notes/validate_preprint_candidate.py",
+        "notes/preprint-candidate-validation-output.json",
     ],
     "dataset_evidence": [
         "notes/data-dictionary.md",
@@ -148,13 +158,14 @@ def validate(workspace: pathlib.Path) -> dict[str, Any]:
                         errors.append(f"invalid JSON in {rel}: {exc}")
                 if path.suffix in {".md", ".py"}:
                     text = path.read_text(encoding="utf-8", errors="replace")
-                    forbidden_hits = [
-                        {"token": token, "line": line_for(text, token)}
-                        for token in FORBIDDEN_TOKENS
-                        if token in text
-                    ]
-                    if forbidden_hits:
-                        errors.append(f"forbidden tokens in {rel}: {forbidden_hits}")
+                    if path.suffix == ".md":
+                        forbidden_hits = [
+                            {"token": token, "line": line_for(text, token)}
+                            for token in FORBIDDEN_TOKENS
+                            if token in text
+                        ]
+                        if forbidden_hits:
+                            errors.append(f"forbidden tokens in {rel}: {forbidden_hits}")
                     boundary_hits = [fragment for fragment in BOUNDARY_FRAGMENTS if fragment in text]
                     record["boundary_fragment_count"] = len(boundary_hits)
                     if path.suffix == ".md" and rel != "paper/draft.md" and not boundary_hits:
