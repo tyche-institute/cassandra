@@ -4,7 +4,7 @@
     "path": "../snapshot-summary.json",
     "sha256": {
       "algorithm": "SHA-256",
-      "value": "c678cce206e02b7a12416c955d9c7fc4aa0fdeb70615cc31919441b73ec9d466"
+      "value": "8e9af4f37ecf05754c0e8781f4e1ecdf642c630f73c3e11d0ccde36fa1deccfe"
     }
   },
   "assumptions": [
@@ -17,12 +17,12 @@
     "signed": false,
     "timestamped": false
   },
-  "bundle_created_at": "2026-05-27T14:18:49.732018Z",
-  "bundle_id": "urn:tyche:mirror:bundle:c678cce206e02b7a12416c955d9c7fc4",
+  "bundle_created_at": "2026-05-27T15:02:21.582071Z",
+  "bundle_id": "urn:tyche:mirror:bundle:8e9af4f37ecf05754c0e8781f4e1ecdf",
   "bundle_version": "0.2.0",
   "canonicalization": "mirror-bundle-json-v0.1",
   "claims_file": "claims.json",
-  "created_at": "2026-05-27T14:18:49.732019Z",
+  "created_at": "2026-05-27T15:02:21.582073Z",
   "created_by": {
     "affiliation": "Tyche Institute, Tallinn, Estonia",
     "name": "Anton Sokolov"
@@ -51,7 +51,7 @@
   "schema_version": "0.1.0",
   "sources": [
     {
-      "accessed_at": "2026-05-27T14:18:49.729873Z",
+      "accessed_at": "2026-05-27T15:02:21.577363Z",
       "id": "src-001",
       "kind": "local_file",
       "path": "sources/snapshot-manifest.json",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "accessed_at": "2026-05-27T14:18:49.730691Z",
+      "accessed_at": "2026-05-27T15:02:21.578896Z",
       "id": "src-002",
       "kind": "local_file",
       "path": "sources/normalized-manifest.json",
@@ -73,7 +73,7 @@
       }
     },
     {
-      "accessed_at": "2026-05-27T14:18:49.730806Z",
+      "accessed_at": "2026-05-27T15:02:21.579150Z",
       "id": "src-003",
       "kind": "local_file",
       "path": "sources/diff-2026-05-27.json",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "accessed_at": "2026-05-27T14:18:49.731613Z",
+      "accessed_at": "2026-05-27T15:02:21.580628Z",
       "id": "src-004",
       "kind": "local_file",
       "path": "sources/baseline-2026-05-27.json",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "accessed_at": "2026-05-27T14:18:49.731727Z",
+      "accessed_at": "2026-05-27T15:02:21.581244Z",
       "id": "src-005",
       "kind": "local_file",
       "path": "sources/pointers.json",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "accessed_at": "2026-05-27T14:18:49.731786Z",
+      "accessed_at": "2026-05-27T15:02:21.581458Z",
       "id": "src-006",
       "kind": "local_file",
       "path": "sources/eu-lotl.xml.meta.json",
@@ -117,14 +117,14 @@
       }
     },
     {
-      "accessed_at": "2026-05-27T14:18:49.732015Z",
+      "accessed_at": "2026-05-27T15:02:21.582062Z",
       "id": "src-007",
       "kind": "url_record",
       "path": "sources/pointer-url-records.json",
       "reliability": "primary-url-record",
       "sha256": {
         "algorithm": "SHA-256",
-        "value": "22e4ba456b6970a0c50b2a06f7ff6edd1d3f6dd3b2746cb33dbf4aeebe600a3e"
+        "value": "9a7361e797ca41da9ccdd3423c3534a3026349927ca95478cda062a9e94a9d13"
       }
     }
   ]

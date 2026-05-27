@@ -27,20 +27,20 @@
     {
       "name": "bundle_summary",
       "path": "bundles/2026-05-27/snapshot-summary.json",
-      "sha256": "c678cce206e02b7a12416c955d9c7fc4aa0fdeb70615cc31919441b73ec9d466",
-      "size_bytes": 2011
+      "sha256": "8e9af4f37ecf05754c0e8781f4e1ecdf642c630f73c3e11d0ccde36fa1deccfe",
+      "size_bytes": 2018
     },
     {
       "name": "bundle_manifest",
       "path": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-      "sha256": "e5c4d3329f9462eb4901e515e5b0c20193f7f0325e38fb30498bc16f4a94ddb7",
+      "sha256": "f9fa0ea6df6f397cc7b96da02757f6ec4cfaa90d4f82d436effb34e53e825128",
       "size_bytes": 4034
     },
     {
       "name": "alert_rollup",
       "path": "notes/alert-rollup-2026-05-27-output.json",
-      "sha256": "022ecbd062a604ce9b560a0a89127995f543ebf667447033244e2bf7cea489d2",
-      "size_bytes": 2788
+      "sha256": "3bfca52305f8a4d5f9e9b992246fbbdc492f36ded2964ea7f6d5f6eeb20d9838",
+      "size_bytes": 2787
     }
   ],
   "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
@@ -95,11 +95,11 @@
     "normalized_xml_artifacts": 31,
     "pointer_attempts": 43
   },
-  "created_at": "2026-05-27T14:58:44Z",
+  "created_at": "2026-05-27T15:02:34Z",
   "lane": "cassandra",
   "observation_date": "2026-05-27",
   "payload_path": "evidence/2026-05-27/cassandra-observation.json",
-  "payload_sha256": "54e85e176b34a2e3f7f5ef6463793c32567d63084bb79c3d66e5ce28b52b96ec",
+  "payload_sha256": "d632801e505924ffa4faea0b61016ba333d9e326b4426a1b857339428dfb9966",
   "schema": "urn:tyche:cassandra:eatf-observation-payload:0.1",
   "subject": {
     "scope": "Public LOTL-derived trusted-list snapshot telemetry",

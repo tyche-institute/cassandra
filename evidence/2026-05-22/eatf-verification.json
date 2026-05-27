@@ -1,75 +1,17 @@
 {
-  "aep_package": "evidence/2026-05-22/cassandra-observation.aep",
-  "aep_sha256": "5f63bca25b30b7a01beb8ed19b1993ec803352079819edb8443a2ba9ad128a83",
+  "aep_package": null,
   "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-  "created_at": "2026-05-27T14:58:44Z",
+  "created_at": "2026-05-27T15:02:34Z",
   "metadata": "evidence/2026-05-22/eatf-metadata.json",
-  "metadata_sha256": "2e21055375df3aa65ceb83ff39ac8d583d2e7abde3def9601ae37890157c18cb",
+  "metadata_sha256": "1af843da5bbffc78cfe80db49acff905cbe8c2ec7f37eae2c6a1ae97ddf93324",
+  "missing_inputs": [
+    "private_key",
+    "public_key"
+  ],
   "payload": "evidence/2026-05-22/cassandra-observation.json",
-  "payload_sha256": "dc048cf76213a42738a2fb30162d6499e3a24529d0d59eafcecde40d16f44b45",
+  "payload_sha256": "4e269224a1c2aad28f7f42f466f5372df8906e6e7748017381ed449903cf26a6",
   "schema": "urn:tyche:cassandra:eatf-verification-receipt:0.1",
-  "scope": "foundational:public-trust-list-observation",
-  "signing_profile": "dev-local-fixture",
-  "status": "ok",
-  "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-  "verify": {
-    "failureReason": null,
-    "metadata": {
-      "action_type": "cassandra.public-trust-list-observation",
-      "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory",
-      "attestation_id": "att_cassandra_2026_05_22",
-      "case_study": "Cassandra: from governance infrastructure to evidence infrastructure.",
-      "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-      "created_at": "2026-05-27T14:58:44Z",
-      "policy": {
-        "disclosure": "hashes, counts, paths, and cautious claim boundary only",
-        "purpose": "research evidence packaging",
-        "retention": "commit history and public observatory artifact"
-      },
-      "schema": "urn:tyche:cassandra:eatf-observation-package:0.1",
-      "signing_profile": "dev-local-fixture",
-      "tenant_id": "tyche-research"
-    },
-    "overtReceipt": {
-      "content_hash": "sha256:dc048cf76213a42738a2fb30162d6499e3a24529d0d59eafcecde40d16f44b45",
-      "event": {
-        "action_type": "cassandra.public-trust-list-observation",
-        "timestamp": "2026-05-27T14:58:44Z"
-      },
-      "overt": "1.0.0",
-      "policy": {},
-      "prev": null,
-      "profile": "urn:eatf:spec:aep:1.0",
-      "profile_revision": "1.0-draft",
-      "scope": "foundational:public-trust-list-observation",
-      "subject": {
-        "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory"
-      },
-      "witness": {
-        "iap": "EATF.eu",
-        "signature_refs": [
-          "signature.sig"
-        ],
-        "timestamp_refs": [
-          "timestamp.tsr"
-        ]
-      }
-    },
-    "path": "evidence/2026-05-22/cassandra-observation.aep",
-    "pqcValid": null,
-    "report": [
-      "Package unzipped (8 entries).",
-      "metadata.json parsed.",
-      "Canonical bytes match Java response-only canonical form.",
-      "SHA-256 hash matches.",
-      "RSA-4096 signature verified.",
-      "OVERT receipt verified (foundational:public-trust-list-observation).",
-      "ML-DSA-65 entries absent (transitional v1 package).",
-      "RFC 3161 timestamp present (743 bytes, genTime=2026-01-01T00:00:00.000Z). Message imprint match: false. SignerInfo signature: no embedded cert. Signer: unknown (issued by unknown).",
-      "RFC 3161 message imprint does not match hash.sha256 (accepted for Java reference compatibility)."
-    ],
-    "tsaTrusted": null,
-    "valid": true
-  },
-  "verify_exit_code": 0
+  "signing_profile": "unsigned",
+  "status": "skipped_missing_signing_inputs",
+  "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr"
 }

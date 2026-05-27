@@ -28,20 +28,20 @@
       {
         "name": "bundle_summary",
         "path": "bundles/2026-05-27/snapshot-summary.json",
-        "sha256": "c678cce206e02b7a12416c955d9c7fc4aa0fdeb70615cc31919441b73ec9d466",
-        "size_bytes": 2011
+        "sha256": "8e9af4f37ecf05754c0e8781f4e1ecdf642c630f73c3e11d0ccde36fa1deccfe",
+        "size_bytes": 2018
       },
       {
         "name": "bundle_manifest",
         "path": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-        "sha256": "e5c4d3329f9462eb4901e515e5b0c20193f7f0325e38fb30498bc16f4a94ddb7",
+        "sha256": "f9fa0ea6df6f397cc7b96da02757f6ec4cfaa90d4f82d436effb34e53e825128",
         "size_bytes": 4034
       },
       {
         "name": "alert_rollup",
         "path": "notes/alert-rollup-2026-05-27-output.json",
-        "sha256": "022ecbd062a604ce9b560a0a89127995f543ebf667447033244e2bf7cea489d2",
-        "size_bytes": 2788
+        "sha256": "3bfca52305f8a4d5f9e9b992246fbbdc492f36ded2964ea7f6d5f6eeb20d9838",
+        "size_bytes": 2787
       }
     ],
     "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
@@ -96,11 +96,11 @@
       "normalized_xml_artifacts": 31,
       "pointer_attempts": 43
     },
-    "created_at": "2026-05-27T14:58:44Z",
+    "created_at": "2026-05-27T15:02:34Z",
     "lane": "cassandra",
     "observation_date": "2026-05-27",
     "payload_path": "evidence/2026-05-27/cassandra-observation.json",
-    "payload_sha256": "54e85e176b34a2e3f7f5ef6463793c32567d63084bb79c3d66e5ce28b52b96ec",
+    "payload_sha256": "d632801e505924ffa4faea0b61016ba333d9e326b4426a1b857339428dfb9966",
     "schema": "urn:tyche:cassandra:eatf-observation-payload:0.1",
     "subject": {
       "scope": "Public LOTL-derived trusted-list snapshot telemetry",
@@ -109,79 +109,21 @@
     }
   },
   "receipt": {
-    "aep_package": "evidence/2026-05-27/cassandra-observation.aep",
-    "aep_sha256": "4ec7795b1460cf2a9e6b3f9598276e5848d5dedd2dadd7c65db2a58c7d1d55cd",
+    "aep_package": null,
     "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-    "created_at": "2026-05-27T14:58:45Z",
+    "created_at": "2026-05-27T15:02:34Z",
     "metadata": "evidence/2026-05-27/eatf-metadata.json",
-    "metadata_sha256": "cc0b4c3263db052768d3939d70b3b37aa65a81aa8833e1a08bc9dc6afdc04508",
+    "metadata_sha256": "4b405526f9078453e995fc3ad60a1df6b804c383983424626db118f48ebaf309",
+    "missing_inputs": [
+      "private_key",
+      "public_key"
+    ],
     "payload": "evidence/2026-05-27/cassandra-observation.json",
-    "payload_sha256": "b81626accbb51b4e1158fcd5b567f8e202b1100a22b53502cc7ed26b877bbcb8",
+    "payload_sha256": "49d318e6ebdaf85e7de998b0246300017aef73765e9d22d4b5592a2256680a17",
     "schema": "urn:tyche:cassandra:eatf-verification-receipt:0.1",
-    "scope": "foundational:public-trust-list-observation",
-    "signing_profile": "dev-local-fixture",
-    "status": "ok",
-    "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-    "verify": {
-      "failureReason": null,
-      "metadata": {
-        "action_type": "cassandra.public-trust-list-observation",
-        "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory",
-        "attestation_id": "att_cassandra_2026_05_27",
-        "case_study": "Cassandra: from governance infrastructure to evidence infrastructure.",
-        "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-        "created_at": "2026-05-27T14:58:44Z",
-        "policy": {
-          "disclosure": "hashes, counts, paths, and cautious claim boundary only",
-          "purpose": "research evidence packaging",
-          "retention": "commit history and public observatory artifact"
-        },
-        "schema": "urn:tyche:cassandra:eatf-observation-package:0.1",
-        "signing_profile": "dev-local-fixture",
-        "tenant_id": "tyche-research"
-      },
-      "overtReceipt": {
-        "content_hash": "sha256:b81626accbb51b4e1158fcd5b567f8e202b1100a22b53502cc7ed26b877bbcb8",
-        "event": {
-          "action_type": "cassandra.public-trust-list-observation",
-          "timestamp": "2026-05-27T14:58:44Z"
-        },
-        "overt": "1.0.0",
-        "policy": {},
-        "prev": null,
-        "profile": "urn:eatf:spec:aep:1.0",
-        "profile_revision": "1.0-draft",
-        "scope": "foundational:public-trust-list-observation",
-        "subject": {
-          "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory"
-        },
-        "witness": {
-          "iap": "EATF.eu",
-          "signature_refs": [
-            "signature.sig"
-          ],
-          "timestamp_refs": [
-            "timestamp.tsr"
-          ]
-        }
-      },
-      "path": "evidence/2026-05-27/cassandra-observation.aep",
-      "pqcValid": null,
-      "report": [
-        "Package unzipped (8 entries).",
-        "metadata.json parsed.",
-        "Canonical bytes match Java response-only canonical form.",
-        "SHA-256 hash matches.",
-        "RSA-4096 signature verified.",
-        "OVERT receipt verified (foundational:public-trust-list-observation).",
-        "ML-DSA-65 entries absent (transitional v1 package).",
-        "RFC 3161 timestamp present (743 bytes, genTime=2026-01-01T00:00:00.000Z). Message imprint match: false. SignerInfo signature: no embedded cert. Signer: unknown (issued by unknown).",
-        "RFC 3161 message imprint does not match hash.sha256 (accepted for Java reference compatibility)."
-      ],
-      "tsaTrusted": null,
-      "valid": true
-    },
-    "verify_exit_code": 0
+    "signing_profile": "unsigned",
+    "status": "skipped_missing_signing_inputs",
+    "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr"
   },
-  "status": "ok"
+  "status": "skipped_missing_signing_inputs"
 }

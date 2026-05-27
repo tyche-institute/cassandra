@@ -4,9 +4,9 @@
   },
   "artifacts": {
     "bundle_manifest": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-    "bundle_manifest_sha256": "e5c4d3329f9462eb4901e515e5b0c20193f7f0325e38fb30498bc16f4a94ddb7",
+    "bundle_manifest_sha256": "f9fa0ea6df6f397cc7b96da02757f6ec4cfaa90d4f82d436effb34e53e825128",
     "bundle_summary": "bundles/2026-05-27/snapshot-summary.json",
-    "bundle_summary_sha256": "c678cce206e02b7a12416c955d9c7fc4aa0fdeb70615cc31919441b73ec9d466",
+    "bundle_summary_sha256": "8e9af4f37ecf05754c0e8781f4e1ecdf642c630f73c3e11d0ccde36fa1deccfe",
     "diff": "diffs/2026-05-27.json",
     "diff_sha256": "036692b010f6f8b34d5483384403a918bb828f2ab43cb66d986729776c5ad2da",
     "normalized_manifest": "normalized/2026-05-27/manifest.json",
@@ -42,12 +42,12 @@
     "package_path": "evidence/2026-05-27/cassandra-observation.aep",
     "package_sha256": "4ec7795b1460cf2a9e6b3f9598276e5848d5dedd2dadd7c65db2a58c7d1d55cd",
     "payload_path": "evidence/2026-05-27/cassandra-observation.json",
-    "payload_sha256": "b81626accbb51b4e1158fcd5b567f8e202b1100a22b53502cc7ed26b877bbcb8",
+    "payload_sha256": "49d318e6ebdaf85e7de998b0246300017aef73765e9d22d4b5592a2256680a17",
     "receipt_path": "evidence/2026-05-27/eatf-verification.json",
-    "receipt_sha256": "f4c43e42f1199c734e8dff27a11c41aed414286cd61e464d08344f858fa6da18",
-    "signing_profile": "dev-local-fixture",
-    "status": "ok",
+    "receipt_sha256": "02730ce53b034daa8b01c6ded543e263a351fc3c191dd030e59033e76f7238b4",
+    "signing_profile": "unsigned",
+    "status": "skipped_missing_signing_inputs",
     "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-    "valid": true
+    "valid": null
   }
 }

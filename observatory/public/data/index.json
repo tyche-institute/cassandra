@@ -12,9 +12,9 @@
     "public_csv": "data/aggregate-results-table.csv",
     "public_csv_sha256": "79aad23308d7a670b52320a1b698e1ba4be7149b22217130c73634c716b59822",
     "public_json": "data/aggregate-results.json",
-    "public_json_sha256": "8d2cbbf17c191fa5079b43c45aea1bf274eb910e50462f9c15b9a0f790e9e8c3",
+    "public_json_sha256": "2e98f4293b4e3fe03e7f68436278c8670c77634c32eff7559713b717f0641517",
     "source": "notes/aggregate-results-2026-05-27-output.json",
-    "source_sha256": "8d2cbbf17c191fa5079b43c45aea1bf274eb910e50462f9c15b9a0f790e9e8c3",
+    "source_sha256": "2e98f4293b4e3fe03e7f68436278c8670c77634c32eff7559713b717f0641517",
     "totals": {
       "alert_entry_count": 5,
       "diff_change_count": 66,
@@ -42,18 +42,18 @@
       "absence of legally relevant change"
     ]
   },
-  "created_at": "2026-05-27T15:00:11Z",
-  "eatf_verified_count": 4,
+  "created_at": "2026-05-27T15:02:34Z",
+  "eatf_verified_count": 0,
   "figures": [
     {
       "path": "aggregate-diff-classes.svg",
-      "sha256": "50ae2474790549d2376a7ff74146e3ed06a618ea3fa8100b31db3c6359560710",
+      "sha256": "2a5136910b3049190c0fe677a4e2be493baa4e387845424cef7f82c6b5a7f807",
       "size_bytes": 4741,
       "source": "figures/aggregate-diff-classes.svg"
     },
     {
       "path": "aggregate-run-telemetry.svg",
-      "sha256": "689e8647b1c444f58f672f994e17056e974faa68dc50657083f915a1cc6b379e",
+      "sha256": "81f618975c91ca648764f406af61c3a6239aed3bd2b04f29822d22eff1faa84c",
       "size_bytes": 5006,
       "source": "figures/aggregate-run-telemetry.svg"
     }
@@ -109,13 +109,13 @@
         "package_path": "evidence/2026-05-20/cassandra-observation.aep",
         "package_sha256": "da0aa245af7e1a73244f3fc98209d8c3e376ce526ada2ca9ce77492ad47f08ee",
         "payload_path": "evidence/2026-05-20/cassandra-observation.json",
-        "payload_sha256": "b6573e4bccba8b3bfcda688d60f6a8ddfdd5589bcc90ef208d1b6b7a5a38f423",
+        "payload_sha256": "4fb5d90d33577ef0fea6ce968db9bbb24e734127a5c0b1f085a9423e47bcc592",
         "receipt_path": "evidence/2026-05-20/eatf-verification.json",
-        "receipt_sha256": "56cc5f40fafcfe0114a4f181494ad640eea49752a7322bccf9795da640d74336",
-        "signing_profile": "dev-local-fixture",
-        "status": "ok",
+        "receipt_sha256": "014f8d7a6a3fceacc8ed75924ee94e9af0d7fb3891850ea2bfe54fe627639da6",
+        "signing_profile": "unsigned",
+        "status": "skipped_missing_signing_inputs",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": true
+        "valid": null
       }
     },
     {
@@ -162,13 +162,13 @@
         "package_path": "evidence/2026-05-21/cassandra-observation.aep",
         "package_sha256": "1758382cab2646137586df6e9529c255fb2a7fa7eb9e700d28ef22e1bc33126d",
         "payload_path": "evidence/2026-05-21/cassandra-observation.json",
-        "payload_sha256": "5c3db4e888a96e46897fa20eeed13414cbdfc53d9c1bfae74620a6dac92d6721",
+        "payload_sha256": "e78ecc28234013145b6edcce590517a61d79b576f2ff646838dec0b1137dd9e4",
         "receipt_path": "evidence/2026-05-21/eatf-verification.json",
-        "receipt_sha256": "dff8a7e1cf927050976122d629cdd23b899ca325098c4acd8a6de2d91998f4e8",
-        "signing_profile": "dev-local-fixture",
-        "status": "ok",
+        "receipt_sha256": "f1d06410d66d5d70702195c04ef3d674bbde64e40a9caf19fbdefa12cbb3237f",
+        "signing_profile": "unsigned",
+        "status": "skipped_missing_signing_inputs",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": true
+        "valid": null
       }
     },
     {
@@ -215,13 +215,13 @@
         "package_path": "evidence/2026-05-22/cassandra-observation.aep",
         "package_sha256": "5f63bca25b30b7a01beb8ed19b1993ec803352079819edb8443a2ba9ad128a83",
         "payload_path": "evidence/2026-05-22/cassandra-observation.json",
-        "payload_sha256": "dc048cf76213a42738a2fb30162d6499e3a24529d0d59eafcecde40d16f44b45",
+        "payload_sha256": "4e269224a1c2aad28f7f42f466f5372df8906e6e7748017381ed449903cf26a6",
         "receipt_path": "evidence/2026-05-22/eatf-verification.json",
-        "receipt_sha256": "df99c2e79581fdc644be3356dd2b9a543f70a3ab4695108d42e169babfd2c604",
-        "signing_profile": "dev-local-fixture",
-        "status": "ok",
+        "receipt_sha256": "97bed85476e6f91662d423dcf34d5931b3a25ebd5f5a5b6ac2b7bb551771c20a",
+        "signing_profile": "unsigned",
+        "status": "skipped_missing_signing_inputs",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": true
+        "valid": null
       }
     },
     {
@@ -230,9 +230,9 @@
       },
       "artifacts": {
         "bundle_manifest": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-        "bundle_manifest_sha256": "e5c4d3329f9462eb4901e515e5b0c20193f7f0325e38fb30498bc16f4a94ddb7",
+        "bundle_manifest_sha256": "f9fa0ea6df6f397cc7b96da02757f6ec4cfaa90d4f82d436effb34e53e825128",
         "bundle_summary": "bundles/2026-05-27/snapshot-summary.json",
-        "bundle_summary_sha256": "c678cce206e02b7a12416c955d9c7fc4aa0fdeb70615cc31919441b73ec9d466",
+        "bundle_summary_sha256": "8e9af4f37ecf05754c0e8781f4e1ecdf642c630f73c3e11d0ccde36fa1deccfe",
         "diff": "diffs/2026-05-27.json",
         "diff_sha256": "036692b010f6f8b34d5483384403a918bb828f2ab43cb66d986729776c5ad2da",
         "normalized_manifest": "normalized/2026-05-27/manifest.json",
@@ -268,13 +268,13 @@
         "package_path": "evidence/2026-05-27/cassandra-observation.aep",
         "package_sha256": "4ec7795b1460cf2a9e6b3f9598276e5848d5dedd2dadd7c65db2a58c7d1d55cd",
         "payload_path": "evidence/2026-05-27/cassandra-observation.json",
-        "payload_sha256": "b81626accbb51b4e1158fcd5b567f8e202b1100a22b53502cc7ed26b877bbcb8",
+        "payload_sha256": "49d318e6ebdaf85e7de998b0246300017aef73765e9d22d4b5592a2256680a17",
         "receipt_path": "evidence/2026-05-27/eatf-verification.json",
-        "receipt_sha256": "f4c43e42f1199c734e8dff27a11c41aed414286cd61e464d08344f858fa6da18",
-        "signing_profile": "dev-local-fixture",
-        "status": "ok",
+        "receipt_sha256": "02730ce53b034daa8b01c6ded543e263a351fc3c191dd030e59033e76f7238b4",
+        "signing_profile": "unsigned",
+        "status": "skipped_missing_signing_inputs",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": true
+        "valid": null
       }
     }
   ],
