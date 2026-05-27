@@ -1,6 +1,6 @@
 {
   "caveat": "Aggregate structural-observation telemetry only; not trusted-list validation, supervision, legal-status determination, signature verification, public alerting, or publication approval.",
-  "created_at": "2026-05-27T15:34:12Z",
+  "created_at": "2026-05-27T17:34:34Z",
   "csv": "notes/aggregate-results-table.csv",
   "csv_sha256": "e4d6c727d96985074d648385f9943154f4082310f7d64313e5b8c4806a97461d",
   "dates": [

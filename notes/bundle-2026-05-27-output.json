@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-05-27T15:34:12.757329Z",
+  "created_at": "2026-05-27T17:34:34.454059Z",
   "date": "2026-05-27",
   "dry_run": false,
   "existing_outputs": [
@@ -7,15 +7,15 @@
     "bundles/2026-05-27/snapshot-summary.json.bundle"
   ],
   "hashes": {
-    "bundles/2026-05-27/snapshot-summary.json": "461ce258be88d2b3ba228d45b3ca4d84eb5e7b6bde144aa7ee7e15f4de3ab72a",
-    "bundles/2026-05-27/snapshot-summary.json.bundle/claims.json": "1baa99bcb1a87627ed47dc708059dd424c2d8678af98ab3f669eef1c782cd805",
-    "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json": "c6a2676c1b965d33caadbf1d199f7e82b3238fa23c2c3e50ccd2d1772c8c16f8",
+    "bundles/2026-05-27/snapshot-summary.json": "5ce235d26de734a6d4e6dda96ccf011416301ac1d3bf6b602e25a5447ccabd4b",
+    "bundles/2026-05-27/snapshot-summary.json.bundle/claims.json": "a8b0e04bcba14056bff7be1f9173997fb2f8bac7cff774a35dcb4ad029809610",
+    "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json": "fb648ff5b8ebb5b49ae26f68be2bf820637a26c6a9d472b6d1364d34caa0847e",
     "bundles/2026-05-27/snapshot-summary.json.bundle/notes.md": "a440de5b7c7cb3d3156d7d936e0cf968e4abdcafc35efec3f77ce616c4d7b445",
     "bundles/2026-05-27/snapshot-summary.json.bundle/sources/baseline-2026-05-27.json": "b6375a95e9a03091572cb25c9702304e423c545e6e972e56bd2d2038692f4795",
     "bundles/2026-05-27/snapshot-summary.json.bundle/sources/diff-2026-05-27.json": "036692b010f6f8b34d5483384403a918bb828f2ab43cb66d986729776c5ad2da",
     "bundles/2026-05-27/snapshot-summary.json.bundle/sources/eu-lotl.xml.meta.json": "034135d8bbc9521bb67ab59f207a4944015e1259c81d2fcb2493f2f105709e00",
     "bundles/2026-05-27/snapshot-summary.json.bundle/sources/normalized-manifest.json": "7ee35ded57f5eafeded8207544d89b64f5d81aa1b7e881fdd766e70a8afdb239",
-    "bundles/2026-05-27/snapshot-summary.json.bundle/sources/pointer-url-records.json": "b750e1cfd6ce7e7fba4ce3f5d4cb18c66b2c8c7c91a17b41ac1d886224cad39a",
+    "bundles/2026-05-27/snapshot-summary.json.bundle/sources/pointer-url-records.json": "857e0102ea160163619cf072282957f8c678891a33290398ebf3fc0ce5102666",
     "bundles/2026-05-27/snapshot-summary.json.bundle/sources/pointers.json": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600",
     "bundles/2026-05-27/snapshot-summary.json.bundle/sources/snapshot-manifest.json": "1469e07ab184aaa02e74d02bd3beb696de08f4bedde52288ac56a0681dc9173d",
     "bundles/2026-05-27/snapshot-summary.json.bundle/verification.json": "fdfde26cdd78ee5d9859a7b0cf80587ef9c5b7dfc25540d7906e503e5c0b52f5"
