@@ -15013,3 +15013,15 @@ Evaluated the lane completion criteria after creating and correcting the paper e
 - Did not fetch public endpoints, overwrite same-date outputs, publish, push, upload, modify sibling workspaces, validate trusted-list signatures as a relying party, supervise trusted lists, determine listed-entity status, clear warnings, perform legal review, approve publication, or create regulated trust-service output.
 
 Next action: none for this lane; the outer loop should stop because `BLOCKED.md` contains `HALT: yes`.
+
+
+### 2026-05-27T15:41:44Z
+
+Completed full-stack usable transcript unit under the 2026-05-27 Hermes Full-Stack Publication Directive:
+- Confirmed `STOP_CASSANDRA_HERMES` is absent, pulled `origin/main`, and read the required state files before modification.
+- Created `notes/cassandra-full-stack-usable-transcript-2026-05-27.md` for Anton, thesis/reviewer audiences, and future Hermes/Codex agents.
+- Transcript covers architecture, data flow, EATF evidence boundary, dashboard boundary, paper argument, fixture expansion, risk register, cross-project map, and next experiments.
+- Validation output: `notes/cassandra-full-stack-transcript-validation-output.json`; status `ok`; transcript sha256 `d13538830cd8c5cb8ba595ba8fa83844ecceba0e8f5ba3dddc296d5205a4a75f`.
+- Updated `BLOCKED.md` from stale previous-lane halt to `HALT: no` because the 2026-05-27 operator directive explicitly reopens autonomous Cassandra publication work until the stop file exists.
+
+Next action: add fixture matrix plus first synthetic stable/no-change and normalized-hash-change fixture tests, preserving aggregate-only and claim-safety boundaries.

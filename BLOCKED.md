@@ -1,6 +1,7 @@
 # Blocked
 
-Date: 2026-05-22T17:18:17Z
-Reason: lane deliverable complete
-Detail: The Cassandra lane deliverable is complete. `paper/draft.md` has a real abstract, structured research-paper body, and conclusion; current word count is 9441, within the 6,000–14,000 target band. The adjacent MIRROR-style evidence bundle `paper/draft.md.bundle/` exists with manifest, claims, notes, copied local evidence sources, and verification status `ok`. Local paper validators report status `ok` with zero hard errors; remaining warnings are review cues and do not assert legal effect, signature validity, supervision, public alerting, listed-entity status, legal review, regulated trust-service output, or publication approval. No external publication, push, upload, trusted-list supervision, relying-party signature validation, or legal-status determination was performed.
-HALT: yes
+Date: 2026-05-27
+Status: no active blocker
+Reason: superseded by operator Hermes Full-Stack Publication Directive dated 2026-05-27.
+Detail: The earlier 2026-05-22 halt recorded that the previous lane deliverable was complete. The current operator directive explicitly reopens Cassandra work in autonomous Zeus/Hermes mode until `STOP_CASSANDRA_HERMES` exists or Anton intervenes. Continue bounded publishable improvement units with claim-safety and no-secret discipline.
+HALT: no

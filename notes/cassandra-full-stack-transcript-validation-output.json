@@ -1,0 +1,16 @@
+{
+  "artifact": "notes/cassandra-full-stack-usable-transcript-2026-05-27.md",
+  "byte_count": 18195,
+  "caveat": "Transcript is a workflow/paper handoff artifact; it is not legal review, trusted-list validation, signature validation, supervision, compliance judgment, public alerting, or publication approval.",
+  "line_count": 305,
+  "required_boundary_fragments_present": [
+    "does not perform relying-party trusted-list validation",
+    "does not determine legal status",
+    "does not supervise",
+    "does not validate signatures",
+    "does not issue public alerts",
+    "Forbidden phrasing unless separately implemented and reviewed"
+  ],
+  "sha256": "d13538830cd8c5cb8ba595ba8fa83844ecceba0e8f5ba3dddc296d5205a4a75f",
+  "status": "ok"
+}
