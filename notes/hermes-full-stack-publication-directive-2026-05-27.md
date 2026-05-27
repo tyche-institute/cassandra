@@ -37,6 +37,7 @@ Operator addendum after the first full-stack pass:
 
 - Read `notes/cassandra-thesis-reference-atlas-2026-05-27.md` before the next paper/editing unit.
 - Read `notes/cassandra-evidence-infrastructure-manifest-2026-05-27.md` before writing public thesis-facing prose.
+- Read `notes/cassandra-checked-reference-ledger-2026-05-27.md` before adding references or footnotes. References must be real, checked, claim-connected, and context-bearing; unchecked bibliography padding stays out of release-facing prose.
 - Treat the first pass as successful groundwork: transcript, fixtures, schema, cards, replay capsule, dashboard cards, and EATF/MIRROR boundary cards now exist.
 - The next pass must add references, related work, thesis structure, publication-status discipline, and a case-study maturity matrix. Do not simply create more thin cards.
 
@@ -162,6 +163,11 @@ Required reference clusters:
 7. Tyche internal/public works: use the status rules in `notes/cassandra-thesis-reference-atlas-2026-05-27.md`; published/Zenodo/submitted/internal must be clearly separated.
 
 Add a real related-work section to `paper/draft.md` or a `paper/related-work-card.md` that can be merged into the draft. Add a case-study maturity matrix comparing Cassandra, MIRROR, EATF, Janus, MATx, Vesta, Icarus, eaudit, h2oatlas, and Aletheia prototypes, but mark unknown/unverified cases honestly.
+
+Footnotes should be concise, intriguing, and professionally skeptical.
+They may clarify a boundary, connect fields, or make a limitation more
+readable. They may not smuggle unsupported claims or perform bibliography
+theatre in miniature.
 
 ## Paper Shape
 

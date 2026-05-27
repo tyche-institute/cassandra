@@ -15268,3 +15268,11 @@ Added a controlled reference-seed bibliography as the next bounded publication u
 - This unit did not fetch trusted-list endpoints, overwrite dated observatory outputs, validate source signatures, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.
 
 Next action: consolidate `paper/draft.md` into a cleaner submission narrative using the transcript, fixture-to-claim map, publication-status discipline, related-work card, maturity matrix, and reference-seed bibliography; keep scholarly entries status-labelled until exact bibliographic metadata is verified.
+## 2026-05-27T18:05:00Z — Checked reference ledger and footnote discipline
+
+- Added `notes/cassandra-checked-reference-ledger-2026-05-27.md` as the release-facing source ledger for Cassandra's related-work and thesis references. Each row records a real anchor, source status, date checked, claim role, and context connection.
+- Verified core external anchors on 2026-05-27 across EUR-Lex, European Commission, ETSI, RFC Editor, CA/Browser Forum, PKIC, NIST CSRC, W3C, publisher/DOI pages, PubMed, and Google Books/publisher metadata. ETSI delivery PDFs returned HTTP 200 with a browser user agent.
+- Updated `paper/related-work-card.md` so checked sources are distinguished from planning references, and so related work must show horizontal breadth and vertical depth rather than bibliography padding.
+- Updated `paper/draft.md` with context-connected checked anchors and four concise professional footnotes for PKI governance, trusted-list scope, infrastructure theory, and method humility.
+- Updated the Hermes directive so future autonomous work must read the checked ledger before adding references or footnotes.
+- Claim boundary: reference checking and prose scaffolding only; no legal-status determination, trusted-list validation, signature validation, supervision, conformity assessment, public alerting, endorsement, or publication approval.

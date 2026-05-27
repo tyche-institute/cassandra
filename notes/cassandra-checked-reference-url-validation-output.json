@@ -1,0 +1,163 @@
+{
+  "status": "ok",
+  "created": "2026-05-27T17:45:50Z",
+  "scope": "URL and identifier spot-check for Cassandra checked reference ledger; this is source-reality validation only, not legal review, trusted-list validation, signature validation, supervision, conformity assessment, public alerting, endorsement, or publication approval.",
+  "checked_on": "2026-05-27",
+  "method": [
+    "web search and official-page inspection for primary legal, standards, DOI, and publisher anchors",
+    "local curl status checks for official URLs where shell access was suitable",
+    "ETSI PDF checks repeated with a browser user agent after default curl received access restrictions"
+  ],
+  "url_checks": [
+    {
+      "anchor": "Regulation (EU) No 910/2014, eIDAS",
+      "url": "https://eur-lex.europa.eu/eli/reg/2014/910/oj",
+      "local_status": "200",
+      "source_status": "official regulation"
+    },
+    {
+      "anchor": "Regulation (EU) 2024/1183, European Digital Identity Framework",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1183/oj",
+      "local_status": "200",
+      "source_status": "official regulation"
+    },
+    {
+      "anchor": "Regulation (EU) 2024/1689, AI Act",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "local_status": "200",
+      "source_status": "official regulation"
+    },
+    {
+      "anchor": "Commission Implementing Decision (EU) 2015/1505",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015D1505",
+      "local_status": "200",
+      "source_status": "official implementing decision"
+    },
+    {
+      "anchor": "European Commission trusted lists page",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/eu-trusted-lists",
+      "local_status": "200",
+      "source_status": "official Commission documentation"
+    },
+    {
+      "anchor": "ETSI TS 119 612 V2.4.1",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.04.01_60/ts_119612v020401p.pdf",
+      "local_status": "200 with browser user agent",
+      "source_status": "official ETSI PDF"
+    },
+    {
+      "anchor": "ETSI EN 319 401 V3.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/319400_319499/319401/03.01.01_60/en_319401v030101p.pdf",
+      "local_status": "200 with browser user agent",
+      "source_status": "official ETSI PDF"
+    },
+    {
+      "anchor": "ETSI EN 319 411-1 V1.5.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.05.01_60/en_31941101v010501p.pdf",
+      "local_status": "200 with browser user agent",
+      "source_status": "official ETSI PDF"
+    },
+    {
+      "anchor": "ETSI EN 319 422 V1.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/319400_319499/319422/01.01.01_60/en_319422v010101p.pdf",
+      "local_status": "200 with browser user agent",
+      "source_status": "official ETSI PDF"
+    },
+    {
+      "anchor": "RFC 5280",
+      "url": "https://www.rfc-editor.org/rfc/rfc5280",
+      "local_status": "200",
+      "source_status": "RFC Editor"
+    },
+    {
+      "anchor": "RFC 3161",
+      "url": "https://www.rfc-editor.org/rfc/rfc3161",
+      "local_status": "200",
+      "source_status": "RFC Editor"
+    },
+    {
+      "anchor": "RFC 8785",
+      "url": "https://www.rfc-editor.org/rfc/rfc8785",
+      "local_status": "200",
+      "source_status": "RFC Editor"
+    },
+    {
+      "anchor": "CA/Browser Forum Baseline Requirements",
+      "url": "https://cabforum.org/working-groups/server/baseline-requirements/requirements/",
+      "local_status": "200",
+      "source_status": "CA/Browser Forum"
+    },
+    {
+      "anchor": "PKI Consortium",
+      "url": "https://pkic.org/",
+      "local_status": "200",
+      "source_status": "PKIC website"
+    },
+    {
+      "anchor": "NIST FIPS 203",
+      "url": "https://csrc.nist.gov/pubs/fips/203/final",
+      "local_status": "200",
+      "source_status": "NIST CSRC final publication page"
+    },
+    {
+      "anchor": "NIST FIPS 204",
+      "url": "https://csrc.nist.gov/pubs/fips/204/final",
+      "local_status": "200",
+      "source_status": "NIST CSRC final publication page"
+    },
+    {
+      "anchor": "NIST FIPS 205",
+      "url": "https://csrc.nist.gov/pubs/fips/205/final",
+      "local_status": "200",
+      "source_status": "NIST CSRC final publication page"
+    },
+    {
+      "anchor": "W3C Verifiable Credentials Data Model v2.0",
+      "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+      "local_status": "200",
+      "source_status": "W3C Recommendation-track technical report"
+    },
+    {
+      "anchor": "Star and Ruhleder 1996",
+      "identifier": "doi:10.1287/isre.7.1.111",
+      "local_status": "publisher page can reject shell access; DOI and publisher metadata checked via web",
+      "source_status": "academic article"
+    },
+    {
+      "anchor": "Bowker and Star 1999",
+      "identifier": "doi:10.7551/mitpress/6352.001.0001",
+      "local_status": "publisher page can reject shell access; DOI and publisher metadata checked via web",
+      "source_status": "academic monograph"
+    },
+    {
+      "anchor": "Perez 2002",
+      "url": "https://books.google.com/books/about/Technological_Revolutions_and_Financial.html?id=FW-aAAAAIAAJ",
+      "local_status": "web metadata checked",
+      "source_status": "academic monograph"
+    },
+    {
+      "anchor": "Drechsler 2018",
+      "identifier": "doi:10.29379/jedem.v10i2.513",
+      "local_status": "DOI metadata checked via web",
+      "source_status": "academic article"
+    },
+    {
+      "anchor": "Bannister and Connolly 2011",
+      "identifier": "doi:10.1016/j.giq.2010.06.010",
+      "local_status": "DOI metadata checked via web",
+      "source_status": "academic article"
+    },
+    {
+      "anchor": "Lazer et al. 2009",
+      "identifier": "doi:10.1126/science.1167742",
+      "local_status": "PubMed and DOI metadata checked via web",
+      "source_status": "academic article"
+    }
+  ],
+  "unchecked_or_planning_only": [
+    "Maurer PKI trust-model source until exact bibliographic anchor is recorded",
+    "Ellison and Schneier PKI risks source until exact bibliographic anchor is recorded",
+    "ETSI EN 319 412, EN 319 102, and AdES profile references until exact versions and claim roles are recorded",
+    "Additional public-administration, infrastructure, and computational-method sources not yet entered in the checked ledger"
+  ]
+}

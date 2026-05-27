@@ -1,29 +1,29 @@
 {
   "caveat": "Passing this check does not assert legal compliance, trusted-list legal effect, signature validity, supervision, or publication readiness.",
-  "created": "2026-05-21T03:09:58.430015+00:00",
+  "created": "2026-05-27T17:53:34.956072+00:00",
   "error_count": 0,
   "file_stats": [
     {
-      "bytes": 49168,
-      "line_count": 229,
+      "bytes": 78063,
+      "line_count": 375,
       "path": "paper/draft.md",
       "required_presence": {
         "Tyche Institute, Tallinn, Estonia": true,
         "does not assert legal effect": true,
         "does not determine": true
       },
-      "sha256": "2050ff56fb6be3befdf0e771bdac891a09e3bf62c208ff841d932bdb862360e9",
-      "word_count": 7209
+      "sha256": "425c1c4e0b2dcb40ab96dcfbe36e91a556cf6787f6f1e86624a1d454bf067c97",
+      "word_count": 11457
     }
   ],
   "findings": [
     {
       "category": "risky_phrase_review",
-      "line": 85,
+      "line": 10,
       "path": "paper/draft.md",
       "pattern": "public alerting",
       "severity": "warning",
-      "snippet": "ean validation output is not publication approval, legal review, signature validation, supervision, public alerting, listed-entity status evidence, or regulated trust-service output. ## Results presentation and fig"
+      "snippet": "gal effect, validate signatures for relying-party purposes, determine listed-entity status, provide public alerting, or approve publication. ## Claim-safety note All observations in this draft are limited to local"
     },
     {
       "category": "risky_phrase_review",

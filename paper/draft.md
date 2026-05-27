@@ -38,15 +38,23 @@ This design is deliberately conservative. It treats endpoint errors, non-XML art
 
 ## Related work and governance-infrastructure positioning
 
-Cassandra sits at the intersection of five literature and standards clusters. First, PKI and cryptographic-governance work explains the older trust substrate: certificate policy, revocation, timestamping, validation, assurance regimes, and ecosystem coordination. Maurer's PKI trust models, Ellison and Schneier's PKI risk analysis, RFC 5280, RFC 3161, CA/Browser Forum requirements, PKI Consortium work, and NIST FIPS publications are relevant because they show that PKI is already a governance infrastructure, not merely a cryptographic primitive set. Cassandra does not replace that infrastructure and does not perform relying-party validation; it observes one public administrative surface of it.
+Cassandra sits at the intersection of five literature and standards clusters. First, PKI and cryptographic-governance work explains the older trust substrate: certificate policy, revocation, timestamping, validation, assurance regimes, and ecosystem coordination.[^pki-governance] Checked anchors include RFC 5280, RFC 3161, RFC 8785, CA/Browser Forum Baseline Requirements v2.2.7, PKIC ecosystem material, and NIST FIPS 203/204/205. These sources are relevant because they show that PKI is already a governance infrastructure, not merely a cryptographic primitive set. Cassandra does not replace that infrastructure and does not perform relying-party validation; it observes one public administrative surface of it.
 
-Second, eIDAS and ETSI sources provide the legal-technical grammar of the observed artifacts. Regulation (EU) No 910/2014, Regulation (EU) 2024/1183, Commission Implementing Decision (EU) 2015/1505, ETSI TS 119 612, ETSI EN 319 401, ETSI EN 319 411/412/102/422, and related trust-service standards explain why trusted lists are public governance artifacts with formal roles. Cassandra cites them to establish context and source semantics, not to claim supervision, legal-status determination, signature validation, or conformity assessment.
+Second, eIDAS and ETSI sources provide the legal-technical grammar of the observed artifacts.[^trusted-list-boundary] Regulation (EU) No 910/2014, Regulation (EU) 2024/1183, Commission Implementing Decision (EU) 2015/1505, the European Commission trusted-list page, ETSI TS 119 612 V2.4.1, ETSI EN 319 401 V3.1.1, ETSI EN 319 411-1 V1.5.1, and ETSI EN 319 422 V1.1.1 explain why trusted lists are public governance artifacts with formal roles. Cassandra cites them to establish context and source semantics, not to claim supervision, legal-status determination, signature validation, or conformity assessment.
 
 Third, public-administration and digital-state scholarship helps explain why a machine-readable list can matter institutionally. Work by Drechsler, Kattel, Lember, Tonurist, Mazzucato, Bannister and Connolly, Margetts and Dorobantu, OECD digital-government reports, and Estonian e-state/X-Road literature frames trusted lists as part of administrative capacity and public digital infrastructure. This supports the governance-infrastructure half of the argument while keeping government-performance evaluation outside Cassandra's scope.
 
-Fourth, infrastructure studies and turning-point theory help frame the evidence-infrastructure half. Perez's turning-point logic, Star and Ruhleder on infrastructure in practice, Bowker and Star on classification, Edwards on knowledge infrastructures, Plantin on platform/infrastructure tension, Larkin on infrastructure politics, and Jasanoff on sociotechnical imaginaries all point to a common lesson: infrastructure becomes governable when its records, classifications, maintenance routines, and failure modes become inspectable. Cassandra operationalizes that lesson modestly through dated manifests, hashes, diffs, bundles, receipts, and dashboard cards.
+Fourth, infrastructure studies and turning-point theory help frame the evidence-infrastructure half.[^turning-point-infrastructure] Perez's turning-point logic, Star and Ruhleder on infrastructure in practice, Bowker and Star on classification, Edwards on knowledge infrastructures, Plantin on platform/infrastructure tension, Larkin on infrastructure politics, and Jasanoff on sociotechnical imaginaries all point to a common lesson: infrastructure becomes governable when its records, classifications, maintenance routines, and failure modes become inspectable. Cassandra operationalizes that lesson modestly through dated manifests, hashes, diffs, bundles, receipts, and dashboard cards.
 
-Fifth, computational social-science and evidence-method literature, including Lazer, Salganik, Grimmer/Roberts/Stewart, Edelmann, and Bail, supplies the cautionary method frame. Repeated observation of public artifacts can produce useful evidence, but measurement validity, reproducibility, aggregation choices, and public interpretation risks must be explicit. Cassandra's synthetic fixtures, aggregate-only prose, claim-safety scanning, and EATF/MIRROR boundaries are therefore not ancillary engineering details; they are part of the research method. A fuller reference scaffold is maintained in `paper/related-work-card.md`, a controlled seed bibliography is maintained in `paper/reference-seed-bibliography.md`, and the wider thesis case posture is mapped in `notes/case-study-maturity-matrix.md`.
+Fifth, computational social-science and evidence-method literature, including Lazer, Salganik, Grimmer/Roberts/Stewart, Edelmann, and Bail, supplies the cautionary method frame.[^method-humility] Repeated observation of public artifacts can produce useful evidence, but measurement validity, reproducibility, aggregation choices, and public interpretation risks must be explicit. Cassandra's synthetic fixtures, aggregate-only prose, claim-safety scanning, and EATF/MIRROR boundaries are therefore not ancillary engineering details; they are part of the research method. The checked reference ledger is maintained in `notes/cassandra-checked-reference-ledger-2026-05-27.md`; the fuller reference scaffold is maintained in `paper/related-work-card.md`, a controlled seed bibliography is maintained in `paper/reference-seed-bibliography.md`, and the wider thesis case posture is mapped in `notes/case-study-maturity-matrix.md`.
+
+[^pki-governance]: PKI is often introduced through algorithms, but it operates through certificates, policies, revocation, audits, root distribution, software defaults, and institutional delegation. That is governance work with cryptographic parts, not cryptography wearing a small administrative hat.
+
+[^trusted-list-boundary]: eIDAS and ETSI explain why the XML matters. They do not turn Cassandra into a validator, supervisor, conformity assessor, or public-warning feed; the project is more modest, and therefore more publishable.
+
+[^turning-point-infrastructure]: Perez supplies the large turning-point vocabulary; Star/Ruhleder and Bowker/Star keep it grounded where infrastructure actually lives: maintenance, categories, access, and failure modes. Grand theory earns its keep here only if it can survive the manifest.
+
+[^method-humility]: The highest compliment for an evidence pipeline may be that it becomes boring in a reproducible way. Cassandra's method claim is not "trust us"; it is "re-run the trail and see exactly where the claim stops."
 
 ## Dataset boundary and source handling
 
@@ -342,4 +350,25 @@ Future work should extend the daily series only when the cadence gate permits a 
 - `notes/paper-bounded-state-register-reading-section-check-output.json`.
 - `notes/sources-bundle-row-coverage-output.json`.
 - `paper/related-work-card.md`.
+- `notes/cassandra-checked-reference-ledger-2026-05-27.md`.
 - `notes/case-study-maturity-matrix.md`.
+
+Checked external anchors for the related-work section:
+
+- Regulation (EU) No 910/2014, eIDAS: `https://eur-lex.europa.eu/eli/reg/2014/910/oj`.
+- Regulation (EU) 2024/1183, European Digital Identity Framework: `https://eur-lex.europa.eu/eli/reg/2024/1183/oj`.
+- Regulation (EU) 2024/1689, AI Act: `https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689`.
+- Commission Implementing Decision (EU) 2015/1505: `https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015D1505`.
+- European Commission trusted lists page: `https://digital-strategy.ec.europa.eu/en/policies/eu-trusted-lists`.
+- ETSI TS 119 612 V2.4.1: `https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.04.01_60/ts_119612v020401p.pdf`.
+- ETSI EN 319 401 V3.1.1: `https://www.etsi.org/deliver/etsi_en/319400_319499/319401/03.01.01_60/en_319401v030101p.pdf`.
+- ETSI EN 319 411-1 V1.5.1: `https://www.etsi.org/deliver/etsi_en/319400_319499/31941101/01.05.01_60/en_31941101v010501p.pdf`.
+- ETSI EN 319 422 V1.1.1: `https://www.etsi.org/deliver/etsi_en/319400_319499/319422/01.01.01_60/en_319422v010101p.pdf`.
+- RFC 5280: `https://www.rfc-editor.org/rfc/rfc5280`; RFC 3161: `https://www.rfc-editor.org/rfc/rfc3161`; RFC 8785: `https://www.rfc-editor.org/rfc/rfc8785`.
+- CA/Browser Forum Baseline Requirements: `https://cabforum.org/working-groups/server/baseline-requirements/requirements/`.
+- PKI Consortium: `https://pkic.org/`.
+- NIST FIPS 203/204/205: `https://csrc.nist.gov/pubs/fips/203/final`, `https://csrc.nist.gov/pubs/fips/204/final`, `https://csrc.nist.gov/pubs/fips/205/final`.
+- W3C Verifiable Credentials Data Model v2.0: `https://www.w3.org/TR/vc-data-model-2.0/`.
+- Star and Ruhleder (1996): DOI `10.1287/isre.7.1.111`; Bowker and Star (1999): DOI `10.7551/mitpress/6352.001.0001`.
+- Perez (2002), Technological Revolutions and Financial Capital: `https://books.google.com/books/about/Technological_Revolutions_and_Financial.html?id=FW-aAAAAIAAJ`.
+- Drechsler (2018): DOI `10.29379/jedem.v10i2.513`; Bannister and Connolly (2011): DOI `10.1016/j.giq.2010.06.010`; Lazer et al. (2009): DOI `10.1126/science.1167742`.
