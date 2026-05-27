@@ -27,6 +27,574 @@
       }
     }
   },
+  "provider_inventory_change": {
+    "expected_classes": [
+      "normalized_hash_changed",
+      "summary_field_changed",
+      "summary_field_changed",
+      "provider_inventory_changed",
+      "service_inventory_changed"
+    ],
+    "new": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-provider-after",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 2,
+          "provider_keys": [
+            "hash-provider-1",
+            "hash-provider-2"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            },
+            {
+              "provider_key": "hash-provider-2",
+              "service_count": 1,
+              "service_keys": [
+                "hash-service-3"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 1
+              },
+              "service_type_counts": {
+                "synthetic-type": 1
+              }
+            }
+          ],
+          "service_count": 3,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2",
+            "hash-service-3"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 2,
+        "tsp_service_count": 3
+      }
+    },
+    "old": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-provider-before",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            }
+          ],
+          "service_count": 2,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    }
+  },
+  "provider_inventory_removal": {
+    "expected_classes": [
+      "normalized_hash_changed",
+      "summary_field_changed",
+      "summary_field_changed",
+      "provider_inventory_changed",
+      "service_inventory_changed"
+    ],
+    "new": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-provider-removal-after",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            }
+          ],
+          "service_count": 2,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    },
+    "old": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-provider-removal-before",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 2,
+          "provider_keys": [
+            "hash-provider-1",
+            "hash-provider-2"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            },
+            {
+              "provider_key": "hash-provider-2",
+              "service_count": 1,
+              "service_keys": [
+                "hash-service-3"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 1
+              },
+              "service_type_counts": {
+                "synthetic-type": 1
+              }
+            }
+          ],
+          "service_count": 3,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2",
+            "hash-service-3"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 2,
+        "tsp_service_count": 3
+      }
+    }
+  },
+  "provider_service_detail_change": {
+    "expected_classes": [
+      "normalized_hash_changed",
+      "provider_service_detail_changed"
+    ],
+    "new": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-detail-after",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status-b": 2
+              },
+              "service_type_counts": {
+                "synthetic-type-a": 1,
+                "synthetic-type-b": 1
+              }
+            }
+          ],
+          "service_count": 2,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    },
+    "old": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-detail-before",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status-a": 2
+              },
+              "service_type_counts": {
+                "synthetic-type-a": 2
+              }
+            }
+          ],
+          "service_count": 2,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    }
+  },
+  "provider_service_reassignment": {
+    "expected_classes": [
+      "normalized_hash_changed",
+      "provider_service_detail_changed",
+      "provider_service_detail_changed"
+    ],
+    "new": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-reassign-after",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 2,
+          "provider_keys": [
+            "hash-provider-1",
+            "hash-provider-2"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 1,
+              "service_keys": [
+                "hash-service-1"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 1
+              },
+              "service_type_counts": {
+                "synthetic-type": 1
+              }
+            },
+            {
+              "provider_key": "hash-provider-2",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-2",
+                "hash-service-3"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            }
+          ],
+          "service_count": 3,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2",
+            "hash-service-3"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 2,
+        "tsp_service_count": 3
+      }
+    },
+    "old": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-reassign-before",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 2,
+          "provider_keys": [
+            "hash-provider-1",
+            "hash-provider-2"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            },
+            {
+              "provider_key": "hash-provider-2",
+              "service_count": 1,
+              "service_keys": [
+                "hash-service-3"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 1
+              },
+              "service_type_counts": {
+                "synthetic-type": 1
+              }
+            }
+          ],
+          "service_count": 3,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2",
+            "hash-service-3"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 2,
+        "tsp_service_count": 3
+      }
+    }
+  },
+  "service_inventory_change": {
+    "expected_classes": [
+      "normalized_hash_changed",
+      "summary_field_changed",
+      "service_inventory_changed",
+      "provider_service_detail_changed"
+    ],
+    "new": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-service-after",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 3,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2",
+                "hash-service-3"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 3
+              },
+              "service_type_counts": {
+                "synthetic-type": 3
+              }
+            }
+          ],
+          "service_count": 3,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2",
+            "hash-service-3"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 3
+      }
+    },
+    "old": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-service-before",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            }
+          ],
+          "service_count": 2,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    }
+  },
+  "service_inventory_removal": {
+    "expected_classes": [
+      "normalized_hash_changed",
+      "summary_field_changed",
+      "service_inventory_changed",
+      "provider_service_detail_changed"
+    ],
+    "new": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-service-removal-after",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 2,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 2
+              },
+              "service_type_counts": {
+                "synthetic-type": 2
+              }
+            }
+          ],
+          "service_count": 2,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 2
+      }
+    },
+    "old": {
+      "key": "ZZ",
+      "normalized_path": "synthetic/zz.normalized.xml",
+      "normalized_sha256": "sha-service-removal-before",
+      "source": "synthetic/zz.xml",
+      "summary": {
+        "provider_service_inventory": {
+          "provider_count": 1,
+          "provider_keys": [
+            "hash-provider-1"
+          ],
+          "providers": [
+            {
+              "provider_key": "hash-provider-1",
+              "service_count": 3,
+              "service_keys": [
+                "hash-service-1",
+                "hash-service-2",
+                "hash-service-3"
+              ],
+              "service_status_counts": {
+                "synthetic-status": 3
+              },
+              "service_type_counts": {
+                "synthetic-type": 3
+              }
+            }
+          ],
+          "service_count": 3,
+          "service_keys": [
+            "hash-service-1",
+            "hash-service-2",
+            "hash-service-3"
+          ]
+        },
+        "scheme_territory": "ZZ",
+        "trust_service_provider_count": 1,
+        "tsp_service_count": 3
+      }
+    }
+  },
   "stable_no_change": {
     "expected_classes": [],
     "new": {

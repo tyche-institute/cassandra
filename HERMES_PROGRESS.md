@@ -15061,3 +15061,15 @@ Completed public-index schema unit:
 - Did not fetch public endpoints, overwrite dated observation outputs, publish outside GitHub, validate trusted-list signatures as a relying party, supervise trusted lists, determine listed-entity status, provide public alerting, perform legal review, or approve publication.
 
 Next action: continue fixture expansion with provider/service inventory fixtures or add dashboard card JSON pack.
+
+### 2026-05-27T16:01:53Z
+
+Expanded the synthetic provider/service/detail diff fixture suite with bounded verification:
+- Confirmed `STOP_CASSANDRA_HERMES` was absent and branch `main` had only fixture-suite work plus unrelated untracked log files that were not staged.
+- Added synthetic provider-removal, service-removal, and provider-service-reassignment cases to `notes/fixtures/synthetic-diff-fixtures.json`, preserving hash-only provider/service handles and the research-only caveat.
+- Strengthened `notes/test_synthetic_diff_fixtures.py` so it now checks class ordering plus added/removed provider keys, added/removed service keys, aggregate detail deltas, and per-provider service-key reassignment deltas.
+- Updated `notes/fixture-matrix.md` to document add/removal coverage and provider-service reassignment coverage for priorities 3-5.
+- Verification command: `.venv/bin/python -m py_compile notes/test_synthetic_diff_fixtures.py && .venv/bin/python notes/test_synthetic_diff_fixtures.py > notes/synthetic-diff-fixture-validation-output.json`; exit code 0. Tested cases: stable no-change, normalized hash change, provider inventory add/removal, service inventory add/removal, provider-service detail change, and provider-service reassignment.
+- Artifact hashes: `notes/fixture-matrix.md` ac8b14eafe0955e3c08cd943347af1769d603747ac94bab18520dcc5a09501e9; `notes/fixtures/synthetic-diff-fixtures.json` 3c1d85ce36b19557d46d5e346821e2c9fa6a4dd59df98aa85a02ed4285e9f21c; `notes/test_synthetic_diff_fixtures.py` 462e75a9b425761622e12d014d99661f834d326f6cd6a27efee9ab95a5ff7a4d; `notes/synthetic-diff-fixture-validation-output.json` 167fa1ac01d9f223084833677602c57199b5e8c2f8ccbd3e7fe6afb04a5e2b9a.
+
+Next action: continue fixture expansion with fetch-failure and non-XML temporary-workspace fixtures, keeping real dated observatory runs untouched.

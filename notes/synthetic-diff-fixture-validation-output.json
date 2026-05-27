@@ -12,6 +12,94 @@
       ],
       "status": "ok"
     },
+    "provider_inventory_change": {
+      "classes": [
+        "normalized_hash_changed",
+        "summary_field_changed",
+        "summary_field_changed",
+        "provider_inventory_changed",
+        "service_inventory_changed"
+      ],
+      "expected_classes": [
+        "normalized_hash_changed",
+        "summary_field_changed",
+        "summary_field_changed",
+        "provider_inventory_changed",
+        "service_inventory_changed"
+      ],
+      "status": "ok"
+    },
+    "provider_inventory_removal": {
+      "classes": [
+        "normalized_hash_changed",
+        "summary_field_changed",
+        "summary_field_changed",
+        "provider_inventory_changed",
+        "service_inventory_changed"
+      ],
+      "expected_classes": [
+        "normalized_hash_changed",
+        "summary_field_changed",
+        "summary_field_changed",
+        "provider_inventory_changed",
+        "service_inventory_changed"
+      ],
+      "status": "ok"
+    },
+    "provider_service_detail_change": {
+      "classes": [
+        "normalized_hash_changed",
+        "provider_service_detail_changed"
+      ],
+      "expected_classes": [
+        "normalized_hash_changed",
+        "provider_service_detail_changed"
+      ],
+      "status": "ok"
+    },
+    "provider_service_reassignment": {
+      "classes": [
+        "normalized_hash_changed",
+        "provider_service_detail_changed",
+        "provider_service_detail_changed"
+      ],
+      "expected_classes": [
+        "normalized_hash_changed",
+        "provider_service_detail_changed",
+        "provider_service_detail_changed"
+      ],
+      "status": "ok"
+    },
+    "service_inventory_change": {
+      "classes": [
+        "normalized_hash_changed",
+        "summary_field_changed",
+        "service_inventory_changed",
+        "provider_service_detail_changed"
+      ],
+      "expected_classes": [
+        "normalized_hash_changed",
+        "summary_field_changed",
+        "service_inventory_changed",
+        "provider_service_detail_changed"
+      ],
+      "status": "ok"
+    },
+    "service_inventory_removal": {
+      "classes": [
+        "normalized_hash_changed",
+        "summary_field_changed",
+        "service_inventory_changed",
+        "provider_service_detail_changed"
+      ],
+      "expected_classes": [
+        "normalized_hash_changed",
+        "summary_field_changed",
+        "service_inventory_changed",
+        "provider_service_detail_changed"
+      ],
+      "status": "ok"
+    },
     "stable_no_change": {
       "classes": [],
       "expected_classes": [],
