@@ -137,3 +137,10 @@
 
 | The replay capsule gives reviewers and future agents a no-fetch path and a guarded new-dated-run path for checking Cassandra's local evidence loop while preserving non-claims about legal effect, source signature validity, supervision, compliance, public alerting, and provider-specific status. | `notes/replay-capsule.md`; `notes/replay-capsule-validation-output.json` | Local workflow-replay documentation and validation only. | Use for reproducibility orientation, not legal review or publication clearance. |
 | The public observatory index builder now emits a caveated dashboard-card JSON pack for claim boundary, latest run, EATF receipt boundary, aggregate structural diffs, and reusable caveat panels, with a smoke test checking schema, card index hashes, and obvious positive overclaim patterns. | `scripts/build_observatory_index.py`; `observatory/public/data/index.json`; `observatory/public/data/cards/index.json`; `notes/test_observatory_dashboard_cards.py`; `notes/dashboard-cards-test-output.json`; `notes/observatory-index-build-output.json`. | Medium: dashboard cards can be reused without their caveat or misread as legal/status interpretation if downstream consumers detach them from the `not_a` boundary. | The generated dashboard cards are public dashboard/reviewer aids for structural-observation telemetry only; they do not assert trusted-list validation, legal-status determination, signature validity, supervision, compliance judgment, public alerting, relying-party processing, legal review, or publication approval. |
+
+
+## 2026-05-27 fixture-to-claim reviewer map claim
+
+Allowed claim: `notes/fixture-to-claim-map.md` maps the current synthetic fixture suite to paper claims, reviewer questions, primary evidence paths, and explicit non-claims, and `notes/test_fixture_claim_map.py` verified that the map contains all required fixture classes, evidence references, and boundary wording.
+
+Boundary: this is documentation and fixture-harness evidence only. It does not validate any real trusted list, source signature, provider/service status, supervisory conclusion, compliance judgment, public alert, or publication decision.

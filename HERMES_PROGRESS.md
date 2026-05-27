@@ -15243,3 +15243,16 @@ Next action: create `paper/related-work-card.md`, create `notes/case-study-matur
 - 2026-05-27T17:26:20Z: Corrected publication-status validation boundary phrase and appended current artifact-index hashes.
 - 2026-05-27T17:26:38Z: Rewrote publication-status validation output without embedding its own hash to avoid self-referential hash churn; current output hash appended to artifact index.
 - 2026-05-27T17:26:55Z: Refreshed aggregate-only naming validator after publication-status section insertion; current output hash appended to artifact index.
+
+### 2026-05-27T17:34:55Z
+
+Added a fixture-to-claim reviewer map with bounded TDD verification:
+- Confirmed workspace was on `main`, pulled `origin/main` with `--ff-only`, and preserved unrelated untracked `logs/` by not staging it.
+- Read the operator-required state files and the 2026-05-27 thesis/reference notes before editing paper-facing material. Oversized append-only registers were read with bounded windows where needed.
+- Wrote failing validator `notes/test_fixture_claim_map.py` first. RED run failed because `notes/fixture-to-claim-map.md` was absent and the fixture rows/evidence paths/boundary sentence were missing.
+- Added `notes/fixture-to-claim-map.md`, mapping 12 synthetic fixture classes to paper claims, reviewer questions, evidence artifacts, and explicit non-claims.
+- Cross-referenced the new reviewer bridge from `notes/fixture-matrix.md` and `notes/cassandra-full-stack-usable-transcript-2026-05-27.md`.
+- GREEN verification command: `.venv/bin/python notes/test_fixture_claim_map.py > notes/fixture-claim-map-validation-run.json`; exit code 0; status `ok`; warnings `[]`.
+- Recorded hashes for the new map, validator, validation outputs, updated fixture matrix, and updated full-stack transcript.
+
+Next action: use the new fixture-to-claim map when consolidating `paper/draft.md` into a clean 6k-8k submission draft, so fixture evidence supports reviewer-facing claims without turning synthetic tests into real trusted-list, signature-validity, supervisory, compliance, public-alerting, or provider-status claims.

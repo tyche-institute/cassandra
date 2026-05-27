@@ -278,6 +278,8 @@ The fixture program exists because the real observation lane began empirically. 
 
 Primary artifact: `notes/fixture-matrix.md`.
 
+Reviewer bridge: `notes/fixture-to-claim-map.md` maps each fixture class to the specific paper claim, reviewer question, evidence path, and non-claim it supports. Use it when moving fixture results into the Methods, Results, or reviewer-response sections.
+
 Current implemented fixture classes include:
 
 | Fixture class | Purpose | Main artifacts |

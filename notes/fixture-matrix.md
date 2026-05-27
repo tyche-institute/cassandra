@@ -2,6 +2,8 @@
 
 Purpose: controlled, synthetic fixtures that make Cassandra behavior reviewable without exposing raw trusted-list names or converting structural observation into legal/status claims.
 
+Reviewer bridge: `notes/fixture-to-claim-map.md` maps these fixture classes to paper claims, reviewer questions, primary evidence artifacts, and non-claims.
+
 Claim boundary: every fixture below is synthetic workflow evidence only. Passing a fixture test does not validate trusted lists, does not validate signatures, does not determine provider/service legal status, does not supervise any entity, does not issue public alerts, and does not approve publication.
 
 | Priority | Fixture | Synthetic input shape | Expected output | Implemented artifact | Claim-safety note |
