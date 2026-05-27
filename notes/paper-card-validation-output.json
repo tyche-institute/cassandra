@@ -1,0 +1,62 @@
+{
+  "boundary": "Cards are reviewer/paper aids only; validation is a wording sanity check, not legal review, publication approval, signature validation, or trusted-list status determination.",
+  "checked_files": 6,
+  "error_count": 0,
+  "results": [
+    {
+      "bytes": 2193,
+      "exists": true,
+      "lines": 31,
+      "missing_required_terms": [],
+      "path": "paper/abstract-card.md",
+      "positive_forbidden_hits": [],
+      "sha256": "04fb2152e56043c136eb35617e03ed28e70736ac2a0fc6ff7a1296efb46966cf"
+    },
+    {
+      "bytes": 2407,
+      "exists": true,
+      "lines": 28,
+      "missing_required_terms": [],
+      "path": "paper/venue-fit-card.md",
+      "positive_forbidden_hits": [],
+      "sha256": "5be8842908cb355d854da8942711f6f36b6bb258bf3077d816697a3d42d12218"
+    },
+    {
+      "bytes": 2824,
+      "exists": true,
+      "lines": 18,
+      "missing_required_terms": [],
+      "path": "paper/reviewer-objection-card.md",
+      "positive_forbidden_hits": [],
+      "sha256": "f5dbf516ee0fd029b348e665f8ec8d78a3296864a8b9784cc0c058c23f7fe33c"
+    },
+    {
+      "bytes": 2797,
+      "exists": true,
+      "lines": 14,
+      "missing_required_terms": [],
+      "path": "paper/claims-and-evidence-table.md",
+      "positive_forbidden_hits": [],
+      "sha256": "e5af66ac550d42b22675ad567e56680977c29c71eec44557bb210f229d0a4518"
+    },
+    {
+      "bytes": 2042,
+      "exists": true,
+      "lines": 28,
+      "missing_required_terms": [],
+      "path": "paper/limitations-card.md",
+      "positive_forbidden_hits": [],
+      "sha256": "4c5673e64a374eac2c789a42dc9c13517610d63cfeea0947f8e1663bf7e40115"
+    },
+    {
+      "bytes": 2856,
+      "exists": true,
+      "lines": 40,
+      "missing_required_terms": [],
+      "path": "paper/thesis-chapter-card.md",
+      "positive_forbidden_hits": [],
+      "sha256": "b2c6f6596b122c0bee136646da23029176819809b862a98793d32dd977e9afe7"
+    }
+  ],
+  "status": "ok"
+}

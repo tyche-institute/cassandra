@@ -15118,3 +15118,16 @@ Added claim-safety wording scanner fixture with bounded verification:
 - Verification command: `.venv/bin/python notes/test_claim_safety_fixture.py > notes/claim-safety-fixture-validation-output.json`; exit code 0.
 
 Next action: improve paper/cards with the completed fixture coverage, or attempt EATF success/tamper fixtures only if local EATF tooling and non-secret test keys are available.
+
+
+### 2026-05-27T16:29:44Z
+
+Added paper/reviewer card pack with bounded validation:
+- Confirmed `STOP_CASSANDRA_HERMES` remained absent and left unrelated untracked `logs/` files unstaged.
+- Created `paper/abstract-card.md`, `paper/venue-fit-card.md`, `paper/reviewer-objection-card.md`, `paper/claims-and-evidence-table.md`, `paper/limitations-card.md`, and `paper/thesis-chapter-card.md`.
+- The cards convert the full-stack transcript, fixture matrix, public-index schema, and evidence-package boundary into reusable paper, venue, reviewer, limitation, and thesis integration aids.
+- Validation output: `notes/paper-card-validation-output.json`; status `ok`; checked files `6`; error_count `0`.
+- Updated `ARTIFACT_INDEX.md` with the card and validation artifacts.
+- Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
+
+Next action: add the remaining thesis/case public summary cards or consolidate `paper/draft.md` toward the clean 6k-8k word submission narrative.
