@@ -1,0 +1,41 @@
+{
+  "fixture_path": "/home/anton/projects/cassandra/notes/fixtures/claim-safety-wording-fixtures.json",
+  "scanner_boundary": "Heuristic wording scanner only; not legal review, publication approval, trusted-list validation, signature validation, supervision, compliance judgment, or public alerting.",
+  "status": "ok",
+  "tested_cases": {
+    "allowed_eatf_boundary": {
+      "expected": "pass",
+      "hit_ids": []
+    },
+    "allowed_structural_observation": {
+      "expected": "pass",
+      "hit_ids": []
+    },
+    "forbidden_compliance_alert_absence": {
+      "expected": "fail",
+      "hit_ids": [
+        "compliance_judgment",
+        "public_alerting",
+        "absence_of_change"
+      ]
+    },
+    "forbidden_legal_validity": {
+      "expected": "fail",
+      "hit_ids": [
+        "legal_validity"
+      ]
+    },
+    "forbidden_signature_validity": {
+      "expected": "fail",
+      "hit_ids": [
+        "signature_validity"
+      ]
+    },
+    "forbidden_supervisory_status": {
+      "expected": "fail",
+      "hit_ids": [
+        "supervisory_status"
+      ]
+    }
+  }
+}

@@ -15107,3 +15107,14 @@ Added dashboard/public-index multi-state synthetic fixture with bounded verifica
 - Verification command: `.venv/bin/python notes/test_dashboard_public_index_fixture.py > notes/dashboard-public-index-fixture-validation-output.json`; exit code 0.
 
 Next action: add a claim-safety forbidden-wording scanner fixture, then continue with EATF success/tamper if local EATF tooling is available without secrets.
+
+### 2026-05-27T16:22:02Z
+
+Added claim-safety wording scanner fixture with bounded verification:
+- Confirmed `STOP_CASSANDRA_HERMES` was absent, pulled `origin/main`, and left unrelated untracked `logs/` files unstaged.
+- Added `notes/fixtures/claim-safety-wording-fixtures.json` with synthetic allowed wording and forbidden overclaiming examples for legal validity, signature validity, supervisory approval, compliance judgment, public alerting, and absence-of-legally-relevant-change phrasing.
+- Added `notes/test_claim_safety_fixture.py`, a small heuristic scanner test that catches the forbidden examples and passes bounded structural-observation / package-integrity wording.
+- Updated `notes/fixture-matrix.md` to mark priority 12 implemented, with the explicit boundary that the scanner is not legal review or publication approval.
+- Verification command: `.venv/bin/python notes/test_claim_safety_fixture.py > notes/claim-safety-fixture-validation-output.json`; exit code 0.
+
+Next action: improve paper/cards with the completed fixture coverage, or attempt EATF success/tamper fixtures only if local EATF tooling and non-secret test keys are available.

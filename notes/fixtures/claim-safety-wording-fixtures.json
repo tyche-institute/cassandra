@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "expected": "pass",
+      "name": "allowed_structural_observation",
+      "text": "Cassandra records a structural observation over a public artifact and preserves a package hash."
+    },
+    {
+      "expected": "pass",
+      "name": "allowed_eatf_boundary",
+      "text": "The EATF receipt verifies package bytes and declared hashes only, not trusted-list legal status."
+    },
+    {
+      "expected": "fail",
+      "expected_ids": [
+        "legal_validity"
+      ],
+      "name": "forbidden_legal_validity",
+      "text": "This is a legally valid trusted list for relying parties."
+    },
+    {
+      "expected": "fail",
+      "expected_ids": [
+        "signature_validity"
+      ],
+      "name": "forbidden_signature_validity",
+      "text": "The trusted-list signature is valid and ready for operational reliance."
+    },
+    {
+      "expected": "fail",
+      "expected_ids": [
+        "supervisory_status"
+      ],
+      "name": "forbidden_supervisory_status",
+      "text": "The supervisory authority approved this provider status."
+    },
+    {
+      "expected": "fail",
+      "expected_ids": [
+        "compliance_judgment",
+        "public_alerting",
+        "absence_of_change"
+      ],
+      "name": "forbidden_compliance_alert_absence",
+      "text": "Compliance passed, public alert issued, and there was no legally relevant change."
+    }
+  ],
+  "caveat": "Synthetic wording fixture for local claim-safety scanning only; it is not legal review, publication approval, trusted-list validation, signature validation, supervision, or public alerting.",
+  "forbidden_patterns": [
+    {
+      "id": "legal_validity",
+      "pattern": "legally valid trusted list",
+      "reason": "Cassandra does not determine trusted-list legal effect."
+    },
+    {
+      "id": "signature_validity",
+      "pattern": "signature is valid",
+      "reason": "Cassandra does not perform relying-party signature validation."
+    },
+    {
+      "id": "supervisory_status",
+      "pattern": "supervisory authority approved",
+      "reason": "Cassandra does not supervise or report approvals."
+    },
+    {
+      "id": "compliance_judgment",
+      "pattern": "compliance passed",
+      "reason": "Cassandra does not make compliance judgments."
+    },
+    {
+      "id": "public_alerting",
+      "pattern": "public alert issued",
+      "reason": "Dashboard telemetry is not public alerting."
+    },
+    {
+      "id": "absence_of_change",
+      "pattern": "no legally relevant change",
+      "reason": "Zero structural diff is not absence of legal change."
+    }
+  ],
+  "schema": "urn:tyche:cassandra:claim-safety-fixture:0.1"
+}
