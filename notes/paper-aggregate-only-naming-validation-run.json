@@ -6,15 +6,15 @@
     "TSPTradeName"
   ],
   "candidate_inventory_hash": "1d1ddabdc0155517440130ab3b5ef987e2ce142816018b996a6e6530fe922538",
-  "created": "2026-05-27T17:53:37.406565+00:00",
+  "created": "2026-05-27T18:00:12.420439+00:00",
   "error_count": 0,
   "findings": [],
   "missing_files": [],
   "paper_stats": {
-    "bytes": 78063,
-    "line_count": 375,
+    "bytes": 53188,
+    "line_count": 299,
     "path": "paper/draft.md",
-    "sha256": "425c1c4e0b2dcb40ab96dcfbe36e91a556cf6787f6f1e86624a1d454bf067c97"
+    "sha256": "ea751aed82ea3123a55af046f2f6c2180715d44b777bf9f9c0ded1b55e72c059"
   },
   "parse_error_count": 1,
   "parse_errors": [

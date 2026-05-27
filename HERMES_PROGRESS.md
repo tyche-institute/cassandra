@@ -15276,3 +15276,29 @@ Next action: consolidate `paper/draft.md` into a cleaner submission narrative us
 - Updated `paper/draft.md` with context-connected checked anchors and four concise professional footnotes for PKI governance, trusted-list scope, infrastructure theory, and method humility.
 - Updated the Hermes directive so future autonomous work must read the checked ledger before adding references or footnotes.
 - Claim boundary: reference checking and prose scaffolding only; no legal-status determination, trusted-list validation, signature validation, supervision, conformity assessment, public alerting, endorsement, or publication approval.
+
+
+### 2026-05-27T17:49:19Z
+
+Consolidated `paper/draft.md` into a cleaner submission narrative:
+- Confirmed `STOP_CASSANDRA_HERMES` was absent, working tree was clean except unrelated untracked `logs/`, and prior reference/fixture/maturity artifacts were present.
+- Rewrote `paper/draft.md` as `Cassandra: From Governance Infrastructure to Evidence Infrastructure`, a 6k-word working draft with numbered sections covering introduction, PKI/eIDAS background, method, fixture-backed results, case analysis, AI-governance analogy, limitations, reproducibility/dashboard gates, reviewer objections, citation discipline, and next experiments.
+- Updated `notes/validate_paper_section_order.py` for the consolidated numbered structure.
+- Added `notes/paper-draft-consolidation-validation-output.json`; status `ok`; word count in the target 6k-8k band.
+- Refreshed validators: claim-safety `ok`, aggregate-only naming `ok`, section-order/evidence references `ok`, paper evidence references `ok`, and `git diff --check` clean.
+- Updated `ARTIFACT_INDEX.md` and `CLAIMS.md` with hashes and boundary wording.
+- Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, provide public alerting, perform legal review, or approve publication.
+
+Next action: verify current artifact-index hashes for the consolidated-draft unit, commit and push, then continue with either bibliography metadata verification or a dashboard-card printable/reviewer consumer note if no stop file exists.
+
+
+### 2026-05-27T18:00:24Z
+
+Completed rebase merge for the consolidated paper-draft unit:
+- Fetched `origin/main` and fast-forwarded over the checked-reference-ledger commit before finalizing the local consolidated-draft changes.
+- Resolved merge conflicts by preserving the checked external-reference anchors and footnote discipline from `origin/main` while retaining the consolidated dataset/method/results/limitations/reviewer-objection paper structure from the local unit.
+- Re-ran paper validators: claim-safety `ok`, aggregate-only naming `ok`, section-order/evidence references `ok`, paper evidence references `ok`, and consolidation check `ok` with word count 6897.
+- Appended current artifact-index hashes for the merged validation outputs.
+- Did not stage untracked `logs/`; did not fetch live public endpoints, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, perform legal review, imply endorsement, or approve publication.
+
+Next action: commit and push the merged consolidated-draft unit, then continue with a fresh bounded unit if `STOP_CASSANDRA_HERMES` remains absent.

@@ -18,20 +18,23 @@ from datetime import datetime, timezone
 from typing import Any
 
 EXPECTED_HEADINGS = [
-    "# Cassandra: Longitudinal Structural Observation of European Trusted-List XML",
+    "# Cassandra: From Governance Infrastructure to Evidence Infrastructure",
     "## Abstract",
     "## Claim-safety note",
-    "## Outline",
-    "## Background",
-    "## Dataset boundary and source handling",
-    "## Method and evidence-bundle design",
-    "## Initial baseline telemetry (2026-05-20)",
-    "## Planned longitudinal aggregation and alert taxonomy",
-    "## Aggregate telemetry table interpretation",
-    "## Results presentation and figure design",
-    "## Figure reproducibility cross-references",
-    "## Limitations and reproducibility",
-    "## Conclusion",
+    "## 1. Introduction: from governance infrastructure to evidence infrastructure",
+    "## 2. Background: PKI, eIDAS, and trusted lists as public administrative artifacts",
+    "## 3. Dataset boundary and source handling",
+    "## 4. Method: collection, normalization, diffing, bundling, and receipts",
+    "## 5. Results: current observations and fixture-backed behavior",
+    "## 6. Case analysis: what becomes visible and what remains outside observation",
+    "## 7. AI governance connection: evidence records rather than model behavior",
+    "## 8. Limitations and threats to validity",
+    "## 9. Reproducibility, dashboard, and release gates",
+    "## 10. Conclusion",
+    "## 11. Paper structure and reviewer-facing argument",
+    "## 12. Reviewer objections and planned answers",
+    "## 13. Publication-status and citation discipline",
+    "## 14. Next experiments",
     "## References and local evidence",
 ]
 
@@ -141,11 +144,11 @@ def validate(workspace: pathlib.Path) -> dict[str, Any]:
     if forbidden_hits:
         errors.append(f"paper contains forbidden/overclaiming tokens: {forbidden_hits}")
 
-    outline_items = re.findall(r"^\d+\.\s+(.+)$", paper, flags=re.MULTILINE)
-    if len(outline_items) < 8:
-        warnings.append("outline has fewer than eight numbered items")
-    if "## References and local evidence" in paper and "## Limitations and reproducibility" in paper:
-        if line_for(paper, "## References and local evidence") < line_for(paper, "## Limitations and reproducibility"):
+    numbered_sections = re.findall(r"^##\s+\d+\.\s+(.+)$", paper, flags=re.MULTILINE)
+    if len(numbered_sections) < 10:
+        warnings.append("consolidated paper has fewer than ten numbered sections")
+    if "## References and local evidence" in paper and "## 8. Limitations and threats to validity" in paper:
+        if line_for(paper, "## References and local evidence") < line_for(paper, "## 8. Limitations and threats to validity"):
             errors.append("references section appears before limitations section")
 
     return {

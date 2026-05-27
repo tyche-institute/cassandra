@@ -1,19 +1,19 @@
 {
   "caveat": "Passing this check does not assert legal compliance, trusted-list legal effect, signature validity, supervision, or publication readiness.",
-  "created": "2026-05-27T17:53:34.956072+00:00",
+  "created": "2026-05-27T18:00:11.953898+00:00",
   "error_count": 0,
   "file_stats": [
     {
-      "bytes": 78063,
-      "line_count": 375,
+      "bytes": 53188,
+      "line_count": 299,
       "path": "paper/draft.md",
       "required_presence": {
         "Tyche Institute, Tallinn, Estonia": true,
         "does not assert legal effect": true,
         "does not determine": true
       },
-      "sha256": "425c1c4e0b2dcb40ab96dcfbe36e91a556cf6787f6f1e86624a1d454bf067c97",
-      "word_count": 11457
+      "sha256": "ea751aed82ea3123a55af046f2f6c2180715d44b777bf9f9c0ded1b55e72c059",
+      "word_count": 7562
     }
   ],
   "findings": [
@@ -23,15 +23,15 @@
       "path": "paper/draft.md",
       "pattern": "public alerting",
       "severity": "warning",
-      "snippet": "gal effect, validate signatures for relying-party purposes, determine listed-entity status, provide public alerting, or approve publication. ## Claim-safety note All observations in this draft are limited to local"
+      "snippet": "etation. The project is not a trusted-list validator, a supervisory tool, a compliance engine, or a public alerting service. It is a case study in how public governance state can become evidence infrastructure. The"
     },
     {
       "category": "risky_phrase_review",
-      "line": 14,
+      "line": 18,
       "path": "paper/draft.md",
       "pattern": "relying-party validation",
       "severity": "warning",
-      "snippet": "l status. Signature-related fields are treated as shape metadata only; this draft does not describe relying-party validation. ## Outline 1. Motivation: why longitudinal public-list observation is useful for research. 2. Da"
+      "snippet": "ted fields are treated as structural or package-integrity evidence only. Cassandra does not perform relying-party validation, does not describe relying-party validation, supervisory review, conformity assessment, public aler"
     }
   ],
   "missing_files": [],

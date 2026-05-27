@@ -1,112 +1,116 @@
 {
-  "created": "2026-05-21T03:09:58.454315+00:00",
+  "created": "2026-05-27T18:00:12.458746+00:00",
   "duplicate_headings": [],
   "error_count": 0,
   "errors": [],
-  "expected_heading_count": 14,
+  "expected_heading_count": 18,
   "expected_heading_lines": {
-    "# Cassandra: Longitudinal Structural Observation of European Trusted-List XML": 1,
-    "## Abstract (placeholder)": 8,
-    "## Aggregate telemetry table interpretation": 71,
-    "## Background": 27,
-    "## Claim-safety note": 12,
-    "## Dataset boundary and source handling": 37,
-    "## Figure reproducibility cross-references": 97,
-    "## Initial baseline telemetry (2026-05-20)": 57,
-    "## Limitations and reproducibility": 173,
-    "## Method and evidence-bundle design": 47,
-    "## Outline": 16,
-    "## Planned longitudinal aggregation and alert taxonomy": 61,
-    "## References and local evidence": 213,
-    "## Results presentation and figure design": 87
+    "# Cassandra: From Governance Infrastructure to Evidence Infrastructure": 1,
+    "## 1. Introduction: from governance infrastructure to evidence infrastructure": 20,
+    "## 10. Conclusion": 146,
+    "## 11. Paper structure and reviewer-facing argument": 155,
+    "## 12. Reviewer objections and planned answers": 171,
+    "## 13. Publication-status and citation discipline": 187,
+    "## 14. Next experiments": 197,
+    "## 2. Background: PKI, eIDAS, and trusted lists as public administrative artifacts": 32,
+    "## 3. Dataset boundary and source handling": 58,
+    "## 4. Method: collection, normalization, diffing, bundling, and receipts": 70,
+    "## 5. Results: current observations and fixture-backed behavior": 86,
+    "## 6. Case analysis: what becomes visible and what remains outside observation": 102,
+    "## 7. AI governance connection: evidence records rather than model behavior": 114,
+    "## 8. Limitations and threats to validity": 124,
+    "## 9. Reproducibility, dashboard, and release gates": 136,
+    "## Abstract": 8,
+    "## Claim-safety note": 16,
+    "## References and local evidence": 211
   },
-  "heading_count": 24,
+  "heading_count": 18,
   "paper": "paper/draft.md",
-  "paper_sha256": "2050ff56fb6be3befdf0e771bdac891a09e3bf62c208ff841d932bdb862360e9",
+  "paper_sha256": "ea751aed82ea3123a55af046f2f6c2180715d44b777bf9f9c0ded1b55e72c059",
   "references": [
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 215,
+      "paper_line": 233,
       "path": "sources/eu-lotl.xml",
       "sha256": "aeddb7337486ac9f2e50448f7f61586cfa6acfcd38819a80f4246e4e0d6f4772"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 215,
+      "paper_line": 233,
       "path": "sources/eu-lotl.xml.meta.json",
       "sha256": "034135d8bbc9521bb67ab59f207a4944015e1259c81d2fcb2493f2f105709e00"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 216,
+      "paper_line": 234,
       "path": "notes/pointers.json",
       "sha256": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 217,
+      "paper_line": 235,
       "path": "snapshots/2026-05-20/manifest.json",
       "sha256": "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 218,
+      "paper_line": 236,
       "path": "normalized/2026-05-20/manifest.json",
       "sha256": "3249db21d5c6e25ce421cec2b6550ba505f9723bbb1e58f1eb944bdbbbc86d92"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 219,
+      "paper_line": 237,
       "path": "diffs/2026-05-20.json",
       "sha256": "e9c1ada2af5ef6476378ad334a71a5c6c145c2fe9e82d887ea47ea174a49e8b3"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 220,
+      "paper_line": 66,
       "path": "alerts.jsonl",
-      "sha256": "446382f3a3eb7204fdb61a572106946314b8f9b16d6444228ad65910dd47bce3"
+      "sha256": "e6f0d038cbb678cfd1041e3fc111621d0a3f9d9bc1c54611962e0b896989c1e1"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 221,
+      "paper_line": 239,
       "path": "bundles/2026-05-20/snapshot-summary.json.bundle/",
       "type": "directory"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 99,
+      "paper_line": 266,
       "path": "notes/aggregate-results-table.csv",
-      "sha256": "de769c24b8aff180c839be213615ec2f172a92a0b7eb1de6e20d100b5789a476"
+      "sha256": "e4d6c727d96985074d648385f9943154f4082310f7d64313e5b8c4806a97461d"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 99,
+      "paper_line": 267,
       "path": "notes/aggregate-results-2026-05-20-output.json",
       "sha256": "c862cd9cbc52bc3cc89a7d69a64baaafddaad85373f5849679c4945df22687d0"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 99,
+      "paper_line": 268,
       "path": "figures/aggregate-run-telemetry.svg",
-      "sha256": "39b43dfa49057362ed4e27ebb43befdcfb9d59be4dac6e6222da241caf142155"
+      "sha256": "a4a1637fa5aebc6987b5851a8d9f7f62d247a1d7a58be5be5e3c7a9d6c2fb74e"
     },
     {
       "exists": true,
       "mentioned": true,
-      "paper_line": 99,
+      "paper_line": 269,
       "path": "figures/aggregate-diff-classes.svg",
-      "sha256": "56153b7b5bb1369eb0b31dd0f84c59dc243a41a0f249dc1a736f29dfa4d1f4e3"
+      "sha256": "7ea8efbc9b0c4805d9d192f4b94bca119944b54a84b8a4b83d12eba28c5be82d"
     }
   ],
   "required_reference_count": 12,

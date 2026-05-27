@@ -151,3 +151,10 @@ Boundary: this is documentation and fixture-harness evidence only. It does not v
 Allowed claim: `paper/reference-seed-bibliography.md` turns the Cassandra related-work clusters into a controlled seed bibliography with official/legal/standards sources, scholarly anchors requiring verification, Tyche/adjacent-project citation posture, merge guidance, and explicit non-claims; `notes/validate_reference_seed_bibliography.py` verified required clusters and boundary wording.
 
 Boundary: this is drafting-control evidence only. It does not validate trusted lists, verify source signatures, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.
+
+
+## 2026-05-27 consolidated submission draft claim
+
+Allowed claim: `paper/draft.md` has been rewritten into a cleaner 6k-word working submission narrative titled "Cassandra: From Governance Infrastructure to Evidence Infrastructure", integrating the reference atlas, fixture-to-claim map, publication-status discipline, related-work card, case-study maturity matrix, reference-seed bibliography, dashboard-card pack, and EATF/MIRROR boundaries. Refreshed validators report `ok` for claim safety, aggregate-only naming, section order, evidence references, and consolidation checks.
+
+Boundary: the consolidated draft is a working research manuscript only. It does not validate trusted lists, verify source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.

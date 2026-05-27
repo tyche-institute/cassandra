@@ -1,0 +1,12 @@
+{
+  "created": "2026-05-27T18:00:24.677604+00:00",
+  "error_count": 0,
+  "errors": [],
+  "paper": "paper/draft.md",
+  "paper_sha256": "ea751aed82ea3123a55af046f2f6c2180715d44b777bf9f9c0ded1b55e72c059",
+  "required_anchor_count": 13,
+  "research_caveat": "Mechanical consolidation check only; not legal review, trusted-list validation, source-signature validation, supervisory assessment, public alerting, endorsement, or publication approval.",
+  "schema": "urn:tyche:cassandra:paper-draft-consolidation-validation:0.2",
+  "status": "ok",
+  "word_count": 6897
+}
