@@ -4,9 +4,9 @@
   },
   "artifacts": {
     "bundle_manifest": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-    "bundle_manifest_sha256": "f9fa0ea6df6f397cc7b96da02757f6ec4cfaa90d4f82d436effb34e53e825128",
+    "bundle_manifest_sha256": "2d3a13654307bac39d60c1f2a5683a21b66607c6088800109a65d560f3e2aa3f",
     "bundle_summary": "bundles/2026-05-27/snapshot-summary.json",
-    "bundle_summary_sha256": "8e9af4f37ecf05754c0e8781f4e1ecdf642c630f73c3e11d0ccde36fa1deccfe",
+    "bundle_summary_sha256": "471795c59ba820b8e2fbfbfff01ac39a4a4ddcb6c2cbb5df5939021a294f5a34",
     "diff": "diffs/2026-05-27.json",
     "diff_sha256": "036692b010f6f8b34d5483384403a918bb828f2ab43cb66d986729776c5ad2da",
     "normalized_manifest": "normalized/2026-05-27/manifest.json",
@@ -40,14 +40,14 @@
   "eatf": {
     "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
     "package_path": "evidence/2026-05-27/cassandra-observation.aep",
-    "package_sha256": "4ec7795b1460cf2a9e6b3f9598276e5848d5dedd2dadd7c65db2a58c7d1d55cd",
+    "package_sha256": "3ef7f33b391afac388ce4bcf9716ac7018508ed613933f4ee86a3008d42023f6",
     "payload_path": "evidence/2026-05-27/cassandra-observation.json",
-    "payload_sha256": "49d318e6ebdaf85e7de998b0246300017aef73765e9d22d4b5592a2256680a17",
+    "payload_sha256": "2f0f068f62584f41c44872ebbf9573b7782651043a22871f9557af2bdabffa2e",
     "receipt_path": "evidence/2026-05-27/eatf-verification.json",
-    "receipt_sha256": "02730ce53b034daa8b01c6ded543e263a351fc3c191dd030e59033e76f7238b4",
-    "signing_profile": "unsigned",
-    "status": "skipped_missing_signing_inputs",
+    "receipt_sha256": "1e971e12a46b0d8be72635671b45be0b2dc21a283c5f29f1257d3dde4d6407d0",
+    "signing_profile": "github-secret:cassandra-eatf-key",
+    "status": "ok",
     "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-    "valid": null
+    "valid": true
   }
 }

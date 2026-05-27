@@ -1,17 +1,75 @@
 {
-  "aep_package": null,
+  "aep_package": "evidence/2026-05-21/cassandra-observation.aep",
+  "aep_sha256": "ec4c02dca051384d8b6b138de3f10fde18f77317fcd29f428777ae1fe856b206",
   "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-  "created_at": "2026-05-27T15:02:33Z",
+  "created_at": "2026-05-27T15:04:38Z",
   "metadata": "evidence/2026-05-21/eatf-metadata.json",
-  "metadata_sha256": "c14949c9de1e8dcc2e0ce34e84a1e34a45058902e4196f3fee3e55a7c8ea903d",
-  "missing_inputs": [
-    "private_key",
-    "public_key"
-  ],
+  "metadata_sha256": "b4d09b9ed8777824fb4e510e62a3f0c83d5574b5d1af0d8b20f080e2176e346c",
   "payload": "evidence/2026-05-21/cassandra-observation.json",
-  "payload_sha256": "e78ecc28234013145b6edcce590517a61d79b576f2ff646838dec0b1137dd9e4",
+  "payload_sha256": "9c2f629d7a971f3d676d55f725592739253bfa94ecfb602e7db4c178cd09519e",
   "schema": "urn:tyche:cassandra:eatf-verification-receipt:0.1",
-  "signing_profile": "unsigned",
-  "status": "skipped_missing_signing_inputs",
-  "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr"
+  "scope": "foundational:public-trust-list-observation",
+  "signing_profile": "github-secret:cassandra-eatf-key",
+  "status": "ok",
+  "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
+  "verify": {
+    "failureReason": null,
+    "metadata": {
+      "action_type": "cassandra.public-trust-list-observation",
+      "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory",
+      "attestation_id": "att_cassandra_2026_05_21",
+      "case_study": "Cassandra: from governance infrastructure to evidence infrastructure.",
+      "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
+      "created_at": "2026-05-27T15:04:37Z",
+      "policy": {
+        "disclosure": "hashes, counts, paths, and cautious claim boundary only",
+        "purpose": "research evidence packaging",
+        "retention": "commit history and public observatory artifact"
+      },
+      "schema": "urn:tyche:cassandra:eatf-observation-package:0.1",
+      "signing_profile": "github-secret:cassandra-eatf-key",
+      "tenant_id": "tyche-research"
+    },
+    "overtReceipt": {
+      "content_hash": "sha256:9c2f629d7a971f3d676d55f725592739253bfa94ecfb602e7db4c178cd09519e",
+      "event": {
+        "action_type": "cassandra.public-trust-list-observation",
+        "timestamp": "2026-05-27T15:04:37Z"
+      },
+      "overt": "1.0.0",
+      "policy": {},
+      "prev": null,
+      "profile": "urn:eatf:spec:aep:1.0",
+      "profile_revision": "1.0-draft",
+      "scope": "foundational:public-trust-list-observation",
+      "subject": {
+        "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory"
+      },
+      "witness": {
+        "iap": "EATF.eu",
+        "signature_refs": [
+          "signature.sig"
+        ],
+        "timestamp_refs": [
+          "timestamp.tsr"
+        ]
+      }
+    },
+    "path": "evidence/2026-05-21/cassandra-observation.aep",
+    "pqcValid": null,
+    "report": [
+      "Package unzipped (8 entries).",
+      "metadata.json parsed.",
+      "Canonical bytes match Java response-only canonical form.",
+      "SHA-256 hash matches.",
+      "RSA-4096 signature verified.",
+      "OVERT receipt verified (foundational:public-trust-list-observation).",
+      "ML-DSA-65 entries absent (transitional v1 package).",
+      "RFC 3161 timestamp present (743 bytes, genTime=2026-01-01T00:00:00.000Z). Message imprint match: false. SignerInfo signature: no embedded cert. Signer: unknown (issued by unknown).",
+      "RFC 3161 message imprint does not match hash.sha256 (accepted for Java reference compatibility)."
+    ],
+    "tsaTrusted": null,
+    "valid": true
+  },
+  "verify_exit_code": 0
 }

@@ -27,19 +27,19 @@
     {
       "name": "bundle_summary",
       "path": "bundles/2026-05-27/snapshot-summary.json",
-      "sha256": "8e9af4f37ecf05754c0e8781f4e1ecdf642c630f73c3e11d0ccde36fa1deccfe",
+      "sha256": "471795c59ba820b8e2fbfbfff01ac39a4a4ddcb6c2cbb5df5939021a294f5a34",
       "size_bytes": 2018
     },
     {
       "name": "bundle_manifest",
       "path": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-      "sha256": "f9fa0ea6df6f397cc7b96da02757f6ec4cfaa90d4f82d436effb34e53e825128",
+      "sha256": "2d3a13654307bac39d60c1f2a5683a21b66607c6088800109a65d560f3e2aa3f",
       "size_bytes": 4034
     },
     {
       "name": "alert_rollup",
       "path": "notes/alert-rollup-2026-05-27-output.json",
-      "sha256": "3bfca52305f8a4d5f9e9b992246fbbdc492f36ded2964ea7f6d5f6eeb20d9838",
+      "sha256": "22045a2b12d4224ac0ab73ec6d087a57e3603ad75952166327b0229c1baf857d",
       "size_bytes": 2787
     }
   ],
@@ -95,11 +95,11 @@
     "normalized_xml_artifacts": 31,
     "pointer_attempts": 43
   },
-  "created_at": "2026-05-27T15:02:34Z",
+  "created_at": "2026-05-27T15:04:38Z",
   "lane": "cassandra",
   "observation_date": "2026-05-27",
   "payload_path": "evidence/2026-05-27/cassandra-observation.json",
-  "payload_sha256": "d632801e505924ffa4faea0b61016ba333d9e326b4426a1b857339428dfb9966",
+  "payload_sha256": "89e242985e429bb8c09be25b9783e7b1b945ace1ae1d136af31621d413ec30a4",
   "schema": "urn:tyche:cassandra:eatf-observation-payload:0.1",
   "subject": {
     "scope": "Public LOTL-derived trusted-list snapshot telemetry",
