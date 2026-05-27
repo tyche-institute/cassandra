@@ -158,3 +158,10 @@ Boundary: this is drafting-control evidence only. It does not validate trusted l
 Allowed claim: `paper/draft.md` has been rewritten into a cleaner 6k-word working submission narrative titled "Cassandra: From Governance Infrastructure to Evidence Infrastructure", integrating the reference atlas, fixture-to-claim map, publication-status discipline, related-work card, case-study maturity matrix, reference-seed bibliography, dashboard-card pack, and EATF/MIRROR boundaries. Refreshed validators report `ok` for claim safety, aggregate-only naming, section order, evidence references, and consolidation checks.
 
 Boundary: the consolidated draft is a working research manuscript only. It does not validate trusted lists, verify source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.
+
+
+## 2026-05-27 dashboard card pack claim
+
+Allowed claim: `notes/dashboard-card-pack-2026-05-27.md` renders the existing public observatory card JSON pack into a reviewer-readable Markdown packet and records matching SHA-256 checks for the card files listed in `observatory/public/data/cards/index.json`. `notes/dashboard-card-pack-validation-output.json` reports status `ok`.
+
+Boundary: the card pack is a presentation and reviewer-inspection artifact only. It does not validate trusted lists, verify source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.

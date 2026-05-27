@@ -1,0 +1,54 @@
+{
+  "card_index": "observatory/public/data/cards/index.json",
+  "card_index_sha256": "6c42788f9bf657ced513b13436c03cb8f5db3f25f854259c958b45d7ef7a1e50",
+  "card_records": [
+    {
+      "exists": true,
+      "index_sha256": "508103a91b1b66adc7a8aebd1aa743d194114679e8537402808a75ce28174f4f",
+      "path": "data/cards/aggregate-diffs.json",
+      "sha256": "508103a91b1b66adc7a8aebd1aa743d194114679e8537402808a75ce28174f4f",
+      "size_bytes": 1262
+    },
+    {
+      "exists": true,
+      "index_sha256": "7a14950891211873dc2e3c98f6831d5b2836b2ed41824dea5f6b3d7453075a34",
+      "path": "data/cards/caveat.json",
+      "sha256": "7a14950891211873dc2e3c98f6831d5b2836b2ed41824dea5f6b3d7453075a34",
+      "size_bytes": 1106
+    },
+    {
+      "exists": true,
+      "index_sha256": "1a390ec7b2c27c402975d138910b243035d7085eb0a4e434d3452482e439114a",
+      "path": "data/cards/claim-boundary.json",
+      "sha256": "1a390ec7b2c27c402975d138910b243035d7085eb0a4e434d3452482e439114a",
+      "size_bytes": 1315
+    },
+    {
+      "exists": true,
+      "index_sha256": "90ca7805c8aecd5fa60567d82431f7e98dbe8c8ba2062411698fee05a2a458b8",
+      "path": "data/cards/eatf-receipt.json",
+      "sha256": "90ca7805c8aecd5fa60567d82431f7e98dbe8c8ba2062411698fee05a2a458b8",
+      "size_bytes": 1296
+    },
+    {
+      "exists": true,
+      "index_sha256": "8f92a91648cf249fb894f4a0e8c27eca708aed71da4a8dc7ed0ee62103aa7990",
+      "path": "data/cards/latest-run.json",
+      "sha256": "8f92a91648cf249fb894f4a0e8c27eca708aed71da4a8dc7ed0ee62103aa7990",
+      "size_bytes": 1073
+    }
+  ],
+  "created": "2026-05-27T18:02:48.430135+00:00",
+  "error_count": 0,
+  "errors": [],
+  "output": "notes/dashboard-card-pack-2026-05-27.md",
+  "output_sha256": "cfb75b81dc42f53643db8231c3c224733d87d11bfe258d37cab7988c9514c149",
+  "public_index": "observatory/public/data/index.json",
+  "public_index_sha256": "8a9293cf6473194877a131dcaec9f22bab6b74c516910fb5432cd363f6e3df29",
+  "research_caveat": "Reviewer dashboard-card rendering only; it summarizes public observatory JSON cards and hash checks. It is not trusted-list validation, source-signature validation, legal-status determination, supervision, compliance judgment, public alerting, endorsement, legal review, or publication approval.",
+  "schema": "urn:tyche:cassandra:dashboard-card-pack-validation:0.1",
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": [],
+  "workspace": "/home/anton/projects/cassandra"
+}
