@@ -1,0 +1,20 @@
+{
+  "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
+  "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
+  "data": {
+    "date": "2026-05-27",
+    "diff_change_count": 40,
+    "eatf_status": "ok",
+    "fetch_errors": 1,
+    "fetched_content_files": 42,
+    "normalized_xml_artifacts": 31,
+    "pointer_attempts": 43
+  },
+  "id": "latest-run",
+  "interpretation": "Run counts describe Cassandra's saved workflow telemetry for the date, not external legal state.",
+  "not_a": "trusted-list validation; legal-status determination; signature validation; supervision; compliance judgment; relying-party processing; public alerting; publication approval",
+  "project": "cassandra",
+  "schema": "urn:tyche:cassandra:observatory-card:0.1",
+  "summary": "Latest dated structural-observation run exposed through the public index.",
+  "title": "Latest Cassandra run"
+}

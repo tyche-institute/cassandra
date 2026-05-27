@@ -1,0 +1,15 @@
+{
+  "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
+  "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
+  "data": {
+    "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
+    "source": "observatory public index"
+  },
+  "id": "caveat",
+  "interpretation": "Keep this caveat attached to dashboard cards, figures, and public-index excerpts.",
+  "not_a": "trusted-list validation; legal-status determination; signature validation; supervision; compliance judgment; relying-party processing; public alerting; publication approval",
+  "project": "cassandra",
+  "schema": "urn:tyche:cassandra:observatory-card:0.1",
+  "summary": "Reusable public caveat for dashboard panels and downstream cards.",
+  "title": "Dashboard caveat"
+}

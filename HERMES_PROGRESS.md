@@ -15165,3 +15165,22 @@ Added a Cassandra replay capsule with bounded validation:
 - Updated `ARTIFACT_INDEX.md` and `CLAIMS.md` with replay-capsule hashes and boundary wording.
 
 Next action: consolidate `paper/draft.md` using the new card/replay pack, or create dashboard card JSON under `observatory/public/data/cards/` if the UI can consume it.
+
+## 2026-05-27T16:55:46Z — Dashboard card JSON pack
+
+Implemented a bounded public observatory dashboard-card JSON pack:
+
+- Confirmed no `STOP_CASSANDRA_HERMES` file was present before continuing and kept untracked `logs/` out of the commit scope.
+- Added `build_dashboard_cards()` to `scripts/build_observatory_index.py`. The public index build now writes `observatory/public/data/cards/index.json` plus five caveated card files: `claim-boundary.json`, `latest-run.json`, `eatf-receipt.json`, `aggregate-diffs.json`, and `caveat.json`.
+- Added `notes/test_observatory_dashboard_cards.py`, a smoke test that builds cards in a temporary public directory, checks schema/card-index metadata, verifies the EATF package-byte interpretation boundary, and scans for obvious positive overclaim patterns while allowing explicit `not_a` caveats.
+- Regenerated `observatory/public/data/index.json` so it advertises `dashboard_cards` metadata and regenerated `notes/observatory-index-build-output.json`.
+- Verification commands exited 0: `.venv/bin/python -m py_compile scripts/build_observatory_index.py notes/test_observatory_dashboard_cards.py`; `.venv/bin/python notes/test_observatory_dashboard_cards.py > notes/dashboard-cards-test-output.json`; `.venv/bin/python scripts/build_observatory_index.py --workspace . --public-dir observatory/public --aggregate-json notes/aggregate-results-2026-05-27-output.json --output notes/observatory-index-build-output.json`.
+- Final generated card test status `ok`, generated_card_count `5`, cards_index_sha256 `a8c7e4fdd192075df81c4ebeae881d58cdf235b84d02f75b12bbf78fe66c0168`. Cards remain structural-observation/dashboard aids only, not trusted-list validation, legal-status determination, signature validation, supervision, compliance judgment, public alerting, relying-party processing, legal review, or publication approval.
+
+Next action: continue with another bounded unit, preferably wiring the dashboard cards into the static dashboard UI or adding a small consumer note for card reuse, unless Anton intervenes or `STOP_CASSANDRA_HERMES` appears.
+
+Validation follow-up for the dashboard-card JSON pack:
+
+- Ran `.venv/bin/python notes/validate_artifact_index_current_hashes.py --workspace . --output notes/artifact-index-current-hash-validation-output.json > notes/artifact-index-current-hash-validation-run.json`; after adding current-hash maintenance rows for eight pre-existing stale-only artifact-index entries, final status was `ok`, missing_path_count `0`, stale_path_count `0`.
+- Ran JSON parse checks for `observatory/public/data/cards/index.json` and `observatory/public/data/index.json`; both parsed successfully.
+- Ran `git diff --check`; it reported no whitespace errors.

@@ -148,6 +148,123 @@ def copy_text_lf_if_exists(src: pathlib.Path, dst: pathlib.Path) -> dict[str, An
     }
 
 
+def card_base(card_id: str, title: str) -> dict[str, Any]:
+    return {
+        "schema": "urn:tyche:cassandra:observatory-card:0.1",
+        "id": card_id,
+        "project": "cassandra",
+        "title": title,
+        "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
+        "caveat": CAVEAT,
+        "not_a": (
+            "trusted-list validation; legal-status determination; signature validation; "
+            "supervision; compliance judgment; relying-party processing; public alerting; "
+            "publication approval"
+        ),
+    }
+
+
+def build_dashboard_cards(index: dict[str, Any], cards_dir: pathlib.Path) -> dict[str, Any]:
+    """Write compact, caveated dashboard cards derived from the public index."""
+    latest_run = index["runs"][-1]
+    cards: dict[str, dict[str, Any]] = {}
+
+    claim_boundary = card_base("claim-boundary", "Claim boundary")
+    claim_boundary.update(
+        {
+            "summary": "Cassandra observes and packages structural telemetry over saved LOTL-derived public artifacts.",
+            "data": index["claim_boundary"],
+            "interpretation": "Evidence integrity and aggregate method telemetry are in scope; legal interpretation is out of scope.",
+        }
+    )
+    cards["claim-boundary.json"] = claim_boundary
+
+    latest = card_base("latest-run", "Latest Cassandra run")
+    latest.update(
+        {
+            "summary": "Latest dated structural-observation run exposed through the public index.",
+            "data": {
+                "date": latest_run["date"],
+                "pointer_attempts": latest_run["counts"].get("pointer_attempts"),
+                "fetched_content_files": latest_run["counts"].get("fetched_content_files"),
+                "fetch_errors": latest_run["counts"].get("fetch_errors"),
+                "normalized_xml_artifacts": latest_run["counts"].get("normalized_xml_artifacts"),
+                "diff_change_count": latest_run["counts"].get("diff_change_count"),
+                "eatf_status": latest_run["eatf"].get("status"),
+            },
+            "interpretation": "Run counts describe Cassandra's saved workflow telemetry for the date, not external legal state.",
+        }
+    )
+    cards["latest-run.json"] = latest
+
+    eatf = card_base("eatf-receipt", "EATF receipt boundary")
+    eatf.update(
+        {
+            "summary": "Latest EATF/AEP receipt status for the Cassandra evidence package.",
+            "data": {
+                "date": latest_run["date"],
+                "status": latest_run["eatf"].get("status"),
+                "valid": latest_run["eatf"].get("valid"),
+                "package_path": latest_run["eatf"].get("package_path"),
+                "package_sha256": latest_run["eatf"].get("package_sha256"),
+                "receipt_path": latest_run["eatf"].get("receipt_path"),
+                "receipt_sha256": latest_run["eatf"].get("receipt_sha256"),
+                "signing_profile": latest_run["eatf"].get("signing_profile"),
+            },
+            "interpretation": "A status of ok verifies package bytes, envelope structure, and declared hashes only.",
+        }
+    )
+    cards["eatf-receipt.json"] = eatf
+
+    aggregate = card_base("aggregate-diffs", "Aggregate structural diffs")
+    aggregate.update(
+        {
+            "summary": "Diff-class totals across public Cassandra runs.",
+            "data": {
+                "run_count": index["run_count"],
+                "latest_date": index["latest_date"],
+                "diff_change_count": index["aggregate"]["totals"].get("diff_change_count"),
+                "diff_class_totals": index["aggregate"].get("diff_class_totals") or {},
+            },
+            "interpretation": "Diff classes are local structural-observation buckets against Cassandra baselines, not compliance or legal-effect classes.",
+        }
+    )
+    cards["aggregate-diffs.json"] = aggregate
+
+    caveat = card_base("caveat", "Dashboard caveat")
+    caveat.update(
+        {
+            "summary": "Reusable public caveat for dashboard panels and downstream cards.",
+            "data": {"caveat": CAVEAT, "source": "observatory public index"},
+            "interpretation": "Keep this caveat attached to dashboard cards, figures, and public-index excerpts.",
+        }
+    )
+    cards["caveat.json"] = caveat
+
+    card_records = []
+    for name in sorted(cards):
+        path = cards_dir / name
+        write_json(path, cards[name])
+        card_records.append({"path": f"data/cards/{name}", "sha256": sha256_file(path), "size_bytes": path.stat().st_size})
+
+    cards_index = {
+        "schema": "urn:tyche:cassandra:observatory-card-index:0.1",
+        "project": "cassandra",
+        "card_count": len(card_records),
+        "cards": card_records,
+        "caveat": CAVEAT,
+        "not_a": "trusted-list validation; legal-status determination; signature validation; supervision; compliance judgment; public alerting; publication approval",
+    }
+    cards_index["sha256"] = hashlib.sha256(json.dumps(cards_index, sort_keys=True).encode("utf-8")).hexdigest()
+    write_json(cards_dir / "index.json", cards_index)
+    return {
+        "index": "data/cards/index.json",
+        "index_sha256": cards_index["sha256"],
+        "card_count": len(card_records),
+        "cards": card_records,
+    }
+
+
 def build_index(workspace: pathlib.Path, public_dir: pathlib.Path, aggregate_json: pathlib.Path | None) -> dict[str, Any]:
     aggregate_path = aggregate_json or find_latest_aggregate(workspace)
     aggregate = read_json(aggregate_path)
@@ -212,6 +329,7 @@ def build_index(workspace: pathlib.Path, public_dir: pathlib.Path, aggregate_jso
         },
         "caveat": CAVEAT,
     }
+    index["dashboard_cards"] = build_dashboard_cards(index, data_dir / "cards")
     write_json(data_dir / "index.json", index)
     write_json(data_dir / "latest.json", latest)
     return index

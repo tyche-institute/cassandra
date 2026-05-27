@@ -1,0 +1,21 @@
+{
+  "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
+  "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
+  "data": {
+    "date": "2026-05-27",
+    "package_path": "evidence/2026-05-27/cassandra-observation.aep",
+    "package_sha256": "3ef7f33b391afac388ce4bcf9716ac7018508ed613933f4ee86a3008d42023f6",
+    "receipt_path": "evidence/2026-05-27/eatf-verification.json",
+    "receipt_sha256": "1e971e12a46b0d8be72635671b45be0b2dc21a283c5f29f1257d3dde4d6407d0",
+    "signing_profile": "github-secret:cassandra-eatf-key",
+    "status": "ok",
+    "valid": true
+  },
+  "id": "eatf-receipt",
+  "interpretation": "A status of ok verifies package bytes, envelope structure, and declared hashes only.",
+  "not_a": "trusted-list validation; legal-status determination; signature validation; supervision; compliance judgment; relying-party processing; public alerting; publication approval",
+  "project": "cassandra",
+  "schema": "urn:tyche:cassandra:observatory-card:0.1",
+  "summary": "Latest EATF/AEP receipt status for the Cassandra evidence package.",
+  "title": "EATF receipt boundary"
+}
