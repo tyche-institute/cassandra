@@ -1,6 +1,6 @@
 {
-  "created": "2026-05-27T18:18:14.053911+00:00",
-  "current_match_count": 930,
+  "created": "2026-05-27T18:21:18.344618+00:00",
+  "current_match_count": 934,
   "duplicate_path_count": 148,
   "duplicate_paths": [
     {
@@ -15,12 +15,12 @@
       ]
     },
     {
-      "current_hash": "sha256:60c6603529fd62a34a44844b765a330c9e5346dafaea67f743ecb02798d297f8",
+      "current_hash": "sha256:a4a95bc2b7b960ed05f209de5b3fed7ca4a54f289df6394249a12b001b755f43",
       "matching_lines": [
-        4604
+        4625
       ],
       "path": "CLAIMS.md",
-      "row_count": 45,
+      "row_count": 46,
       "stale_lines": [
         1132,
         1152,
@@ -65,16 +65,17 @@
         4445,
         4451,
         4465,
-        4519
+        4519,
+        4604
       ]
     },
     {
-      "current_hash": "sha256:97f48d739a480f61b18e0544b8910de8f07bc2acb43bc9f18cde722a09cf17ac",
+      "current_hash": "sha256:06b43ace52eacf7ea2d66ea25ecd6e91615ef2c7b35fc243d6cb7e355e0abaf8",
       "matching_lines": [
-        4605
+        4626
       ],
       "path": "HERMES_PROGRESS.md",
-      "row_count": 1245,
+      "row_count": 1246,
       "stale_lines": [
         1135,
         1153,
@@ -1319,7 +1320,8 @@
         4486,
         4520,
         4538,
-        4545
+        4545,
+        4605
       ]
     },
     {
@@ -2836,31 +2838,33 @@
       ]
     },
     {
-      "current_hash": "sha256:90ce907f9264525f903653da295dcd2d9463e2e0b266bf669b340d61e3d1e296",
+      "current_hash": "sha256:88ab7af55767a9b64e9827383bbf6cb834a34f59ec613a7a38f399c3d8653b65",
       "matching_lines": [
-        4616
+        4623
       ],
       "path": "notes/publication-case-kit-readiness-output.json",
-      "row_count": 5,
+      "row_count": 6,
       "stale_lines": [
         4581,
         4585,
         4602,
-        4610
+        4610,
+        4616
       ]
     },
     {
-      "current_hash": "sha256:90ce907f9264525f903653da295dcd2d9463e2e0b266bf669b340d61e3d1e296",
+      "current_hash": "sha256:88ab7af55767a9b64e9827383bbf6cb834a34f59ec613a7a38f399c3d8653b65",
       "matching_lines": [
-        4617
+        4624
       ],
       "path": "notes/publication-case-kit-readiness-run.json",
-      "row_count": 5,
+      "row_count": 6,
       "stale_lines": [
         4582,
         4586,
         4603,
-        4611
+        4611,
+        4617
       ]
     },
     {
@@ -3795,15 +3799,16 @@
       ]
     },
     {
-      "current_hash": "sha256:ba546936b6dee45d8590b300a4d5397d3dcf97543520c83608839bb6b767e769",
+      "current_hash": "sha256:0afdc946a1daf0177c45e67840ef96356e3dd7a50f5233f45a91c5a285a84744",
       "matching_lines": [
-        4601
+        4622
       ],
       "path": "notes/validate_publication_case_kit.py",
-      "row_count": 3,
+      "row_count": 4,
       "stale_lines": [
         4580,
-        4584
+        4584,
+        4601
       ]
     },
     {
@@ -4623,11 +4628,11 @@
   "missing_path_count": 0,
   "missing_paths": [],
   "research_caveat": "Local artifact-index hash freshness telemetry only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication readiness.",
-  "row_count": 4048,
+  "row_count": 4057,
   "stale_path_count": 0,
   "stale_paths": [],
   "status": "ok",
-  "unique_path_count": 933,
+  "unique_path_count": 937,
   "warnings": [
     "148 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
   ],

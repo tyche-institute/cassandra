@@ -170,7 +170,7 @@ Boundary: the card pack is a presentation and reviewer-inspection artifact only.
 
 ## 2026-05-27 publication case kit readiness claim
 
-Allowed claim: `notes/validate_publication_case_kit.py` mechanically checks the configured Cassandra paper, preprint-review, dataset/evidence, dashboard/product, thesis/case, and validator artifacts. `notes/publication-case-kit-readiness-output.json` reports `status=ok`, `required_file_count=45`, `present_file_count=45`, and `error_count=0`.
+Allowed claim: `notes/validate_publication_case_kit.py` mechanically checks the configured Cassandra paper, preprint-review, dataset/evidence, dashboard/product, thesis/case, and validator artifacts. `notes/publication-case-kit-readiness-output.json` reports `status=ok`, `required_file_count=48`, `present_file_count=48`, and `error_count=0`.
 
 Boundary: the readiness output is an inventory and formatting/safety aid only. It does not validate trusted lists, verify source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.
 
@@ -179,3 +179,9 @@ Boundary: the readiness output is an inventory and formatting/safety aid only. I
 Allowed claim: `notes/preprint-review-packet-2026-05-27.md` converts the v0.1 preprint candidate into a bounded operator/committee review packet with reading order, review checkboxes, release blockers, and safe next actions. `notes/validate_preprint_review_packet.py` reports `status=ok`, 18 open review checkboxes, 7 explicit blockers, and 0 errors.
 
 Boundary: the review packet is a local decision-support artifact only. It does not approve publication, perform legal review, validate trusted lists, validate source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, or imply endorsement.
+
+## 2026-05-27 preprint deposit-metadata draft claim
+
+Allowed claim: `notes/preprint-deposit-metadata-draft-2026-05-27.md` prepares candidate metadata, suggested abstract, keywords, related identifiers to verify, attachment candidates, and a pre-deposit checklist for the Cassandra v0.1 preprint, and `notes/validate_preprint_deposit_metadata_draft.py` reports `status=ok`.
+
+Boundary: the metadata draft is local planning evidence only. It is draft only, performs no upload action, reserves no DOI, does not approve publication, does not perform legal review, does not validate trusted lists or source signatures, does not determine provider/service or legal status, does not supervise any actor, does not issue public alerts, and does not imply endorsement.

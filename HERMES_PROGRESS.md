@@ -15362,3 +15362,16 @@ Completed bounded preprint operator-review packet unit:
 - Did not fetch live endpoints, upload/deposit the preprint, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
 
 Next action: commit and push the preprint review-packet unit, then continue with a fresh bounded unit if `STOP_CASSANDRA_HERMES` remains absent.
+
+### 2026-05-27T18:21:00Z
+
+Completed bounded preprint deposit-metadata draft unit:
+- Confirmed `STOP_CASSANDRA_HERMES` was absent after the review-packet commit, pulled `origin/main`, and left unrelated untracked `logs/` unstaged.
+- Wrote failing validator `notes/validate_preprint_deposit_metadata_draft.py` first; RED run failed because the deposit metadata draft did not exist and required sections, boundary phrases, paths, checklist items, and keywords were missing.
+- Added `notes/preprint-deposit-metadata-draft-2026-05-27.md` as a draft-only, no-upload metadata packet for the v0.1 preprint candidate, including candidate metadata, suggested abstract, keywords, identifiers to recheck, files to attach only after operator approval, and a pre-deposit checklist.
+- Updated `notes/validate_publication_case_kit.py` so the publication/case-study kit inventory includes the deposit-metadata draft and validator; current readiness output reports 48 required files present, 0 errors, and 0 warnings.
+- Verification commands exited 0: `python3 -m py_compile notes/validate_preprint_deposit_metadata_draft.py notes/validate_publication_case_kit.py`; `python3 notes/validate_preprint_deposit_metadata_draft.py --workspace . --output notes/preprint-deposit-metadata-validation-output.json > notes/preprint-deposit-metadata-validation-run.json`; `python3 notes/validate_publication_case_kit.py --workspace . --output notes/publication-case-kit-readiness-output.json > notes/publication-case-kit-readiness-run.json`; `git diff --check`.
+- Updated `CLAIMS.md` with deposit-metadata draft boundaries.
+- Did not upload, deposit, reserve DOI, fetch live endpoints, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
+
+Next action: update artifact hashes, commit and push the deposit-metadata draft unit, then continue only if `STOP_CASSANDRA_HERMES` remains absent.
