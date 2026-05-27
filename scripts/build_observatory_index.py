@@ -298,7 +298,7 @@ def build_index(workspace: pathlib.Path, public_dir: pathlib.Path, aggregate_jso
         "created_at": now_z(),
         "project": "cassandra",
         "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
-        "repo": "https://github.com/sapsan14/cassandra",
+        "repo": "https://github.com/tyche-institute/cassandra",
         "latest_date": latest["date"],
         "run_count": len(runs),
         "packaged_evidence_count": packaged,

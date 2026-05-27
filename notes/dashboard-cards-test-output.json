@@ -1,5 +1,5 @@
 {
-  "cards_index_sha256": "a8c7e4fdd192075df81c4ebeae881d58cdf235b84d02f75b12bbf78fe66c0168",
+  "cards_index_sha256": "dc6eef20138077ba17a8b21e747648bd54d1d8342024d505fe95c2eff8f3bc3e",
   "checked_boundary_caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "generated_card_count": 5,
   "status": "ok"

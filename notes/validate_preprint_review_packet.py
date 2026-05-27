@@ -25,9 +25,10 @@ REQUIRED_SECTIONS = [
 ]
 
 REQUIRED_PATHS = [
-    "paper/preprint/cassandra-preprint-v0.1.md",
-    "paper/preprint/cassandra-preprint-v0.1.pdf",
-    "paper/preprint/cassandra-preprint-v0.1.docx",
+    "paper/preprint/cassandra-preprint-v0.2.md",
+    "paper/preprint/cassandra-preprint-v0.2.pdf",
+    "paper/preprint/cassandra-preprint-v0.2.docx",
+    "paper/preprint/preprint-latex-header.tex",
     "notes/validate_preprint_candidate.py",
     "notes/preprint-candidate-validation-output.json",
     "notes/cassandra-checked-reference-ledger-2026-05-27.md",
@@ -44,6 +45,8 @@ REQUIRED_BOUNDARY_PHRASES = [
     "not supervision",
     "not public alerting",
     "operator-review required",
+    "hanging-line review",
+    "lemmas and formulas",
 ]
 
 FORBIDDEN_POSITIVE_PATTERNS = [

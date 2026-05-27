@@ -19,7 +19,7 @@ Creator: Anton Sokolov
 
 Affiliation: Tyche Institute, Tallinn, Estonia
 
-Version label: v0.1 preprint candidate
+Version label: v0.2 polished case-study preprint candidate
 
 Resource type: Preprint / working paper candidate
 
@@ -27,11 +27,13 @@ Language: English
 
 Candidate license: To be chosen by operator before deposit. Default planning option: CC BY 4.0 for text only if rights review allows it; otherwise leave rights unspecified until cleared.
 
-Candidate description: Cassandra is a bounded research observatory for public LOTL-derived trusted-list artifacts. It records dated collection attempts, normalizes comparable XML artifacts, emits aggregate structural diff classes, packages evidence objects, exposes a caveated dashboard index, and records EATF/AEP receipt metadata. The core contribution is methodological: Cassandra shows how public governance artifacts can become reproducible evidence infrastructure while preserving the boundary between evidence integrity and legal interpretation.
+Candidate description: Cassandra is a bounded case-study observatory for public LOTL-derived trusted-list artifacts. It records dated collection attempts, normalizes comparable XML artifacts, emits aggregate structural diff classes, packages evidence objects, exposes a caveated dashboard index, and records EATF/AEP receipt metadata. The core contribution is methodological: Cassandra shows how public governance artifacts can become reproducible evidence infrastructure while preserving the boundary between evidence integrity and legal interpretation.
 
-Primary local manuscript path: `paper/preprint/cassandra-preprint-v0.1.md`
+Primary local manuscript path: `paper/preprint/cassandra-preprint-v0.2.md`
 
-Rendered local files: `paper/preprint/cassandra-preprint-v0.1.pdf`; `paper/preprint/cassandra-preprint-v0.1.docx`
+Rendered local files: `paper/preprint/cassandra-preprint-v0.2.pdf`; `paper/preprint/cassandra-preprint-v0.2.docx`
+
+Layout header: `paper/preprint/preprint-latex-header.tex`
 
 Machine-readable companion: `notes/preprint-deposit-metadata-draft-2026-05-27.json`
 
@@ -43,7 +45,7 @@ Status-control note: `notes/publication-status-discipline.md`
 
 ## Suggested abstract
 
-Public-key infrastructure is governance infrastructure as well as cryptographic substrate: certificates, policies, revocation channels, trusted lists, audits, supervisory conventions, and software distribution coordinate digital trust. Cassandra studies one public surface of that infrastructure: European list-of-lists-derived trusted-list artifacts. The system records dated collection attempts, normalizes comparable XML artifacts, emits structural diff classes, packages local evidence bundles, exposes aggregate dashboard data, and attaches EATF/AEP receipt metadata to evidence packages. The case demonstrates a movement from governance infrastructure to evidence infrastructure: public legal-technical artifacts can be observed, hashed, bundled, displayed, and independently checked while preserving the distinction between evidence integrity and legal interpretation. Cassandra is not a trusted-list validator, not a relying-party source-signature validator, not a supervisory tool, and not a public alerting system. It is a bounded methodological case for reproducible public-governance-artifact observation and for adjacent AI-governance evidence discussions.
+Public-key infrastructure is governance infrastructure as well as cryptographic substrate: certificates, policies, revocation channels, trusted lists, audits, supervisory conventions, and software distribution coordinate digital trust. Cassandra studies one public surface of that infrastructure: European list-of-lists-derived trusted-list artifacts. The observatory records dated collection attempts, normalizes comparable XML artifacts, emits structural diff classes, packages local evidence bundles, exposes aggregate dashboard data, and attaches EATF/AEP receipt metadata to evidence packages. The case study demonstrates a movement from governance infrastructure to evidence infrastructure: public legal-technical artifacts can be observed, hashed, bundled, displayed, and independently checked while preserving the distinction between evidence integrity and legal interpretation. Cassandra is not a trusted-list validator, not a relying-party source-signature validator, not a supervisory tool, and not a public alerting system. It is a bounded methodological case study for reproducible public-governance-artifact observation and for adjacent AI-governance evidence discussions.
 
 ## Keywords
 
@@ -51,7 +53,7 @@ Keywords: evidence infrastructure; public-key infrastructure; trusted lists; eID
 
 ## Related identifiers to verify before deposit
 
-- Repository URL candidate: `https://github.com/sapsan14/cassandra` — verify current publicness and intended citation posture before use.
+- Repository URL candidate: `https://github.com/tyche-institute/cassandra` — verify current publicness and intended citation posture before use.
 - Dashboard URL candidate: `https://cassandra-observatory.pages.dev/` — verify current deployment and public index contents before use.
 - Public data index candidate: `https://cassandra-observatory.pages.dev/data/index.json` — verify `latest_date`, `run_count`, and `eatf_verified_count` before use.
 - EATF / AEP references: use only the checked/status-labelled sources in `notes/cassandra-checked-reference-ledger-2026-05-27.md`.
@@ -59,9 +61,9 @@ Keywords: evidence infrastructure; public-key infrastructure; trusted lists; eID
 
 ## Files to attach only after operator approval
 
-- `paper/preprint/cassandra-preprint-v0.1.pdf` — candidate PDF manuscript.
-- `paper/preprint/cassandra-preprint-v0.1.docx` — editable exchange copy, attach only if target accepts DOCX or the operator wants it shared.
-- `paper/preprint/cassandra-preprint-v0.1.md` — source manuscript, attach only if markdown/source release is desired.
+- `paper/preprint/cassandra-preprint-v0.2.pdf` — candidate PDF manuscript.
+- `paper/preprint/cassandra-preprint-v0.2.docx` — editable exchange copy, attach only if target accepts DOCX or the operator wants it shared.
+- `paper/preprint/cassandra-preprint-v0.2.md` — source manuscript, attach only if markdown/source release is desired.
 - `notes/fixture-to-claim-map.md` — optional reviewer supplement, not primary manuscript unless target allows supplements.
 - `notes/publication-case-kit-readiness-output.json` — optional local validation evidence, not a substitute for review.
 

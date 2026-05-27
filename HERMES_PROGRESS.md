@@ -15386,3 +15386,34 @@ Finalized bounded preprint deposit-metadata draft unit for commit:
 - Did not upload or deposit the preprint, reserve a DOI, fetch live endpoints, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
 
 Next action: commit and push the deposit-metadata draft unit, then continue with a fresh bounded unit if `STOP_CASSANDRA_HERMES` remains absent.
+
+## 2026-05-27T18:33:46Z — Cassandra v0.2 polished preprint candidate
+
+- Created `paper/preprint/cassandra-preprint-v0.2.md` as a polished operator-review candidate.
+- Expanded first-use explanations and footnotes for PKI, eIDAS, ETSI, LOTL, XML, EATF/AEP, MIRROR, RFC, NIST, W3C, CRL, OCSP, CA/Browser Forum, and the AI Act.
+- Removed full SHA-256 strings and raw URL code spans from the manuscript body, replacing them with short prefixes, descriptive links, and machine-ledger references.
+- Replaced long markdown bullet lists with compact tables so list content does not split awkwardly across pages; the final manuscript has no markdown bullet-list rows.
+- Added working lemmas with small formulas to make the logic readable without overstating the proof: package integrity is not legal truth, structural diff is a question rather than a verdict, and a claim changes when caveats are removed.
+- Added an explicit failed/tamper-case description: a synthetic accepted package is altered after the receipt path is known and the verifier must return `verify_failed`; missing signing inputs remain a separate `skipped_missing_signing_inputs` state.
+- Added a thesis-adjacent case-study roles table connecting Cassandra, MIRROR/EATF, Janus/MATx, Vesta/Icarus, eaudit/h2oatlas, and Aletheia/Kolmogorov with status discipline.
+- Added `paper/preprint/preprint-latex-header.tex` with `microtype`, `xurl`, `needspace`, compact table/list settings, widow/orphan penalties, and DejaVu Sans Mono for code-like text.
+- Built `paper/preprint/cassandra-preprint-v0.2.pdf` and `paper/preprint/cassandra-preprint-v0.2.docx` with pandoc. PDF inspection reports 14 pages and Noto Serif / DejaVu Sans Mono fonts.
+- Updated `notes/validate_preprint_candidate.py` to validate v0.2 shape, claim boundaries, abbreviation coverage, footnotes, working lemmas, failed-case wording, section/table/figure numbering, no full SHA strings, no URL code spans, no long source lines, and no long markdown list runs.
+- Final validation status: `ok`, error_count `0`, warning_count `0`, word_count `5424`.
+- Spot-checked PDF text placement with `mutool draw -F text`: Table 1 through Table 9 and Figure 1 labels have content on the same page and are not hanging as isolated titles.
+- Updated `notes/preprint-review-packet-2026-05-27.md` and `notes/preprint-deposit-metadata-draft-2026-05-27.md` so the review/deposit packet points to v0.2, includes the layout/lemma checks, and preserves draft-only/operator-review status.
+- Updated `ARTIFACT_INDEX.md`, `CLAIMS.md`, and the Tyche vault handoff with v0.2 hashes and cautious publication-status wording.
+
+Next action: commit and push Cassandra, then sync the v0.2 polished candidate to the Tyche vault handoff. External submission, Zenodo deposit, or venue formatting still require operator review.
+
+## 2026-05-27T22:25:00Z — Final v0.2 preprint freeze and lane pause
+
+- Applied the operator correction that public repository references must point to `tyche-institute/cassandra`, not a personal repository namespace.
+- Rebuilt the public observatory index and the four dated EATF/AEP evidence packages so the package payload workspace label is `tyche-institute/cassandra`.
+- Tightened manuscript terminology: "Cassandra case study" is the academic object, "Cassandra observatory" is the working system, and "Cassandra repository" is the technical publication location.
+- Fixed the real LaTeX overfull lines by removing long underscore-style diff class labels from Table 5. A direct xelatex check now reports no `Overfull \hbox` warnings.
+- Rebuilt `paper/preprint/cassandra-preprint-v0.2.pdf` and `.docx`; the PDF remains 14 pages, uses Noto Serif / DejaVu Sans Mono, and Table 1 through Table 9 plus Figure 1 have content on the same page as their labels.
+- Re-ran preprint, review-packet, deposit-metadata, publication-kit, dashboard-card, and artifact-index checks. Current preprint validation status is `ok`, error_count `0`, warning_count `0`, word_count `5448`; publication-kit readiness is `ok`, required_file_count `53`, present_file_count `53`.
+- Created `STOP_CASSANDRA_HERMES` and updated `BLOCKED.md` to `HALT: yes`.
+
+Next action: no autonomous Cassandra work. Resume only after explicit operator instruction.

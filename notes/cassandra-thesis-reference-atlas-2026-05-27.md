@@ -48,7 +48,7 @@ This inventory is intentionally conservative. Before any final public bibliograp
 | JeDEM Paper D / e-government evidence material | Vault notes mention submission 2026-05-25 | cite as submitted only after portal check | Possible bridge to e-government and computational methods. |
 | Nekropolis negative-results / AI content regime | Zenodo supplementary and companion paper references; companion submitted to Accountability in Research | corpus concept DOI `10.5281/zenodo.20405511`; v0.3 DOI `10.5281/zenodo.20405512`; companion concept DOI `10.5281/zenodo.20409915`; companion v0.2 DOI `10.5281/zenodo.20409916`; Taylor & Francis manuscript `265159523` | Useful for evidence infrastructure in scholarly integrity, but only adjacent to Cassandra. |
 | Janus multilingual claim drift | Separate repo has DMLR/TMLR/OpenReview preparation and MIRROR-style bundles | local repo `/home/anton/projects/janus`; submission artifacts under `submission/dmlr/` | Use as case of evidence infrastructure for machine-generated multilingual research claims. |
-| Cassandra trusted-list observatory | Live Cloudflare deployment and scheduled GitHub Action; not yet peer-reviewed | dashboard `https://cassandra-observatory.pages.dev/`; public index `https://cassandra-observatory.pages.dev/data/index.json`; repo `https://github.com/sapsan14/cassandra` | Primary case for thesis article/chapter on governance-to-evidence infrastructure. |
+| Cassandra trusted-list observatory | Live Cloudflare deployment and scheduled GitHub Action; not yet peer-reviewed | dashboard `https://cassandra-observatory.pages.dev/`; public index `https://cassandra-observatory.pages.dev/data/index.json`; repo `https://github.com/tyche-institute/cassandra` | Primary case study for thesis article/chapter on governance-to-evidence infrastructure. |
 
 ## Case constellation
 
@@ -242,4 +242,3 @@ Highest-value additions:
 The dissertation should make one clean statement:
 
 PKI did not merely secure transactions; it institutionalized a way of governing digital trust through certificates, lists, policies, audits, timestamps, revocation, and validation. AI governance now needs the adjacent layer: evidence infrastructure that can bind claims about systems, data, decisions, public artifacts, and reviews to reproducible records. Cassandra is the public-governance-artifact case. MATx is the AI-decision case. Janus is the AI-assisted knowledge-translation case. MIRROR and EATF provide the evidence-package grammar. The thesis contribution is to show how these layers connect without collapsing evidence integrity into legal truth.
-

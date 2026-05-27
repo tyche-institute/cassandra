@@ -16,7 +16,7 @@ This is the spine. Do not dilute it. Cassandra is not "an XML parser paper". It 
 
 Repository:
 
-- GitHub: `https://github.com/sapsan14/cassandra`
+- GitHub: `https://github.com/tyche-institute/cassandra`
 - Live dashboard: `https://cassandra-observatory.pages.dev/`
 - Public data index: `https://cassandra-observatory.pages.dev/data/index.json`
 - Current public index target: `latest_date=2026-05-27`, `run_count=4`, `eatf_verified_count=4`

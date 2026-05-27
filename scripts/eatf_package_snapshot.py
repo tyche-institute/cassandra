@@ -125,7 +125,7 @@ def build_payload(workspace: pathlib.Path, date: str, output_dir: pathlib.Path) 
         "subject": {
             "type": "public_trust_list_structural_observation",
             "scope": "Public LOTL-derived trusted-list snapshot telemetry",
-            "workspace": "sapsan14/cassandra",
+            "workspace": "tyche-institute/cassandra",
         },
         "counts": load_counts(workspace, date),
         "artifacts": artifacts,

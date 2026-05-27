@@ -1,12 +1,12 @@
 {
   "blocker_count": 7,
-  "checkbox_count": 18,
-  "checked_at": "2026-05-27T18:17:43.536941+00:00",
+  "checkbox_count": 20,
+  "checked_at": "2026-05-27T19:15:53.154836+00:00",
   "claim_boundary": "mechanical review-packet validation only; not publication approval, not legal review, not trusted-list validation, not source-signature validation, not supervision, and not public alerting",
   "error_count": 0,
   "errors": [],
   "packet": "notes/preprint-review-packet-2026-05-27.md",
-  "required_path_count": 9,
+  "required_path_count": 10,
   "status": "ok",
   "warning_count": 0,
   "warnings": []

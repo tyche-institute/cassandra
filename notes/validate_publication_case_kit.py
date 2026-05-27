@@ -38,6 +38,10 @@ REQUIRED_FILES = {
         "paper/preprint/cassandra-preprint-v0.1.md",
         "paper/preprint/cassandra-preprint-v0.1.pdf",
         "paper/preprint/cassandra-preprint-v0.1.docx",
+        "paper/preprint/cassandra-preprint-v0.2.md",
+        "paper/preprint/cassandra-preprint-v0.2.pdf",
+        "paper/preprint/cassandra-preprint-v0.2.docx",
+        "paper/preprint/preprint-latex-header.tex",
     ],
     "preprint_review": [
         "notes/preprint-review-packet-2026-05-27.md",

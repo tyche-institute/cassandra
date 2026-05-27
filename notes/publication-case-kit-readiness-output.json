@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T18:33:49.584472+00:00",
+  "created": "2026-05-27T19:24:55.217991+00:00",
   "error_count": 0,
   "errors": [],
   "groups": {
@@ -8,8 +8,8 @@
         "exists": true,
         "json_ok": true,
         "path": "observatory/public/data/index.json",
-        "sha256": "8a9293cf6473194877a131dcaec9f22bab6b74c516910fb5432cd363f6e3df29",
-        "size_bytes": 15113
+        "sha256": "eb0b56c13c95d4e496598bc75d8d1b8c636f64a2bc564af4763abcf03caa5b55",
+        "size_bytes": 15096
       },
       {
         "exists": true,
@@ -22,7 +22,7 @@
         "exists": true,
         "json_ok": true,
         "path": "observatory/public/data/cards/index.json",
-        "sha256": "6c42788f9bf657ced513b13436c03cb8f5db3f25f854259c958b45d7ef7a1e50",
+        "sha256": "99359e75497797698d1dfec7342993f22742e109352a246cfa7a1b479a58ee63",
         "size_bytes": 1425
       },
       {
@@ -166,20 +166,45 @@
         "boundary_fragment_count": 11,
         "exists": true,
         "path": "paper/preprint/cassandra-preprint-v0.1.md",
-        "sha256": "e88e492b30d849b7361e7fe4e8e5cecbb627cf9cf50f64837cd727d80a8b67a9",
-        "size_bytes": 30523
+        "sha256": "3eaf5772b7a67ba05f1c0d35971392b86051fd6ebb58a09d9c91894ed9a78ea2",
+        "size_bytes": 30528
       },
       {
         "exists": true,
         "path": "paper/preprint/cassandra-preprint-v0.1.pdf",
-        "sha256": "21012e16156708f58644e3fb8280fb761ef3c3295e792ba9413189b0fc11abf3",
-        "size_bytes": 69800
+        "sha256": "515124d40d2d36fcd82f72a2d9373b56561a9e4a41a0c843f05c2d7934551072",
+        "size_bytes": 70875
       },
       {
         "exists": true,
         "path": "paper/preprint/cassandra-preprint-v0.1.docx",
-        "sha256": "419d4b5137d485df2b7447fb247f6ce1058ef42df50041cd85f86741b4af16d4",
+        "sha256": "d0c1aa802d7e8ef61f895f35d27d2d2e2cfa7276f8a3449c71bba82be7142500",
         "size_bytes": 24165
+      },
+      {
+        "boundary_fragment_count": 11,
+        "exists": true,
+        "path": "paper/preprint/cassandra-preprint-v0.2.md",
+        "sha256": "a2c3ee27c54160195232cc5fa994bad20ca6e739e5943e6803531d232452ede1",
+        "size_bytes": 38598
+      },
+      {
+        "exists": true,
+        "path": "paper/preprint/cassandra-preprint-v0.2.pdf",
+        "sha256": "dbc913e71f2b2faf266543e43e0e294e52a7a0118e6561e06564d71f3e959e3a",
+        "size_bytes": 85304
+      },
+      {
+        "exists": true,
+        "path": "paper/preprint/cassandra-preprint-v0.2.docx",
+        "sha256": "8a3c56acc73282fbaca5e2bbe3d30321dd756004b7525fc4ab6c6bc8014d9172",
+        "size_bytes": 29306
+      },
+      {
+        "exists": true,
+        "path": "paper/preprint/preprint-latex-header.tex",
+        "sha256": "9e2938bc9d9079e303f61b1e6550a2e8c1705f2828ab9bbe8d8ff29977dee731",
+        "size_bytes": 587
       }
     ],
     "preprint_review": [
@@ -187,63 +212,63 @@
         "boundary_fragment_count": 12,
         "exists": true,
         "path": "notes/preprint-review-packet-2026-05-27.md",
-        "sha256": "7bdad045fd466e37e8c52671846ab94714520d82479810c304d63a4c970848b6",
-        "size_bytes": 7172
+        "sha256": "605cd2dc0a747cda2d3f31aa18ffd0e3e2bff73090123dca0ece62e71f3b3dde",
+        "size_bytes": 7575
       },
       {
         "exists": true,
         "json_ok": true,
         "path": "notes/preprint-review-packet-validation-output.json",
-        "sha256": "29bfb8160a24b2fb75eade57caf4e9a2800ed6e0e83a56999291a697b0a2f5bf",
-        "size_bytes": 493
+        "sha256": "5f361252299e5e995aeaa5fe8da258bfe7d55b57d518339cd58fa7e4f6cd2b05",
+        "size_bytes": 494
       },
       {
         "boundary_fragment_count": 11,
         "exists": true,
         "path": "notes/preprint-deposit-metadata-draft-2026-05-27.md",
-        "sha256": "0c30d35103c84a540318a8c0933d07b19ad342e46735782f41a741ea815c2fbc",
-        "size_bytes": 6745
+        "sha256": "b2b90f30bba2e6d0da90a9920b035ac7d3460f6836d3ace551ad7eab91186d3d",
+        "size_bytes": 6850
       },
       {
         "exists": true,
         "json_ok": true,
         "path": "notes/preprint-deposit-metadata-draft-2026-05-27.json",
-        "sha256": "4a2bf20d3e7b32e70bd4ef5d7aec35fa5904ff8cad76b69f006592cb0a3e5593",
-        "size_bytes": 6216
+        "sha256": "bb23f51e76496a508f5f7cd7f32ec7ff60771f317a64db6b641a4d1787794ef3",
+        "size_bytes": 6327
       },
       {
         "exists": true,
         "json_ok": true,
         "path": "notes/preprint-deposit-metadata-validation-output.json",
-        "sha256": "da3190c4c72724e7f913aea6ef52a9741d7826b5c2ca4ebff382b7aab0c4b7f4",
+        "sha256": "542255792fd49aacf520fbb73051d36505c3e316587a75b004db02673b01c2a4",
         "size_bytes": 643
       },
       {
         "boundary_fragment_count": 8,
         "exists": true,
         "path": "notes/validate_preprint_review_packet.py",
-        "sha256": "fa6514fb10de13b4facb5f883a61dcf8c0746de8095b0344b3c1b8ca242c8e67",
-        "size_bytes": 4631
+        "sha256": "efb4fea70cd8101eaa454d48827c3988df04634d0d3d260192c0787cc5f6d12f",
+        "size_bytes": 4733
       },
       {
         "boundary_fragment_count": 7,
         "exists": true,
         "path": "notes/validate_preprint_deposit_metadata_draft.py",
-        "sha256": "31fdb1b03650a64432c86719b6160b96457292e5f6371baf3b7eb62b4b4a42a3",
-        "size_bytes": 7772
+        "sha256": "cea807389537ebd49d6eede38fdffb344190e8330ef419b2b5a1bc30ea48d9d1",
+        "size_bytes": 7973
       },
       {
         "boundary_fragment_count": 5,
         "exists": true,
         "path": "notes/validate_preprint_candidate.py",
-        "sha256": "9dcbba8cbd30702c8e83c44c914a54e90d39414e8db03eb07a1eada1dea8ce13",
-        "size_bytes": 4701
+        "sha256": "98e981acdda2c482be4b240c00b48793b5bdffc038e8dd23fe1ee1fd33c9f3d7",
+        "size_bytes": 8219
       },
       {
         "exists": true,
         "json_ok": true,
         "path": "notes/preprint-candidate-validation-output.json",
-        "sha256": "a45b768f240e8ea981786a7e074c370d4c42f6182c78900cc234838f218956b6",
+        "sha256": "aeb196b81768c6cf613ba1226622abe3b608faf1685376433be236bebbf6f9fe",
         "size_bytes": 673
       }
     ],
@@ -294,8 +319,8 @@
         "boundary_fragment_count": 5,
         "exists": true,
         "path": "notes/cassandra-thesis-reference-atlas-2026-05-27.md",
-        "sha256": "e4d627ef7f60a21ed319ebdd55c809a298b27398001d86d41f087212b18d5b00",
-        "size_bytes": 21758
+        "sha256": "5ba9f31a4dc2ddc87ca77650c94c7c60bcd2381a33d09abba9115d07592832ce",
+        "size_bytes": 21770
       },
       {
         "boundary_fragment_count": 3,
@@ -357,8 +382,8 @@
       }
     ]
   },
-  "present_file_count": 49,
-  "required_file_count": 49,
+  "present_file_count": 53,
+  "required_file_count": 53,
   "research_caveat": "Publication-kit inventory check only; not trusted-list validation, source-signature validation, legal-status determination, supervision, compliance judgment, public alerting, endorsement, legal review, or publication approval.",
   "schema": "urn:tyche:cassandra:publication-case-kit-readiness:0.1",
   "status": "ok",

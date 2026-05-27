@@ -4,10 +4,10 @@
   "data": {
     "date": "2026-05-27",
     "package_path": "evidence/2026-05-27/cassandra-observation.aep",
-    "package_sha256": "3ef7f33b391afac388ce4bcf9716ac7018508ed613933f4ee86a3008d42023f6",
+    "package_sha256": "1c451a21948b02a3b3693c238088e3a77d45b88554d0929cc59514ef8a982a8c",
     "receipt_path": "evidence/2026-05-27/eatf-verification.json",
-    "receipt_sha256": "1e971e12a46b0d8be72635671b45be0b2dc21a283c5f29f1257d3dde4d6407d0",
-    "signing_profile": "github-secret:cassandra-eatf-key",
+    "receipt_sha256": "8d1f5c448bbda3d4ec12ce4e76dd418cd0b9a96c463b01b24ce0dc4e31271e97",
+    "signing_profile": "local-dev:eatf-dev-rsa4096",
     "status": "ok",
     "valid": true
   },

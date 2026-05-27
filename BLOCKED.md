@@ -1,7 +1,7 @@
 # Blocked
 
 Date: 2026-05-27
-Status: no active blocker
-Reason: superseded by operator Hermes Full-Stack Publication Directive dated 2026-05-27.
-Detail: The earlier 2026-05-22 halt recorded that the previous lane deliverable was complete. The current operator directive explicitly reopens Cassandra work in autonomous Zeus/Hermes mode until `STOP_CASSANDRA_HERMES` exists or Anton intervenes. Continue bounded publishable improvement units with claim-safety and no-secret discipline.
-HALT: no
+Status: paused by operator
+Reason: final v0.2 case-study preprint packet produced and autonomous Cassandra lanes paused by explicit operator request.
+Detail: `STOP_CASSANDRA_HERMES` now exists. Do not continue autonomous bounded units, scheduled paper expansion, external deposit work, or release routing until Anton explicitly resumes Cassandra work. Read-only inspection and answers about the final preprint packet are allowed.
+HALT: yes

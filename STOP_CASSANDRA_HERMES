@@ -1,0 +1,8 @@
+Cassandra autonomous Hermes lane paused by operator request on 2026-05-27 after final v0.2 case-study preprint production.
+
+Resume only after explicit operator instruction. Safe actions while paused:
+- read-only inspection;
+- answering questions about the final preprint packet;
+- operator-approved release/deposit preparation.
+
+Do not continue autonomous bounded units, scheduled paper expansion, or external deposit work from this repository while this file exists.

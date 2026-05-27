@@ -43,7 +43,7 @@ The intellectual move is from governance infrastructure to evidence infrastructu
 
 ## 3. Current public state
 
-Repository: `https://github.com/sapsan14/cassandra`
+Repository: `https://github.com/tyche-institute/cassandra`
 
 Live dashboard: `https://cassandra-observatory.pages.dev/`
 
@@ -56,7 +56,7 @@ Current public index target recorded in the operator directive and local index:
 - `latest_date`: `2026-05-27`
 - `run_count`: `4`
 - `eatf_verified_count`: `4`
-- EATF signing profile label: `github-secret:cassandra-eatf-key`
+- EATF signing profile label: `local-dev:eatf-dev-rsa4096` for the current local preprint package refresh; production GitHub Actions should use an organization secret before any public release note.
 - Scheduled workflow: `.github/workflows/cassandra-observatory.yml`, cron `23 3 * * *`
 - Full scheduled-compatible run with Cloudflare deploy: GitHub Actions run `26521328723`
 
@@ -409,3 +409,15 @@ Before modifying Cassandra in autonomous mode:
 ## 15. One-paragraph version
 
 Cassandra is a research-only observatory that turns public trusted-list governance artifacts into evidence infrastructure: it captures dated LOTL-derived artifacts, records provenance and hashes, normalizes parseable XML, emits structural diffs, packages claims and sources into reviewable bundles, verifies EATF/AEP evidence packages at the byte/hash level, and publishes aggregate dashboard telemetry with explicit caveats. Its contribution is not legal supervision, signature validation, provider-status determination, public alerting, or compliance judgment; its contribution is a reproducible method for making public governance records observable, packageable, verifiable, and discussable without collapsing evidence integrity into legal interpretation.
+
+## 16. v0.2 preprint polish transcript
+
+The v0.2 preprint pass turns the Cassandra packet from a usable candidate into a cleaner thesis-ready case study. The important editorial change is not ornament. It is evidence discipline made visible: no local absolute paths in the manuscript body, no full SHA strings in prose, no raw URL code spans, no long markdown bullet lists that split across pages, and no table or figure caption left hanging without nearby content.
+
+The manuscript now includes three small working lemmas. They are deliberately modest. An EATF/AEP package can show that a declared byte sequence, hash, receipt, and verifier outcome travel together; it cannot by itself prove legal truth. A structural diff can show that two normalized observations differ; it cannot by itself decide whether a legally relevant event occurred. A claim plus source, hash, receipt, and caveat is not the same claim after the caveat is removed.
+
+The failed case is now explicit enough for reviewers. The positive fixture represents a package accepted under the local profile. The tamper fixture alters the package after the receipt path is known, and the verifier must report `verify_failed`. The missing-input fixture is separate: it records `skipped_missing_signing_inputs`, preserving the payload and metadata for review without pretending that package signing happened.
+
+The case-study bridge has also been made more honest. Cassandra is the PKI/eIDAS public-governance observatory. MIRROR/EATF supplies the evidence-envelope method. Janus/MATx, Vesta/Icarus, eaudit/h2oatlas, and Aletheia/Kolmogorov remain adjacent thesis cases only where their own artifacts can carry the citation burden. That posture keeps the final thesis ambitious without turning every promising prototype into an overclaimed precedent.
+
+Current v0.2 status: markdown, PDF, DOCX, LaTeX header, review packet, deposit-metadata draft, and publication-kit readiness outputs validate with zero errors and zero warnings. This is still operator-review material, not external submission, legal review, DOI reservation, trusted-list validation, source-signature validation, supervision, public alerting, or publication approval.

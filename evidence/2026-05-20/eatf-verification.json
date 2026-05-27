@@ -1,15 +1,15 @@
 {
   "aep_package": "evidence/2026-05-20/cassandra-observation.aep",
-  "aep_sha256": "4d4a23336c183c2cee32eef02ed12497b1e03d882bbab740bbf5ddef8e37cb1b",
+  "aep_sha256": "11afca2a8b629d3ddddeb68010931b0a81d62799959f872f3687aaa52e9ed076",
   "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-  "created_at": "2026-05-27T15:04:37Z",
+  "created_at": "2026-05-27T19:13:39Z",
   "metadata": "evidence/2026-05-20/eatf-metadata.json",
-  "metadata_sha256": "7a6f4d7a735999636542551f7d38aaff95db8261518eca6d797a75096a01425c",
+  "metadata_sha256": "e89b3a41f26e5946d3d6d373b584065ff5979047890e1238c13cb6924bbd9bb6",
   "payload": "evidence/2026-05-20/cassandra-observation.json",
-  "payload_sha256": "48cab46ff9ad3799989f6da6f0725cab40c84759d7273549e5ed483e20a1b40c",
+  "payload_sha256": "46621eb6d019adb2be80294e924ab637c2a1f5f07dbd18b30bf870237c6775fe",
   "schema": "urn:tyche:cassandra:eatf-verification-receipt:0.1",
   "scope": "foundational:public-trust-list-observation",
-  "signing_profile": "github-secret:cassandra-eatf-key",
+  "signing_profile": "local-dev:eatf-dev-rsa4096",
   "status": "ok",
   "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
   "verify": {
@@ -20,21 +20,21 @@
       "attestation_id": "att_cassandra_2026_05_20",
       "case_study": "Cassandra: from governance infrastructure to evidence infrastructure.",
       "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-      "created_at": "2026-05-27T15:04:37Z",
+      "created_at": "2026-05-27T19:13:38Z",
       "policy": {
         "disclosure": "hashes, counts, paths, and cautious claim boundary only",
         "purpose": "research evidence packaging",
         "retention": "commit history and public observatory artifact"
       },
       "schema": "urn:tyche:cassandra:eatf-observation-package:0.1",
-      "signing_profile": "github-secret:cassandra-eatf-key",
+      "signing_profile": "local-dev:eatf-dev-rsa4096",
       "tenant_id": "tyche-research"
     },
     "overtReceipt": {
-      "content_hash": "sha256:48cab46ff9ad3799989f6da6f0725cab40c84759d7273549e5ed483e20a1b40c",
+      "content_hash": "sha256:46621eb6d019adb2be80294e924ab637c2a1f5f07dbd18b30bf870237c6775fe",
       "event": {
         "action_type": "cassandra.public-trust-list-observation",
-        "timestamp": "2026-05-27T15:04:37Z"
+        "timestamp": "2026-05-27T19:13:38Z"
       },
       "overt": "1.0.0",
       "policy": {},

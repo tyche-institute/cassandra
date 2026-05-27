@@ -1,7 +1,7 @@
 {
   "checklist_count": 10,
   "claim_boundary": "deposit metadata draft validation only; draft only, no upload action, not publication approval, not legal review, not trusted-list validation, not source-signature validation, not supervision, and not public alerting",
-  "created": "2026-05-27T18:33:49.558276+00:00",
+  "created": "2026-05-27T19:15:53.187077+00:00",
   "error_count": 0,
   "errors": [],
   "json_checklist_count": 10,

@@ -460,7 +460,7 @@ visible and reproducible, but it must not be confused with legal truth.
 
 ## Artifact Availability
 
-Repository: `https://github.com/sapsan14/cassandra`  
+Repository: `https://github.com/tyche-institute/cassandra`
 Dashboard: `https://cassandra-observatory.pages.dev/`  
 Public index: `https://cassandra-observatory.pages.dev/data/index.json`
 

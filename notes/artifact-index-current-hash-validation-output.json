@@ -1,26 +1,27 @@
 {
-  "created": "2026-05-27T18:34:50.974222+00:00",
-  "current_match_count": 935,
-  "duplicate_path_count": 152,
+  "created": "2026-05-27T19:28:50.094088+00:00",
+  "current_match_count": 942,
+  "duplicate_path_count": 169,
   "duplicate_paths": [
     {
-      "current_hash": "sha256:2e9a94d9fed56e59777d59747f253f5e7c7c5341b9459cebe01fe8f9988c9805",
+      "current_hash": "sha256:0f50e57764b5270aeb78182868b36ea68089f4262a2f8ba7695536f56612d036",
       "matching_lines": [
-        4383
+        4700
       ],
       "path": "BLOCKED.md",
-      "row_count": 2,
+      "row_count": 3,
       "stale_lines": [
-        4378
+        4378,
+        4383
       ]
     },
     {
-      "current_hash": "sha256:a4a95bc2b7b960ed05f209de5b3fed7ca4a54f289df6394249a12b001b755f43",
+      "current_hash": "sha256:372a34da784e4c00a497217ff6f2772fa5972c787e26d51a6a8b0aba9695f230",
       "matching_lines": [
-        4625
+        4667
       ],
       "path": "CLAIMS.md",
-      "row_count": 46,
+      "row_count": 47,
       "stale_lines": [
         1132,
         1152,
@@ -66,16 +67,17 @@
         4451,
         4465,
         4519,
-        4604
+        4611,
+        4632
       ]
     },
     {
-      "current_hash": "sha256:cc4ace03fcf28ca88e56b8c1a8d9b5620b63be949c73956a8107cf9d9ceb8baa",
+      "current_hash": "sha256:7c6c67e54edcbe1832db78042e45c79a72792cd4f40c2e3fef1e3337f5e094f3",
       "matching_lines": [
-        4639
+        4701
       ],
       "path": "HERMES_PROGRESS.md",
-      "row_count": 1247,
+      "row_count": 1249,
       "stale_lines": [
         1135,
         1153,
@@ -1321,8 +1323,10 @@
         4520,
         4538,
         4545,
-        4605,
-        4626
+        4612,
+        4633,
+        4646,
+        4668
       ]
     },
     {
@@ -1556,15 +1560,28 @@
       ]
     },
     {
-      "current_hash": "sha256:f04f70d9c895bace337a6ab4ba2e769fd9e236fdc5164f4dae9d2e491f94d7d2",
+      "current_hash": "sha256:841370d3a6e9ac6d5a17a42cd009c70bfb8b4d0f25a7d7bf1feef2aece1b225f",
       "matching_lines": [
-        4510
+        4683
       ],
       "path": "notes/cassandra-full-stack-usable-transcript-2026-05-27.md",
-      "row_count": 3,
+      "row_count": 5,
       "stale_lines": [
         4381,
-        4477
+        4477,
+        4510,
+        4666
+      ]
+    },
+    {
+      "current_hash": "sha256:5ba9f31a4dc2ddc87ca77650c94c7c60bcd2381a33d09abba9115d07592832ce",
+      "matching_lines": [
+        4684
+      ],
+      "path": "notes/cassandra-thesis-reference-atlas-2026-05-27.md",
+      "row_count": 2,
+      "stale_lines": [
+        4483
       ]
     },
     {
@@ -2011,6 +2028,17 @@
       ]
     },
     {
+      "current_hash": "sha256:712964511aa171e96ff68e6e5bf1618b0c2b206a21a46abf94637d3b94f1c1d2",
+      "matching_lines": [
+        4682
+      ],
+      "path": "notes/dashboard-cards-test-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        4456
+      ]
+    },
+    {
       "current_hash": "sha256:99375db2ba3c9c3d2e856f8e207c413307b269add7a2c46ac9b38613ec2af7bb",
       "matching_lines": [
         4398
@@ -2116,14 +2144,15 @@
       ]
     },
     {
-      "current_hash": "sha256:1c29d7000611477a0dce26b7de725df55863b8c54ffb89fe8efce4582dae4c62",
+      "current_hash": "sha256:44b4c5555a25b372c609a1705097835b7db85bbf4f727f96f6817197a6a231c5",
       "matching_lines": [
-        4533
+        4685
       ],
       "path": "notes/hermes-full-stack-publication-directive-2026-05-27.md",
-      "row_count": 2,
+      "row_count": 3,
       "stale_lines": [
-        4485
+        4485,
+        4533
       ]
     },
     {
@@ -2194,9 +2223,20 @@
       ]
     },
     {
+      "current_hash": "sha256:eb0b56c13c95d4e496598bc75d8d1b8c636f64a2bc564af4763abcf03caa5b55",
+      "matching_lines": [
+        4680
+      ],
+      "path": "notes/observatory-index-build-output.json",
+      "row_count": 2,
+      "stale_lines": [
+        4457
+      ]
+    },
+    {
       "current_hash": "sha256:b0a602acad4fa27cd22f564444b0bee8c1ce8d40569b17321e0fe8fbf21be5ea",
       "matching_lines": [
-        4595
+        4602
       ],
       "path": "notes/paper-aggregate-only-naming-validation-output.json",
       "row_count": 36,
@@ -2241,7 +2281,7 @@
     {
       "current_hash": "sha256:b0a602acad4fa27cd22f564444b0bee8c1ce8d40569b17321e0fe8fbf21be5ea",
       "matching_lines": [
-        4596
+        4603
       ],
       "path": "notes/paper-aggregate-only-naming-validation-run.json",
       "row_count": 6,
@@ -2304,7 +2344,7 @@
     {
       "current_hash": "sha256:bbf3168f49a20a747f0c386bd8132aebc6da3bc96f9a8fc9f8f25e1dd9c63229",
       "matching_lines": [
-        4593
+        4600
       ],
       "path": "notes/paper-claim-safety-validation-output.json",
       "row_count": 68,
@@ -2381,7 +2421,7 @@
     {
       "current_hash": "sha256:bbf3168f49a20a747f0c386bd8132aebc6da3bc96f9a8fc9f8f25e1dd9c63229",
       "matching_lines": [
-        4594
+        4601
       ],
       "path": "notes/paper-claim-safety-validation-run.json",
       "row_count": 34,
@@ -2768,84 +2808,124 @@
       ]
     },
     {
-      "current_hash": "sha256:a45b768f240e8ea981786a7e074c370d4c42f6182c78900cc234838f218956b6",
+      "current_hash": "sha256:aeb196b81768c6cf613ba1226622abe3b608faf1685376433be236bebbf6f9fe",
       "matching_lines": [
-        4606
+        4687
       ],
       "path": "notes/preprint-candidate-validation-output.json",
-      "row_count": 2,
+      "row_count": 5,
       "stale_lines": [
-        4591
+        4591,
+        4598,
+        4613,
+        4652
       ]
     },
     {
-      "current_hash": "sha256:a45b768f240e8ea981786a7e074c370d4c42f6182c78900cc234838f218956b6",
+      "current_hash": "sha256:aeb196b81768c6cf613ba1226622abe3b608faf1685376433be236bebbf6f9fe",
       "matching_lines": [
-        4607
+        4688
       ],
       "path": "notes/preprint-candidate-validation-run.json",
-      "row_count": 2,
+      "row_count": 5,
       "stale_lines": [
-        4592
+        4592,
+        4599,
+        4614,
+        4653
       ]
     },
     {
-      "current_hash": "sha256:0c30d35103c84a540318a8c0933d07b19ad342e46735782f41a741ea815c2fbc",
+      "current_hash": "sha256:bb23f51e76496a508f5f7cd7f32ec7ff60771f317a64db6b641a4d1787794ef3",
       "matching_lines": [
-        4627
+        4693
+      ],
+      "path": "notes/preprint-deposit-metadata-draft-2026-05-27.json",
+      "row_count": 3,
+      "stale_lines": [
+        4635,
+        4659
+      ]
+    },
+    {
+      "current_hash": "sha256:b2b90f30bba2e6d0da90a9920b035ac7d3460f6836d3ace551ad7eab91186d3d",
+      "matching_lines": [
+        4692
       ],
       "path": "notes/preprint-deposit-metadata-draft-2026-05-27.md",
-      "row_count": 2,
+      "row_count": 4,
       "stale_lines": [
-        4618
+        4625,
+        4634,
+        4658
       ]
     },
     {
-      "current_hash": "sha256:da3190c4c72724e7f913aea6ef52a9741d7826b5c2ca4ebff382b7aab0c4b7f4",
+      "current_hash": "sha256:542255792fd49aacf520fbb73051d36505c3e316587a75b004db02673b01c2a4",
       "matching_lines": [
-        4635
+        4695
       ],
       "path": "notes/preprint-deposit-metadata-validation-output.json",
-      "row_count": 3,
+      "row_count": 5,
       "stale_lines": [
-        4620,
-        4630
+        4627,
+        4637,
+        4642,
+        4661
       ]
     },
     {
-      "current_hash": "sha256:da3190c4c72724e7f913aea6ef52a9741d7826b5c2ca4ebff382b7aab0c4b7f4",
+      "current_hash": "sha256:542255792fd49aacf520fbb73051d36505c3e316587a75b004db02673b01c2a4",
       "matching_lines": [
-        4636
+        4696
       ],
       "path": "notes/preprint-deposit-metadata-validation-run.json",
-      "row_count": 3,
+      "row_count": 5,
       "stale_lines": [
-        4621,
-        4631
+        4628,
+        4638,
+        4643,
+        4662
       ]
     },
     {
-      "current_hash": "sha256:29bfb8160a24b2fb75eade57caf4e9a2800ed6e0e83a56999291a697b0a2f5bf",
+      "current_hash": "sha256:605cd2dc0a747cda2d3f31aa18ffd0e3e2bff73090123dca0ece62e71f3b3dde",
       "matching_lines": [
-        4614
+        4689
+      ],
+      "path": "notes/preprint-review-packet-2026-05-27.md",
+      "row_count": 3,
+      "stale_lines": [
+        4604,
+        4654
+      ]
+    },
+    {
+      "current_hash": "sha256:5f361252299e5e995aeaa5fe8da258bfe7d55b57d518339cd58fa7e4f6cd2b05",
+      "matching_lines": [
+        4690
       ],
       "path": "notes/preprint-review-packet-validation-output.json",
-      "row_count": 3,
+      "row_count": 5,
       "stale_lines": [
-        4599,
-        4608
+        4606,
+        4615,
+        4621,
+        4656
       ]
     },
     {
-      "current_hash": "sha256:29bfb8160a24b2fb75eade57caf4e9a2800ed6e0e83a56999291a697b0a2f5bf",
+      "current_hash": "sha256:5f361252299e5e995aeaa5fe8da258bfe7d55b57d518339cd58fa7e4f6cd2b05",
       "matching_lines": [
-        4615
+        4691
       ],
       "path": "notes/preprint-review-packet-validation-run.json",
-      "row_count": 3,
+      "row_count": 5,
       "stale_lines": [
-        4600,
-        4609
+        4607,
+        4616,
+        4622,
+        4657
       ]
     },
     {
@@ -2874,37 +2954,41 @@
       ]
     },
     {
-      "current_hash": "sha256:2fab080093fd3d871c6ff33829db581a84f0661b4aaa2989287f0c8d95cd3966",
+      "current_hash": "sha256:189f7b61289cb7e786abcc7dae441de732bbe78fc17c6debc175dfffc50a26d7",
       "matching_lines": [
-        4637
+        4697
       ],
       "path": "notes/publication-case-kit-readiness-output.json",
-      "row_count": 8,
+      "row_count": 10,
       "stale_lines": [
         4581,
         4585,
-        4602,
-        4610,
-        4616,
+        4609,
+        4617,
         4623,
-        4633
+        4630,
+        4640,
+        4644,
+        4664
       ]
     },
     {
-      "current_hash": "sha256:2fab080093fd3d871c6ff33829db581a84f0661b4aaa2989287f0c8d95cd3966",
+      "current_hash": "sha256:189f7b61289cb7e786abcc7dae441de732bbe78fc17c6debc175dfffc50a26d7",
       "matching_lines": [
-        4638
+        4698
       ],
       "path": "notes/publication-case-kit-readiness-run.json",
-      "row_count": 8,
+      "row_count": 10,
       "stale_lines": [
         4582,
         4586,
-        4603,
-        4611,
-        4617,
+        4610,
+        4618,
         4624,
-        4634
+        4631,
+        4641,
+        4645,
+        4665
       ]
     },
     {
@@ -3839,28 +3923,55 @@
       ]
     },
     {
-      "current_hash": "sha256:31fdb1b03650a64432c86719b6160b96457292e5f6371baf3b7eb62b4b4a42a3",
+      "current_hash": "sha256:98e981acdda2c482be4b240c00b48793b5bdffc038e8dd23fe1ee1fd33c9f3d7",
       "matching_lines": [
-        4629
+        4686
       ],
-      "path": "notes/validate_preprint_deposit_metadata_draft.py",
-      "row_count": 2,
+      "path": "notes/validate_preprint_candidate.py",
+      "row_count": 4,
       "stale_lines": [
-        4619
+        4590,
+        4597,
+        4651
       ]
     },
     {
-      "current_hash": "sha256:e6bcc0e6a6a5aa79c71ad3c412fd609ed339490e6b7e35af7a7e27a58359a805",
+      "current_hash": "sha256:cea807389537ebd49d6eede38fdffb344190e8330ef419b2b5a1bc30ea48d9d1",
       "matching_lines": [
-        4632
+        4694
+      ],
+      "path": "notes/validate_preprint_deposit_metadata_draft.py",
+      "row_count": 4,
+      "stale_lines": [
+        4626,
+        4636,
+        4660
+      ]
+    },
+    {
+      "current_hash": "sha256:efb4fea70cd8101eaa454d48827c3988df04634d0d3d260192c0787cc5f6d12f",
+      "matching_lines": [
+        4655
+      ],
+      "path": "notes/validate_preprint_review_packet.py",
+      "row_count": 2,
+      "stale_lines": [
+        4605
+      ]
+    },
+    {
+      "current_hash": "sha256:6a27a1774685e14c6f8f1b8f37617b57a91dc91b27d2c96a6474ac40259ad612",
+      "matching_lines": [
+        4663
       ],
       "path": "notes/validate_publication_case_kit.py",
-      "row_count": 5,
+      "row_count": 6,
       "stale_lines": [
         4580,
         4584,
-        4601,
-        4622
+        4608,
+        4629,
+        4639
       ]
     },
     {
@@ -3918,14 +4029,37 @@
       ]
     },
     {
-      "current_hash": "sha256:8a9293cf6473194877a131dcaec9f22bab6b74c516910fb5432cd363f6e3df29",
+      "current_hash": "sha256:0dc095f4a83d0d166e9ac8017e042e1ed47f96530dae7bc983163db3454c3c6e",
       "matching_lines": [
-        4528
+        4678
       ],
-      "path": "observatory/public/data/index.json",
+      "path": "observatory/public/data/cards/eatf-receipt.json",
       "row_count": 2,
       "stale_lines": [
-        4458
+        4462
+      ]
+    },
+    {
+      "current_hash": "sha256:99359e75497797698d1dfec7342993f22742e109352a246cfa7a1b479a58ee63",
+      "matching_lines": [
+        4679
+      ],
+      "path": "observatory/public/data/cards/index.json",
+      "row_count": 2,
+      "stale_lines": [
+        4459
+      ]
+    },
+    {
+      "current_hash": "sha256:eb0b56c13c95d4e496598bc75d8d1b8c636f64a2bc564af4763abcf03caa5b55",
+      "matching_lines": [
+        4677
+      ],
+      "path": "observatory/public/data/index.json",
+      "row_count": 3,
+      "stale_lines": [
+        4458,
+        4528
       ]
     },
     {
@@ -4013,6 +4147,85 @@
       ]
     },
     {
+      "current_hash": "sha256:d0c1aa802d7e8ef61f895f35d27d2d2e2cfa7276f8a3449c71bba82be7142500",
+      "matching_lines": [
+        4671
+      ],
+      "path": "paper/preprint/cassandra-preprint-v0.1.docx",
+      "row_count": 2,
+      "stale_lines": [
+        4589
+      ]
+    },
+    {
+      "current_hash": "sha256:3eaf5772b7a67ba05f1c0d35971392b86051fd6ebb58a09d9c91894ed9a78ea2",
+      "matching_lines": [
+        4669
+      ],
+      "path": "paper/preprint/cassandra-preprint-v0.1.md",
+      "row_count": 2,
+      "stale_lines": [
+        4587
+      ]
+    },
+    {
+      "current_hash": "sha256:515124d40d2d36fcd82f72a2d9373b56561a9e4a41a0c843f05c2d7934551072",
+      "matching_lines": [
+        4670
+      ],
+      "path": "paper/preprint/cassandra-preprint-v0.1.pdf",
+      "row_count": 2,
+      "stale_lines": [
+        4588
+      ]
+    },
+    {
+      "current_hash": "sha256:8a3c56acc73282fbaca5e2bbe3d30321dd756004b7525fc4ab6c6bc8014d9172",
+      "matching_lines": [
+        4674
+      ],
+      "path": "paper/preprint/cassandra-preprint-v0.2.docx",
+      "row_count": 3,
+      "stale_lines": [
+        4595,
+        4649
+      ]
+    },
+    {
+      "current_hash": "sha256:a2c3ee27c54160195232cc5fa994bad20ca6e739e5943e6803531d232452ede1",
+      "matching_lines": [
+        4672
+      ],
+      "path": "paper/preprint/cassandra-preprint-v0.2.md",
+      "row_count": 3,
+      "stale_lines": [
+        4593,
+        4647
+      ]
+    },
+    {
+      "current_hash": "sha256:dbc913e71f2b2faf266543e43e0e294e52a7a0118e6561e06564d71f3e959e3a",
+      "matching_lines": [
+        4673
+      ],
+      "path": "paper/preprint/cassandra-preprint-v0.2.pdf",
+      "row_count": 3,
+      "stale_lines": [
+        4594,
+        4648
+      ]
+    },
+    {
+      "current_hash": "sha256:9e2938bc9d9079e303f61b1e6550a2e8c1705f2828ab9bbe8d8ff29977dee731",
+      "matching_lines": [
+        4596,
+        4650
+      ],
+      "path": "paper/preprint/preprint-latex-header.tex",
+      "row_count": 2,
+      "stale_lines": []
+    },
+    {
       "current_hash": "sha256:dc982465279f6afb768d9c70b85460db0a98dae2ce2227166490047eb5a0caef",
       "matching_lines": [
         4539
@@ -4023,6 +4236,17 @@
         4488,
         4517,
         4531
+      ]
+    },
+    {
+      "current_hash": "sha256:421ce571798e777e6338e9f79c58fd6c66abc99b9faa41f8fad7d36412e91fa6",
+      "matching_lines": [
+        4675
+      ],
+      "path": "scripts/build_observatory_index.py",
+      "row_count": 2,
+      "stale_lines": [
+        4454
       ]
     }
   ],
@@ -4596,7 +4820,7 @@
         3368,
         3522,
         3669,
-        4612
+        4619
       ],
       "path": "notes/artifact-index-current-hash-validation-output.json",
       "reason": "validator output is rewritten by this command and cannot be self-validated against a pre-run index row"
@@ -4670,7 +4894,7 @@
         1288,
         1297,
         1307,
-        4613
+        4620
       ],
       "path": "notes/artifact-index-current-hash-validation-run.json",
       "reason": "validator output is rewritten by this command and cannot be self-validated against a pre-run index row"
@@ -4680,13 +4904,13 @@
   "missing_path_count": 0,
   "missing_paths": [],
   "research_caveat": "Local artifact-index hash freshness telemetry only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication readiness.",
-  "row_count": 4070,
+  "row_count": 4132,
   "stale_path_count": 0,
   "stale_paths": [],
   "status": "ok",
-  "unique_path_count": 938,
+  "unique_path_count": 945,
   "warnings": [
-    "152 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
+    "169 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
   ],
   "workspace": "/home/anton/projects/cassandra"
 }

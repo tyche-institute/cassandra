@@ -4,25 +4,26 @@ Date: 2026-05-27
 Status: operator-review required before any external submission or deposit
 Core sentence: Cassandra: from governance infrastructure to evidence infrastructure.
 
-This packet turns the v0.1 preprint candidate into a reviewable object for Anton, a thesis committee, and future agents. It is not publication approval, not legal review, not trusted-list validation, not source-signature validation, not supervision, not public alerting, and not an endorsement claim. It is a bounded checklist for deciding what must be read, rechecked, narrowed, or expanded before any release-facing action.
+This packet turns the v0.2 polished case-study preprint candidate into a reviewable object for Anton, a thesis committee, and future agents. It is not publication approval, not legal review, not trusted-list validation, not source-signature validation, not supervision, not public alerting, and not an endorsement claim. It is a bounded checklist for deciding what must be read, rechecked, narrowed, or expanded before any release-facing action.
 
 ## Review decision boundary
 
 A positive review of this packet may mean only that the manuscript and supporting kit are coherent enough for the next editing step. It does not mean that any trusted list is valid, that any provider or service has a legal status, that any source XML signature has been validated for relying-party purposes, that a supervisory conclusion exists, that the dashboard should be treated as an alerting channel, or that an external deposit may proceed without operator approval.
 
-The packet assumes the current v0.1 candidate remains a local/pre-publication artifact even though the repository and dashboard have public surfaces. External dissemination still requires a separate operator decision, boundary review, metadata review, and target-specific formatting pass.
+The packet assumes the current v0.2 candidate remains a local/pre-publication artifact even though the repository and dashboard have public surfaces. External dissemination still requires a separate operator decision, boundary review, metadata review, and target-specific formatting pass.
 
 ## Reading order
 
-1. `paper/preprint/cassandra-preprint-v0.1.md` — main human-readable preprint candidate.
-2. `paper/preprint/cassandra-preprint-v0.1.pdf` — built PDF representation for layout review.
-3. `paper/preprint/cassandra-preprint-v0.1.docx` — editable exchange copy for committee or collaborator comments.
-4. `notes/preprint-candidate-validation-output.json` — mechanical preprint validation output produced by `notes/validate_preprint_candidate.py`.
-5. `notes/cassandra-checked-reference-ledger-2026-05-27.md` — release-facing reference ledger; use before adding or defending references.
-6. `notes/fixture-to-claim-map.md` — reviewer bridge from synthetic fixtures to bounded paper claims.
-7. `notes/publication-status-discipline.md` — status vocabulary separating draft, public data, preprint, submission, and publication claims.
-8. `notes/publication-case-kit-readiness-output.json` — inventory validation for the paper/case-study kit.
-9. `notes/cassandra-full-stack-usable-transcript-2026-05-27.md` — end-to-end transcript for committee, reviewer, and future-agent context.
+1. `paper/preprint/cassandra-preprint-v0.2.md` — main human-readable polished preprint candidate.
+2. `paper/preprint/cassandra-preprint-v0.2.pdf` — built PDF representation for layout and hanging-line review.
+3. `paper/preprint/cassandra-preprint-v0.2.docx` — editable exchange copy for committee or collaborator comments.
+4. `paper/preprint/preprint-latex-header.tex` — PDF typography guard for line breaking, table spacing, and code font choice.
+5. `notes/preprint-candidate-validation-output.json` — mechanical preprint validation output produced by `notes/validate_preprint_candidate.py`.
+6. `notes/cassandra-checked-reference-ledger-2026-05-27.md` — release-facing reference ledger; use before adding or defending references.
+7. `notes/fixture-to-claim-map.md` — reviewer bridge from synthetic fixtures to bounded paper claims.
+8. `notes/publication-status-discipline.md` — status vocabulary separating draft, public data, preprint, submission, and publication claims.
+9. `notes/publication-case-kit-readiness-output.json` — inventory validation for the paper/case-study kit.
+10. `notes/cassandra-full-stack-usable-transcript-2026-05-27.md` — end-to-end transcript for committee, reviewer, and future-agent context.
 
 ## Operator checklist
 
@@ -31,6 +32,8 @@ The packet assumes the current v0.1 candidate remains a local/pre-publication ar
 - [ ] Confirm that all claims about EATF/AEP receipts remain limited to package/payload/hash verification and do not imply trusted-list legal validity.
 - [ ] Confirm that dashboard language presents a public method surface, not public alerting.
 - [ ] Confirm that no provider-specific claim appears in release-facing prose unless separately approved.
+- [ ] Confirm that no table title, figure title, or long list is split awkwardly across pages in the final PDF.
+- [ ] Confirm that lemmas and formulas clarify the claim boundary without making the paper look artificially formal.
 - [ ] Confirm that employment/IP/confidentiality boundaries are acceptable for the final target venue.
 - [ ] Confirm that Tyche affiliation and author metadata are acceptable for the intended target.
 - [ ] Confirm that no current or prior employer, partner, or standards body is implied to endorse the project.
@@ -64,7 +67,7 @@ The packet assumes the current v0.1 candidate remains a local/pre-publication ar
 - Prepare deposit metadata as a draft file only, with explicit `operator-review required` status and no upload action.
 - Prepare a reviewer-response memo that maps common objections to `notes/fixture-to-claim-map.md`, `notes/case-study-maturity-matrix.md`, and `notes/cassandra-checked-reference-ledger-2026-05-27.md`.
 - Prepare target-specific formatting notes for one venue without claiming submission approval.
-- Rebuild `paper/preprint/cassandra-preprint-v0.1.pdf` and `paper/preprint/cassandra-preprint-v0.1.docx` only after text edits pass the existing validators.
+- Rebuild `paper/preprint/cassandra-preprint-v0.2.pdf` and `paper/preprint/cassandra-preprint-v0.2.docx` only after text edits pass the existing validators.
 
 ## Packet validation
 

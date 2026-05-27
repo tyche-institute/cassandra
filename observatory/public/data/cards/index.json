@@ -18,8 +18,8 @@
     },
     {
       "path": "data/cards/eatf-receipt.json",
-      "sha256": "90ca7805c8aecd5fa60567d82431f7e98dbe8c8ba2062411698fee05a2a458b8",
-      "size_bytes": 1296
+      "sha256": "0dc095f4a83d0d166e9ac8017e042e1ed47f96530dae7bc983163db3454c3c6e",
+      "size_bytes": 1290
     },
     {
       "path": "data/cards/latest-run.json",
@@ -31,5 +31,5 @@
   "not_a": "trusted-list validation; legal-status determination; signature validation; supervision; compliance judgment; public alerting; publication approval",
   "project": "cassandra",
   "schema": "urn:tyche:cassandra:observatory-card-index:0.1",
-  "sha256": "a8c7e4fdd192075df81c4ebeae881d58cdf235b84d02f75b12bbf78fe66c0168"
+  "sha256": "dc6eef20138077ba17a8b21e747648bd54d1d8342024d505fe95c2eff8f3bc3e"
 }

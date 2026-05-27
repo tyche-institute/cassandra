@@ -37,9 +37,10 @@ REQUIRED_PHRASES = [
 ]
 
 REQUIRED_PATHS = [
-    "paper/preprint/cassandra-preprint-v0.1.md",
-    "paper/preprint/cassandra-preprint-v0.1.pdf",
-    "paper/preprint/cassandra-preprint-v0.1.docx",
+    "paper/preprint/cassandra-preprint-v0.2.md",
+    "paper/preprint/cassandra-preprint-v0.2.pdf",
+    "paper/preprint/cassandra-preprint-v0.2.docx",
+    "paper/preprint/preprint-latex-header.tex",
     "notes/preprint-deposit-metadata-draft-2026-05-27.json",
     "notes/preprint-review-packet-2026-05-27.md",
     "notes/cassandra-checked-reference-ledger-2026-05-27.md",
@@ -121,6 +122,8 @@ def validate(workspace: Path) -> dict:
             metadata = metadata_json.get("metadata", {})
             if metadata.get("title") != "Cassandra: From Governance Infrastructure to Evidence Infrastructure":
                 errors.append("metadata JSON title mismatch")
+            if metadata.get("version") != "v0.2 polished case-study preprint candidate":
+                errors.append("metadata JSON version mismatch")
             json_keywords = metadata.get("keywords", [])
             json_keyword_count = len(json_keywords) if isinstance(json_keywords, list) else 0
             if json_keyword_count < 8:
