@@ -1,0 +1,17 @@
+{
+  "created": "2026-05-27T18:09:58.267435+00:00",
+  "error_count": 0,
+  "errors": [],
+  "non_claims": "This validation does not approve publication, perform legal review, validate trusted lists, validate source signatures, supervise any actor, issue public alerts, or determine legal/provider/service status.",
+  "scope": "Cassandra preprint candidate shape and claim-boundary check only",
+  "stats": {
+    "bytes": 30523,
+    "line_count": 590,
+    "path": "paper/preprint/cassandra-preprint-v0.1.md",
+    "sha256": "e88e492b30d849b7361e7fe4e8e5cecbb627cf9cf50f64837cd727d80a8b67a9",
+    "word_count": 4311
+  },
+  "status": "ok",
+  "warning_count": 0,
+  "warnings": []
+}

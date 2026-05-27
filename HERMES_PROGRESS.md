@@ -15339,3 +15339,12 @@ Completed follow-up publication-kit validator refinement:
 - Did not fetch live endpoints, modify public dashboard JSON, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
 
 Next action: commit and push the validator-refinement unit, then continue if `STOP_CASSANDRA_HERMES` remains absent.
+## 2026-05-27T18:06:30Z — Cassandra v0.1 preprint candidate
+
+- Created `paper/preprint/cassandra-preprint-v0.1.md` as a compact preprint candidate titled "Cassandra: From Governance Infrastructure to Evidence Infrastructure".
+- Built `paper/preprint/cassandra-preprint-v0.1.pdf` with pandoc/xelatex and `paper/preprint/cassandra-preprint-v0.1.docx` with pandoc.
+- Added `notes/validate_preprint_candidate.py` and validation outputs. Final preprint validation status: `ok`, error_count `0`, warning_count `0`, word_count `4311`.
+- Reran paper claim-safety and aggregate-only naming validators; both returned status `ok`.
+- The preprint uses checked external anchors, aggregate Cassandra run telemetry, EATF/AEP receipt boundaries, and the fixture-to-claim map. It remains operator-review required before external submission and is not legal review, trusted-list validation, source-signature validation, supervision, public alerting, endorsement, or publication approval.
+
+Next action: operator review of the preprint text and then either (a) expand into a longer venue-specific submission, (b) prepare Zenodo/OSF-style deposit metadata, or (c) route to a target journal/conference with formatting changes.
