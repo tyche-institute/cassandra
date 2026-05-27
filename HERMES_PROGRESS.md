@@ -15037,3 +15037,13 @@ Completed first fixture-expansion unit:
 - Fixture validation status: `ok`; tested cases: `stable_no_change`, `normalized_hash_change`.
 
 Next action: extend synthetic fixture coverage to provider/service inventory changes or start the evidence package format/data dictionary cards.
+
+
+### 2026-05-27T15:46:05Z
+
+Completed reviewer/card documentation unit:
+- Created `notes/data-dictionary.md`, a field-level dictionary for `observatory/public/data/index.json`, aggregate totals, diff classes, per-run fields, and local artifact families.
+- Created `notes/evidence-package-format.md`, a concise MIRROR/EATF package format card explaining bundle files, AEP files, public-index EATF fields, and verifier boundaries.
+- Verification command: Python markdown sanity check confirmed required boundary wording and recorded line/byte counts; no code paths or public data were modified.
+
+Next action: add `notes/public-index-schema.md` or a machine-readable `observatory/public/data/schema.json`, then continue fixture expansion.
