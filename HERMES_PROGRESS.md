@@ -15085,3 +15085,14 @@ Added fetch-failure and non-XML synthetic fixtures with bounded verification:
 - Artifact hashes: `fetch.py` 2209a9fb57f110503d7d9f29752010394e06900bb0aa4b58b93baab4d625741f; `notes/fixture-matrix.md` e59f5183fcce6564ac9aae02e55585bb5ace631106cdc9c66cbf2e0089d4f1a5; `notes/test_fetch_and_non_xml_fixtures.py` 424c86a3074f1abd725851945480cbbee0d53c13c54d9a555653e4ecc3432dc9; `notes/fetch-non-xml-fixture-validation-output.json` 3169be833e07a35b046c6b99f87a370a7e16a8419d8c12efc1b717d69ed0e305.
 
 Next action: continue fixture expansion with EATF success/tamper/missing-signing-input cases or dashboard public-index states, depending on which support the paper argument best.
+
+### 2026-05-27T16:16:26Z
+
+Added EATF missing-signing-input synthetic fixture with bounded verification:
+- Confirmed prior fixture/paper/schema units were present and left unrelated untracked `logs/` files unstaged.
+- Added `notes/test_eatf_missing_signing_fixture.py`, a temporary-workspace harness that seeds minimal synthetic snapshot/normalized/diff artifacts, invokes `scripts/eatf_package_snapshot.py` without EATF root, private key, public key, or timestamp, and verifies that the receipt is explicitly `skipped_missing_signing_inputs`.
+- Updated `notes/fixture-matrix.md` so priority 10 records implemented artifacts, expected skip behavior, and the package-input/claim-safety boundary.
+- Verification commands: `.venv/bin/python notes/test_eatf_missing_signing_fixture.py > notes/eatf-missing-signing-fixture-validation-output.json`; `.venv/bin/python notes/test_synthetic_diff_fixtures.py > notes/synthetic-diff-fixture-validation-output.json`; `.venv/bin/python notes/test_fetch_and_non_xml_fixtures.py > notes/fetch-non-xml-fixture-validation-output.json`; `.venv/bin/python -m py_compile scripts/eatf_package_snapshot.py notes/test_eatf_missing_signing_fixture.py`. All exited 0.
+- Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, or provide public alerting.
+
+Next action: continue fixture expansion with EATF success/tamper if local EATF tooling is available without secrets, or add dashboard multi-state public-index fixtures.

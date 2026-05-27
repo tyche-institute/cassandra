@@ -1,0 +1,12 @@
+{
+  "caveat": "Synthetic EATF missing-input fixture only; explicit skip telemetry is not signature validation, legal-status evidence, supervision, compliance, public alerting, or publication approval.",
+  "expected_receipt_status": "skipped_missing_signing_inputs",
+  "missing_inputs": [
+    "eatf_root",
+    "private_key",
+    "public_key",
+    "timestamp"
+  ],
+  "status": "ok",
+  "tested_case": "missing_signing_input_fixture"
+}
