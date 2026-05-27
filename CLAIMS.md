@@ -165,3 +165,10 @@ Boundary: the consolidated draft is a working research manuscript only. It does 
 Allowed claim: `notes/dashboard-card-pack-2026-05-27.md` renders the existing public observatory card JSON pack into a reviewer-readable Markdown packet and records matching SHA-256 checks for the card files listed in `observatory/public/data/cards/index.json`. `notes/dashboard-card-pack-validation-output.json` reports status `ok`.
 
 Boundary: the card pack is a presentation and reviewer-inspection artifact only. It does not validate trusted lists, verify source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.
+
+
+## 2026-05-27 publication case kit readiness claim
+
+Allowed claim: `notes/validate_publication_case_kit.py` mechanically checks the configured Cassandra paper, dataset/evidence, dashboard/product, thesis/case, and validator artifacts. `notes/publication-case-kit-readiness-output.json` reports `status=ok`, `required_file_count=37`, `present_file_count=37`, and `error_count=0`.
+
+Boundary: the readiness output is an inventory and formatting/safety aid only. It does not validate trusted lists, verify source signatures for relying-party purposes, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.

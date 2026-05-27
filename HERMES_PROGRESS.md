@@ -15315,3 +15315,15 @@ Completed bounded dashboard-card-pack unit:
 - Did not fetch live endpoints, modify public dashboard JSON, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
 
 Next action: commit and push the dashboard-card-pack unit, then continue with the next bounded unit if `STOP_CASSANDRA_HERMES` remains absent.
+
+
+### 2026-05-27T18:06:34Z
+
+Completed bounded publication/case-study kit readiness unit:
+- Added `notes/validate_publication_case_kit.py`, a mechanical inventory validator for configured paper, dataset/evidence, dashboard/product, thesis/case, and validator artifacts.
+- Ran `python3 notes/validate_publication_case_kit.py --workspace . --output notes/publication-case-kit-readiness-output.json > notes/publication-case-kit-readiness-run.json`; status `ok`, required_file_count 37, present_file_count 37, error_count 0, warning_count 5.
+- Verified the validator with `python3 -m py_compile` and `git diff --check`.
+- Updated `CLAIMS.md` and `ARTIFACT_INDEX.md` with safe wording and current hashes.
+- Did not fetch live endpoints, modify public dashboard JSON, use signing secrets, validate source trusted-list signatures as a relying party, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement, perform legal review, or approve publication.
+
+Next action: commit and push the publication-case-kit readiness unit, then continue if `STOP_CASSANDRA_HERMES` remains absent.
