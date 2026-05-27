@@ -15155,3 +15155,13 @@ Added EATF claim-boundary and MIRROR bundle cards with bounded validation:
 - Updated `ARTIFACT_INDEX.md` and `CLAIMS.md` with hashes and claim-boundary wording.
 
 Next action: consolidate `paper/draft.md` using the new card pack, or add `notes/replay-capsule.md` to make future reviewer/agent replay steps explicit.
+
+### 2026-05-27T16:50:00Z
+
+Added a Cassandra replay capsule with bounded validation:
+- Confirmed `STOP_CASSANDRA_HERMES` was absent and `origin/main` was up to date; unrelated `logs/` remained unstaged.
+- Created `notes/replay-capsule.md` with a no-fetch replay path, guarded new-dated-run path, artifact interpretation rules, reviewer answer, and future-agent stop rule.
+- Wrote `notes/replay-capsule-validation-output.json`; status `ok`; error_count `0`.
+- Updated `ARTIFACT_INDEX.md` and `CLAIMS.md` with replay-capsule hashes and boundary wording.
+
+Next action: consolidate `paper/draft.md` using the new card/replay pack, or create dashboard card JSON under `observatory/public/data/cards/` if the UI can consume it.
