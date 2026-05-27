@@ -62,6 +62,10 @@ Lazer, Salganik, Grimmer/Roberts/Stewart, Edelmann, and Bail are useful for meth
 
 Cassandra sits at the intersection of PKI governance, eIDAS trusted-list publication, digital-state administration, infrastructure studies, and computational evidence methods. The relevant PKI and standards literature explains the older governance substrate: certificates, certificate policies, timestamping, revocation, audit regimes, and validation conventions. The eIDAS and ETSI sources explain why trusted lists are not arbitrary XML but public legal-technical artifacts. Public-administration and infrastructure studies explain why such artifacts matter institutionally, while computational social-science method explains why repeated observation requires measurement humility. Cassandra's contribution is therefore not a new validator or status oracle. It is a bounded method for turning a public governance surface into dated, hash-linked, packageable evidence while preserving the line between evidence integrity and legal interpretation.
 
+## Reference seed artifact
+
+The concrete seed bibliography lives in `paper/reference-seed-bibliography.md`. Use that file as the controlled bridge from clusters to draft citations; do not promote unverified scholarly entries, internal/prototype cases, or synthetic fixtures into final references without status checks.
+
 ## Next bibliography tasks
 
 1. Convert this card into formal references with complete author/title/year/URL/DOI metadata.

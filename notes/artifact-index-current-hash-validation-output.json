@@ -1,7 +1,7 @@
 {
-  "created": "2026-05-27T17:18:39.725776+00:00",
-  "current_match_count": 896,
-  "duplicate_path_count": 134,
+  "created": "2026-05-27T17:42:22.085282+00:00",
+  "current_match_count": 909,
+  "duplicate_path_count": 138,
   "duplicate_paths": [
     {
       "current_hash": "sha256:2e9a94d9fed56e59777d59747f253f5e7c7c5341b9459cebe01fe8f9988c9805",
@@ -15,12 +15,12 @@
       ]
     },
     {
-      "current_hash": "sha256:e375f801c54e7d23b8096e6adc0a9de0485827cceff292d40586c352e0495067",
+      "current_hash": "sha256:09acda1238601085285d3653f5679175ff26ccdc34130105273356b9b5d1bc50",
       "matching_lines": [
-        4465
+        4519
       ],
       "path": "CLAIMS.md",
-      "row_count": 43,
+      "row_count": 44,
       "stale_lines": [
         1132,
         1152,
@@ -63,16 +63,17 @@
         4417,
         4424,
         4445,
-        4451
+        4451,
+        4465
       ]
     },
     {
-      "current_hash": "sha256:bb0f0f6163d6e87b85ecfbb26e56d5af1b5a0ee7b1e6c9cb961ea472c654b860",
+      "current_hash": "sha256:75f597d61f3d2ed4abaef586aa72cf1ec03f7c75f9fc998ce84f59bb78957586",
       "matching_lines": [
-        4486
+        4520
       ],
       "path": "HERMES_PROGRESS.md",
-      "row_count": 1241,
+      "row_count": 1242,
       "stale_lines": [
         1135,
         1153,
@@ -1313,7 +1314,8 @@
         4446,
         4452,
         4466,
-        4475
+        4475,
+        4486
       ]
     },
     {
@@ -1340,19 +1342,20 @@
       ]
     },
     {
-      "current_hash": "sha256:0bd159fcc5c426e42aafe0c9807c27da41822b58357a1ae418ed6c2f41a0aa32",
+      "current_hash": "sha256:e6f0d038cbb678cfd1041e3fc111621d0a3f9d9bc1c54611962e0b896989c1e1",
       "matching_lines": [
-        4467
+        4525
       ],
       "path": "alerts.jsonl",
-      "row_count": 7,
+      "row_count": 8,
       "stale_lines": [
         168,
         184,
         369,
         634,
         2758,
-        2788
+        2788,
+        4467
       ]
     },
     {
@@ -1369,29 +1372,31 @@
       ]
     },
     {
-      "current_hash": "sha256:53be6fb10b676bdd5b291efaf15e960c3bd2bf8b1972bf7b34c0599aef8e0672",
+      "current_hash": "sha256:7ea8efbc9b0c4805d9d192f4b94bca119944b54a84b8a4b83d12eba28c5be82d",
       "matching_lines": [
-        4469
+        4526
       ],
       "path": "figures/aggregate-diff-classes.svg",
-      "row_count": 4,
+      "row_count": 5,
       "stale_lines": [
         235,
         653,
-        2763
+        2763,
+        4469
       ]
     },
     {
-      "current_hash": "sha256:f48cbd50f62df3bf94790f34a6dc750ffd2e6669957c7c32895a3d3d349a87dc",
+      "current_hash": "sha256:a4a1637fa5aebc6987b5851a8d9f7f62d247a1d7a58be5be5e3c7a9d6c2fb74e",
       "matching_lines": [
-        4470
+        4527
       ],
       "path": "figures/aggregate-run-telemetry.svg",
-      "row_count": 4,
+      "row_count": 5,
       "stale_lines": [
         234,
         652,
-        2762
+        2762,
+        4470
       ]
     },
     {
@@ -1544,14 +1549,15 @@
       ]
     },
     {
-      "current_hash": "sha256:f8d2b25231d9285c4f5695e72f8cb8df549b8f0f6a1df21c16d45f9890742bed",
+      "current_hash": "sha256:f04f70d9c895bace337a6ab4ba2e769fd9e236fdc5164f4dae9d2e491f94d7d2",
       "matching_lines": [
-        4477
+        4510
       ],
       "path": "notes/cassandra-full-stack-usable-transcript-2026-05-27.md",
-      "row_count": 2,
+      "row_count": 3,
       "stale_lines": [
-        4381
+        4381,
+        4477
       ]
     },
     {
@@ -2066,17 +2072,18 @@
       ]
     },
     {
-      "current_hash": "sha256:bf2e96d5770232dd2d79fc204483ebcbdddacd3366812aaaf11453167aca9980",
+      "current_hash": "sha256:fd87b53eafc597545fca1210dee363cd55236eb29bad079f7dad2a2115eaa4c9",
       "matching_lines": [
-        4481
+        4509
       ],
       "path": "notes/fixture-matrix.md",
-      "row_count": 5,
+      "row_count": 6,
       "stale_lines": [
         4385,
         4405,
         4415,
-        4422
+        4422,
+        4481
       ]
     },
     {
@@ -2169,12 +2176,12 @@
       ]
     },
     {
-      "current_hash": "sha256:8660f3980e1eca2b4dba32643e1ac4ab1fc989eab0f178ae89c87a41f31bf141",
+      "current_hash": "sha256:9032dfbaf2a5d0d4de7b73a22af3bbfd4e7dac69aa5af8632e7e3b1f9d31f89d",
       "matching_lines": [
-        4376
+        4522
       ],
       "path": "notes/paper-aggregate-only-naming-validation-output.json",
-      "row_count": 26,
+      "row_count": 30,
       "stale_lines": [
         2925,
         2932,
@@ -2200,7 +2207,11 @@
         3310,
         3363,
         4351,
-        4364
+        4364,
+        4376,
+        4492,
+        4493,
+        4504
       ]
     },
     {
@@ -2495,12 +2506,12 @@
       ]
     },
     {
-      "current_hash": "sha256:7a898a914dc9a91646c0ddcb31b7f0ec4c3a80b09f8b61e87986cc3fed0fb45f",
+      "current_hash": "sha256:8556598a60515b264c19fb79ec70316db1c7028b75a41a280b2b812d01689de1",
       "matching_lines": [
-        4374
+        4523
       ],
       "path": "notes/paper-section-order-validation-output.json",
-      "row_count": 43,
+      "row_count": 44,
       "stale_lines": [
         282,
         312,
@@ -2543,7 +2554,8 @@
         3296,
         3359,
         4349,
-        4362
+        4362,
+        4374
       ]
     },
     {
@@ -2708,6 +2720,29 @@
       "row_count": 2,
       "stale_lines": [
         213
+      ]
+    },
+    {
+      "current_hash": "sha256:6959b037cc9b935913b7f82e3b423d5a7c2df37c7a5caeb630c6e911bf5bc7fe",
+      "matching_lines": [
+        4503
+      ],
+      "path": "notes/publication-status-discipline-validation-output.json",
+      "row_count": 3,
+      "stale_lines": [
+        4496,
+        4500
+      ]
+    },
+    {
+      "current_hash": "sha256:b12a7eb6f099a3dc83885e14943a8846a206be24d805b389c1c6cc340f96b90a",
+      "matching_lines": [
+        4499
+      ],
+      "path": "notes/publication-status-discipline.md",
+      "row_count": 2,
+      "stale_lines": [
+        4495
       ]
     },
     {
@@ -3671,12 +3706,23 @@
       ]
     },
     {
-      "current_hash": "sha256:0c1cdc5ef9b8060317914d243e38811cd5ceda16ac211441fb85c1c2d936d9ef",
+      "current_hash": "sha256:8a9293cf6473194877a131dcaec9f22bab6b74c516910fb5432cd363f6e3df29",
       "matching_lines": [
-        4345
+        4528
+      ],
+      "path": "observatory/public/data/index.json",
+      "row_count": 2,
+      "stale_lines": [
+        4458
+      ]
+    },
+    {
+      "current_hash": "sha256:7280e45ca6d58f3015b4ea5683fde49a85f5db4acabd18973948a6a3fbe341db",
+      "matching_lines": [
+        4518
       ],
       "path": "paper/draft.md",
-      "row_count": 35,
+      "row_count": 39,
       "stale_lines": [
         236,
         269,
@@ -3711,7 +3757,11 @@
         3272,
         3292,
         3307,
-        3356
+        3356,
+        4345,
+        4491,
+        4497,
+        4501
       ]
     },
     {
@@ -3744,6 +3794,17 @@
       "row_count": 2,
       "stale_lines": [
         4357
+      ]
+    },
+    {
+      "current_hash": "sha256:9fbb0523650d4b7631ce214059b5025e1c4479b6e395bceabd20138a11c7b9a4",
+      "matching_lines": [
+        4517
+      ],
+      "path": "paper/related-work-card.md",
+      "row_count": 2,
+      "stale_lines": [
+        4488
       ]
     }
   ],
@@ -4399,13 +4460,13 @@
   "missing_path_count": 0,
   "missing_paths": [],
   "research_caveat": "Local artifact-index hash freshness telemetry only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, or publication readiness.",
-  "row_count": 3930,
+  "row_count": 3964,
   "stale_path_count": 0,
   "stale_paths": [],
   "status": "ok",
-  "unique_path_count": 899,
+  "unique_path_count": 912,
   "warnings": [
-    "134 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
+    "138 paths have duplicate ARTIFACT_INDEX rows; each reported duplicate has at least one current matching hash row"
   ],
   "workspace": "/home/anton/projects/cassandra"
 }

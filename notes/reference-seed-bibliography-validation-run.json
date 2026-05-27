@@ -1,0 +1,8 @@
+{
+  "boundary": "reference drafting control only; not legal review, trusted-list validation, signature validation, supervision, public alerting, endorsement, or publication approval",
+  "errors": [],
+  "line_count": 93,
+  "official_source_rows": 19,
+  "reference_seed_sha256": "db20b4d856b66a5638d932051131cbad5bab3001d2f65a7a61ec1da107a5d37d",
+  "status": "ok"
+}

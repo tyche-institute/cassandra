@@ -15256,3 +15256,15 @@ Added a fixture-to-claim reviewer map with bounded TDD verification:
 - Recorded hashes for the new map, validator, validation outputs, updated fixture matrix, and updated full-stack transcript.
 
 Next action: use the new fixture-to-claim map when consolidating `paper/draft.md` into a clean 6k-8k submission draft, so fixture evidence supports reviewer-facing claims without turning synthetic tests into real trusted-list, signature-validity, supervisory, compliance, public-alerting, or provider-status claims.
+
+
+### 2026-05-27T18:05:00Z
+
+Added a controlled reference-seed bibliography as the next bounded publication unit:
+- Created `paper/reference-seed-bibliography.md` with primary EU/eIDAS/AI Act, ETSI, RFC, NIST, CA/B Forum, PKIC, scholarly, infrastructure-studies, computational-method, and Tyche/adjacent-project citation posture rows.
+- Patched `paper/related-work-card.md` and `paper/draft.md` so future consolidation has a controlled bridge from related-work clusters to final citations.
+- Added `notes/validate_reference_seed_bibliography.py` and validation output `notes/reference-seed-bibliography-validation-output.json`.
+- Updated `CLAIMS.md` with the reference-seed drafting-control claim and non-claims.
+- This unit did not fetch trusted-list endpoints, overwrite dated observatory outputs, validate source signatures, determine legal/provider/service status, supervise trusted lists, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.
+
+Next action: consolidate `paper/draft.md` into a cleaner submission narrative using the transcript, fixture-to-claim map, publication-status discipline, related-work card, maturity matrix, and reference-seed bibliography; keep scholarly entries status-labelled until exact bibliographic metadata is verified.

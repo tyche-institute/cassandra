@@ -144,3 +144,10 @@
 Allowed claim: `notes/fixture-to-claim-map.md` maps the current synthetic fixture suite to paper claims, reviewer questions, primary evidence paths, and explicit non-claims, and `notes/test_fixture_claim_map.py` verified that the map contains all required fixture classes, evidence references, and boundary wording.
 
 Boundary: this is documentation and fixture-harness evidence only. It does not validate any real trusted list, source signature, provider/service status, supervisory conclusion, compliance judgment, public alert, or publication decision.
+
+
+## 2026-05-27 reference-seed bibliography claim
+
+Allowed claim: `paper/reference-seed-bibliography.md` turns the Cassandra related-work clusters into a controlled seed bibliography with official/legal/standards sources, scholarly anchors requiring verification, Tyche/adjacent-project citation posture, merge guidance, and explicit non-claims; `notes/validate_reference_seed_bibliography.py` verified required clusters and boundary wording.
+
+Boundary: this is drafting-control evidence only. It does not validate trusted lists, verify source signatures, determine provider/service or legal status, supervise any actor, assert compliance, issue public alerts, imply endorsement by cited organizations, perform legal review, or approve publication.
