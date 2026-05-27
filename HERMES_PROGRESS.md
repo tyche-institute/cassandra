@@ -15096,3 +15096,14 @@ Added EATF missing-signing-input synthetic fixture with bounded verification:
 - Did not fetch public endpoints, overwrite dated observatory outputs, use signing secrets, validate trusted-list signatures as a relying party, determine legal status, supervise trusted lists, or provide public alerting.
 
 Next action: continue fixture expansion with EATF success/tamper if local EATF tooling is available without secrets, or add dashboard multi-state public-index fixtures.
+
+### 2026-05-27T16:19:57Z
+
+Added dashboard/public-index multi-state synthetic fixture with bounded verification:
+- Confirmed `STOP_CASSANDRA_HERMES` was absent, pulled `origin/main`, and left unrelated untracked `logs/` files unstaged.
+- Added `notes/fixtures/dashboard-public-index-multistate.json`, a small synthetic dashboard fixture with EATF states `ok`, `skipped_missing_signing_inputs`, and `verify_failed`, mixed diff counts, and explicit caveats on every run.
+- Added `notes/test_dashboard_public_index_fixture.py`, which summarizes dashboard status counts and review-needed dates while refusing to treat dashboard state as public alerting, signature validation, legal-status evidence, supervision, or publication approval.
+- Updated `notes/fixture-matrix.md` to mark priority 11 implemented.
+- Verification command: `.venv/bin/python notes/test_dashboard_public_index_fixture.py > notes/dashboard-public-index-fixture-validation-output.json`; exit code 0.
+
+Next action: add a claim-safety forbidden-wording scanner fixture, then continue with EATF success/tamper if local EATF tooling is available without secrets.

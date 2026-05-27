@@ -1,0 +1,19 @@
+{
+  "caveat": "Synthetic dashboard fixture for structural-observation UI behavior only; not trusted-list validation, signature validation, legal-status determination, supervision, public alerting, or publication approval.",
+  "fixture_path": "/home/anton/projects/cassandra/notes/fixtures/dashboard-public-index-multistate.json",
+  "status": "ok",
+  "summary": {
+    "dates_requiring_review": [
+      "2099-01-02",
+      "2099-01-03"
+    ],
+    "display_boundary": "Dashboard state is method telemetry only; it is not trusted-list validation, legal-status determination, signature validation, supervision, public alerting, or publication approval.",
+    "status_counts": {
+      "ok": 1,
+      "skipped_missing_signing_inputs": 1,
+      "verify_failed": 1
+    },
+    "total_diff_changes": 4
+  },
+  "tested_case": "dashboard_public_index_multistate"
+}
