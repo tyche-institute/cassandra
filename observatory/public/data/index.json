@@ -28,6 +28,7 @@
       "service_count_total": 23933
     }
   },
+  "canonical_url": "https://cassandra.eatf.eu/",
   "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "claim_boundary": {
@@ -42,7 +43,7 @@
       "absence of legally relevant change"
     ]
   },
-  "created_at": "2026-05-28T07:08:45Z",
+  "created_at": "2026-05-28T08:16:05Z",
   "dashboard_cards": {
     "card_count": 5,
     "cards": [
@@ -63,19 +64,25 @@
       },
       {
         "path": "data/cards/eatf-receipt.json",
-        "sha256": "0b4079f29f6920fdd9ac7d2d93fd1366108e883b5d0c838ce25093d68dc0b8c9",
-        "size_bytes": 1195
+        "sha256": "93e2494cf8fdbec11be460ff627a012fd82d1b3ee7b91f9c797b3417b0e92478",
+        "size_bytes": 1740
       },
       {
         "path": "data/cards/latest-run.json",
-        "sha256": "b8f446f1f7c7cd38abca47f067222a8941d08bc291c8b143927535a29b57a2f0",
-        "size_bytes": 1100
+        "sha256": "c4ab8749d7f8a71916e96da6ffb3970ab7e8785c0b21ca13e0653e8d48029ca3",
+        "size_bytes": 1072
       }
     ],
     "index": "data/cards/index.json",
-    "index_sha256": "2d040fb8a38aa8692aeec5ca3214def5472726e0501f741882219537535f0d63"
+    "index_sha256": "7353130a7d63caf8afc83322ff5eaf4ddc872b561a4b8b6ed4a0eb19b5e6cff3"
   },
-  "eatf_verified_count": 0,
+  "eatf": {
+    "home": "https://eatf.eu/",
+    "name": "Evidence Attestation and Transparency Framework",
+    "verifier": "https://eatf.eu/verify"
+  },
+  "eatf_verified_count": 5,
+  "fallback_url": "https://cassandra-observatory.pages.dev/",
   "figures": [
     {
       "path": "aggregate-diff-classes.svg",
@@ -139,15 +146,36 @@
       "eatf": {
         "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
         "package_path": "evidence/2026-05-20/cassandra-observation.aep",
-        "package_sha256": "11afca2a8b629d3ddddeb68010931b0a81d62799959f872f3687aaa52e9ed076",
+        "package_sha256": "40294aa8abab69bbb9c214ebf827921f2df286ab2f72daa085ddb742b237ba07",
         "payload_path": "evidence/2026-05-20/cassandra-observation.json",
-        "payload_sha256": "350ae2b189b47872640a7fceacb0f88ea7beb996206c07a3b944759e11cee46c",
+        "payload_sha256": "506a7f5ec6f3c5d975191a7f326fc603c15019451d46d6a0d51c32fe475d90bd",
+        "public_metadata": {
+          "path": "evidence/2026-05-20/eatf-metadata.json",
+          "sha256": "5bc1e22e55ad204104d3cd1ca98921642191bdd54a8a17f534bacabef29e1598",
+          "size_bytes": 908
+        },
+        "public_package": {
+          "path": "evidence/2026-05-20/cassandra-observation.aep",
+          "sha256": "40294aa8abab69bbb9c214ebf827921f2df286ab2f72daa085ddb742b237ba07",
+          "size_bytes": 12383
+        },
+        "public_payload": {
+          "path": "evidence/2026-05-20/cassandra-observation.json",
+          "sha256": "506a7f5ec6f3c5d975191a7f326fc603c15019451d46d6a0d51c32fe475d90bd",
+          "size_bytes": 3814
+        },
+        "public_receipt": {
+          "path": "evidence/2026-05-20/eatf-verification.json",
+          "sha256": "78b630bce560a45d0a2391748bef96b265f67d6774dfe3ddd80812ef8de0f078",
+          "size_bytes": 3587
+        },
         "receipt_path": "evidence/2026-05-20/eatf-verification.json",
-        "receipt_sha256": "f9ad1311a6f86de6d2163aebddfb63007d295381554139a4ba9f0b3105094780",
-        "signing_profile": "unsigned",
-        "status": "skipped_missing_signing_inputs",
+        "receipt_sha256": "78b630bce560a45d0a2391748bef96b265f67d6774dfe3ddd80812ef8de0f078",
+        "signing_profile": "local-dev:eatf-dev-rsa4096",
+        "status": "ok",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": null
+        "valid": true,
+        "verifier_url": "https://eatf.eu/verify"
       }
     },
     {
@@ -192,15 +220,36 @@
       "eatf": {
         "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
         "package_path": "evidence/2026-05-21/cassandra-observation.aep",
-        "package_sha256": "60ebf9c394ac7116620a0a40a83833bf2b551e6e2ab64cd90c50f7555f5b237c",
+        "package_sha256": "f0873017ea78e8ef6886791779c0e9d2ea232414a967987fe420c5cd24271918",
         "payload_path": "evidence/2026-05-21/cassandra-observation.json",
-        "payload_sha256": "b48e86fd5b3b4ab5db8447526f3656615aa12d8be58ae6502d32a3e5b7740cbf",
+        "payload_sha256": "db147d97a0b9377caf736425f3adaac50fc4ff8958c223679cee01bee890fab9",
+        "public_metadata": {
+          "path": "evidence/2026-05-21/eatf-metadata.json",
+          "sha256": "4ebde3004d6907529c034b8ed93892d80f92f1e893ab7d1f9e6ba5ea7421083f",
+          "size_bytes": 908
+        },
+        "public_package": {
+          "path": "evidence/2026-05-21/cassandra-observation.aep",
+          "sha256": "f0873017ea78e8ef6886791779c0e9d2ea232414a967987fe420c5cd24271918",
+          "size_bytes": 12631
+        },
+        "public_payload": {
+          "path": "evidence/2026-05-21/cassandra-observation.json",
+          "sha256": "db147d97a0b9377caf736425f3adaac50fc4ff8958c223679cee01bee890fab9",
+          "size_bytes": 3938
+        },
+        "public_receipt": {
+          "path": "evidence/2026-05-21/eatf-verification.json",
+          "sha256": "7e2fa9dd1da1bb3be91888615218ea70136f43f1368bd44358700a1c881bea6c",
+          "size_bytes": 3587
+        },
         "receipt_path": "evidence/2026-05-21/eatf-verification.json",
-        "receipt_sha256": "294001a79fbf5d5c752d4110cde8fb9bf436c8b38c63776fd03964e6a7c4f3be",
-        "signing_profile": "unsigned",
-        "status": "skipped_missing_signing_inputs",
+        "receipt_sha256": "7e2fa9dd1da1bb3be91888615218ea70136f43f1368bd44358700a1c881bea6c",
+        "signing_profile": "local-dev:eatf-dev-rsa4096",
+        "status": "ok",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": null
+        "valid": true,
+        "verifier_url": "https://eatf.eu/verify"
       }
     },
     {
@@ -245,15 +294,36 @@
       "eatf": {
         "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
         "package_path": "evidence/2026-05-22/cassandra-observation.aep",
-        "package_sha256": "427ca5eebfa33f77cd4409d393f45aeeb3ad66690764fb94534f1ea5c27bed58",
+        "package_sha256": "e632a0b56b6ba4c6813d6f4001f64bbc8026f7603ee4aeecf62e289da7f0392d",
         "payload_path": "evidence/2026-05-22/cassandra-observation.json",
-        "payload_sha256": "a4b1eaa5db58c79d8341f9dc9e797367f3b39459d4d6e4c63cb0313f4d0b7257",
+        "payload_sha256": "4ef71c1d810fa03b980cfabeeacabd784e0dccbfb9d53a8f14f17bc0f354c0ed",
+        "public_metadata": {
+          "path": "evidence/2026-05-22/eatf-metadata.json",
+          "sha256": "f2c61f7f364f6cc0e4ea46281834a275f34c6dabba64c245be65af040d7f2e26",
+          "size_bytes": 908
+        },
+        "public_package": {
+          "path": "evidence/2026-05-22/cassandra-observation.aep",
+          "sha256": "e632a0b56b6ba4c6813d6f4001f64bbc8026f7603ee4aeecf62e289da7f0392d",
+          "size_bytes": 12641
+        },
+        "public_payload": {
+          "path": "evidence/2026-05-22/cassandra-observation.json",
+          "sha256": "4ef71c1d810fa03b980cfabeeacabd784e0dccbfb9d53a8f14f17bc0f354c0ed",
+          "size_bytes": 3943
+        },
+        "public_receipt": {
+          "path": "evidence/2026-05-22/eatf-verification.json",
+          "sha256": "146805a90dbaa3a5e23ad4b354b9d1fb7986390ce33dfa838fc7d0074a4ee61a",
+          "size_bytes": 3587
+        },
         "receipt_path": "evidence/2026-05-22/eatf-verification.json",
-        "receipt_sha256": "5753fdb374663a3c924abc02efcda8af82b365b291879eab7e28920f4e4ad2a0",
-        "signing_profile": "unsigned",
-        "status": "skipped_missing_signing_inputs",
+        "receipt_sha256": "146805a90dbaa3a5e23ad4b354b9d1fb7986390ce33dfa838fc7d0074a4ee61a",
+        "signing_profile": "local-dev:eatf-dev-rsa4096",
+        "status": "ok",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": null
+        "valid": true,
+        "verifier_url": "https://eatf.eu/verify"
       }
     },
     {
@@ -298,15 +368,36 @@
       "eatf": {
         "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
         "package_path": "evidence/2026-05-27/cassandra-observation.aep",
-        "package_sha256": "1c451a21948b02a3b3693c238088e3a77d45b88554d0929cc59514ef8a982a8c",
+        "package_sha256": "909b72d96c4945b3cb487e5a9630c01e38bb8377d2744c028afafed03f18ddeb",
         "payload_path": "evidence/2026-05-27/cassandra-observation.json",
-        "payload_sha256": "03e66928eba9694f6fed6169dde1e207f8b56c377e79aab7be5dd675fc560d92",
+        "payload_sha256": "48e559a5b1e86355f84bcc9e8a74219393684de3c64fdadfdf4513b38c6a13a9",
+        "public_metadata": {
+          "path": "evidence/2026-05-27/eatf-metadata.json",
+          "sha256": "7c2a412212fe9178560a045920ac22aa011ebafa6f3a53a09984c0943890dada",
+          "size_bytes": 908
+        },
+        "public_package": {
+          "path": "evidence/2026-05-27/cassandra-observation.aep",
+          "sha256": "909b72d96c4945b3cb487e5a9630c01e38bb8377d2744c028afafed03f18ddeb",
+          "size_bytes": 12645
+        },
+        "public_payload": {
+          "path": "evidence/2026-05-27/cassandra-observation.json",
+          "sha256": "48e559a5b1e86355f84bcc9e8a74219393684de3c64fdadfdf4513b38c6a13a9",
+          "size_bytes": 3945
+        },
+        "public_receipt": {
+          "path": "evidence/2026-05-27/eatf-verification.json",
+          "sha256": "5c814256b99779886e05e36da3d1f196bcf243ded6b297ac7aae47c9c5ca390e",
+          "size_bytes": 3587
+        },
         "receipt_path": "evidence/2026-05-27/eatf-verification.json",
-        "receipt_sha256": "765a9cf6837bb9f18077637d6bdc8b0eac85f7481ba27dbab91fcf0abb75b442",
-        "signing_profile": "unsigned",
-        "status": "skipped_missing_signing_inputs",
+        "receipt_sha256": "5c814256b99779886e05e36da3d1f196bcf243ded6b297ac7aae47c9c5ca390e",
+        "signing_profile": "local-dev:eatf-dev-rsa4096",
+        "status": "ok",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": null
+        "valid": true,
+        "verifier_url": "https://eatf.eu/verify"
       }
     },
     {
@@ -350,16 +441,37 @@
       },
       "eatf": {
         "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-        "package_path": null,
-        "package_sha256": null,
+        "package_path": "evidence/2026-05-28/cassandra-observation.aep",
+        "package_sha256": "77604ab2b1424899b0d4190067d9d235c24e7081fa6ea08c48a716f5bbf7dfe2",
         "payload_path": "evidence/2026-05-28/cassandra-observation.json",
-        "payload_sha256": "d4fc5c66d701d534f8d7697539ee47b22adf00999a62028abc83e359f98e5fa0",
+        "payload_sha256": "f04b8ba5e8c2fcc2e0fc876811ad01604e38a454069a539c0763c51758528874",
+        "public_metadata": {
+          "path": "evidence/2026-05-28/eatf-metadata.json",
+          "sha256": "622a90ef29e996281a0e6e0dc1d45b0aad17963ed0a6338cc586ba8c32a2e0e2",
+          "size_bytes": 908
+        },
+        "public_package": {
+          "path": "evidence/2026-05-28/cassandra-observation.aep",
+          "sha256": "77604ab2b1424899b0d4190067d9d235c24e7081fa6ea08c48a716f5bbf7dfe2",
+          "size_bytes": 12631
+        },
+        "public_payload": {
+          "path": "evidence/2026-05-28/cassandra-observation.json",
+          "sha256": "f04b8ba5e8c2fcc2e0fc876811ad01604e38a454069a539c0763c51758528874",
+          "size_bytes": 3938
+        },
+        "public_receipt": {
+          "path": "evidence/2026-05-28/eatf-verification.json",
+          "sha256": "1b24cd8cd3e26b5ef5f55acc76ee563e7eb7fa5f381b28c93d20abd5b662bb0d",
+          "size_bytes": 3587
+        },
         "receipt_path": "evidence/2026-05-28/eatf-verification.json",
-        "receipt_sha256": "476c05830bc711a28b17f3b5fc55565aedf7e495363f3869b8594911d78766cd",
-        "signing_profile": "unsigned",
-        "status": "skipped_missing_signing_inputs",
+        "receipt_sha256": "1b24cd8cd3e26b5ef5f55acc76ee563e7eb7fa5f381b28c93d20abd5b662bb0d",
+        "signing_profile": "local-dev:eatf-dev-rsa4096",
+        "status": "ok",
         "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-        "valid": null
+        "valid": true,
+        "verifier_url": "https://eatf.eu/verify"
       }
     }
   ],

@@ -18,18 +18,18 @@
     },
     {
       "path": "data/cards/eatf-receipt.json",
-      "sha256": "0b4079f29f6920fdd9ac7d2d93fd1366108e883b5d0c838ce25093d68dc0b8c9",
-      "size_bytes": 1195
+      "sha256": "93e2494cf8fdbec11be460ff627a012fd82d1b3ee7b91f9c797b3417b0e92478",
+      "size_bytes": 1740
     },
     {
       "path": "data/cards/latest-run.json",
-      "sha256": "b8f446f1f7c7cd38abca47f067222a8941d08bc291c8b143927535a29b57a2f0",
-      "size_bytes": 1100
+      "sha256": "c4ab8749d7f8a71916e96da6ffb3970ab7e8785c0b21ca13e0653e8d48029ca3",
+      "size_bytes": 1072
     }
   ],
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "not_a": "trusted-list validation; legal-status determination; signature validation; supervision; compliance judgment; public alerting; publication approval",
   "project": "cassandra",
   "schema": "urn:tyche:cassandra:observatory-card-index:0.1",
-  "sha256": "2d040fb8a38aa8692aeec5ca3214def5472726e0501f741882219537535f0d63"
+  "sha256": "7353130a7d63caf8afc83322ff5eaf4ddc872b561a4b8b6ed4a0eb19b5e6cff3"
 }

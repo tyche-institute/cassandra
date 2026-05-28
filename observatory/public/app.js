@@ -13,6 +13,20 @@ const text = (id, value) => {
   if (node) node.textContent = value;
 };
 
+const link = (id, href, label) => {
+  const node = document.getElementById(id);
+  if (!node) return;
+  if (!href) {
+    node.removeAttribute("href");
+    node.setAttribute("aria-disabled", "true");
+    node.textContent = `${label} unavailable`;
+    return;
+  }
+  node.href = href;
+  node.removeAttribute("aria-disabled");
+  node.textContent = label;
+};
+
 const formatDateTime = (value) => {
   if (!value) return "-";
   const parsed = new Date(value);
@@ -126,6 +140,35 @@ const setEvidence = (latest) => {
   });
 };
 
+const setVerifier = (latest) => {
+  const eatf = latest.eatf || {};
+  const verifier = eatf.verifier_url || "https://eatf.eu/verify";
+
+  text("verifyDate", latest.date || "latest run");
+  link("downloadAep", eatf.public_package?.path, "AEP package");
+  link("downloadPayload", eatf.public_payload?.path, "Payload JSON");
+  link("downloadReceipt", eatf.public_receipt?.path, "EATF receipt");
+  link("downloadMetadata", eatf.public_metadata?.path, "EATF metadata");
+  link("openVerifier", verifier, "Open verifier");
+
+  const dl = document.getElementById("verifyHashes");
+  if (!dl) return;
+  dl.textContent = "";
+  [
+    ["Package SHA-256", eatf.package_sha256, true],
+    ["Payload SHA-256", eatf.payload_sha256, true],
+    ["Receipt SHA-256", eatf.receipt_sha256, true],
+    ["Status", statusLabel(latest)],
+    ["Verifier", verifier],
+  ].forEach(([label, value, isHash]) => {
+    const dt = document.createElement("dt");
+    const dd = document.createElement("dd");
+    dt.textContent = label;
+    dd.appendChild(evidenceValue(value || "-", isHash));
+    dl.append(dt, dd);
+  });
+};
+
 const renderDiffBars = (aggregate) => {
   const container = document.getElementById("diffBars");
   if (!container) return;
@@ -218,6 +261,7 @@ const render = (index) => {
   renderRuns(runs);
   renderDiffBars(index.aggregate);
   setEvidence(latest);
+  setVerifier(latest);
 };
 
 fetch("./data/index.json", { cache: "no-store" })

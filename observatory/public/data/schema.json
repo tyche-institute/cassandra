@@ -38,6 +38,23 @@
     "repo": {
       "type": "string"
     },
+    "canonical_url": {
+      "type": "string",
+      "description": "Preferred public URL for citation when the custom domain is active."
+    },
+    "fallback_url": {
+      "type": "string",
+      "description": "Cloudflare Pages fallback URL for the same public observatory."
+    },
+    "eatf": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "name": {"type": "string"},
+        "home": {"type": "string"},
+        "verifier": {"type": "string"}
+      }
+    },
     "latest_date": {
       "type": "string",
       "pattern": "^20[0-9]{2}-[0-9]{2}-[0-9]{2}$"
@@ -159,6 +176,11 @@
             "receipt_sha256": {"type": ["string", "null"]},
             "package_sha256": {"type": ["string", "null"]},
             "payload_sha256": {"type": ["string", "null"]},
+            "verifier_url": {"type": ["string", "null"]},
+            "public_package": {"type": ["object", "null"]},
+            "public_payload": {"type": ["object", "null"]},
+            "public_receipt": {"type": ["object", "null"]},
+            "public_metadata": {"type": ["object", "null"]},
             "caveat": {"type": ["string", "null"]}
           }
         },

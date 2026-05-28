@@ -8,6 +8,7 @@
       content="Cassandra Observatory publishes dated structural observations over trusted-list derived artifacts, with EATF evidence receipts and explicit claim boundaries."
     />
     <title>Cassandra Observatory</title>
+    <link rel="canonical" href="https://cassandra.eatf.eu/" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -34,6 +35,7 @@
           <a href="./data/aggregate-results-table.csv">CSV table</a>
           <a href="./data/schema.json">Schema</a>
           <a href="https://eatf.eu/" rel="noreferrer">EATF</a>
+          <a href="https://eatf.eu/verify" rel="noreferrer">Verifier</a>
           <a href="./paper/cassandra-preprint-v0.2.pdf">Preprint</a>
         </nav>
       </div>
@@ -255,6 +257,35 @@
               <a href="./data/aggregate-results.json">Aggregate JSON</a>
             </nav>
           </aside>
+        </div>
+      </section>
+
+      <section class="panel verify-panel" aria-label="Verify latest Cassandra observation">
+        <div class="panel-head">
+          <div>
+            <p class="section-label">Verify this observation</p>
+            <h2>Download the package, then check it with EATF.</h2>
+            <p class="panel-caption">
+              The verifier checks package integrity, signatures, timestamps, and declared hashes. It
+              does not decide trusted-list legal status.
+            </p>
+          </div>
+          <span id="verifyDate" class="chip">latest run</span>
+        </div>
+        <div class="verify-layout">
+          <ol class="verify-steps">
+            <li>Download the AEP package for the latest dated observation.</li>
+            <li>Open the public EATF verifier and load the package.</li>
+            <li>Compare the reported hashes with the values shown here and in the JSON index.</li>
+          </ol>
+          <nav class="download-list evidence-downloads" aria-label="Evidence package downloads">
+            <a id="downloadAep" href="#">AEP package</a>
+            <a id="downloadPayload" href="#">Payload JSON</a>
+            <a id="downloadReceipt" href="#">EATF receipt</a>
+            <a id="downloadMetadata" href="#">EATF metadata</a>
+            <a id="openVerifier" href="https://eatf.eu/verify" rel="noreferrer">Open verifier</a>
+          </nav>
+          <dl id="verifyHashes" class="verify-hashes"></dl>
         </div>
       </section>
     </main>

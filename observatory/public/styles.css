@@ -175,6 +175,12 @@ main {
   text-decoration: none;
 }
 
+.download-list a[aria-disabled="true"] {
+  color: var(--muted);
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
 .cadence-strip {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(240px, 0.42fr);
@@ -564,6 +570,10 @@ figure img {
   margin-top: 16px;
 }
 
+.verify-panel {
+  margin-top: 16px;
+}
+
 .evidence-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.55fr);
@@ -582,10 +592,56 @@ figure img {
   font-size: 14px;
 }
 
+.verify-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.7fr) minmax(260px, 0.7fr) minmax(0, 1fr);
+  gap: 18px;
+  padding: 18px;
+}
+
+.verify-steps {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 22px;
+  color: #3c5149;
+}
+
+.evidence-downloads {
+  align-content: start;
+}
+
+.evidence-downloads a {
+  justify-content: center;
+  min-width: 132px;
+}
+
+.verify-hashes {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.42fr) minmax(0, 1fr);
+  gap: 9px 14px;
+  margin: 0;
+}
+
+.verify-hashes dt {
+  color: #31443d;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.verify-hashes dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  color: #43554e;
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
 @media (max-width: 1040px) {
   .app-header,
   .lemma-band,
-  .evidence-layout {
+  .evidence-layout,
+  .verify-layout {
     grid-template-columns: 1fr;
   }
 
@@ -663,7 +719,8 @@ figure img {
   }
 
   .glossary,
-  #latestEvidence {
+  #latestEvidence,
+  .verify-hashes {
     grid-template-columns: 1fr;
   }
 

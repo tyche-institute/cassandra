@@ -3,13 +3,24 @@
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "data": {
     "date": "2026-05-28",
-    "package_path": null,
-    "package_sha256": null,
+    "package_path": "evidence/2026-05-28/cassandra-observation.aep",
+    "package_sha256": "77604ab2b1424899b0d4190067d9d235c24e7081fa6ea08c48a716f5bbf7dfe2",
+    "public_package": {
+      "path": "evidence/2026-05-28/cassandra-observation.aep",
+      "sha256": "77604ab2b1424899b0d4190067d9d235c24e7081fa6ea08c48a716f5bbf7dfe2",
+      "size_bytes": 12631
+    },
+    "public_receipt": {
+      "path": "evidence/2026-05-28/eatf-verification.json",
+      "sha256": "1b24cd8cd3e26b5ef5f55acc76ee563e7eb7fa5f381b28c93d20abd5b662bb0d",
+      "size_bytes": 3587
+    },
     "receipt_path": "evidence/2026-05-28/eatf-verification.json",
-    "receipt_sha256": "476c05830bc711a28b17f3b5fc55565aedf7e495363f3869b8594911d78766cd",
-    "signing_profile": "unsigned",
-    "status": "skipped_missing_signing_inputs",
-    "valid": null
+    "receipt_sha256": "1b24cd8cd3e26b5ef5f55acc76ee563e7eb7fa5f381b28c93d20abd5b662bb0d",
+    "signing_profile": "local-dev:eatf-dev-rsa4096",
+    "status": "ok",
+    "valid": true,
+    "verifier_url": "https://eatf.eu/verify"
   },
   "id": "eatf-receipt",
   "interpretation": "A status of ok verifies package bytes, envelope structure, and declared hashes only.",

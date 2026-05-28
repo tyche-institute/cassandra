@@ -17,6 +17,16 @@ CAVEAT = (
     "signature validation, relying-party processing, or public alerting."
 )
 
+EATF_VERIFIER_URL = "https://eatf.eu/verify"
+CANONICAL_URL = "https://cassandra.eatf.eu/"
+FALLBACK_URL = "https://cassandra-observatory.pages.dev/"
+PUBLIC_EVIDENCE_FILES = {
+    "package": "cassandra-observation.aep",
+    "payload": "cassandra-observation.json",
+    "receipt": "eatf-verification.json",
+    "metadata": "eatf-metadata.json",
+}
+
 
 def now_z() -> str:
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
@@ -46,7 +56,31 @@ def find_latest_aggregate(workspace: pathlib.Path) -> pathlib.Path:
     return paths[-1]
 
 
-def load_eatf_status(workspace: pathlib.Path, date: str) -> dict[str, Any]:
+def public_file_record(path: pathlib.Path, public_dir: pathlib.Path) -> dict[str, Any]:
+    return {
+        "path": str(path.relative_to(public_dir)),
+        "sha256": sha256_file(path),
+        "size_bytes": path.stat().st_size,
+    }
+
+
+def copy_public_evidence(workspace: pathlib.Path, public_dir: pathlib.Path, date: str) -> dict[str, Any]:
+    records: dict[str, Any] = {}
+    source_dir = workspace / "evidence" / date
+    target_dir = public_dir / "evidence" / date
+    for key, filename in PUBLIC_EVIDENCE_FILES.items():
+        src = source_dir / filename
+        if not src.exists():
+            records[key] = None
+            continue
+        dst = target_dir / filename
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(src, dst)
+        records[key] = public_file_record(dst, public_dir)
+    return records
+
+
+def load_eatf_status(workspace: pathlib.Path, date: str, public_evidence: dict[str, Any] | None = None) -> dict[str, Any]:
     receipt_path = workspace / "evidence" / date / "eatf-verification.json"
     package_path = workspace / "evidence" / date / "cassandra-observation.aep"
     payload_path = workspace / "evidence" / date / "cassandra-observation.json"
@@ -60,10 +94,12 @@ def load_eatf_status(workspace: pathlib.Path, date: str) -> dict[str, Any]:
             "package_sha256": None,
             "payload_path": None,
             "payload_sha256": None,
+            "verifier_url": EATF_VERIFIER_URL,
         }
     receipt = read_json(receipt_path)
     verify = receipt.get("verify") if isinstance(receipt.get("verify"), dict) else {}
     valid = verify.get("valid") if isinstance(verify, dict) else None
+    public_evidence = public_evidence or {}
     return {
         "status": receipt.get("status"),
         "valid": valid,
@@ -76,10 +112,15 @@ def load_eatf_status(workspace: pathlib.Path, date: str) -> dict[str, Any]:
         "signing_profile": receipt.get("signing_profile"),
         "timestamp": receipt.get("timestamp"),
         "caveat": receipt.get("caveat"),
+        "verifier_url": EATF_VERIFIER_URL,
+        "public_package": public_evidence.get("package"),
+        "public_payload": public_evidence.get("payload"),
+        "public_receipt": public_evidence.get("receipt"),
+        "public_metadata": public_evidence.get("metadata"),
     }
 
 
-def row_to_run(workspace: pathlib.Path, row: dict[str, Any]) -> dict[str, Any]:
+def row_to_run(workspace: pathlib.Path, row: dict[str, Any], public_evidence: dict[str, Any] | None = None) -> dict[str, Any]:
     date = str(row["date"])
     bundle_manifest = workspace / "bundles" / date / "snapshot-summary.json.bundle" / "manifest.json"
     bundle_summary = workspace / "bundles" / date / "snapshot-summary.json"
@@ -118,7 +159,7 @@ def row_to_run(workspace: pathlib.Path, row: dict[str, Any]) -> dict[str, Any]:
             "bundle_manifest": str(bundle_manifest.relative_to(workspace)) if bundle_manifest.exists() else None,
             "bundle_manifest_sha256": sha256_file(bundle_manifest) if bundle_manifest.exists() else None,
         },
-        "eatf": load_eatf_status(workspace, date),
+        "eatf": load_eatf_status(workspace, date, public_evidence),
         "alert_event_types": row.get("alert_event_types") or {},
         "caveat": row.get("caveat") or CAVEAT,
     }
@@ -209,6 +250,9 @@ def build_dashboard_cards(index: dict[str, Any], cards_dir: pathlib.Path) -> dic
                 "package_sha256": latest_run["eatf"].get("package_sha256"),
                 "receipt_path": latest_run["eatf"].get("receipt_path"),
                 "receipt_sha256": latest_run["eatf"].get("receipt_sha256"),
+                "public_package": latest_run["eatf"].get("public_package"),
+                "public_receipt": latest_run["eatf"].get("public_receipt"),
+                "verifier_url": latest_run["eatf"].get("verifier_url"),
                 "signing_profile": latest_run["eatf"].get("signing_profile"),
             },
             "interpretation": "A status of ok verifies package bytes, envelope structure, and declared hashes only.",
@@ -274,8 +318,11 @@ def build_index(workspace: pathlib.Path, public_dir: pathlib.Path, aggregate_jso
 
     data_dir = public_dir / "data"
     figures_dir = data_dir / "figures"
+    evidence_dir = public_dir / "evidence"
     data_dir.mkdir(parents=True, exist_ok=True)
     figures_dir.mkdir(parents=True, exist_ok=True)
+    if evidence_dir.exists():
+        shutil.rmtree(evidence_dir)
 
     aggregate_copy = data_dir / "aggregate-results.json"
     write_json(aggregate_copy, aggregate)
@@ -289,7 +336,11 @@ def build_index(workspace: pathlib.Path, public_dir: pathlib.Path, aggregate_jso
             copied["source"] = str(src.relative_to(workspace))
             figure_records.append(copied)
 
-    runs = [row_to_run(workspace, row) for row in rows]
+    public_evidence_by_date = {
+        str(row["date"]): copy_public_evidence(workspace, public_dir, str(row["date"]))
+        for row in rows
+    }
+    runs = [row_to_run(workspace, row, public_evidence_by_date.get(str(row["date"]))) for row in rows]
     latest = runs[-1]
     eatf_ok = sum(1 for run in runs if run["eatf"].get("status") == "ok")
     packaged = sum(1 for run in runs if run["eatf"].get("status") not in {"not_packaged", None})
@@ -299,6 +350,13 @@ def build_index(workspace: pathlib.Path, public_dir: pathlib.Path, aggregate_jso
         "project": "cassandra",
         "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
         "repo": "https://github.com/tyche-institute/cassandra",
+        "canonical_url": CANONICAL_URL,
+        "fallback_url": FALLBACK_URL,
+        "eatf": {
+            "name": "Evidence Attestation and Transparency Framework",
+            "home": "https://eatf.eu/",
+            "verifier": EATF_VERIFIER_URL,
+        },
         "latest_date": latest["date"],
         "run_count": len(runs),
         "packaged_evidence_count": packaged,

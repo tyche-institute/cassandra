@@ -39,15 +39,36 @@
   },
   "eatf": {
     "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-    "package_path": null,
-    "package_sha256": null,
+    "package_path": "evidence/2026-05-28/cassandra-observation.aep",
+    "package_sha256": "77604ab2b1424899b0d4190067d9d235c24e7081fa6ea08c48a716f5bbf7dfe2",
     "payload_path": "evidence/2026-05-28/cassandra-observation.json",
-    "payload_sha256": "d4fc5c66d701d534f8d7697539ee47b22adf00999a62028abc83e359f98e5fa0",
+    "payload_sha256": "f04b8ba5e8c2fcc2e0fc876811ad01604e38a454069a539c0763c51758528874",
+    "public_metadata": {
+      "path": "evidence/2026-05-28/eatf-metadata.json",
+      "sha256": "622a90ef29e996281a0e6e0dc1d45b0aad17963ed0a6338cc586ba8c32a2e0e2",
+      "size_bytes": 908
+    },
+    "public_package": {
+      "path": "evidence/2026-05-28/cassandra-observation.aep",
+      "sha256": "77604ab2b1424899b0d4190067d9d235c24e7081fa6ea08c48a716f5bbf7dfe2",
+      "size_bytes": 12631
+    },
+    "public_payload": {
+      "path": "evidence/2026-05-28/cassandra-observation.json",
+      "sha256": "f04b8ba5e8c2fcc2e0fc876811ad01604e38a454069a539c0763c51758528874",
+      "size_bytes": 3938
+    },
+    "public_receipt": {
+      "path": "evidence/2026-05-28/eatf-verification.json",
+      "sha256": "1b24cd8cd3e26b5ef5f55acc76ee563e7eb7fa5f381b28c93d20abd5b662bb0d",
+      "size_bytes": 3587
+    },
     "receipt_path": "evidence/2026-05-28/eatf-verification.json",
-    "receipt_sha256": "476c05830bc711a28b17f3b5fc55565aedf7e495363f3869b8594911d78766cd",
-    "signing_profile": "unsigned",
-    "status": "skipped_missing_signing_inputs",
+    "receipt_sha256": "1b24cd8cd3e26b5ef5f55acc76ee563e7eb7fa5f381b28c93d20abd5b662bb0d",
+    "signing_profile": "local-dev:eatf-dev-rsa4096",
+    "status": "ok",
     "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-    "valid": null
+    "valid": true,
+    "verifier_url": "https://eatf.eu/verify"
   }
 }
