@@ -4,6 +4,8 @@ Status: local pre-submission candidate; no publication, upload, deposit, submiss
 
 Route decision: Cassandra is best treated first as a Data & Policy / governance evidence-infrastructure article. The core contribution is not a reusable dataset alone; it is a public-administration and digital-trust case showing how PKI/eIDAS trusted-list governance artifacts can be transformed into bounded, replayable evidence infrastructure without becoming legal interpretation or supervision.
 
+AI boundary: Cassandra is not an AI monitor and not an AI-system case study. It is the public governance-artifact baseline for the evidence discipline that AI governance will need: agent attestations, agent cards, evaluation receipts, incident records, lifecycle-monitoring snapshots, and decision-transcript packages should inherit the same claim/source/hash/caveat/receipt discipline.
+
 Completed cleanup:
 
 - Removed `working copy` / `working polish` status language from the promoted v0.3 source and PDF.

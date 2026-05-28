@@ -349,6 +349,21 @@ def build_index(workspace: pathlib.Path, public_dir: pathlib.Path, aggregate_jso
         "created_at": now_z(),
         "project": "cassandra",
         "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
+        "ai_governance_bridge": {
+            "boundary": "Cassandra is not an AI monitor and does not inspect models.",
+            "role": (
+                "Sample public governance-artifact case study for the evidence "
+                "discipline that AI governance will need."
+            ),
+            "future_case_studies": [
+                "agent attestations",
+                "agent cards",
+                "evaluation receipts",
+                "incident records",
+                "lifecycle-monitoring snapshots",
+                "decision-transcript packages",
+            ],
+        },
         "repo": "https://github.com/tyche-institute/cassandra",
         "canonical_url": CANONICAL_URL,
         "fallback_url": FALLBACK_URL,

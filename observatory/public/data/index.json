@@ -28,6 +28,18 @@
       "service_count_total": 23933
     }
   },
+  "ai_governance_bridge": {
+    "boundary": "Cassandra is not an AI monitor and does not inspect models.",
+    "future_case_studies": [
+      "agent attestations",
+      "agent cards",
+      "evaluation receipts",
+      "incident records",
+      "lifecycle-monitoring snapshots",
+      "decision-transcript packages"
+    ],
+    "role": "Sample public governance-artifact case study for the evidence discipline that AI governance will need."
+  },
   "canonical_url": "https://cassandra.eatf.eu/",
   "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
@@ -43,7 +55,7 @@
       "absence of legally relevant change"
     ]
   },
-  "created_at": "2026-05-28T11:05:29Z",
+  "created_at": "2026-05-28T11:47:39Z",
   "dashboard_cards": {
     "card_count": 5,
     "cards": [

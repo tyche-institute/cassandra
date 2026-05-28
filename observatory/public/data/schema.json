@@ -35,6 +35,19 @@
     "case_study_sentence": {
       "const": "Cassandra: from governance infrastructure to evidence infrastructure."
     },
+    "ai_governance_bridge": {
+      "type": "object",
+      "description": "Explicit boundary and transfer note: Cassandra is not an AI monitor; it is a public governance-artifact sample for AI-governance evidence discipline.",
+      "additionalProperties": true,
+      "properties": {
+        "boundary": {"type": "string"},
+        "role": {"type": "string"},
+        "future_case_studies": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
     "repo": {
       "type": "string"
     },

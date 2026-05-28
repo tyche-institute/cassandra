@@ -17,7 +17,12 @@ system of certificates, policies, revocation channels, trusted lists,
 audits, supervisory conventions, software distribution, and
 institutional delegation.[^pki] This paper presents Cassandra as a case
 study: a bounded research observatory for European list-of-lists-derived
-trusted-list artifacts. The observatory records dated attempts to
+trusted-list artifacts. Cassandra is not an artificial-intelligence (AI)
+monitor and does not inspect models. It is a sample public
+governance-artifact case study for the evidence discipline that AI
+governance will need: claim boundaries, reproducible records, package
+receipts, and independently checkable provenance. The observatory
+records dated attempts to
 collect public
 trusted-list documents, normalizes comparable Extensible Markup Language
 (XML) artifacts, emits structural diff classes, packages each
@@ -40,8 +45,8 @@ not a trusted-list validator, not a relying-party signature validator,
 not a public alerting system, not a supervisory tool, and not a legal
 status oracle. Its contribution is methodological: it shows how a public
 governance surface can become a reproducible evidence stream, and how
-the same discipline can inform emerging artificial-intelligence (AI)
-governance records without collapsing cryptographic evidence into legal
+the same discipline can inform emerging AI governance records without
+collapsing cryptographic evidence into legal
 truth.[^ai]
 
 Keywords: evidence infrastructure; public-key infrastructure; trusted
@@ -111,6 +116,16 @@ trusted-list signatures for reliance, supervise any actor, or publish
 warnings. Its object is the research workflow and the saved public
 artifacts under that workflow.
 
+This is the category boundary for the whole paper. Cassandra is not
+presented as an AI-system case study. It is an EATF use case over a
+public governance artifact: a deliberately safer laboratory for showing
+how claims, sources, hashes, caveats, receipts, and verifier outputs can
+travel together. Later case studies in the thesis program can move from
+this public-governance baseline to agent attestations, agent cards,
+evaluation receipts, incident and post-market records, and decision
+transcript packages. Cassandra provides the low-risk public substrate on
+which the more sensitive AI-governance evidence argument can stand.
+
 The central claim is captured in one sentence: Cassandra moves from
 governance infrastructure to evidence infrastructure. PKI and electronic
 identification, authentication and trust services (eIDAS) trusted lists
@@ -139,8 +154,9 @@ dashboard cards, and EATF/AEP evidence receipts. Third, it maps synthetic
 fixtures to reviewer-facing claims so that software behavior is tested
 without exposing provider or service names. Fourth, it positions
 Cassandra inside a thesis program in which PKI is governance
-infrastructure and EATF/MIRROR-style packages provide an adjacent
-evidence layer for AI and public-administration records.
+infrastructure, Cassandra is the public governance-artifact baseline,
+and EATF/MIRROR-style packages become an adjacent evidence layer for AI
+and public-administration records.
 
 ## 2. Background: Trusted Lists as Governance Artifacts
 
