@@ -17,6 +17,9 @@
   --red: #a43842;
   --red-soft: #f4e3e5;
   --shadow: 0 1px 2px rgba(22, 32, 28, 0.05), 0 16px 42px rgba(22, 32, 28, 0.07);
+  --serif: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", "SF Mono", ui-monospace, Menlo, Consolas, monospace;
 }
 
 * {
@@ -32,13 +35,13 @@ body {
   min-width: 320px;
   background: var(--bg);
   color: var(--ink);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.45;
+  font-family: var(--serif);
+  line-height: 1.5;
 }
 
 a {
   color: var(--blue);
-  font-weight: 700;
+  font-weight: 600;
   text-decoration-color: rgba(36, 95, 157, 0.35);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
@@ -60,15 +63,15 @@ h1 {
   max-width: 980px;
   margin-bottom: 12px;
   font-size: clamp(30px, 5vw, 58px);
-  font-weight: 760;
+  font-weight: 600;
   letter-spacing: 0;
-  line-height: 1.03;
+  line-height: 1.04;
 }
 
 h2 {
   margin-bottom: 0;
   font-size: 20px;
-  font-weight: 760;
+  font-weight: 600;
   letter-spacing: 0;
   line-height: 1.2;
 }
@@ -99,8 +102,9 @@ main {
 .metric-label {
   margin: 0 0 8px;
   color: var(--green);
+  font-family: var(--sans);
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 650;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -122,9 +126,30 @@ main {
 
 .header-status strong {
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   overflow-wrap: anywhere;
+  font-family: var(--sans);
   font-size: 16px;
+  font-weight: 650;
+}
+
+.cadence-note {
+  display: grid;
+  grid-template-columns: 12px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+  margin-bottom: 14px;
+  color: #4a5d55;
+  font-size: 13px;
+}
+
+.pulse-dot {
+  width: 9px;
+  height: 9px;
+  margin-top: 6px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 0 6px rgba(23, 114, 77, 0.12);
 }
 
 .quick-links,
@@ -144,8 +169,27 @@ main {
   border-radius: 8px;
   background: var(--surface-tint);
   color: var(--blue);
+  font-family: var(--sans);
   font-size: 13px;
+  font-weight: 650;
   text-decoration: none;
+}
+
+.cadence-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 0.42fr);
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfa;
+  box-shadow: var(--shadow);
+}
+
+.cadence-strip p {
+  margin-bottom: 0;
+  color: #3c4f48;
 }
 
 .metric-grid {
@@ -179,6 +223,7 @@ main {
   margin-bottom: 10px;
   overflow-wrap: anywhere;
   font-size: clamp(26px, 3vw, 38px);
+  font-weight: 560;
   letter-spacing: 0;
   line-height: 1;
 }
@@ -215,8 +260,9 @@ main {
   border-radius: 8px;
   background: var(--green-soft);
   color: var(--green);
+  font-family: var(--sans);
   font-size: 13px;
-  font-weight: 850;
+  font-weight: 650;
 }
 
 .lemma-band {
@@ -242,7 +288,7 @@ main {
   border-radius: 6px;
   background: var(--soft);
   color: #20352e;
-  font-family: "IBM Plex Mono", "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-family: var(--mono);
   font-size: 0.94em;
 }
 
@@ -268,20 +314,22 @@ main {
   display: block;
   margin-bottom: 8px;
   color: var(--muted);
+  font-family: var(--sans);
   font-size: 12px;
-  font-weight: 760;
+  font-weight: 650;
   text-transform: uppercase;
 }
 
 .flow-item strong {
   display: block;
   font-size: 19px;
+  font-weight: 600;
 }
 
 .two-column,
 .analytics-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(280px, 0.62fr) minmax(0, 1.38fr);
   gap: 16px;
   margin-top: 16px;
 }
@@ -298,6 +346,12 @@ main {
   padding: 18px;
   border-bottom: 1px solid var(--line);
   background: var(--surface-tint);
+}
+
+.panel-caption {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .subtle {
@@ -320,7 +374,7 @@ main {
 #latestEvidence dt {
   color: #31443d;
   font-size: 13px;
-  font-weight: 800;
+  font-weight: 650;
 }
 
 .glossary dd,
@@ -332,7 +386,7 @@ main {
 
 #latestEvidence dd {
   overflow-wrap: anywhere;
-  font-family: "IBM Plex Mono", "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-family: var(--mono);
 }
 
 .hash-cell {
@@ -389,8 +443,9 @@ td {
 th {
   color: var(--muted);
   background: var(--soft);
+  font-family: var(--sans);
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 650;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -417,8 +472,9 @@ tbody tr:last-child td {
   border-radius: 999px;
   background: #f8faf8;
   color: var(--muted);
+  font-family: var(--sans);
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 650;
 }
 
 .chip.ok {
@@ -455,7 +511,7 @@ tbody tr:last-child td {
 .diff-name {
   color: #31443d;
   font-size: 13px;
-  font-weight: 780;
+  font-weight: 600;
 }
 
 .bar-track {
@@ -476,8 +532,9 @@ tbody tr:last-child td {
 
 .diff-count {
   color: var(--muted);
+  font-family: var(--sans);
   font-size: 13px;
-  font-weight: 780;
+  font-weight: 650;
   text-align: right;
 }
 
@@ -493,13 +550,13 @@ figure {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #14253a;
+  background: #fcfbf7;
 }
 
 figure img {
   display: block;
   width: 100%;
-  min-height: 235px;
+  min-height: 340px;
   object-fit: contain;
 }
 
@@ -537,6 +594,11 @@ figure img {
   .two-column,
   .analytics-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .analytics-grid,
+  .cadence-strip {
+    grid-template-columns: 1fr;
   }
 
   .explainer-grid .explainer:last-child {

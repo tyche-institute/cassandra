@@ -1,35 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
-<metadata id="cassandra-figure-metadata">{&quot;caveat&quot;: &quot;Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-27T17:34:34Z&quot;, &quot;dates&quot;: [&quot;2026-05-20&quot;, &quot;2026-05-21&quot;, &quot;2026-05-22&quot;, &quot;2026-05-27&quot;], &quot;fields&quot;: [&quot;pointer_attempts&quot;, &quot;fetched_content_files&quot;, &quot;fetch_errors&quot;, &quot;normalized_xml_artifacts&quot;, &quot;normalization_skips&quot;, &quot;normalization_errors&quot;, &quot;diff_current_record_count&quot;, &quot;diff_change_count&quot;], &quot;lane&quot;: &quot;cassandra&quot;, &quot;row_count&quot;: 4, &quot;schema&quot;: &quot;urn:tyche:cassandra:figure:aggregate-run-telemetry:0.1&quot;, &quot;source_csv&quot;: &quot;notes/aggregate-results-table.csv&quot;, &quot;source_csv_sha256&quot;: &quot;e4d6c727d96985074d648385f9943154f4082310f7d64313e5b8c4806a97461d&quot;, &quot;title&quot;: &quot;Cassandra aggregate run telemetry&quot;}</metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="786" viewBox="0 0 1160 786" role="img" aria-labelledby="title desc">
+<metadata id="cassandra-figure-metadata">{&quot;caveat&quot;: &quot;Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-28T05:57:43Z&quot;, &quot;dates&quot;: [&quot;2026-05-20&quot;, &quot;2026-05-21&quot;, &quot;2026-05-22&quot;, &quot;2026-05-27&quot;], &quot;fields&quot;: [&quot;pointer_attempts&quot;, &quot;fetched_content_files&quot;, &quot;fetch_errors&quot;, &quot;normalized_xml_artifacts&quot;, &quot;normalization_skips&quot;, &quot;normalization_errors&quot;, &quot;diff_current_record_count&quot;, &quot;diff_change_count&quot;], &quot;lane&quot;: &quot;cassandra&quot;, &quot;row_count&quot;: 4, &quot;schema&quot;: &quot;urn:tyche:cassandra:figure:aggregate-run-telemetry:0.1&quot;, &quot;source_csv&quot;: &quot;notes/aggregate-results-table.csv&quot;, &quot;source_csv_sha256&quot;: &quot;e4d6c727d96985074d648385f9943154f4082310f7d64313e5b8c4806a97461d&quot;, &quot;title&quot;: &quot;Cassandra aggregate run telemetry&quot;}</metadata>
 <title id="title">Cassandra aggregate run telemetry</title>
 <desc id="desc">Counts from local dated snapshot, normalization, diff, and alert manifests. Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</desc>
-<rect width="100%" height="100%" fill="#0f172a"/>
-<text x="40" y="52" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Cassandra aggregate run telemetry</text>
-<text x="40" y="84" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14">Counts from local dated snapshot, normalization, diff, and alert manifests.</text>
-<text x="40" y="108" fill="#fbbf24" font-family="Inter, Arial, sans-serif" font-size="12">Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</text>
-<text x="40" y="168" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Pointer attempts</text>
-<rect x="260" y="150" width="560" height="22" rx="4" fill="#5B8DEF"/>
-<text x="832" y="167" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">172</text>
-<text x="40" y="208" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Fetched files</text>
-<rect x="260" y="190" width="544" height="22" rx="4" fill="#39A275"/>
-<text x="816" y="207" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">167</text>
-<text x="40" y="248" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Fetch errors</text>
-<rect x="260" y="230" width="16" height="22" rx="4" fill="#D97706"/>
-<text x="288" y="247" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">5</text>
-<text x="40" y="288" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Normalized XML</text>
-<rect x="260" y="270" width="404" height="22" rx="4" fill="#7C3AED"/>
-<text x="676" y="287" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">124</text>
-<text x="40" y="328" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Non-XML skips</text>
-<rect x="260" y="310" width="127" height="22" rx="4" fill="#64748B"/>
-<text x="399" y="327" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">39</text>
-<text x="40" y="368" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Parser errors</text>
-<rect x="260" y="350" width="13" height="22" rx="4" fill="#DC2626"/>
-<text x="285" y="367" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">4</text>
-<text x="40" y="408" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Comparable records</text>
-<rect x="260" y="390" width="404" height="22" rx="4" fill="#0891B2"/>
-<text x="676" y="407" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">124</text>
-<text x="40" y="448" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">Diff entries</text>
-<rect x="260" y="430" width="215" height="22" rx="4" fill="#BE123C"/>
-<text x="487" y="447" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">66</text>
-<text x="40" y="552" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12">Source: notes/aggregate-results-table.csv (sha256:e4d6c727d96985074d648385f9943154f4082310f7d64313e5b8c4806a97461d)</text>
-<text x="40" y="574" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="11">Dates summarized: 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-27. Listed names are intentionally absent from this figure.</text>
+<rect width="100%" height="100%" fill="#fcfbf7"/>
+<rect x="24" y="24" width="1112" height="90" rx="10" fill="#f2f5f0" stroke="#d8e2dc"/>
+<text x="44" y="62" fill="#17211d" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="30" font-weight="600">Cassandra aggregate run telemetry</text>
+<text x="44" y="92" fill="#42534d" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="17">Counts from local dated snapshot, normalization, diff, and alert manifests.</text>
+<text x="44" y="134" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="14">Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision,</text>
+<text x="44" y="152" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="14">not signature validation, not public alerting, and not publication approval.</text>
+<text x="44" y="213" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Pointer attempts</text>
+<rect x="360" y="194" width="650" height="20" rx="10" fill="#e7eee9"/>
+<rect x="360" y="194" width="650" height="20" rx="10" fill="#5B8DEF"/>
+<text x="1034" y="213" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">172</text>
+<text x="44" y="269" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Fetched files</text>
+<rect x="360" y="250" width="650" height="20" rx="10" fill="#e7eee9"/>
+<rect x="360" y="250" width="631" height="20" rx="10" fill="#39A275"/>
+<text x="1034" y="269" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">167</text>
+<text x="44" y="325" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Fetch errors</text>
+<rect x="360" y="306" width="650" height="20" rx="10" fill="#e7eee9"/>
+<rect x="360" y="306" width="19" height="20" rx="10" fill="#D97706"/>
+<text x="1034" y="325" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">5</text>
+<text x="44" y="381" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Normalized XML</text>
+<rect x="360" y="362" width="650" height="20" rx="10" fill="#e7eee9"/>
+<rect x="360" y="362" width="469" height="20" rx="10" fill="#7C3AED"/>
+<text x="1034" y="381" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">124</text>
+<text x="44" y="437" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Non-XML skips</text>
+<rect x="360" y="418" width="650" height="20" rx="10" fill="#e7eee9"/>
+<rect x="360" y="418" width="147" height="20" rx="10" fill="#64748B"/>
+<text x="1034" y="437" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">39</text>
+<text x="44" y="493" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Parser errors</text>
+<rect x="360" y="474" width="650" height="20" rx="10" fill="#e7eee9"/>
+<rect x="360" y="474" width="15" height="20" rx="10" fill="#DC2626"/>
+<text x="1034" y="493" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">4</text>
+<text x="44" y="549" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Comparable records</text>
+<rect x="360" y="530" width="650" height="20" rx="10" fill="#e7eee9"/>
+<rect x="360" y="530" width="469" height="20" rx="10" fill="#0891B2"/>
+<text x="1034" y="549" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">124</text>
+<text x="44" y="605" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Diff entries</text>
+<rect x="360" y="586" width="650" height="20" rx="10" fill="#e7eee9"/>
+<rect x="360" y="586" width="249" height="20" rx="10" fill="#BE123C"/>
+<text x="1034" y="605" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">66</text>
+<text x="44" y="738" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="14">Source: notes/aggregate-results-table.csv (sha256:e4d6c727d969...6a97461d)</text>
+<text x="44" y="762" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="14">Dates summarized: 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-27. Listed names are intentionally absent from this figure.</text>
 </svg>

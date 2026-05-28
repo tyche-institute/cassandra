@@ -24,6 +24,9 @@ CAVEAT = (
     "not public alerting, and not publication approval."
 )
 
+FONT_SERIF = "Charter, Iowan Old Style, Palatino Linotype, Georgia, serif"
+FONT_SANS = "Inter, Arial, sans-serif"
+
 RUN_FIELDS = [
     ("pointer_attempts", "Pointer attempts", "#5B8DEF"),
     ("fetched_content_files", "Fetched files", "#39A275"),
@@ -80,6 +83,44 @@ def int_value(row: dict[str, Any], field: str) -> int:
     return int(value)
 
 
+def wrap_text(text: str, max_chars: int) -> list[str]:
+    words = text.split()
+    lines: list[str] = []
+    current: list[str] = []
+    for word in words:
+        candidate = " ".join([*current, word])
+        if current and len(candidate) > max_chars:
+            lines.append(" ".join(current))
+            current = [word]
+        else:
+            current.append(word)
+    if current:
+        lines.append(" ".join(current))
+    return lines
+
+
+def svg_text_lines(
+    *,
+    x: int,
+    y: int,
+    lines: list[str],
+    fill: str,
+    font_size: int,
+    line_height: int,
+    font_family: str = FONT_SERIF,
+    font_weight: int | None = None,
+) -> list[str]:
+    weight = f' font-weight="{font_weight}"' if font_weight else ""
+    return [
+        (
+            f'<text x="{x}" y="{y + idx * line_height}" fill="{fill}" '
+            f'font-family="{html.escape(font_family)}" font-size="{font_size}"{weight}>'
+            f"{html.escape(line)}</text>"
+        )
+        for idx, line in enumerate(lines)
+    ]
+
+
 def svg_bar_chart(
     *,
     title: str,
@@ -93,12 +134,12 @@ def svg_bar_chart(
     dates = [str(row.get("date", "unknown")) for row in rows]
     totals = {field: sum(int_value(row, field) for row in rows) for field, _, _ in fields}
     max_value = max([1, *totals.values()])
-    width = 960
-    left = 260
-    top = 150
-    row_height = 40
-    bar_max = 560
-    height = top + len(fields) * row_height + 130
+    width = 1160
+    left = 360
+    top = 188
+    row_height = 56
+    bar_max = 650
+    height = top + len(fields) * row_height + 150
     created_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     metadata = {
         "schema": schema,
@@ -117,24 +158,45 @@ def svg_bar_chart(
         f'<metadata id="cassandra-figure-metadata">{html.escape(json.dumps(metadata, sort_keys=True))}</metadata>',
         f'<title id="title">{html.escape(title)}</title>',
         f'<desc id="desc">{html.escape(subtitle + " " + CAVEAT)}</desc>',
-        '<rect width="100%" height="100%" fill="#0f172a"/>',
-        f'<text x="40" y="52" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">{html.escape(title)}</text>',
-        f'<text x="40" y="84" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14">{html.escape(subtitle)}</text>',
-        f'<text x="40" y="108" fill="#fbbf24" font-family="Inter, Arial, sans-serif" font-size="12">{html.escape(CAVEAT)}</text>',
+        '<rect width="100%" height="100%" fill="#fcfbf7"/>',
+        '<rect x="24" y="24" width="1112" height="90" rx="10" fill="#f2f5f0" stroke="#d8e2dc"/>',
     ]
+    lines.extend(svg_text_lines(
+        x=44,
+        y=62,
+        lines=[title],
+        fill="#17211d",
+        font_size=30,
+        line_height=34,
+        font_weight=600,
+    ))
+    lines.extend(svg_text_lines(
+        x=44,
+        y=92,
+        lines=[subtitle],
+        fill="#42534d",
+        font_size=17,
+        line_height=22,
+    ))
+    for caveat_idx, caveat_line in enumerate(wrap_text(CAVEAT, 122)):
+        lines.append(
+            f'<text x="44" y="{134 + caveat_idx * 18}" fill="#845f17" '
+            f'font-family="{html.escape(FONT_SANS)}" font-size="14">{html.escape(caveat_line)}</text>'
+        )
     for idx, (field, label, color) in enumerate(fields):
         value = totals[field]
         y = top + idx * row_height
-        bar_width = 0 if value == 0 else max(3, round((value / max_value) * bar_max))
+        bar_width = 0 if value == 0 else max(5, round((value / max_value) * bar_max))
         lines.extend([
-            f'<text x="40" y="{y + 18}" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="13">{html.escape(label)}</text>',
-            f'<rect x="{left}" y="{y}" width="{bar_width}" height="22" rx="4" fill="{color}"/>',
-            f'<text x="{left + bar_width + 12}" y="{y + 17}" fill="#e2e8f0" font-family="Inter, Arial, sans-serif" font-size="13">{value}</text>',
+            f'<text x="44" y="{y + 25}" fill="#24342e" font-family="{html.escape(FONT_SERIF)}" font-size="18">{html.escape(label)}</text>',
+            f'<rect x="{left}" y="{y + 6}" width="{bar_max}" height="20" rx="10" fill="#e7eee9"/>',
+            f'<rect x="{left}" y="{y + 6}" width="{bar_width}" height="20" rx="10" fill="{color}"/>',
+            f'<text x="{left + bar_max + 24}" y="{y + 25}" fill="#24342e" font-family="{html.escape(FONT_SANS)}" font-size="17">{value}</text>',
         ])
     footer_y = height - 48
     lines.extend([
-        f'<text x="40" y="{footer_y}" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="12">Source: {html.escape(source_csv)} (sha256:{html.escape(source_csv_sha256)})</text>',
-        f'<text x="40" y="{footer_y + 22}" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="11">Dates summarized: {html.escape(", ".join(dates))}. Listed names are intentionally absent from this figure.</text>',
+        f'<text x="44" y="{footer_y}" fill="#62736d" font-family="{html.escape(FONT_SANS)}" font-size="14">Source: {html.escape(source_csv)} (sha256:{html.escape(source_csv_sha256[:12])}...{html.escape(source_csv_sha256[-8:])})</text>',
+        f'<text x="44" y="{footer_y + 24}" fill="#62736d" font-family="{html.escape(FONT_SANS)}" font-size="14">Dates summarized: {html.escape(", ".join(dates))}. Listed names are intentionally absent from this figure.</text>',
         "</svg>",
     ])
     return "\n".join(lines) + "\n"

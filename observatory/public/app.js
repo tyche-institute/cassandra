@@ -20,6 +20,13 @@ const formatDateTime = (value) => {
   return dateFormat.format(parsed);
 };
 
+const nextDailyRun = () => {
+  const now = new Date();
+  const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 3, 23, 0));
+  if (next <= now) next.setUTCDate(next.getUTCDate() + 1);
+  return dateFormat.format(next);
+};
+
 const humanize = (value) => String(value || "-").replaceAll("_", " ");
 
 const shortHash = (value) => {
@@ -196,7 +203,8 @@ const render = (index) => {
     "metricEatf",
     `${numberFormat.format(index.eatf_verified_count || 0)} / ${numberFormat.format(runs.length || 0)}`,
   );
-  text("claimBoundary", "Receipts verify packages and hashes, not legal trusted-list status.");
+  text("nextCadence", `Next scheduled window: ${nextDailyRun()}.`);
+  text("claimBoundary", "EATF receipts verify packages and hashes, not legal trusted-list status.");
   text("caveat", index.caveat || "");
 
   const latestStatus = document.getElementById("latestReceiptStatus");

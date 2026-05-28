@@ -42,7 +42,7 @@
       "absence of legally relevant change"
     ]
   },
-  "created_at": "2026-05-27T19:14:07Z",
+  "created_at": "2026-05-28T05:58:00Z",
   "dashboard_cards": {
     "card_count": 5,
     "cards": [
@@ -79,14 +79,14 @@
   "figures": [
     {
       "path": "aggregate-diff-classes.svg",
-      "sha256": "7ea8efbc9b0c4805d9d192f4b94bca119944b54a84b8a4b83d12eba28c5be82d",
-      "size_bytes": 4741,
+      "sha256": "6da3b79fd3a0200e9242365e18b77f40cd9d2f6f840860b32595c5302726f9ce",
+      "size_bytes": 5712,
       "source": "figures/aggregate-diff-classes.svg"
     },
     {
       "path": "aggregate-run-telemetry.svg",
-      "sha256": "a4a1637fa5aebc6987b5851a8d9f7f62d247a1d7a58be5be5e3c7a9d6c2fb74e",
-      "size_bytes": 5006,
+      "sha256": "7dc03cbb5247a9b3cfe4f9a1aea3169e12cac1c36c9f3920241b84df30731686",
+      "size_bytes": 6085,
       "source": "figures/aggregate-run-telemetry.svg"
     }
   ],

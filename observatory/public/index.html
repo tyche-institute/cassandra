@@ -24,16 +24,36 @@
       <div class="header-status" aria-label="Dataset status">
         <span class="status-kicker">Public dataset</span>
         <strong id="lastUpdated">Loading data</strong>
+        <p class="cadence-note">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          Runs daily at 03:23 UTC; the public page updates after a successful observation, evidence
+          package, and deploy.
+        </p>
         <nav class="quick-links" aria-label="Data links">
           <a href="./data/index.json">JSON index</a>
           <a href="./data/aggregate-results-table.csv">CSV table</a>
           <a href="./data/schema.json">Schema</a>
+          <a href="https://eatf.eu/" rel="noreferrer">EATF</a>
           <a href="./paper/cassandra-preprint-v0.2.pdf">Preprint</a>
         </nav>
       </div>
     </header>
 
     <main>
+      <section class="cadence-strip" aria-label="Update cadence">
+        <div>
+          <span class="section-label">Cadence</span>
+          <p>
+            Daily scheduled collection, packaging, and publication. Manual runs are possible, but
+            the public stream is designed to grow one dated observation at a time.
+          </p>
+        </div>
+        <div>
+          <span class="section-label">Next window</span>
+          <p id="nextCadence">Calculating next 03:23 UTC run...</p>
+        </div>
+      </section>
+
       <section class="metric-grid" aria-label="Current observatory metrics">
         <article class="metric">
           <span class="metric-label">Latest run</span>
@@ -53,7 +73,7 @@
         <article class="metric">
           <span class="metric-label">EATF receipts</span>
           <strong id="metricEatf">-</strong>
-          <small>packages with verifiable evidence receipts</small>
+          <small>Evidence Attestation and Transparency Framework receipts</small>
         </article>
       </section>
 
@@ -71,9 +91,9 @@
           <span class="step-mark">02</span>
           <h2>What EATF proves</h2>
           <p>
-            EATF receipts bind the evidence package, payload, and declared hashes. They prove the
-            observation package is intact, not that a provider is compliant or that a list has legal
-            effect.
+            The Evidence Attestation and Transparency Framework (EATF) binds the evidence package,
+            payload, and declared hashes. It proves the observation package is intact, not that a
+            provider is compliant or that a list has legal effect.
           </p>
         </article>
         <article class="explainer">
@@ -136,7 +156,10 @@
             <dt>Structural diff</dt>
             <dd>A machine-readable description of what changed between saved observations.</dd>
             <dt>EATF receipt</dt>
-            <dd>A receipt that lets someone verify package integrity and declared hashes later.</dd>
+            <dd>
+              An Evidence Attestation and Transparency Framework receipt: a compact verification
+              record for package integrity and declared hashes. See <a href="https://eatf.eu/" rel="noreferrer">eatf.eu</a>.
+            </dd>
             <dt>Claim boundary</dt>
             <dd>The line between evidence integrity and legal, supervisory, or compliance interpretation.</dd>
           </dl>
@@ -197,6 +220,7 @@
             <div>
               <p class="section-label">Figures</p>
               <h2>Aggregate telemetry</h2>
+              <p class="panel-caption">Large-print SVG figures generated from the public aggregate table.</p>
             </div>
           </div>
           <div class="figure-stack">
