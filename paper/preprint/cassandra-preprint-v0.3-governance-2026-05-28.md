@@ -654,10 +654,7 @@ they are internal audit aids for release review.
 
 ## Artifact Availability
 
-Code repository: no public repository URL is cited in this version. A
-previously tested candidate repository path did not resolve in the
-2026-05-28 freshness check, so it is omitted from the availability
-statement until repository visibility or URL status is corrected.
+Code repository: [tyche-institute/cassandra](https://github.com/tyche-institute/cassandra)
 
 Dashboard: [cassandra.eatf.eu](https://cassandra.eatf.eu/)
 
@@ -701,12 +698,12 @@ audit aids for release review; they are not independent public
 authorities and should not be cited as external validation.
 
 Generative-AI assistance: the author used OpenAI Codex / GPT-5-based
-tools for manuscript revision, claim-boundary review, source-freshness
-bookkeeping, and release-readiness checks. The author reviewed and
-remains responsible for all claims, counts, legal boundaries, references,
-and final submission choices. The assistance did not create new
-empirical counts, perform legal interpretation, validate trusted-list
-source signatures, or approve the manuscript for submission.
+tools for manuscript revision and release-readiness checks. The author
+reviewed and remains responsible for all claims, counts, legal
+boundaries, references, and final submission choices. The assistance did
+not create new empirical counts, perform legal interpretation, validate
+trusted-list source signatures, or approve the manuscript for
+submission.
 
 ## References
 
