@@ -168,7 +168,9 @@ jobs:
             KEY_ARGS=(--key .github-tmp/eatf/private.pem --public-key .github-tmp/eatf/public.pem)
             SIGNING_PROFILE="github-secret:cassandra-eatf-key"
           else
-            echo "::warning::CASSANDRA_EATF_PRIVATE_KEY_PEM/PUBLIC_KEY_PEM are missing; writing an explicit unsigned receipt."
+            KEY_ARGS=(--key .eatf/test-vectors/keys/dev-rsa-4096.key --public-key .eatf/test-vectors/keys/dev-rsa-4096.pem)
+            SIGNING_PROFILE="local-dev:eatf-dev-rsa4096"
+            echo "::notice::CASSANDRA_EATF_PRIVATE_KEY_PEM/PUBLIC_KEY_PEM are missing; using EATF fixture dev key for research-mode receipts."
           fi
 
           if [ -n "${CASSANDRA_EATF_TIMESTAMP_TSR_BASE64:-}" ]; then
