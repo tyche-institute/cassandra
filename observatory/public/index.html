@@ -3,44 +3,165 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Cassandra Observatory publishes dated structural observations over trusted-list derived artifacts, with EATF evidence receipts and explicit claim boundaries."
+    />
     <title>Cassandra Observatory</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div>
+    <header class="app-header">
+      <div class="header-copy">
         <p class="eyebrow">Cassandra Observatory</p>
-        <h1>From governance infrastructure to evidence infrastructure</h1>
+        <h1>From governance infrastructure to evidence infrastructure.</h1>
+        <p class="lede">
+          A public, dated evidence stream for structural observations around European trusted-list
+          infrastructure. Cassandra watches what changed, packages the observation, and keeps the
+          legal interpretation outside the receipt.
+        </p>
       </div>
-      <div class="status-block">
-        <span id="lastUpdated">Loading</span>
-        <a href="./data/index.json">index.json</a>
+      <div class="header-status" aria-label="Dataset status">
+        <span class="status-kicker">Public dataset</span>
+        <strong id="lastUpdated">Loading data</strong>
+        <nav class="quick-links" aria-label="Data links">
+          <a href="./data/index.json">JSON index</a>
+          <a href="./data/aggregate-results-table.csv">CSV table</a>
+          <a href="./data/schema.json">Schema</a>
+          <a href="./paper/cassandra-preprint-v0.2.pdf">Preprint</a>
+        </nav>
       </div>
     </header>
 
     <main>
       <section class="metric-grid" aria-label="Current observatory metrics">
         <article class="metric">
-          <span class="metric-label">Latest Run</span>
+          <span class="metric-label">Latest run</span>
           <strong id="metricLatest">-</strong>
+          <small>most recent dated observation</small>
         </article>
         <article class="metric">
           <span class="metric-label">Runs</span>
           <strong id="metricRuns">-</strong>
+          <small>published observations in this stream</small>
         </article>
         <article class="metric">
-          <span class="metric-label">Diff Entries</span>
+          <span class="metric-label">Diff entries</span>
           <strong id="metricDiffs">-</strong>
+          <small>structural changes detected across runs</small>
         </article>
         <article class="metric">
-          <span class="metric-label">EATF Verified</span>
+          <span class="metric-label">EATF receipts</span>
           <strong id="metricEatf">-</strong>
+          <small>packages with verifiable evidence receipts</small>
+        </article>
+      </section>
+
+      <section class="explainer-grid" aria-label="How to read Cassandra">
+        <article class="explainer">
+          <span class="step-mark">01</span>
+          <h2>What Cassandra observes</h2>
+          <p>
+            Cassandra collects public list-derived artifacts, normalizes them into comparable local
+            records, and reports structural changes such as hash changes, service inventory shifts,
+            or provider-service detail changes.
+          </p>
+        </article>
+        <article class="explainer">
+          <span class="step-mark">02</span>
+          <h2>What EATF proves</h2>
+          <p>
+            EATF receipts bind the evidence package, payload, and declared hashes. They prove the
+            observation package is intact, not that a provider is compliant or that a list has legal
+            effect.
+          </p>
+        </article>
+        <article class="explainer">
+          <span class="step-mark">03</span>
+          <h2>Why it matters</h2>
+          <p>
+            Governance systems often explain authority. Evidence systems explain what was seen,
+            when it was seen, and exactly which bytes later readers can re-check.
+          </p>
+        </article>
+      </section>
+
+      <section class="lemma-band" aria-label="Cassandra claim boundary">
+        <div>
+          <p class="section-label">Working lemma</p>
+          <h2>Evidence is useful when it is bounded.</h2>
+        </div>
+        <p>
+          If <span class="formula">E(t) = {S(t), D(t), R(t)}</span> is a dated snapshot, diff, and
+          receipt, Cassandra asks whether the receipt still binds the package bytes. It does not ask
+          whether the public authority, court, auditor, or relying party should agree with the
+          meaning of the change.
+        </p>
+      </section>
+
+      <section class="flow" aria-label="Evidence flow">
+        <div class="flow-item">
+          <span>Public source</span>
+          <strong>Fetched</strong>
+        </div>
+        <div class="flow-item">
+          <span>Comparable view</span>
+          <strong>Normalized</strong>
+        </div>
+        <div class="flow-item">
+          <span>Change signal</span>
+          <strong>Diffed</strong>
+        </div>
+        <div class="flow-item">
+          <span>Evidence boundary</span>
+          <strong>Packaged</strong>
+        </div>
+        <div class="flow-item">
+          <span>Integrity check</span>
+          <strong>Receipted</strong>
+        </div>
+      </section>
+
+      <section class="two-column">
+        <article class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-label">For public readers</p>
+              <h2>Plain-language reading guide</h2>
+            </div>
+          </div>
+          <dl class="glossary">
+            <dt>Trusted list</dt>
+            <dd>A public trust infrastructure artifact. Cassandra treats it as a source to observe, not as a verdict to issue.</dd>
+            <dt>Structural diff</dt>
+            <dd>A machine-readable description of what changed between saved observations.</dd>
+            <dt>EATF receipt</dt>
+            <dd>A receipt that lets someone verify package integrity and declared hashes later.</dd>
+            <dt>Claim boundary</dt>
+            <dd>The line between evidence integrity and legal, supervisory, or compliance interpretation.</dd>
+          </dl>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-label">For scholars</p>
+              <h2>Method and scope</h2>
+            </div>
+          </div>
+          <ul class="scope-list" id="claimBoundaryList">
+            <li>Loading claim boundary...</li>
+          </ul>
+          <p class="quiet-note" id="caveat"></p>
         </article>
       </section>
 
       <section class="panel">
         <div class="panel-head">
-          <h2>Observation Timeline</h2>
+          <div>
+            <p class="section-label">Run history</p>
+            <h2>Observation timeline</h2>
+          </div>
           <span id="claimBoundary" class="subtle"></span>
         </div>
         <div class="table-wrap">
@@ -61,21 +182,56 @@
         </div>
       </section>
 
-      <section class="chart-grid" aria-label="Aggregate figures">
-        <figure>
-          <img src="./data/figures/aggregate-run-telemetry.svg" alt="Aggregate Cassandra run telemetry chart" />
-        </figure>
-        <figure>
-          <img src="./data/figures/aggregate-diff-classes.svg" alt="Aggregate Cassandra diff class telemetry chart" />
-        </figure>
+      <section class="analytics-grid" aria-label="Aggregate figures and diff classes">
+        <article class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-label">Diff classes</p>
+              <h2>What changed most often</h2>
+            </div>
+          </div>
+          <div class="diff-bars" id="diffBars"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="section-label">Figures</p>
+              <h2>Aggregate telemetry</h2>
+            </div>
+          </div>
+          <div class="figure-stack">
+            <figure>
+              <img src="./data/figures/aggregate-run-telemetry.svg" alt="Aggregate Cassandra run telemetry chart" />
+            </figure>
+            <figure>
+              <img src="./data/figures/aggregate-diff-classes.svg" alt="Aggregate Cassandra diff class telemetry chart" />
+            </figure>
+          </div>
+        </article>
       </section>
 
       <section class="panel evidence-panel">
-        <div>
-          <h2>Latest Evidence Package</h2>
-          <dl id="latestEvidence"></dl>
+        <div class="panel-head">
+          <div>
+            <p class="section-label">Latest evidence package</p>
+            <h2>Hashes and receipt boundary</h2>
+          </div>
+          <span id="latestReceiptStatus" class="chip">loading</span>
         </div>
-        <p id="caveat" class="caveat"></p>
+        <div class="evidence-layout">
+          <dl id="latestEvidence"></dl>
+          <aside class="receipt-note">
+            <p>
+              Long hashes are shortened on this page for readability. The full SHA-256 values remain
+              in the public JSON index and the evidence package metadata.
+            </p>
+            <nav class="download-list" aria-label="Evidence data downloads">
+              <a href="./data/latest.json">Latest run JSON</a>
+              <a href="./data/cards/index.json">Dashboard cards</a>
+              <a href="./data/aggregate-results.json">Aggregate JSON</a>
+            </nav>
+          </aside>
+        </div>
       </section>
     </main>
 
