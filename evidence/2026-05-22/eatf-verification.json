@@ -1,75 +1,17 @@
 {
-  "aep_package": "evidence/2026-05-22/cassandra-observation.aep",
-  "aep_sha256": "427ca5eebfa33f77cd4409d393f45aeeb3ad66690764fb94534f1ea5c27bed58",
+  "aep_package": null,
   "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-  "created_at": "2026-05-27T19:13:39Z",
+  "created_at": "2026-05-28T07:08:45Z",
   "metadata": "evidence/2026-05-22/eatf-metadata.json",
-  "metadata_sha256": "7e6b673cd748e60577d945d107c6ab79296727a0a2436c183349653fff82fd9d",
+  "metadata_sha256": "565406e30fe7530fe7e96b00f862827d2417c5cc6c6718fb9741b008dfd6ddf0",
+  "missing_inputs": [
+    "private_key",
+    "public_key"
+  ],
   "payload": "evidence/2026-05-22/cassandra-observation.json",
-  "payload_sha256": "014b9e973ad9281c5545b727ddafa4afaaa9abcf93885926499e04f00f5c85c5",
+  "payload_sha256": "a4b1eaa5db58c79d8341f9dc9e797367f3b39459d4d6e4c63cb0313f4d0b7257",
   "schema": "urn:tyche:cassandra:eatf-verification-receipt:0.1",
-  "scope": "foundational:public-trust-list-observation",
-  "signing_profile": "local-dev:eatf-dev-rsa4096",
-  "status": "ok",
-  "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-  "verify": {
-    "failureReason": null,
-    "metadata": {
-      "action_type": "cassandra.public-trust-list-observation",
-      "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory",
-      "attestation_id": "att_cassandra_2026_05_22",
-      "case_study": "Cassandra: from governance infrastructure to evidence infrastructure.",
-      "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-      "created_at": "2026-05-27T19:13:39Z",
-      "policy": {
-        "disclosure": "hashes, counts, paths, and cautious claim boundary only",
-        "purpose": "research evidence packaging",
-        "retention": "commit history and public observatory artifact"
-      },
-      "schema": "urn:tyche:cassandra:eatf-observation-package:0.1",
-      "signing_profile": "local-dev:eatf-dev-rsa4096",
-      "tenant_id": "tyche-research"
-    },
-    "overtReceipt": {
-      "content_hash": "sha256:014b9e973ad9281c5545b727ddafa4afaaa9abcf93885926499e04f00f5c85c5",
-      "event": {
-        "action_type": "cassandra.public-trust-list-observation",
-        "timestamp": "2026-05-27T19:13:39Z"
-      },
-      "overt": "1.0.0",
-      "policy": {},
-      "prev": null,
-      "profile": "urn:eatf:spec:aep:1.0",
-      "profile_revision": "1.0-draft",
-      "scope": "foundational:public-trust-list-observation",
-      "subject": {
-        "agent_id": "urn:eatf:tenant:tyche:agent:cassandra-observatory"
-      },
-      "witness": {
-        "iap": "EATF.eu",
-        "signature_refs": [
-          "signature.sig"
-        ],
-        "timestamp_refs": [
-          "timestamp.tsr"
-        ]
-      }
-    },
-    "path": "evidence/2026-05-22/cassandra-observation.aep",
-    "pqcValid": null,
-    "report": [
-      "Package unzipped (8 entries).",
-      "metadata.json parsed.",
-      "Canonical bytes match Java response-only canonical form.",
-      "SHA-256 hash matches.",
-      "RSA-4096 signature verified.",
-      "OVERT receipt verified (foundational:public-trust-list-observation).",
-      "ML-DSA-65 entries absent (transitional v1 package).",
-      "RFC 3161 timestamp present (743 bytes, genTime=2026-01-01T00:00:00.000Z). Message imprint match: false. SignerInfo signature: no embedded cert. Signer: unknown (issued by unknown).",
-      "RFC 3161 message imprint does not match hash.sha256 (accepted for Java reference compatibility)."
-    ],
-    "tsaTrusted": null,
-    "valid": true
-  },
-  "verify_exit_code": 0
+  "signing_profile": "unsigned",
+  "status": "skipped_missing_signing_inputs",
+  "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr"
 }

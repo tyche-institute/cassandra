@@ -1,0 +1,21 @@
+{
+  "accessed": "2026-05-28T07:06:51.892467+00:00",
+  "bytes": 4592268,
+  "completed": "2026-05-28T07:07:56.426124+00:00",
+  "content_length_header": "4592268",
+  "content_type": "application/pdf",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-05-28/21-hu.pdf",
+  "final_url": "https://nmhh.hu/tl/pub/HU_TL.pdf",
+  "http_status": 200,
+  "redirect_count": 1,
+  "redirect_history": [
+    {
+      "location": "https://nmhh.hu/tl/pub/HU_TL.pdf",
+      "status_code": 301,
+      "url": "https://www.nmhh.hu/tl/pub/HU_TL.pdf"
+    }
+  ],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "57c69011bb7a6b4d624fa84e790a4302b7c610252d20129efbc7b7773844374f",
+  "url": "https://www.nmhh.hu/tl/pub/HU_TL.pdf"
+}

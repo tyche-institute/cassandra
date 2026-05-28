@@ -1,0 +1,17 @@
+{
+  "aep_package": null,
+  "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
+  "created_at": "2026-05-28T07:08:45Z",
+  "metadata": "evidence/2026-05-28/eatf-metadata.json",
+  "metadata_sha256": "50eae4e3bba8a121a8b79f927983dc35dffb5211f72d8f3edf12209a01f1a4b5",
+  "missing_inputs": [
+    "private_key",
+    "public_key"
+  ],
+  "payload": "evidence/2026-05-28/cassandra-observation.json",
+  "payload_sha256": "d4fc5c66d701d534f8d7697539ee47b22adf00999a62028abc83e359f98e5fa0",
+  "schema": "urn:tyche:cassandra:eatf-verification-receipt:0.1",
+  "signing_profile": "unsigned",
+  "status": "skipped_missing_signing_inputs",
+  "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr"
+}

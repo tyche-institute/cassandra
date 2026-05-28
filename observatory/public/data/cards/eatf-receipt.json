@@ -2,14 +2,14 @@
   "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "data": {
-    "date": "2026-05-27",
-    "package_path": "evidence/2026-05-27/cassandra-observation.aep",
-    "package_sha256": "1c451a21948b02a3b3693c238088e3a77d45b88554d0929cc59514ef8a982a8c",
-    "receipt_path": "evidence/2026-05-27/eatf-verification.json",
-    "receipt_sha256": "8d1f5c448bbda3d4ec12ce4e76dd418cd0b9a96c463b01b24ce0dc4e31271e97",
-    "signing_profile": "local-dev:eatf-dev-rsa4096",
-    "status": "ok",
-    "valid": true
+    "date": "2026-05-28",
+    "package_path": null,
+    "package_sha256": null,
+    "receipt_path": "evidence/2026-05-28/eatf-verification.json",
+    "receipt_sha256": "476c05830bc711a28b17f3b5fc55565aedf7e495363f3869b8594911d78766cd",
+    "signing_profile": "unsigned",
+    "status": "skipped_missing_signing_inputs",
+    "valid": null
   },
   "id": "eatf-receipt",
   "interpretation": "A status of ok verifies package bytes, envelope structure, and declared hashes only.",

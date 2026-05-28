@@ -1,23 +1,23 @@
 {
   "alert_event_types": {
-    "structural_diff_observed": 1
+    "no_structural_diff_observed": 1
   },
   "artifacts": {
-    "bundle_manifest": "bundles/2026-05-27/snapshot-summary.json.bundle/manifest.json",
-    "bundle_manifest_sha256": "fb648ff5b8ebb5b49ae26f68be2bf820637a26c6a9d472b6d1364d34caa0847e",
-    "bundle_summary": "bundles/2026-05-27/snapshot-summary.json",
-    "bundle_summary_sha256": "5ce235d26de734a6d4e6dda96ccf011416301ac1d3bf6b602e25a5447ccabd4b",
-    "diff": "diffs/2026-05-27.json",
-    "diff_sha256": "036692b010f6f8b34d5483384403a918bb828f2ab43cb66d986729776c5ad2da",
-    "normalized_manifest": "normalized/2026-05-27/manifest.json",
-    "normalized_manifest_sha256": "7ee35ded57f5eafeded8207544d89b64f5d81aa1b7e881fdd766e70a8afdb239",
-    "snapshot_manifest": "snapshots/2026-05-27/manifest.json",
-    "snapshot_manifest_sha256": "1469e07ab184aaa02e74d02bd3beb696de08f4bedde52288ac56a0681dc9173d"
+    "bundle_manifest": "bundles/2026-05-28/snapshot-summary.json.bundle/manifest.json",
+    "bundle_manifest_sha256": "bd1d3102fb8e5141f84b3e513d6e364cc0ad790f43b0e6ea0a1e819bf77e0542",
+    "bundle_summary": "bundles/2026-05-28/snapshot-summary.json",
+    "bundle_summary_sha256": "27603a878097e03db32638e05e2453699f9c081cbd93b434ce9b5cbd5ed43f8f",
+    "diff": "diffs/2026-05-28.json",
+    "diff_sha256": "1a6c2117443ce1c17add547a1f4b5de5c922e929bb2e7d5ac5c066eee38ed3ab",
+    "normalized_manifest": "normalized/2026-05-28/manifest.json",
+    "normalized_manifest_sha256": "d6ae2cf697a16386ab6ee90ecc2c16b519c73aa9a935759cda8db7c68d49d6d5",
+    "snapshot_manifest": "snapshots/2026-05-28/manifest.json",
+    "snapshot_manifest_sha256": "ec1026d82d74cfaab058c05473cb12920b9efd77a5bc020f76c061c1f2a7d58a"
   },
   "caveat": "Aggregate structural-observation telemetry only; not trusted-list validation, supervision, legal-status determination, signature verification, public alerting, or publication approval.",
   "counts": {
     "alert_entry_count": 1,
-    "diff_change_count": 40,
+    "diff_change_count": 0,
     "diff_current_record_count": 31,
     "fetch_errors": 1,
     "fetched_content_files": 42,
@@ -27,27 +27,27 @@
     "provider_count_total": 393,
     "service_count_total": 4847
   },
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "diff_classes": {
     "listed_document_added": 0,
     "listed_document_removed": 0,
-    "normalized_hash_changed": 4,
+    "normalized_hash_changed": 0,
     "provider_inventory_changed": 0,
-    "provider_service_detail_changed": 20,
-    "service_inventory_changed": 2,
-    "summary_field_changed": 14
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0,
+    "summary_field_changed": 0
   },
   "eatf": {
     "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-    "package_path": "evidence/2026-05-27/cassandra-observation.aep",
-    "package_sha256": "1c451a21948b02a3b3693c238088e3a77d45b88554d0929cc59514ef8a982a8c",
-    "payload_path": "evidence/2026-05-27/cassandra-observation.json",
-    "payload_sha256": "6b84de69a7bd81be31d1d6b7cfa1fa3f7625ada2de06db2b322a2e215e5add71",
-    "receipt_path": "evidence/2026-05-27/eatf-verification.json",
-    "receipt_sha256": "8d1f5c448bbda3d4ec12ce4e76dd418cd0b9a96c463b01b24ce0dc4e31271e97",
-    "signing_profile": "local-dev:eatf-dev-rsa4096",
-    "status": "ok",
+    "package_path": null,
+    "package_sha256": null,
+    "payload_path": "evidence/2026-05-28/cassandra-observation.json",
+    "payload_sha256": "d4fc5c66d701d534f8d7697539ee47b22adf00999a62028abc83e359f98e5fa0",
+    "receipt_path": "evidence/2026-05-28/eatf-verification.json",
+    "receipt_sha256": "476c05830bc711a28b17f3b5fc55565aedf7e495363f3869b8594911d78766cd",
+    "signing_profile": "unsigned",
+    "status": "skipped_missing_signing_inputs",
     "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
-    "valid": true
+    "valid": null
   }
 }

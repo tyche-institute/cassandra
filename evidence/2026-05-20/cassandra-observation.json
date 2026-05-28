@@ -92,11 +92,11 @@
     "normalized_xml_artifacts": 31,
     "pointer_attempts": 43
   },
-  "created_at": "2026-05-27T19:13:38Z",
+  "created_at": "2026-05-28T07:08:45Z",
   "lane": "cassandra",
   "observation_date": "2026-05-20",
   "payload_path": "evidence/2026-05-20/cassandra-observation.json",
-  "payload_sha256": "9a2551245a5c88419d8db6e087fd08d0694d7173ce0da3df3675d79b20fe64e8",
+  "payload_sha256": "8fa342e44172c92645e667f45cb071f8342498038b4100ac612d10b28e8c7adb",
   "schema": "urn:tyche:cassandra:eatf-observation-payload:0.1",
   "subject": {
     "scope": "Public LOTL-derived trusted-list snapshot telemetry",
