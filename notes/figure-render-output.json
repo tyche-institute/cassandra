@@ -1,26 +1,26 @@
 {
   "aggregate_csv": "notes/aggregate-results-table.csv",
-  "aggregate_csv_sha256": "e4d6c727d96985074d648385f9943154f4082310f7d64313e5b8c4806a97461d",
-  "aggregate_json": "notes/aggregate-results-2026-05-27-output.json",
-  "aggregate_json_sha256": "a252e68a513ee6e24516180ec0b96c3b9b50db245dbb1db693088a35d7d7ee24",
+  "aggregate_csv_sha256": "82d8c5493a20ed2fde1e04b63271255bcca65f94cd7b029f01b39e0f7a731bbe",
+  "aggregate_json": "notes/aggregate-results-2026-05-28-output.json",
+  "aggregate_json_sha256": "f005663b1af08d1c05fcdebe6a0ec03db99b7e5904504a4c8a3e9316fd88fb60",
   "caveat": "Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.",
-  "created_at": "2026-05-28T05:57:43Z",
+  "created_at": "2026-05-28T11:05:29Z",
   "figures": [
     {
       "path": "figures/aggregate-run-telemetry.svg",
       "schema": "urn:tyche:cassandra:figure:aggregate-run-telemetry:0.1",
-      "sha256": "7dc03cbb5247a9b3cfe4f9a1aea3169e12cac1c36c9f3920241b84df30731686",
+      "sha256": "8327db772f0c59d0e17dbc9f7849aa3ff5660e83e4c68e0e639974253ca8c37d",
       "title": "Cassandra aggregate run telemetry"
     },
     {
       "path": "figures/aggregate-diff-classes.svg",
       "schema": "urn:tyche:cassandra:figure:aggregate-diff-classes:0.1",
-      "sha256": "6da3b79fd3a0200e9242365e18b77f40cd9d2f6f840860b32595c5302726f9ce",
+      "sha256": "7c5ca9b04f9e8ba3988b0309eb4e76eb46a8d4d0f29c9bd95e919d58eaee60b5",
       "title": "Cassandra aggregate diff-class telemetry"
     }
   ],
   "lane": "cassandra",
-  "row_count": 4,
+  "row_count": 5,
   "schema": "urn:tyche:cassandra:figure-render:0.1",
   "status": "ok"
 }

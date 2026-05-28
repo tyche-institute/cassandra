@@ -1,41 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="730" viewBox="0 0 1160 730" role="img" aria-labelledby="title desc">
-<metadata id="cassandra-figure-metadata">{&quot;caveat&quot;: &quot;Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-28T07:08:32Z&quot;, &quot;dates&quot;: [&quot;2026-05-20&quot;, &quot;2026-05-21&quot;, &quot;2026-05-22&quot;, &quot;2026-05-27&quot;, &quot;2026-05-28&quot;], &quot;fields&quot;: [&quot;listed_document_added&quot;, &quot;listed_document_removed&quot;, &quot;normalized_hash_changed&quot;, &quot;summary_field_changed&quot;, &quot;provider_inventory_changed&quot;, &quot;service_inventory_changed&quot;, &quot;provider_service_detail_changed&quot;], &quot;lane&quot;: &quot;cassandra&quot;, &quot;row_count&quot;: 5, &quot;schema&quot;: &quot;urn:tyche:cassandra:figure:aggregate-diff-classes:0.1&quot;, &quot;source_csv&quot;: &quot;notes/aggregate-results-table.csv&quot;, &quot;source_csv_sha256&quot;: &quot;82d8c5493a20ed2fde1e04b63271255bcca65f94cd7b029f01b39e0f7a731bbe&quot;, &quot;title&quot;: &quot;Cassandra aggregate diff-class telemetry&quot;}</metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="842" viewBox="0 0 760 842" role="img" aria-labelledby="title desc">
+<metadata id="cassandra-figure-metadata">{&quot;caveat&quot;: &quot;Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-05-28T11:05:29Z&quot;, &quot;dates&quot;: [&quot;2026-05-20&quot;, &quot;2026-05-21&quot;, &quot;2026-05-22&quot;, &quot;2026-05-27&quot;, &quot;2026-05-28&quot;], &quot;fields&quot;: [&quot;listed_document_added&quot;, &quot;listed_document_removed&quot;, &quot;normalized_hash_changed&quot;, &quot;summary_field_changed&quot;, &quot;provider_inventory_changed&quot;, &quot;service_inventory_changed&quot;, &quot;provider_service_detail_changed&quot;], &quot;lane&quot;: &quot;cassandra&quot;, &quot;row_count&quot;: 5, &quot;schema&quot;: &quot;urn:tyche:cassandra:figure:aggregate-diff-classes:0.1&quot;, &quot;source_csv&quot;: &quot;notes/aggregate-results-table.csv&quot;, &quot;source_csv_sha256&quot;: &quot;82d8c5493a20ed2fde1e04b63271255bcca65f94cd7b029f01b39e0f7a731bbe&quot;, &quot;title&quot;: &quot;Cassandra aggregate diff-class telemetry&quot;}</metadata>
 <title id="title">Cassandra aggregate diff-class telemetry</title>
 <desc id="desc">Machine-readable structural diff classes summarized as local counts. Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</desc>
 <rect width="100%" height="100%" fill="#fcfbf7"/>
-<rect x="24" y="24" width="1112" height="90" rx="10" fill="#f2f5f0" stroke="#d8e2dc"/>
-<text x="44" y="62" fill="#17211d" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="30" font-weight="600">Cassandra aggregate diff-class telemetry</text>
-<text x="44" y="92" fill="#42534d" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="17">Machine-readable structural diff classes summarized as local counts.</text>
-<text x="44" y="134" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="14">Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision,</text>
-<text x="44" y="152" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="14">not signature validation, not public alerting, and not publication approval.</text>
-<text x="44" y="213" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Documents added</text>
-<rect x="360" y="194" width="650" height="20" rx="10" fill="#e7eee9"/>
-<rect x="360" y="194" width="0" height="20" rx="10" fill="#2563EB"/>
-<text x="1034" y="213" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">0</text>
-<text x="44" y="269" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Documents removed</text>
-<rect x="360" y="250" width="650" height="20" rx="10" fill="#e7eee9"/>
-<rect x="360" y="250" width="0" height="20" rx="10" fill="#9333EA"/>
-<text x="1034" y="269" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">0</text>
-<text x="44" y="325" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Normalized hash</text>
-<rect x="360" y="306" width="650" height="20" rx="10" fill="#e7eee9"/>
-<rect x="360" y="306" width="162" height="20" rx="10" fill="#0F766E"/>
-<text x="1034" y="325" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">7</text>
-<text x="44" y="381" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Summary field</text>
-<rect x="360" y="362" width="650" height="20" rx="10" fill="#e7eee9"/>
-<rect x="360" y="362" width="650" height="20" rx="10" fill="#EA580C"/>
-<text x="1034" y="381" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">28</text>
-<text x="44" y="437" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Provider inventory</text>
-<rect x="360" y="418" width="650" height="20" rx="10" fill="#e7eee9"/>
-<rect x="360" y="418" width="0" height="20" rx="10" fill="#4F46E5"/>
-<text x="1034" y="437" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">0</text>
-<text x="44" y="493" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Service inventory</text>
-<rect x="360" y="474" width="650" height="20" rx="10" fill="#e7eee9"/>
-<rect x="360" y="474" width="116" height="20" rx="10" fill="#16A34A"/>
-<text x="1034" y="493" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">5</text>
-<text x="44" y="549" fill="#24342e" font-family="Charter, Iowan Old Style, Palatino Linotype, Georgia, serif" font-size="18">Provider/service detail</text>
-<rect x="360" y="530" width="650" height="20" rx="10" fill="#e7eee9"/>
-<rect x="360" y="530" width="604" height="20" rx="10" fill="#DB2777"/>
-<text x="1034" y="549" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="17">26</text>
-<text x="44" y="682" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="14">Source: notes/aggregate-results-table.csv (sha256:82d8c5493a20...7a731bbe)</text>
-<text x="44" y="706" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="14">Dates summarized: 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-27, 2026-05-28. Listed names are intentionally absent from this figure.</text>
+<rect x="24" y="24" width="712" height="108" rx="10" fill="#f2f5f0" stroke="#d8e2dc"/>
+<text x="44" y="62" fill="#17211d" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="36" font-weight="600">Cassandra aggregate diff-class telemetry</text>
+<text x="44" y="98" fill="#42534d" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="20">Machine-readable structural diff classes summarized as local counts.</text>
+<text x="44" y="150" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="16">Local structural-observation telemetry only; not trusted-list</text>
+<text x="44" y="171" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="16">validation, not legal-status determination, not supervision, not</text>
+<text x="44" y="192" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="16">signature validation, not public alerting, and not publication</text>
+<text x="44" y="213" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="16">approval.</text>
+<text x="44" y="239" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Documents added</text>
+<rect x="330" y="218" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="218" width="0" height="22" rx="11" fill="#2563EB"/>
+<text x="674" y="239" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">0</text>
+<text x="44" y="301" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Documents removed</text>
+<rect x="330" y="280" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="280" width="0" height="22" rx="11" fill="#9333EA"/>
+<text x="674" y="301" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">0</text>
+<text x="44" y="363" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Normalized hash</text>
+<rect x="330" y="342" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="342" width="80" height="22" rx="11" fill="#0F766E"/>
+<text x="674" y="363" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">7</text>
+<text x="44" y="425" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Summary field</text>
+<rect x="330" y="404" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="404" width="320" height="22" rx="11" fill="#EA580C"/>
+<text x="674" y="425" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">28</text>
+<text x="44" y="487" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Provider inventory</text>
+<rect x="330" y="466" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="466" width="0" height="22" rx="11" fill="#4F46E5"/>
+<text x="674" y="487" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">0</text>
+<text x="44" y="549" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Service inventory</text>
+<rect x="330" y="528" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="528" width="57" height="22" rx="11" fill="#16A34A"/>
+<text x="674" y="549" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">5</text>
+<text x="44" y="611" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Provider/service detail</text>
+<rect x="330" y="590" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="590" width="297" height="22" rx="11" fill="#DB2777"/>
+<text x="674" y="611" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">26</text>
+<text x="44" y="770" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="15">Source: notes/aggregate-results-table.csv (sha256:82d8c5493a20...7a731bbe)</text>
+<text x="44" y="794" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="15">Dates summarized: 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-27, 2026-05-28.</text>
+<text x="44" y="818" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="15">Listed names are intentionally absent from this figure.</text>
 </svg>

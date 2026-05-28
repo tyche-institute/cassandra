@@ -1,0 +1,7 @@
+checked_at	status	url	role	note
+2026-05-28T13:59:11+03	200	https://cassandra.eatf.eu/	public_dashboard	GET-follow returned HTTP 200.
+2026-05-28T13:59:11+03	200	https://cassandra.eatf.eu/data/index.json	public_index	GET-follow returned HTTP 200.
+2026-05-28T13:59:11+03	200	https://eatf.eu/verify	eatf_verifier	GET-follow returned HTTP 200.
+2026-05-28T13:59:11+03	200	https://cassandra.eatf.eu/evidence/2026-05-28/cassandra-observation.aep	latest_aep_package	GET-follow returned HTTP 200.
+2026-05-28T13:59:11+03	200	https://cassandra.eatf.eu/evidence/2026-05-28/eatf-verification.json	latest_eatf_receipt	GET-follow returned HTTP 200.
+2026-05-28T13:59:11+03	404	https://github.com/tyche-institute/cassandra	excluded_candidate_repository	Candidate repository URL did not resolve publicly and is omitted from the v0.3 availability statement.

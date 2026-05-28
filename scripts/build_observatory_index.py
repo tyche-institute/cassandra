@@ -353,7 +353,7 @@ def build_index(workspace: pathlib.Path, public_dir: pathlib.Path, aggregate_jso
         "canonical_url": CANONICAL_URL,
         "fallback_url": FALLBACK_URL,
         "eatf": {
-            "name": "Evidence Attestation and Transparency Framework",
+            "name": "Agent Trust Framework",
             "home": "https://eatf.eu/",
             "verifier": EATF_VERIFIER_URL,
         },

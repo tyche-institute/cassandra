@@ -24,7 +24,7 @@ CAVEAT = (
     "not public alerting, and not publication approval."
 )
 
-FONT_SERIF = "Charter, Iowan Old Style, Palatino Linotype, Georgia, serif"
+FONT_SERIF = "Source Serif 4, Charter, Iowan Old Style, Georgia, serif"
 FONT_SANS = "Inter, Arial, sans-serif"
 
 RUN_FIELDS = [
@@ -134,12 +134,12 @@ def svg_bar_chart(
     dates = [str(row.get("date", "unknown")) for row in rows]
     totals = {field: sum(int_value(row, field) for row in rows) for field, _, _ in fields}
     max_value = max([1, *totals.values()])
-    width = 1160
-    left = 360
-    top = 188
-    row_height = 56
-    bar_max = 650
-    height = top + len(fields) * row_height + 150
+    width = 760
+    left = 330
+    top = 210
+    row_height = 62
+    bar_max = 320
+    height = top + len(fields) * row_height + 198
     created_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     metadata = {
         "schema": schema,
@@ -159,44 +159,45 @@ def svg_bar_chart(
         f'<title id="title">{html.escape(title)}</title>',
         f'<desc id="desc">{html.escape(subtitle + " " + CAVEAT)}</desc>',
         '<rect width="100%" height="100%" fill="#fcfbf7"/>',
-        '<rect x="24" y="24" width="1112" height="90" rx="10" fill="#f2f5f0" stroke="#d8e2dc"/>',
+        '<rect x="24" y="24" width="712" height="108" rx="10" fill="#f2f5f0" stroke="#d8e2dc"/>',
     ]
     lines.extend(svg_text_lines(
         x=44,
         y=62,
         lines=[title],
         fill="#17211d",
-        font_size=30,
-        line_height=34,
+        font_size=36,
+        line_height=40,
         font_weight=600,
     ))
     lines.extend(svg_text_lines(
         x=44,
-        y=92,
+        y=98,
         lines=[subtitle],
         fill="#42534d",
-        font_size=17,
-        line_height=22,
+        font_size=20,
+        line_height=25,
     ))
-    for caveat_idx, caveat_line in enumerate(wrap_text(CAVEAT, 122)):
+    for caveat_idx, caveat_line in enumerate(wrap_text(CAVEAT, 68)):
         lines.append(
-            f'<text x="44" y="{134 + caveat_idx * 18}" fill="#845f17" '
-            f'font-family="{html.escape(FONT_SANS)}" font-size="14">{html.escape(caveat_line)}</text>'
+            f'<text x="44" y="{150 + caveat_idx * 21}" fill="#845f17" '
+            f'font-family="{html.escape(FONT_SANS)}" font-size="16">{html.escape(caveat_line)}</text>'
         )
     for idx, (field, label, color) in enumerate(fields):
         value = totals[field]
         y = top + idx * row_height
         bar_width = 0 if value == 0 else max(5, round((value / max_value) * bar_max))
         lines.extend([
-            f'<text x="44" y="{y + 25}" fill="#24342e" font-family="{html.escape(FONT_SERIF)}" font-size="18">{html.escape(label)}</text>',
-            f'<rect x="{left}" y="{y + 6}" width="{bar_max}" height="20" rx="10" fill="#e7eee9"/>',
-            f'<rect x="{left}" y="{y + 6}" width="{bar_width}" height="20" rx="10" fill="{color}"/>',
-            f'<text x="{left + bar_max + 24}" y="{y + 25}" fill="#24342e" font-family="{html.escape(FONT_SANS)}" font-size="17">{value}</text>',
+            f'<text x="44" y="{y + 29}" fill="#24342e" font-family="{html.escape(FONT_SERIF)}" font-size="21">{html.escape(label)}</text>',
+            f'<rect x="{left}" y="{y + 8}" width="{bar_max}" height="22" rx="11" fill="#e7eee9"/>',
+            f'<rect x="{left}" y="{y + 8}" width="{bar_width}" height="22" rx="11" fill="{color}"/>',
+            f'<text x="{left + bar_max + 24}" y="{y + 29}" fill="#24342e" font-family="{html.escape(FONT_SANS)}" font-size="20">{value}</text>',
         ])
-    footer_y = height - 48
+    footer_y = height - 72
     lines.extend([
-        f'<text x="44" y="{footer_y}" fill="#62736d" font-family="{html.escape(FONT_SANS)}" font-size="14">Source: {html.escape(source_csv)} (sha256:{html.escape(source_csv_sha256[:12])}...{html.escape(source_csv_sha256[-8:])})</text>',
-        f'<text x="44" y="{footer_y + 24}" fill="#62736d" font-family="{html.escape(FONT_SANS)}" font-size="14">Dates summarized: {html.escape(", ".join(dates))}. Listed names are intentionally absent from this figure.</text>',
+        f'<text x="44" y="{footer_y}" fill="#62736d" font-family="{html.escape(FONT_SANS)}" font-size="15">Source: {html.escape(source_csv)} (sha256:{html.escape(source_csv_sha256[:12])}...{html.escape(source_csv_sha256[-8:])})</text>',
+        f'<text x="44" y="{footer_y + 24}" fill="#62736d" font-family="{html.escape(FONT_SANS)}" font-size="15">Dates summarized: {html.escape(", ".join(dates))}.</text>',
+        f'<text x="44" y="{footer_y + 48}" fill="#62736d" font-family="{html.escape(FONT_SANS)}" font-size="15">Listed names are intentionally absent from this figure.</text>',
         "</svg>",
     ])
     return "\n".join(lines) + "\n"
