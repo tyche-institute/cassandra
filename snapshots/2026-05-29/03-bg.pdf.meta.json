@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-05-29T07:06:23.120271+00:00",
+  "bytes": 3776332,
+  "completed": "2026-05-29T07:06:25.541732+00:00",
+  "content_length_header": "3776332",
+  "content_type": "application/pdf",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-05-29/03-bg.pdf",
+  "final_url": "https://crc.bg/files/_en/TSL_BG.pdf",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "6d2b6d7ce041b4fff71b4943617233c83e168cd9cd3ee1bb5809224025af8367",
+  "url": "https://crc.bg/files/_en/TSL_BG.pdf"
+}
