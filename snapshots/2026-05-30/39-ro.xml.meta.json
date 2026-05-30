@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-05-30T04:43:01.514079+00:00",
+  "bytes": 812213,
+  "completed": "2026-05-30T04:43:03.835668+00:00",
+  "content_length_header": "812213",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-05-30/39-ro.xml",
+  "final_url": "https://trustedlist.adr.gov.ro/trustedlist.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "73cfe0ac4cfe604ffc5b26eeb655a2e8ec17efe56087488e84fe62aec20b67d8",
+  "url": "https://trustedlist.adr.gov.ro/trustedlist.xml"
+}
