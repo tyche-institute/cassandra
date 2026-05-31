@@ -3,16 +3,16 @@
     "no_structural_diff_observed": 1
   },
   "artifacts": {
-    "bundle_manifest": "bundles/2026-05-30/snapshot-summary.json.bundle/manifest.json",
-    "bundle_manifest_sha256": "dfefefc18c1d476a9939c9c35b39d916a4e0b823d16d44a7c94025cd532ed4c7",
-    "bundle_summary": "bundles/2026-05-30/snapshot-summary.json",
-    "bundle_summary_sha256": "612a38a2efafcb884ce9db4effdff0fa1c84a66c476ea6c2c2e26f34033bf260",
-    "diff": "diffs/2026-05-30.json",
-    "diff_sha256": "56533e287cbd72b7057fe334d96fcc9b535d5ad34b943320ddd8e493ed2b504e",
-    "normalized_manifest": "normalized/2026-05-30/manifest.json",
-    "normalized_manifest_sha256": "bd246471b81d804db68fa2ff0f76015871fb2e8b74bd6ea0b13b75ea9fd78d8e",
-    "snapshot_manifest": "snapshots/2026-05-30/manifest.json",
-    "snapshot_manifest_sha256": "6df1969f579bc1cf906dd14ef1617fa6613a7b53e035f132570e0b32804a0ee3"
+    "bundle_manifest": "bundles/2026-05-31/snapshot-summary.json.bundle/manifest.json",
+    "bundle_manifest_sha256": "d3e197d0eaa3baa488a8930083c7f051d2b4c73ef4b61c11246bab1ff476dc5e",
+    "bundle_summary": "bundles/2026-05-31/snapshot-summary.json",
+    "bundle_summary_sha256": "0d54aea13fcc4a2f8180a9c481d0f559dfb9023e7ab9a0cfdf6d190affa83cfa",
+    "diff": "diffs/2026-05-31.json",
+    "diff_sha256": "26abea9ad55924303a2eb2756187bc01473f0086dd70b89883237e7601a06ef7",
+    "normalized_manifest": "normalized/2026-05-31/manifest.json",
+    "normalized_manifest_sha256": "a3bf590e3bb4843e5c2b0c6f27a83b6d61e9ced85c03d1e255751b75135333a2",
+    "snapshot_manifest": "snapshots/2026-05-31/manifest.json",
+    "snapshot_manifest_sha256": "d73e170440b0c2b626f05d1c84649a6248c9cf3f413667f071d098c12db2a33f"
   },
   "caveat": "Aggregate structural-observation telemetry only; not trusted-list validation, supervision, legal-status determination, signature verification, public alerting, or publication approval.",
   "counts": {
@@ -27,7 +27,7 @@
     "provider_count_total": 393,
     "service_count_total": 4865
   },
-  "date": "2026-05-30",
+  "date": "2026-05-31",
   "diff_classes": {
     "listed_document_added": 0,
     "listed_document_removed": 0,
@@ -39,32 +39,32 @@
   },
   "eatf": {
     "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
-    "package_path": "evidence/2026-05-30/cassandra-observation.aep",
-    "package_sha256": "e6cf0b11a475cdfe1fed766cb2926c91d2d31027c7e9b7e53ab979ce045e56a4",
-    "payload_path": "evidence/2026-05-30/cassandra-observation.json",
-    "payload_sha256": "95648e7774d4927d7f767f44b82dd566ba9581d88da9b3fc9a09f9fe837cbae8",
+    "package_path": "evidence/2026-05-31/cassandra-observation.aep",
+    "package_sha256": "5ca905084923a4d4ea7af089cfe27bf47bec822feeb360d1014a75c1e914379e",
+    "payload_path": "evidence/2026-05-31/cassandra-observation.json",
+    "payload_sha256": "a934eb20d603192aa4721a602ed685ed7b85e9341b29ea842a69e3b00141e8a2",
     "public_metadata": {
-      "path": "evidence/2026-05-30/eatf-metadata.json",
-      "sha256": "752eca67e6ff487e3224af9f208c5a76d9d750f357aa7fd58307d39a5d87c6a2",
+      "path": "evidence/2026-05-31/eatf-metadata.json",
+      "sha256": "59a22c33cd81d4cd0cc4c3f93598a42303c2f5c317a3eb2c54efe1fa0840e9fa",
       "size_bytes": 908
     },
     "public_package": {
-      "path": "evidence/2026-05-30/cassandra-observation.aep",
-      "sha256": "e6cf0b11a475cdfe1fed766cb2926c91d2d31027c7e9b7e53ab979ce045e56a4",
+      "path": "evidence/2026-05-31/cassandra-observation.aep",
+      "sha256": "5ca905084923a4d4ea7af089cfe27bf47bec822feeb360d1014a75c1e914379e",
       "size_bytes": 12627
     },
     "public_payload": {
-      "path": "evidence/2026-05-30/cassandra-observation.json",
-      "sha256": "95648e7774d4927d7f767f44b82dd566ba9581d88da9b3fc9a09f9fe837cbae8",
+      "path": "evidence/2026-05-31/cassandra-observation.json",
+      "sha256": "a934eb20d603192aa4721a602ed685ed7b85e9341b29ea842a69e3b00141e8a2",
       "size_bytes": 3936
     },
     "public_receipt": {
-      "path": "evidence/2026-05-30/eatf-verification.json",
-      "sha256": "d57f0a4ba79fe0da5917181743557307244052f8ddd451206c9354d0c6250d15",
+      "path": "evidence/2026-05-31/eatf-verification.json",
+      "sha256": "b9f2184990cb19f906e6a8b827859282daa4114b09f99fa30c30b8e89d3167af",
       "size_bytes": 3587
     },
-    "receipt_path": "evidence/2026-05-30/eatf-verification.json",
-    "receipt_sha256": "d57f0a4ba79fe0da5917181743557307244052f8ddd451206c9354d0c6250d15",
+    "receipt_path": "evidence/2026-05-31/eatf-verification.json",
+    "receipt_sha256": "b9f2184990cb19f906e6a8b827859282daa4114b09f99fa30c30b8e89d3167af",
     "signing_profile": "local-dev:eatf-dev-rsa4096",
     "status": "ok",
     "timestamp": "eatf-test-vector:valid-overt-profile/timestamp.tsr",
