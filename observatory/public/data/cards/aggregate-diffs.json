@@ -2,18 +2,18 @@
   "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "data": {
-    "diff_change_count": 104,
+    "diff_change_count": 118,
     "diff_class_totals": {
       "listed_document_added": 0,
       "listed_document_removed": 0,
-      "normalized_hash_changed": 12,
+      "normalized_hash_changed": 14,
       "provider_inventory_changed": 0,
-      "provider_service_detail_changed": 35,
-      "service_inventory_changed": 10,
-      "summary_field_changed": 47
+      "provider_service_detail_changed": 37,
+      "service_inventory_changed": 12,
+      "summary_field_changed": 55
     },
-    "latest_date": "2026-06-02",
-    "run_count": 10
+    "latest_date": "2026-06-03",
+    "run_count": 11
   },
   "id": "aggregate-diffs",
   "interpretation": "Diff classes are local structural-observation buckets against Cassandra baselines, not compliance or legal-effect classes.",
