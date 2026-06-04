@@ -3,7 +3,7 @@
   "cards": [
     {
       "path": "data/cards/aggregate-diffs.json",
-      "sha256": "dd4d9d412098f16a3bd3f0eab43fd40384c1cfe65e8faaa1cfd255b28f87cd12",
+      "sha256": "b563e12da0930eae25c1aaa9dde36aee451c33919d5a4219dd75d2f467827b89",
       "size_bytes": 1266
     },
     {
@@ -18,18 +18,18 @@
     },
     {
       "path": "data/cards/eatf-receipt.json",
-      "sha256": "ad91ce10952a1e6df9e6db53066d4306f56d192054130c0f73b67a63ad47ed80",
+      "sha256": "c51b885cb3e87ad67057c6e6454140ef5a6870f3c2fb27225d6cc4fa6e4bef52",
       "size_bytes": 1740
     },
     {
       "path": "data/cards/latest-run.json",
-      "sha256": "37997970ec3961ed8776f7c19a9eba97ad8ce2cb982a4afadf98ab2fd6f0dc37",
-      "size_bytes": 1073
+      "sha256": "5c5b3605c25a5a3b06b97b53421b41d0a69f4dea6e2da95be4feb519b34b38ee",
+      "size_bytes": 1072
     }
   ],
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "not_a": "trusted-list validation; legal-status determination; signature validation; supervision; compliance judgment; public alerting; publication approval",
   "project": "cassandra",
   "schema": "urn:tyche:cassandra:observatory-card-index:0.1",
-  "sha256": "e43abad31fc5b48676e5c44d8d494990a645d29467f7f6732f719b0535c72423"
+  "sha256": "c38e5cad1e57c055fab2eac14463976b572d0256a4b8c36498e694c9d1c53cb4"
 }
