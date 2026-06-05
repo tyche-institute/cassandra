@@ -1,0 +1,58 @@
+{
+  "alerts_path": "alerts.jsonl",
+  "alerts_sha256": "b81fa5c333762fa7123f0bc86c4a70da06e4213bbf2035383e2a8b497be838e2",
+  "dry_run": false,
+  "entry": {
+    "artifacts": {
+      "bundle_manifest": "bundles/2026-06-05/snapshot-summary.json.bundle/manifest.json",
+      "bundle_summary": "bundles/2026-06-05/snapshot-summary.json",
+      "diff": "diffs/2026-06-05.json",
+      "normalized_manifest": "normalized/2026-06-05/manifest.json",
+      "snapshot_manifest": "snapshots/2026-06-05/manifest.json"
+    },
+    "caveat": "Machine-readable research telemetry only; do not treat as trusted-list validation, supervisory finding, legal-status determination, signature verification, public alerting, or publication approval.",
+    "claim_safety": {
+      "legal_effect": "not asserted",
+      "safe_wording": "The 2026-06-05 structural-observation diff recorded 3 machine-readable structural diff entries for local research review.",
+      "signature_validation": "not performed",
+      "supervision_or_operation": "not performed"
+    },
+    "counts": {
+      "diff_change_count": 3,
+      "diff_current_record_count": 28,
+      "fetch_errors": 5,
+      "fetched_content_files": 38,
+      "listed_document_added": 0,
+      "listed_document_removed": 3,
+      "normalization_errors": 1,
+      "normalization_inputs": 38,
+      "normalization_skips": 9,
+      "normalized_hash_changed": 0,
+      "normalized_xml_artifacts": 28,
+      "pointer_attempts": 43,
+      "provider_inventory_changed": 0,
+      "provider_service_detail_changed": 0,
+      "service_inventory_changed": 0,
+      "summary_field_changed": 0
+    },
+    "created_at": "2026-06-05T04:57:19Z",
+    "date": "2026-06-05",
+    "dedupe_key": "urn:tyche:cassandra:structural-observation-alert:0.2:2026-06-05:structural_diff_observed:4d4067ee499f36abc51182704b0a561d822658779b30db188f4e7fbac690df0d",
+    "event_type": "structural_diff_observed",
+    "hashes": {
+      "bundle_manifest_sha256": "bf06681cf3ba856add1095b418c21248b5e30800b576167a5500f3482076ff72",
+      "bundle_summary_sha256": "3a6e3909c5ff25ae3f306deea4b618076f254bd32c5e5fadf1ba4bb02611c7c7",
+      "diff_sha256": "4d4067ee499f36abc51182704b0a561d822658779b30db188f4e7fbac690df0d",
+      "normalized_manifest_sha256": "29d0a9fb77f6b1b2a6e4ff64548ccb73e65c5e0fb72b188a4457f640d99b327c",
+      "snapshot_manifest_sha256": "f8eaf906a9fd516c5f742c731d91eff746e6ccb0487ab843f70a731454d51163"
+    },
+    "lane": "cassandra",
+    "schema": "urn:tyche:cassandra:structural-observation-alert:0.2",
+    "severity": "review",
+    "summary": "The 2026-06-05 structural-observation diff recorded 3 machine-readable structural diff entries for local research review."
+  },
+  "errors": [],
+  "jsonl_entry_count": 14,
+  "replaced_existing_entry": false,
+  "status": "ok"
+}

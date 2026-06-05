@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-06-05T04:57:19.630134Z",
+  "date": "2026-06-05",
+  "dry_run": false,
+  "existing_outputs": [],
+  "hashes": {
+    "bundles/2026-06-05/snapshot-summary.json": "3a6e3909c5ff25ae3f306deea4b618076f254bd32c5e5fadf1ba4bb02611c7c7",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/claims.json": "c5b21a88174afb653486dff641a41c1a0e7116fc3c1b6a62b5f2c7a0b9c40732",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/manifest.json": "bf06681cf3ba856add1095b418c21248b5e30800b576167a5500f3482076ff72",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/notes.md": "1bced1d154bc257734677c159866a125482f106dec4b4258d6efe69736d4c76e",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/sources/baseline-2026-06-05.json": "49d2b8e6a91d39b4495082aac8f9d2937e0ec0ba33ae0d9080864d67dae67812",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/sources/diff-2026-06-05.json": "4d4067ee499f36abc51182704b0a561d822658779b30db188f4e7fbac690df0d",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/sources/eu-lotl.xml.meta.json": "034135d8bbc9521bb67ab59f207a4944015e1259c81d2fcb2493f2f105709e00",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/sources/normalized-manifest.json": "29d0a9fb77f6b1b2a6e4ff64548ccb73e65c5e0fb72b188a4457f640d99b327c",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/sources/pointer-url-records.json": "d1fb73c5d6bc8ed8f913f4c7fab009970f35b6e55a2a85a3ff22920fc42296dc",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/sources/pointers.json": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/sources/snapshot-manifest.json": "f8eaf906a9fd516c5f742c731d91eff746e6ccb0487ab843f70a731454d51163",
+    "bundles/2026-06-05/snapshot-summary.json.bundle/verification.json": "ad2c5d471efc619f5bd2dc211f606dd6e19367ac1e358091e9db566642e6c073"
+  },
+  "missing_inputs": [],
+  "research_caveat": "Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:bundle-run:0.2",
+  "status": "ok",
+  "verification": {
+    "artifact": "/home/runner/work/cassandra/cassandra/bundles/2026-06-05/snapshot-summary.json",
+    "bundle_dir": "/home/runner/work/cassandra/cassandra/bundles/2026-06-05/snapshot-summary.json.bundle",
+    "errors": [],
+    "research_caveat": "Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+    "status": "ok"
+  },
+  "workspace": "/home/runner/work/cassandra/cassandra"
+}
