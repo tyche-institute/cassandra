@@ -1,0 +1,37 @@
+{
+  "created": "2026-06-06T04:47:21.207793+00:00",
+  "date": "2026-06-06",
+  "diff": {
+    "baseline_source": "baselines/current.json",
+    "change_count": 7,
+    "current_record_count": 28,
+    "path": "diffs/2026-06-06.json",
+    "summary": {
+      "listed_document_added": 0,
+      "listed_document_removed": 0,
+      "normalized_hash_changed": 1,
+      "provider_inventory_changed": 0,
+      "provider_service_detail_changed": 1,
+      "service_inventory_changed": 1,
+      "summary_field_changed": 4
+    }
+  },
+  "dry_run": false,
+  "existing_outputs": [],
+  "normalization": {
+    "count": 38,
+    "error_count": 1,
+    "ok_count": 28,
+    "path": "normalized/2026-06-06/manifest.json",
+    "skipped_count": 9
+  },
+  "research_caveat": "Daily Cassandra run orchestration for structural observation only; not signature validation, supervision, legal-status determination, relying-party processing, or public alerting.",
+  "snapshot": {
+    "count": 43,
+    "error_count": 5,
+    "ok_count": 38,
+    "path": "snapshots/2026-06-06/manifest.json"
+  },
+  "snapshot_item_count": 43,
+  "status": "ok"
+}

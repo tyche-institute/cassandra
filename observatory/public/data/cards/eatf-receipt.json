@@ -2,21 +2,21 @@
   "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "data": {
-    "date": "2026-06-05",
-    "package_path": "evidence/2026-06-05/cassandra-observation.aep",
-    "package_sha256": "4b06472228be0f48be19c63fe1e91f9f7e71d8aef0828ca5a77cedc1f6978f5e",
+    "date": "2026-06-06",
+    "package_path": "evidence/2026-06-06/cassandra-observation.aep",
+    "package_sha256": "649d9049138258d9cc0df91d9c3f774805556c81aa8af4c6321c93eb98aa5bd1",
     "public_package": {
-      "path": "evidence/2026-06-05/cassandra-observation.aep",
-      "sha256": "4b06472228be0f48be19c63fe1e91f9f7e71d8aef0828ca5a77cedc1f6978f5e",
+      "path": "evidence/2026-06-06/cassandra-observation.aep",
+      "sha256": "649d9049138258d9cc0df91d9c3f774805556c81aa8af4c6321c93eb98aa5bd1",
       "size_bytes": 12629
     },
     "public_receipt": {
-      "path": "evidence/2026-06-05/eatf-verification.json",
-      "sha256": "0b8c9ec2a1210e338df3b103b31c0e0e6e433f6972c692eff130aeac139c9a92",
+      "path": "evidence/2026-06-06/eatf-verification.json",
+      "sha256": "0f0cc15df259c407585bedfeba5abe0310a2d74594572881b9825b7f7d2ae15c",
       "size_bytes": 3587
     },
-    "receipt_path": "evidence/2026-06-05/eatf-verification.json",
-    "receipt_sha256": "0b8c9ec2a1210e338df3b103b31c0e0e6e433f6972c692eff130aeac139c9a92",
+    "receipt_path": "evidence/2026-06-06/eatf-verification.json",
+    "receipt_sha256": "0f0cc15df259c407585bedfeba5abe0310a2d74594572881b9825b7f7d2ae15c",
     "signing_profile": "local-dev:eatf-dev-rsa4096",
     "status": "ok",
     "valid": true,

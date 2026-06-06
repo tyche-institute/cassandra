@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-06T04:46:58.805054+00:00",
+  "bytes": 519179,
+  "completed": "2026-06-06T04:47:00.054909+00:00",
+  "content_length_header": null,
+  "content_type": "application/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-06/28-lt.xml",
+  "final_url": "https://elektroninisparasas.lt/LT-TSL.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "5383f86d8dc73d162549ebf943d78c3e45eea836a3f8f382f662858fa3c5acc7",
+  "url": "https://elektroninisparasas.lt/LT-TSL.xml"
+}
