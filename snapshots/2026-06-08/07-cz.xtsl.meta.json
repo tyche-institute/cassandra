@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-08T05:00:57.083310+00:00",
+  "bytes": 2593662,
+  "completed": "2026-06-08T05:00:58.230141+00:00",
+  "content_length_header": "498779",
+  "content_type": "text/plain",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-08/07-cz.xtsl",
+  "final_url": "https://tsl.gov.cz/publ/TSL_CZ.xtsl",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "a9ebeb0a2f2969241197814446387894a0b5311d8af51e8d918188dec291efee",
+  "url": "https://tsl.gov.cz/publ/TSL_CZ.xtsl"
+}

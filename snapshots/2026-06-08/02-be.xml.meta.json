@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-08T04:59:50.745032+00:00",
+  "bytes": 0,
+  "completed": "2026-06-08T05:00:50.814195+00:00",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-08/02-be.xml",
+  "error": "ConnectTimeout",
+  "error_detail": "HTTPSConnectionPool(host='tsl.belgium.be', port=443): Max retries exceeded with url: /tsl-be-v6.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='tsl.belgium.be', port=443) at 0x7fe1a997be90>, 'Connection to tsl.belgium.be timed out. (connect timeout=60)'))",
+  "final_url": null,
+  "http_status": null,
+  "redirect_count": null,
+  "redirect_history": [],
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "https://tsl.belgium.be/tsl-be-v6.xml"
+}

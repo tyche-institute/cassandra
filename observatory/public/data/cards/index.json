@@ -3,7 +3,7 @@
   "cards": [
     {
       "path": "data/cards/aggregate-diffs.json",
-      "sha256": "22563d31851070733c2250629ed51ef2f3ea2b265c232babf977eea8161f2f2d",
+      "sha256": "6cedc41805d74712a2c9ed65da5a80d8675b5b32a09ad78e7bb208e42640688b",
       "size_bytes": 1266
     },
     {
@@ -18,12 +18,12 @@
     },
     {
       "path": "data/cards/eatf-receipt.json",
-      "sha256": "f62dce637ce12d30b9e0080558a4faec11dffb99e2028020772ba1f69711c253",
+      "sha256": "f8a839ceddebf3b5878594917588884c6480777a1af7e1eefd35f2eb7e101bd5",
       "size_bytes": 1740
     },
     {
       "path": "data/cards/latest-run.json",
-      "sha256": "567cdd8415c5d2e4b3d741143caba9fbd1a97fce492ebdab51d487800769c47e",
+      "sha256": "f496cda10a8eeb4ecf79de547bb3b2140781c22cfc48ca8ebeb4e58e04794d77",
       "size_bytes": 1072
     }
   ],
@@ -31,5 +31,5 @@
   "not_a": "trusted-list validation; legal-status determination; signature validation; supervision; compliance judgment; public alerting; publication approval",
   "project": "cassandra",
   "schema": "urn:tyche:cassandra:observatory-card-index:0.1",
-  "sha256": "7de222bb2538a9f0af15f48d0018b74591b7984599e7b402fa013cb9310fdacc"
+  "sha256": "e9e804f6d72ffbb183c1f7bdf27a6c3fdbcc1cb3f460125e2473610decbf813f"
 }
