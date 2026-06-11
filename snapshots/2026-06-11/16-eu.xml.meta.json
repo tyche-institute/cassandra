@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-11T04:59:00.572287+00:00",
+  "bytes": 476114,
+  "completed": "2026-06-11T04:59:01.631507+00:00",
+  "content_length_header": null,
+  "content_type": "application/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/16-eu.xml",
+  "final_url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "c3a48c8cbc8007639e31c0b56f26076290dbd43d37980485a4a937e627cabf73",
+  "url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml"
+}
