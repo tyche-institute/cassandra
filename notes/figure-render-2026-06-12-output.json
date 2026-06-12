@@ -1,0 +1,26 @@
+{
+  "aggregate_csv": "notes/aggregate-results-table.csv",
+  "aggregate_csv_sha256": "fb4a596a24759112fc62fa1af383cdc3b3c356fd23f2e8b0df2493fd75cce8b2",
+  "aggregate_json": "notes/aggregate-results-2026-06-12-output.json",
+  "aggregate_json_sha256": "5039dbad1ba483c46fa924a44b6a6ce0092200bb10158d284308f8c5ad30f6d4",
+  "caveat": "Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.",
+  "created_at": "2026-06-12T05:06:27Z",
+  "figures": [
+    {
+      "path": "figures/aggregate-run-telemetry.svg",
+      "schema": "urn:tyche:cassandra:figure:aggregate-run-telemetry:0.1",
+      "sha256": "28b297cc245f8e17a2824bb736868b106ffca0528e878a659bc7b13727a6df94",
+      "title": "Cassandra aggregate run telemetry"
+    },
+    {
+      "path": "figures/aggregate-diff-classes.svg",
+      "schema": "urn:tyche:cassandra:figure:aggregate-diff-classes:0.1",
+      "sha256": "ee610f18d2a90cc833ff785b82d9c7aace6ecf7fb8636b793f4931790b00e7b0",
+      "title": "Cassandra aggregate diff-class telemetry"
+    }
+  ],
+  "lane": "cassandra",
+  "row_count": 20,
+  "schema": "urn:tyche:cassandra:figure-render:0.1",
+  "status": "ok"
+}

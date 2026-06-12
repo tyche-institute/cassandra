@@ -1,0 +1,54 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 4,
+  "changes": [
+    {
+      "caveat": "Removed comparable XML document from snapshot set; not a trust-status claim.",
+      "class": "listed_document_removed",
+      "key": "AT",
+      "normalized_path": "normalized/2026-06-11/01-at.xml.normalized.xml",
+      "old_normalized_sha256": "74ecec0465395481818c742ee3e8fdc3d259432ef3679340e500ccd4b1232cf2",
+      "source": "snapshots/2026-06-11/01-at.xml"
+    },
+    {
+      "caveat": "Removed comparable XML document from snapshot set; not a trust-status claim.",
+      "class": "listed_document_removed",
+      "key": "BE",
+      "normalized_path": "normalized/2026-06-11/02-be.xml.normalized.xml",
+      "old_normalized_sha256": "ac19c8e978b1a039698dccdb2eeeac6c8493cc8d2fd472f22bcd221e9f69eab2",
+      "source": "snapshots/2026-06-11/02-be.xml"
+    },
+    {
+      "caveat": "Removed comparable XML document from snapshot set; not a trust-status claim.",
+      "class": "listed_document_removed",
+      "key": "CY",
+      "normalized_path": "normalized/2026-06-11/05-cy.xml.normalized.xml",
+      "old_normalized_sha256": "3996c5bf2c4421347321f0cbc04b2678355c672bc130e6de07a24ffb82798b19",
+      "source": "snapshots/2026-06-11/05-cy.xml"
+    },
+    {
+      "caveat": "Removed comparable XML document from snapshot set; not a trust-status claim.",
+      "class": "listed_document_removed",
+      "key": "ES",
+      "normalized_path": "normalized/2026-06-11/15-es.xml.normalized.xml",
+      "old_normalized_sha256": "92a3560f2325d8e7ded191efd3e73bd244f7a4ea03c1e29b2bc9cb6f655661ef",
+      "source": "snapshots/2026-06-11/15-es.xml"
+    }
+  ],
+  "created": "2026-06-12T05:06:27.248803+00:00",
+  "current_manifest": "normalized/2026-06-12/manifest.json",
+  "current_manifest_sha256": "dcdb3f1acb86c487c5851cd63d0a3b26b51e146d5186f7af5810ac07dabe0dd4",
+  "current_record_count": 27,
+  "date": "2026-06-12",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 4,
+    "normalized_hash_changed": 0,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0,
+    "summary_field_changed": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-12T05:04:35.574935+00:00",
+  "bytes": 0,
+  "completed": "2026-06-12T05:05:35.630286+00:00",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-12/15-es.xml",
+  "error": "ConnectTimeout",
+  "error_detail": "HTTPSConnectionPool(host='tsl.digital.gob.es', port=443): Max retries exceeded with url: /TSL.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='tsl.digital.gob.es', port=443) at 0x7ff433403450>, 'Connection to tsl.digital.gob.es timed out. (connect timeout=60)'))",
+  "final_url": null,
+  "http_status": null,
+  "redirect_count": null,
+  "redirect_history": [],
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "https://tsl.digital.gob.es/TSL.xml"
+}
