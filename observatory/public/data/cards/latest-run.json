@@ -2,12 +2,12 @@
   "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
   "caveat": "Public observatory data for Cassandra structural observation only; not trusted-list validation, legal-status determination, supervision, signature validation, relying-party processing, or public alerting.",
   "data": {
-    "date": "2026-06-12",
-    "diff_change_count": 4,
+    "date": "2026-06-13",
+    "diff_change_count": 10,
     "eatf_status": "ok",
-    "fetch_errors": 7,
-    "fetched_content_files": 36,
-    "normalized_xml_artifacts": 27,
+    "fetch_errors": 2,
+    "fetched_content_files": 41,
+    "normalized_xml_artifacts": 31,
     "pointer_attempts": 43
   },
   "id": "latest-run",
