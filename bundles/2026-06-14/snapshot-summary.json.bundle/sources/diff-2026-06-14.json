@@ -1,0 +1,21 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 0,
+  "changes": [],
+  "created": "2026-06-14T05:03:23.809404+00:00",
+  "current_manifest": "normalized/2026-06-14/manifest.json",
+  "current_manifest_sha256": "650cb4cdf97df70e7669312e6bda5b78b6b773a9405a5e811b52f48d847dbbd8",
+  "current_record_count": 31,
+  "date": "2026-06-14",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 0,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0,
+    "summary_field_changed": 0
+  }
+}

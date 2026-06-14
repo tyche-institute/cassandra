@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-14T05:02:24.855948+00:00",
+  "bytes": 700047,
+  "completed": "2026-06-14T05:02:26.510435+00:00",
+  "content_length_header": null,
+  "content_type": "text/xml; charset=utf-8",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-14/13-el.xml",
+  "final_url": "https://www.eett.gr/tsl/tl-el.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "344de4bf8ca2b623d2cc5f3e0299a606aabe0f0b7c357263a4dc0970cbe2a3e1",
+  "url": "https://www.eett.gr/tsl/tl-el.xml"
+}

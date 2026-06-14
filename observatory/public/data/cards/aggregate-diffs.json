@@ -12,8 +12,8 @@
       "service_inventory_changed": 17,
       "summary_field_changed": 72
     },
-    "latest_date": "2026-06-13",
-    "run_count": 21
+    "latest_date": "2026-06-14",
+    "run_count": 22
   },
   "id": "aggregate-diffs",
   "interpretation": "Diff classes are local structural-observation buckets against Cassandra baselines, not compliance or legal-effect classes.",
