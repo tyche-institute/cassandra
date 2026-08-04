@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-03T05:05:00.084671+00:00",
+  "bytes": 846644,
+  "completed": "2026-06-03T05:05:01.588563+00:00",
+  "content_length_header": null,
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-03/36-pl.xml",
+  "final_url": "https://www.nccert.pl/tsl/PL_TSL.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "4297ebe95bd8eaf568d4dd43ae49e59d15c51a52f03adf591604db6f97b64d38",
+  "url": "https://www.nccert.pl/tsl/PL_TSL.xml"
+}

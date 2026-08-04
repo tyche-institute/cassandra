@@ -1,0 +1,131 @@
+{
+  "artifact": {
+    "media_type": "application/json",
+    "path": "../snapshot-summary.json",
+    "sha256": {
+      "algorithm": "SHA-256",
+      "value": "4dbd92644b9a28a7173d01123cc62362dcfcb03e4e9c3e0546e53112166a5e45"
+    }
+  },
+  "assumptions": [
+    "The bundle summarizes local run artifacts already present in the Cassandra workspace.",
+    "Counts are parser and fetcher telemetry, not legal or supervisory findings.",
+    "Diff entries are structural observations and do not assert legally relevant change or absence of such change."
+  ],
+  "attestation": {
+    "caveat": "No regulated trust-service output is created by this bundle.",
+    "signed": false,
+    "timestamped": false
+  },
+  "bundle_created_at": "2026-07-07T04:41:36.463586Z",
+  "bundle_id": "urn:tyche:mirror:bundle:4dbd92644b9a28a7173d01123cc62362",
+  "bundle_version": "0.2.0",
+  "canonicalization": "mirror-bundle-json-v0.1",
+  "claims_file": "claims.json",
+  "created_at": "2026-07-07T04:41:36.463588Z",
+  "created_by": {
+    "affiliation": "Tyche Institute, Tallinn, Estonia",
+    "name": "Anton Sokolov"
+  },
+  "dependencies": [
+    {
+      "name": "python",
+      "path": ".venv/bin/python"
+    },
+    {
+      "name": "lxml",
+      "purpose": "XML parsing and canonicalization"
+    },
+    {
+      "name": "requests-cache",
+      "purpose": "HTTP retrieval support"
+    }
+  ],
+  "notes_file": "notes.md",
+  "producer": {
+    "lane": "cassandra",
+    "mode": "research-only structural observation",
+    "project": "Project Zeus"
+  },
+  "schema": "urn:tyche:mirror:bundle:0.1",
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "accessed_at": "2026-07-07T04:41:36.460730Z",
+      "id": "src-001",
+      "kind": "local_file",
+      "path": "sources/snapshot-manifest.json",
+      "reliability": "local-run-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "9ec110f3763ab7fe6b943194d8368645c9298c5db4551f19e2f4c7a32268a834"
+      }
+    },
+    {
+      "accessed_at": "2026-07-07T04:41:36.461814Z",
+      "id": "src-002",
+      "kind": "local_file",
+      "path": "sources/normalized-manifest.json",
+      "reliability": "local-run-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "3e1d36f35bbf0efcadab916e7d6c6d95c41f1d904688ea7d03853b4ae5f62e8f"
+      }
+    },
+    {
+      "accessed_at": "2026-07-07T04:41:36.461930Z",
+      "id": "src-003",
+      "kind": "local_file",
+      "path": "sources/diff-2026-07-07.json",
+      "reliability": "local-run-diff",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "7e3b70ca5b97835eab864dc668784a647aee9300ac926e4d6afe877dac033fdb"
+      }
+    },
+    {
+      "accessed_at": "2026-07-07T04:41:36.463006Z",
+      "id": "src-004",
+      "kind": "local_file",
+      "path": "sources/baseline-2026-07-07.json",
+      "reliability": "local-run-baseline",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "9bc7b431c0073745135922c2e205bafb6d7079fc6f2e294b4ee14960ee2b2fb8"
+      }
+    },
+    {
+      "accessed_at": "2026-07-07T04:41:36.463119Z",
+      "id": "src-005",
+      "kind": "local_file",
+      "path": "sources/pointers.json",
+      "reliability": "local-derived",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600"
+      }
+    },
+    {
+      "accessed_at": "2026-07-07T04:41:36.463214Z",
+      "id": "src-006",
+      "kind": "local_file",
+      "path": "sources/eu-lotl.xml.meta.json",
+      "reliability": "primary-metadata",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "034135d8bbc9521bb67ab59f207a4944015e1259c81d2fcb2493f2f105709e00"
+      }
+    },
+    {
+      "accessed_at": "2026-07-07T04:41:36.463580Z",
+      "id": "src-007",
+      "kind": "url_record",
+      "path": "sources/pointer-url-records.json",
+      "reliability": "primary-url-record",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "4ba927da17d78b6f49000ceaae17d2dc8ee430e022e8fc1a48469f107a37f72d"
+      }
+    }
+  ]
+}

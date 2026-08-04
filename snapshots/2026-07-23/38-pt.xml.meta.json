@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-07-23T04:31:47.828440+00:00",
+  "bytes": 684861,
+  "completed": "2026-07-23T04:31:50.142532+00:00",
+  "content_length_header": null,
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-07-23/38-pt.xml",
+  "final_url": "https://www.gns.gov.pt/media/TSLPT.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "1b7b83dda64659309d8eb79d54cec57a570107001ed8cddb732e0308c706ec65",
+  "url": "https://www.gns.gov.pt/media/TSLPT.xml"
+}

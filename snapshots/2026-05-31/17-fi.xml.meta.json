@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-05-31T04:56:07.158085+00:00",
+  "bytes": 133368,
+  "completed": "2026-05-31T04:56:08.703636+00:00",
+  "content_length_header": "133368",
+  "content_type": null,
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-05-31/17-fi.xml",
+  "final_url": "https://dp.trustedlist.fi/fi-tl-v6.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "fec6dcdba44c55085420cfc7f0cd5d101f0b429f017d5e7810877b83221e29a5",
+  "url": "https://dp.trustedlist.fi/fi-tl-v6.xml"
+}

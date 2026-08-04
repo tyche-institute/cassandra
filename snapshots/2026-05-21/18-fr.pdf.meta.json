@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T23:33:53.227716+00:00",
+  "bytes": 13707371,
+  "completed": "2026-05-20T23:33:56.551702+00:00",
+  "content_length_header": "13707371",
+  "content_type": "application/pdf",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-21/18-fr.pdf",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "de4bc3e53a885c1ce170ea13c37d6b4bddaa7eaf80485c1ca8b6e655e2de7983",
+  "url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.pdf"
+}

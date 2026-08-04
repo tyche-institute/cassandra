@@ -1,0 +1,38 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 2,
+  "changes": [
+    {
+      "caveat": "Removed comparable XML document from snapshot set; not a trust-status claim.",
+      "class": "listed_document_removed",
+      "key": "BE",
+      "normalized_path": "normalized/2026-06-07/02-be.xml.normalized.xml",
+      "old_normalized_sha256": "ac19c8e978b1a039698dccdb2eeeac6c8493cc8d2fd472f22bcd221e9f69eab2",
+      "source": "snapshots/2026-06-07/02-be.xml"
+    },
+    {
+      "caveat": "Removed comparable XML document from snapshot set; not a trust-status claim.",
+      "class": "listed_document_removed",
+      "key": "SK",
+      "normalized_path": "normalized/2026-06-07/42-sk.xml.normalized.xml",
+      "old_normalized_sha256": "033af4d8aaee6f5ce64ea76d6b47a0e8545a5240c64a6e320d45fc0bfd0baca5",
+      "source": "snapshots/2026-06-07/42-sk.xml"
+    }
+  ],
+  "created": "2026-06-08T05:03:35.947649+00:00",
+  "current_manifest": "normalized/2026-06-08/manifest.json",
+  "current_manifest_sha256": "7c9f088c6509dfeced2eeda5dfd1c47a32bbd6f4d3d68be7c11bee1b2df90277",
+  "current_record_count": 29,
+  "date": "2026-06-08",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 2,
+    "normalized_hash_changed": 0,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0,
+    "summary_field_changed": 0
+  }
+}

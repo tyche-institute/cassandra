@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-21T21:16:24.743532+00:00",
+  "bytes": 770808,
+  "completed": "2026-05-21T21:16:25.097757+00:00",
+  "content_length_header": null,
+  "content_type": "application/xml;charset=UTF-8",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-22/33-nl.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "16cc0a17fd64eb3650294f152d17664515e9ae971e40ca15dcab86fa353c99b6",
+  "url": "https://www.rdi.nl/site/binaries/content/assets/site-content/bestanden/current-tsl.xml"
+}

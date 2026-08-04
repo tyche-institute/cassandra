@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-05T04:57:04.053121+00:00",
+  "bytes": 304629,
+  "completed": "2026-06-05T04:57:05.087820+00:00",
+  "content_length_header": "304629",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-05/35-no.xml",
+  "final_url": "https://nkom.no/files/TL/NO_TL.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "f7e8f4bbf65062d24da61cf79568fbbb116d76b321d2f57b69e7bcd645261be7",
+  "url": "https://nkom.no/files/TL/NO_TL.xml"
+}

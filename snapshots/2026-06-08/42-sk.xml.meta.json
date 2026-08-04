@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-08T05:01:58.086314+00:00",
+  "bytes": 0,
+  "completed": "2026-06-08T05:03:34.672296+00:00",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-08/42-sk.xml",
+  "error": "ConnectionError",
+  "error_detail": "HTTPConnectionPool(host='tl.nbu.gov.sk', port=80): Read timed out.",
+  "final_url": null,
+  "http_status": null,
+  "redirect_count": null,
+  "redirect_history": [],
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
+}

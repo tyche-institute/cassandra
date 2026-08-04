@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T20:12:13.591015+00:00",
+  "bytes": 5339568,
+  "completed": "2026-05-20T20:12:14.004496+00:00",
+  "content_length_header": "712991",
+  "content_type": "text/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-20/08-de.XML",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "3372e125eea5725692be16fd62eb72bd548d4d13722fffb3bedcd0ac3acafd48",
+  "url": "https://tl.bundesnetzagentur.de/TL-DE.XML"
+}

@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-12T05:06:11.327629+00:00",
+  "bytes": 546914,
+  "completed": "2026-06-12T05:06:11.453237+00:00",
+  "content_length_header": "546914",
+  "content_type": "application/pdf",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-12/29-lu.pdf",
+  "final_url": "https://trusted-list.lu/tsl.pdf",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "2f44af301049accda4657257ff26b4789b2f2b813e0c8400adb1821ebac6ce13",
+  "url": "https://trusted-list.lu/tsl.pdf"
+}

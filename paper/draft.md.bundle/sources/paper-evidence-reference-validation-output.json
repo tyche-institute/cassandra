@@ -1,0 +1,98 @@
+{
+  "checked_reference_count": 8,
+  "checked_references": [
+    {
+      "artifact_index_sha256_candidates": [
+        "aeddb7337486ac9f2e50448f7f61586cfa6acfcd38819a80f4246e4e0d6f4772"
+      ],
+      "exists": true,
+      "paper_line": 295,
+      "path": "sources/eu-lotl.xml",
+      "sha256": "aeddb7337486ac9f2e50448f7f61586cfa6acfcd38819a80f4246e4e0d6f4772",
+      "type": "file"
+    },
+    {
+      "artifact_index_sha256_candidates": [
+        "034135d8bbc9521bb67ab59f207a4944015e1259c81d2fcb2493f2f105709e00"
+      ],
+      "exists": true,
+      "paper_line": 295,
+      "path": "sources/eu-lotl.xml.meta.json",
+      "sha256": "034135d8bbc9521bb67ab59f207a4944015e1259c81d2fcb2493f2f105709e00",
+      "type": "file"
+    },
+    {
+      "artifact_index_sha256_candidates": [
+        "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600"
+      ],
+      "exists": true,
+      "paper_line": 296,
+      "path": "notes/pointers.json",
+      "sha256": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600",
+      "type": "file"
+    },
+    {
+      "artifact_index_sha256_candidates": [
+        "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486"
+      ],
+      "exists": true,
+      "paper_line": 297,
+      "path": "snapshots/2026-05-20/manifest.json",
+      "sha256": "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486",
+      "type": "file"
+    },
+    {
+      "artifact_index_sha256_candidates": [
+        "3249db21d5c6e25ce421cec2b6550ba505f9723bbb1e58f1eb944bdbbbc86d92"
+      ],
+      "exists": true,
+      "paper_line": 298,
+      "path": "normalized/2026-05-20/manifest.json",
+      "sha256": "3249db21d5c6e25ce421cec2b6550ba505f9723bbb1e58f1eb944bdbbbc86d92",
+      "type": "file"
+    },
+    {
+      "artifact_index_sha256_candidates": [
+        "e9c1ada2af5ef6476378ad334a71a5c6c145c2fe9e82d887ea47ea174a49e8b3"
+      ],
+      "exists": true,
+      "paper_line": 299,
+      "path": "diffs/2026-05-20.json",
+      "sha256": "e9c1ada2af5ef6476378ad334a71a5c6c145c2fe9e82d887ea47ea174a49e8b3",
+      "type": "file"
+    },
+    {
+      "artifact_index_sha256_candidates": [
+        "4e901536b8a18ec247bf926796ba2f02f180f19ff7fbea0a62c0f18f55b10fff",
+        "6586925ec7716e00c3414c2e8b7b7bd131e6fac9b909aa5952c06b717b19ee47",
+        "06690bc2159e0775a5624b5c0c6acd66a7a06040b9e125058ecb4a48e6a69d32",
+        "446382f3a3eb7204fdb61a572106946314b8f9b16d6444228ad65910dd47bce3",
+        "3d472398d686c649b01dc89bd95c882d91cf455d5c5eb0c9b850546ed9807b1f",
+        "0f97f81c1f4b35bb2c46ab9a13ac157a7f0971d854c8f2643bf6b08b6174fa72"
+      ],
+      "exists": true,
+      "paper_line": 300,
+      "path": "alerts.jsonl",
+      "sha256": "0f97f81c1f4b35bb2c46ab9a13ac157a7f0971d854c8f2643bf6b08b6174fa72",
+      "type": "file"
+    },
+    {
+      "exists": true,
+      "missing_bundle_files": [],
+      "paper_line": 301,
+      "path": "bundles/2026-05-20/snapshot-summary.json.bundle/",
+      "required_bundle_files_present": true,
+      "type": "directory"
+    }
+  ],
+  "error_count": 0,
+  "errors": [],
+  "paper": "paper/draft.md",
+  "research_caveat": "Local paper evidence-reference validation only; not legal compliance, trusted-list legal effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-evidence-reference-validation:0.1",
+  "status": "ok",
+  "warning_count": 1,
+  "warnings": [
+    "artifact index has multiple rows for alerts.jsonl; one row matches the current file hash"
+  ]
+}

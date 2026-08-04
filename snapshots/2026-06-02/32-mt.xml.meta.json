@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-02T05:01:13.968031+00:00",
+  "bytes": 104772,
+  "completed": "2026-06-02T05:01:14.615592+00:00",
+  "content_length_header": "104772",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-02/32-mt.xml",
+  "final_url": "https://tsl.mca.org.mt/MT_TSL.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "cf942917c4855535fddb101f4c10f0ff122e723a1c48bc7f717029e764cf211c",
+  "url": "https://tsl.mca.org.mt/MT_TSL.xml"
+}

@@ -1,0 +1,21 @@
+{
+  "baseline_created": false,
+  "baseline_source": "normalized/2026-05-20/manifest.json",
+  "change_count": 0,
+  "changes": [],
+  "created": "2026-05-20T20:35:21.571210+00:00",
+  "current_manifest": "normalized/2026-05-20/manifest.json",
+  "current_manifest_sha256": "3249db21d5c6e25ce421cec2b6550ba505f9723bbb1e58f1eb944bdbbbc86d92",
+  "current_record_count": 31,
+  "date": "2026-05-20",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 0,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0,
+    "summary_field_changed": 0
+  }
+}

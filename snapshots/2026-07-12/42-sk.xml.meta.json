@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-07-12T04:33:36.974877+00:00",
+  "bytes": 1168498,
+  "completed": "2026-07-12T04:33:38.361373+00:00",
+  "content_length_header": null,
+  "content_type": "application/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-07-12/42-sk.xml",
+  "final_url": "http://tl.nbu.gov.sk/kca/tsl/tsl.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "7da1823123c7c7960c711f3c121cb1b60f1b37f6221982dc71e1bc425d32f7c0",
+  "url": "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
+}

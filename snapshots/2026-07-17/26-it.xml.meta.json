@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-07-17T04:27:26.503272+00:00",
+  "bytes": 2848257,
+  "completed": "2026-07-17T04:27:27.238900+00:00",
+  "content_length_header": "581058",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-07-17/26-it.xml",
+  "final_url": "https://eidas.agid.gov.it/TL/TSL-IT.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "c662c6acc5c69865ab88926d1143a2808c2711f7a0c76fe229ae302a157ba25c",
+  "url": "https://eidas.agid.gov.it/TL/TSL-IT.xml"
+}

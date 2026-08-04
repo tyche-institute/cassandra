@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-07T04:57:36.201406+00:00",
+  "bytes": 256894,
+  "completed": "2026-06-07T04:57:37.200751+00:00",
+  "content_length_header": "60743",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-07/20-hr.xml",
+  "final_url": "https://gov.hr/UserDocsImages/Usluge%20povjerenja/Pouzdani_popis_RH.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "1edff74c6fd82fd252f127e6e089c775ba8deed7b4d6b9978a70059b82a1b6da",
+  "url": "https://gov.hr/UserDocsImages/Usluge%20povjerenja/Pouzdani_popis_RH.xml"
+}

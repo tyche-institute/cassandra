@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-06T04:44:30.003548+00:00",
+  "bytes": 0,
+  "completed": "2026-06-06T04:45:30.314005+00:00",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-06/05-cy.xml",
+  "error": "ConnectTimeout",
+  "error_detail": "HTTPSConnectionPool(host='dec.dmrid.gov.cy', port=443): Max retries exceeded with url: /dmrid/dec/ws_dec.nsf/all/5064247FF4FC3DCCC2258506002EEA17/$file/TSL-CY-sign.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='dec.dmrid.gov.cy', port=443) at 0x7f1d51560310>, 'Connection to dec.dmrid.gov.cy timed out. (connect timeout=60)'))",
+  "final_url": null,
+  "http_status": null,
+  "redirect_count": null,
+  "redirect_history": [],
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/all/5064247FF4FC3DCCC2258506002EEA17/$file/TSL-CY-sign.xml"
+}

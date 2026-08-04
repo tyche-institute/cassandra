@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-05-29T07:07:01.800376+00:00",
+  "bytes": 2402769,
+  "completed": "2026-05-29T07:07:02.905386+00:00",
+  "content_length_header": null,
+  "content_type": "text/xml; charset=utf-8",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-05-29/19-fr.xml",
+  "final_url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "0209858f5c50440cfb4b779910d1819b9aafaa78d635377bf9cec03478902b39",
+  "url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.xml"
+}

@@ -1,0 +1,352 @@
+{
+  "caveat": "URLs are public LOTL-derived fetch targets recorded for structural observation only; this record does not determine legal status or endpoint validity.",
+  "created_at": "2026-06-11T04:59:44.772670Z",
+  "schema": "urn:tyche:cassandra:pointer-url-records:0.2",
+  "source": "snapshots/2026-06-11/manifest.json",
+  "urls": [
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/01-at.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "2cb9f07f357c057d00e050043e00729454584e4afc2e51e07c6f5ea003052375",
+      "territory": "AT",
+      "url": "https://www.signatur.rtr.at/vertrauensliste.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/02-be.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "526dc692f0468b398bd033da6f7ba64c8e5bf1a601ea9bdb899e1b2942d799d1",
+      "territory": "BE",
+      "url": "https://tsl.belgium.be/tsl-be-v6.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/03-bg.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "30df823977074b9af18f8d6448bead030ba61a6667d1c2b2cd6fbaa62887a180",
+      "territory": "BG",
+      "url": "https://crc.bg/files/_en/TSL_BG.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/04-bg.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "b7ac246a31e6d805f4830cb36449ed86cdecef328a66a37b9bca9c2969b6fd66",
+      "territory": "BG",
+      "url": "https://crc.bg/files/_en/TSL_BG.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/05-cy.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "2163e86af5bc0f8d7f77f7b8b4e454376a81b6e1f68a48d2f7148a3b3ab31690",
+      "territory": "CY",
+      "url": "https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/all/5064247FF4FC3DCCC2258506002EEA17/$file/TSL-CY-sign.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/06-cz.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "6bd28729470154101548edcd50136a30296e1ce3d069f778a0f7ef18081c8368",
+      "territory": "CZ",
+      "url": "https://tsl.gov.cz/publ/TSL_CZ.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/07-cz.xtsl",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "a9ebeb0a2f2969241197814446387894a0b5311d8af51e8d918188dec291efee",
+      "territory": "CZ",
+      "url": "https://tsl.gov.cz/publ/TSL_CZ.xtsl"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/08-de.XML",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "c79bb75c34b20ca816f1ca83323b75d00c838e6b9a594a798471839759954743",
+      "territory": "DE",
+      "url": "https://tl.bundesnetzagentur.de/TL-DE.XML"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/09-dk.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "3388ced018996dfebe603b58d5ed8d71593fabae88e0055e9d8c843ac4080079",
+      "territory": "DK",
+      "url": "https://www.digst.dk/TSLDK_v6pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/10-dk.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "4fcbf5c7d4a3e6b62d54efd36123ae467dfd6f3dee6961a30a3df59e83c03326",
+      "territory": "DK",
+      "url": "https://www.digst.dk/TSLDK_v6xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/11-ee.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "14402072915bef5ad8de871b517477a061a9ad5b067cd862c72831f961679115",
+      "territory": "EE",
+      "url": "https://sr.riik.ee/tsl/estonian-tsl.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/12-ee.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "c6b7b872fadcafdd24ad772f7b6649c5c87e3aa27ea44952727ea73d2c435918",
+      "territory": "EE",
+      "url": "https://sr.riik.ee/tsl/estonian-tsl.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/13-el.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "344de4bf8ca2b623d2cc5f3e0299a606aabe0f0b7c357263a4dc0970cbe2a3e1",
+      "territory": "EL",
+      "url": "https://www.eett.gr/tsl/tl-el.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/14-es.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "66b62b43c876b5eb9b89d353ef695ec9c2e464f7def1a4ba8d5df488e382614a",
+      "territory": "ES",
+      "url": "https://tsl.digital.gob.es/TSL.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/15-es.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "ab1cb863c6536f4cdb542f38eee52b519309b0dd5822ce11eda1a1791f158135",
+      "territory": "ES",
+      "url": "https://tsl.digital.gob.es/TSL.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/16-eu.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "c3a48c8cbc8007639e31c0b56f26076290dbd43d37980485a4a937e627cabf73",
+      "territory": "EU",
+      "url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/17-fi.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "fec6dcdba44c55085420cfc7f0cd5d101f0b429f017d5e7810877b83221e29a5",
+      "territory": "FI",
+      "url": "https://dp.trustedlist.fi/fi-tl-v6.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/18-fr.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "6eafba9dba09f51d3814617ffbc02403855a725e8c6b0d0d6495be366a83c853",
+      "territory": "FR",
+      "url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/19-fr.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "0209858f5c50440cfb4b779910d1819b9aafaa78d635377bf9cec03478902b39",
+      "territory": "FR",
+      "url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/20-hr.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "1edff74c6fd82fd252f127e6e089c775ba8deed7b4d6b9978a70059b82a1b6da",
+      "territory": "HR",
+      "url": "https://gov.hr/UserDocsImages/Usluge%20povjerenja/Pouzdani_popis_RH.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/21-hu.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "d8719eceb42a051bd9a8650018589ad246392f9d2103dcdf010b89f73e93eaa5",
+      "territory": "HU",
+      "url": "https://www.nmhh.hu/tl/pub/HU_TL.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/22-hu.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "ea1899fda5f78cad378b4816e723d015eb2ecd7ff21f445d146045d83fb5d90b",
+      "territory": "HU",
+      "url": "https://www.nmhh.hu/tl/pub/HU_TL.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/23-ie.xml",
+      "error_type": null,
+      "http_status": null,
+      "sha256": null,
+      "territory": "IE",
+      "url": "https://eidas.gov.ie/Irelandtslsignedv6.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/24-is.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "05a9bd6391412d0cf74af8308a28c04651ffec2d61cd27f47045ede66ebf8405",
+      "territory": "IS",
+      "url": "https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/25-is.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "b2c1fdfa09cd8f6ae39b90c1a8d64b872b257901bb6b99af43a74975153b2b15",
+      "territory": "IS",
+      "url": "https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/26-it.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "11c460c5284b28dd2f5a9b3e4c8730507218d1778030be756cc2c04552d03c56",
+      "territory": "IT",
+      "url": "https://eidas.agid.gov.it/TL/TSL-IT.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/27-li.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "51d44032086c637d180544f75258a2aac09397f757de07f708f1c0a61dd5e341",
+      "territory": "LI",
+      "url": "https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-kommunikation/trustedlist-li.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/28-lt.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "995b505a4773ff5dc6d59d6eb1ff266f7240aa7abe82eb83e7a1c9df1558581a",
+      "territory": "LT",
+      "url": "https://elektroninisparasas.lt/LT-TSL.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/29-lu.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "2f44af301049accda4657257ff26b4789b2f2b813e0c8400adb1821ebac6ce13",
+      "territory": "LU",
+      "url": "https://trusted-list.lu/tsl.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/30-lu.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "979384a04a416d6601c86fdd25a2921602a8e031be0f4df0a50d805f3913666c",
+      "territory": "LU",
+      "url": "https://trusted-list.lu/tsl.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/31-lv.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "406073daa0dcf04670002803ad91026001d85274da64a9264739027d88566be1",
+      "territory": "LV",
+      "url": "https://trustlist.gov.lv/tsl/latvian-tsl.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/32-mt.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "cf942917c4855535fddb101f4c10f0ff122e723a1c48bc7f717029e764cf211c",
+      "territory": "MT",
+      "url": "https://tsl.mca.org.mt/MT_TSL.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/33-nl.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "16cc0a17fd64eb3650294f152d17664515e9ae971e40ca15dcab86fa353c99b6",
+      "territory": "NL",
+      "url": "https://www.rdi.nl/site/binaries/content/assets/site-content/bestanden/current-tsl.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/34-no.pdf",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "f862eca604aeab578fb9dc04a233b2bebf8f518bb078dcaed182027d86b211de",
+      "territory": "NO",
+      "url": "https://nkom.no/files/TL/NO_TL.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/35-no.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "f7e8f4bbf65062d24da61cf79568fbbb116d76b321d2f57b69e7bcd645261be7",
+      "territory": "NO",
+      "url": "https://nkom.no/files/TL/NO_TL.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/36-pl.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "3362ed2f3578d4d3cf26bc9e0a28086013a819bf21dbf60e696c9670e77dfbf4",
+      "territory": "PL",
+      "url": "https://www.nccert.pl/tsl/PL_TSL.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/37-pt.pdf",
+      "error_type": null,
+      "http_status": null,
+      "sha256": null,
+      "territory": "PT",
+      "url": "https://www.gns.gov.pt/media/TSLPT.pdf"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/38-pt.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "b5450b2b85d6a9bc6fb93e6b8a698fdba346c716806b86850b1d09fb3199d88f",
+      "territory": "PT",
+      "url": "https://www.gns.gov.pt/media/TSLPT.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/39-ro.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "73cfe0ac4cfe604ffc5b26eeb655a2e8ec17efe56087488e84fe62aec20b67d8",
+      "territory": "RO",
+      "url": "https://trustedlist.adr.gov.ro/trustedlist.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/40-se.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "7f4cbafd3ff99fcf06d57e68aca129507cd9bf215794de03641595504945cf79",
+      "territory": "SE",
+      "url": "https://trustedlist.pts.se/tlv6/SE-TL.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/41-si.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "4ca5b047ddd4432ed8fba5afe4c14a4068518f208e0b8800f3b53be06bc80065",
+      "territory": "SI",
+      "url": "https://www.tl.gov.si/SI_TL.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/42-sk.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "f7711b3671911acf75b7f3d280db47abdc4121ffd5fa1d93ca7c2cb33b6bae76",
+      "territory": "SK",
+      "url": "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
+    },
+    {
+      "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/43-uk.xml",
+      "error_type": null,
+      "http_status": 200,
+      "sha256": "c6185978315d1470b023b59af02ab1a200e6e6bec8c60f949e9151f61b2583e5",
+      "territory": "UK",
+      "url": "https://ec.europa.eu/tools/lotl/Final_EU_TSL-UKsigned.xml"
+    }
+  ]
+}

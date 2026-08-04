@@ -1,0 +1,131 @@
+{
+  "artifact": {
+    "media_type": "application/json",
+    "path": "../snapshot-summary.json",
+    "sha256": {
+      "algorithm": "SHA-256",
+      "value": "0c014ec6fd8b5776d93d1061483251a5c4a0c33c867964fde04a2b8f953b3f92"
+    }
+  },
+  "assumptions": [
+    "The bundle summarizes local run artifacts already present in the Cassandra workspace.",
+    "Counts are parser and fetcher telemetry, not legal or supervisory findings.",
+    "Diff entries are structural observations and do not assert legally relevant change or absence of such change."
+  ],
+  "attestation": {
+    "caveat": "No regulated trust-service output is created by this bundle.",
+    "signed": false,
+    "timestamped": false
+  },
+  "bundle_created_at": "2026-06-18T05:01:56.779365Z",
+  "bundle_id": "urn:tyche:mirror:bundle:0c014ec6fd8b5776d93d1061483251a5",
+  "bundle_version": "0.2.0",
+  "canonicalization": "mirror-bundle-json-v0.1",
+  "claims_file": "claims.json",
+  "created_at": "2026-06-18T05:01:56.779367Z",
+  "created_by": {
+    "affiliation": "Tyche Institute, Tallinn, Estonia",
+    "name": "Anton Sokolov"
+  },
+  "dependencies": [
+    {
+      "name": "python",
+      "path": ".venv/bin/python"
+    },
+    {
+      "name": "lxml",
+      "purpose": "XML parsing and canonicalization"
+    },
+    {
+      "name": "requests-cache",
+      "purpose": "HTTP retrieval support"
+    }
+  ],
+  "notes_file": "notes.md",
+  "producer": {
+    "lane": "cassandra",
+    "mode": "research-only structural observation",
+    "project": "Project Zeus"
+  },
+  "schema": "urn:tyche:mirror:bundle:0.1",
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "accessed_at": "2026-06-18T05:01:56.775924Z",
+      "id": "src-001",
+      "kind": "local_file",
+      "path": "sources/snapshot-manifest.json",
+      "reliability": "local-run-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "cbeb3e6d9e24c9231102e34e7cfcc60713139ec9bb35f733f3b2d43d32ad9dee"
+      }
+    },
+    {
+      "accessed_at": "2026-06-18T05:01:56.777201Z",
+      "id": "src-002",
+      "kind": "local_file",
+      "path": "sources/normalized-manifest.json",
+      "reliability": "local-run-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "6147ae6c21cb108cf30903f6c4545eeebe26663534f682e776f7bdb168e7a36f"
+      }
+    },
+    {
+      "accessed_at": "2026-06-18T05:01:56.777343Z",
+      "id": "src-003",
+      "kind": "local_file",
+      "path": "sources/diff-2026-06-18.json",
+      "reliability": "local-run-diff",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "684217522051ec1dda2be779193262854b29fcc46b60556b3ff03a8b9250691f"
+      }
+    },
+    {
+      "accessed_at": "2026-06-18T05:01:56.778613Z",
+      "id": "src-004",
+      "kind": "local_file",
+      "path": "sources/baseline-2026-06-18.json",
+      "reliability": "local-run-baseline",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "c8ee3d9597a4d704bbd4d48beb6336b801ed833c3b5ded8fc8942af2b24d63c5"
+      }
+    },
+    {
+      "accessed_at": "2026-06-18T05:01:56.778788Z",
+      "id": "src-005",
+      "kind": "local_file",
+      "path": "sources/pointers.json",
+      "reliability": "local-derived",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600"
+      }
+    },
+    {
+      "accessed_at": "2026-06-18T05:01:56.778919Z",
+      "id": "src-006",
+      "kind": "local_file",
+      "path": "sources/eu-lotl.xml.meta.json",
+      "reliability": "primary-metadata",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "034135d8bbc9521bb67ab59f207a4944015e1259c81d2fcb2493f2f105709e00"
+      }
+    },
+    {
+      "accessed_at": "2026-06-18T05:01:56.779358Z",
+      "id": "src-007",
+      "kind": "url_record",
+      "path": "sources/pointer-url-records.json",
+      "reliability": "primary-url-record",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "a41252afd86f8ca9a7182adb7d18dec3410f2981f63d5e346dd9f957cab930c2"
+      }
+    }
+  ]
+}

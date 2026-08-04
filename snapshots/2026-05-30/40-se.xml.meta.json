@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-05-30T04:43:03.837417+00:00",
+  "bytes": 91075,
+  "completed": "2026-05-30T04:43:04.944051+00:00",
+  "content_length_header": null,
+  "content_type": "application/vnd.etsi.tsl+xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-05-30/40-se.xml",
+  "final_url": "https://trustedlist.pts.se/tlv6/SE-TL.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "7f4cbafd3ff99fcf06d57e68aca129507cd9bf215794de03641595504945cf79",
+  "url": "https://trustedlist.pts.se/tlv6/SE-TL.xml"
+}

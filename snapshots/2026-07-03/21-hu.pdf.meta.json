@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-07-03T04:40:18.653309+00:00",
+  "bytes": 0,
+  "completed": "2026-07-03T04:42:08.760382+00:00",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-07-03/21-hu.pdf",
+  "error": "ConnectionError",
+  "error_detail": "HTTPSConnectionPool(host='nmhh.hu', port=443): Read timed out.",
+  "final_url": null,
+  "http_status": null,
+  "redirect_count": null,
+  "redirect_history": [],
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "https://www.nmhh.hu/tl/pub/HU_TL.pdf"
+}

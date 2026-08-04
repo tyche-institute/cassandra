@@ -1,0 +1,268 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 15,
+  "changes": [
+    {
+      "caveat": "Removed comparable XML document from snapshot set; not a trust-status claim.",
+      "class": "listed_document_removed",
+      "key": "SK",
+      "normalized_path": "normalized/2026-06-22/42-sk.xml.normalized.xml",
+      "old_normalized_sha256": "1a199f1f3a61195d38a15c3028d0fffb883d997ea43bc2823f697625fcf47872",
+      "source": "snapshots/2026-06-22/42-sk.xml"
+    },
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "DE",
+      "new_normalized_sha256": "030660e20451cf5dc8c4679e3eafb7e669ddcbb803246eb2a651346c35a4b61d",
+      "normalized_path": "normalized/2026-06-23/08-de.XML.normalized.xml",
+      "old_normalized_sha256": "f03165c8ee55e03c820ca3e680f1c2fbc3cb2de5be91a7697917cb7038d2a940",
+      "source": "snapshots/2026-06-23/08-de.XML"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "DE",
+      "new": "158",
+      "normalized_path": "normalized/2026-06-23/08-de.XML.normalized.xml",
+      "old": "157",
+      "source": "snapshots/2026-06-23/08-de.XML"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "DE",
+      "new": "2026-06-22T12:30:00Z",
+      "normalized_path": "normalized/2026-06-23/08-de.XML.normalized.xml",
+      "old": "2026-05-28T10:30:00Z",
+      "source": "snapshots/2026-06-23/08-de.XML"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "DE",
+      "new": "2026-12-22T13:30:00Z",
+      "normalized_path": "normalized/2026-06-23/08-de.XML.normalized.xml",
+      "old": "2026-11-28T11:30:00Z",
+      "source": "snapshots/2026-06-23/08-de.XML"
+    },
+    {
+      "added_service_keys": [
+        "09490b4ba41655baa43cb8e1cac3d7fd58b20da9d3f37e718d76e16b14ddbfa2",
+        "60d506e64c5d877b57c47ec6e513eb0ca79ec130f28fc541689b285782c7af11",
+        "71603121226615e0f9a324f30802b4843869cf0febd01e17668ab24eb2bcb2c9",
+        "772f0249522a1b3d93d4e804215d2a627e57012f87683f894b688a321b6561f9",
+        "e403af308ac603e4400ba339468efc86db1e6b487455b81b2937a595e4a4258e",
+        "e41d86fcbe8fa2eae958482f339e72fd541f338064571f48132296dbc6eea48e",
+        "edab17a230cb92e56c2c233d236eab1dd8948f5f00f002b6ce7f6908d8a41998"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "DE",
+      "new_service_count": 977,
+      "normalized_path": "normalized/2026-06-23/08-de.XML.normalized.xml",
+      "old_service_count": 977,
+      "removed_service_keys": [
+        "0520a4d4940c9f0441916b35425b360e16a12baa645e8866796acbc694105ae9",
+        "29e4dd44532f7e36d76c443c0b14c3bb95f41ead58330d169f26e4735e7089c1",
+        "8ad6651e0321b009a4cfdd3ec8132f8e8c2e5cdafed5e5a26a556718e2c9e96c",
+        "9ecf4d497786408cf54f8c04e9c351266ba3f6340c61610c746e53d7688c17c7",
+        "b23320f1bf95a8a3327778b0d492e743f3ba14ab0fb3f50f0e1a69a895103f36",
+        "bfb7e098fcbb2cb35b467320f80a4c7b6cb810530406ce5f9533b385fe06beae",
+        "c0e91ae09c5c9dd2512f38cc7cfcda7d89e59200821c7fe7858a2a0f18df8f2b"
+      ],
+      "source": "snapshots/2026-06-23/08-de.XML"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "e41d86fcbe8fa2eae958482f339e72fd541f338064571f48132296dbc6eea48e"
+          ],
+          "removed": [
+            "c0e91ae09c5c9dd2512f38cc7cfcda7d89e59200821c7fe7858a2a0f18df8f2b"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 1
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 1
+          }
+        }
+      },
+      "key": "DE",
+      "normalized_path": "normalized/2026-06-23/08-de.XML.normalized.xml",
+      "provider_key": "004090fe11de0675edfa0ac8965b14627ebcc15cf2545619902953b1e9cf7ad5",
+      "source": "snapshots/2026-06-23/08-de.XML"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "edab17a230cb92e56c2c233d236eab1dd8948f5f00f002b6ce7f6908d8a41998"
+          ],
+          "removed": [
+            "bfb7e098fcbb2cb35b467320f80a4c7b6cb810530406ce5f9533b385fe06beae"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 14,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 38
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 15,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 37
+          }
+        }
+      },
+      "key": "DE",
+      "normalized_path": "normalized/2026-06-23/08-de.XML.normalized.xml",
+      "provider_key": "042875f9fef45c7153883d69b7549b2c0c147ca2921219e758d060dcdbaf5b99",
+      "source": "snapshots/2026-06-23/08-de.XML"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "09490b4ba41655baa43cb8e1cac3d7fd58b20da9d3f37e718d76e16b14ddbfa2",
+            "60d506e64c5d877b57c47ec6e513eb0ca79ec130f28fc541689b285782c7af11",
+            "71603121226615e0f9a324f30802b4843869cf0febd01e17668ab24eb2bcb2c9",
+            "772f0249522a1b3d93d4e804215d2a627e57012f87683f894b688a321b6561f9",
+            "e403af308ac603e4400ba339468efc86db1e6b487455b81b2937a595e4a4258e"
+          ],
+          "removed": [
+            "0520a4d4940c9f0441916b35425b360e16a12baa645e8866796acbc694105ae9",
+            "29e4dd44532f7e36d76c443c0b14c3bb95f41ead58330d169f26e4735e7089c1",
+            "8ad6651e0321b009a4cfdd3ec8132f8e8c2e5cdafed5e5a26a556718e2c9e96c",
+            "9ecf4d497786408cf54f8c04e9c351266ba3f6340c61610c746e53d7688c17c7",
+            "b23320f1bf95a8a3327778b0d492e743f3ba14ab0fb3f50f0e1a69a895103f36"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 25,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 97
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 30,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 92
+          }
+        }
+      },
+      "key": "DE",
+      "normalized_path": "normalized/2026-06-23/08-de.XML.normalized.xml",
+      "provider_key": "bbe0101a169e5c8a6181fc69d27615691412cc4660ea19673844f53fdb5037fc",
+      "source": "snapshots/2026-06-23/08-de.XML"
+    },
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "PT",
+      "new_normalized_sha256": "a04d73e586cdcdbf6a60d19632af483204981ef8a186ba93bacb8d16709ad73b",
+      "normalized_path": "normalized/2026-06-23/38-pt.xml.normalized.xml",
+      "old_normalized_sha256": "5790c86964f2e5dc2e25b9a2c9a9a81662c6c1b940b59d087f1e2aade006fb5b",
+      "source": "snapshots/2026-06-23/38-pt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "PT",
+      "new": "113",
+      "normalized_path": "normalized/2026-06-23/38-pt.xml.normalized.xml",
+      "old": "112",
+      "source": "snapshots/2026-06-23/38-pt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "PT",
+      "new": "2026-06-22T14:24:38Z",
+      "normalized_path": "normalized/2026-06-23/38-pt.xml.normalized.xml",
+      "old": "2026-05-06T16:10:01Z",
+      "source": "snapshots/2026-06-23/38-pt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "PT",
+      "new": "2026-12-22T15:24:38Z",
+      "normalized_path": "normalized/2026-06-23/38-pt.xml.normalized.xml",
+      "old": "2026-11-06T17:10:01Z",
+      "source": "snapshots/2026-06-23/38-pt.xml"
+    },
+    {
+      "added_service_keys": [
+        "67f9fe932ec22dc8d340f99297dfc56b3d94ccc51ade01943d4a04d1ba9a5e7c"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "PT",
+      "new_service_count": 105,
+      "normalized_path": "normalized/2026-06-23/38-pt.xml.normalized.xml",
+      "old_service_count": 105,
+      "removed_service_keys": [
+        "0214bcd87f9c440e13c8c082bca34cbffad3ad710de9864baa453d013bbed9b7"
+      ],
+      "source": "snapshots/2026-06-23/38-pt.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "67f9fe932ec22dc8d340f99297dfc56b3d94ccc51ade01943d4a04d1ba9a5e7c"
+          ],
+          "removed": [
+            "0214bcd87f9c440e13c8c082bca34cbffad3ad710de9864baa453d013bbed9b7"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 5,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 4
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 6,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 3
+          }
+        }
+      },
+      "key": "PT",
+      "normalized_path": "normalized/2026-06-23/38-pt.xml.normalized.xml",
+      "provider_key": "45f55df12c7677a2e82c231ac6f07a6823efb54c71dd6cee35217613667d1c08",
+      "source": "snapshots/2026-06-23/38-pt.xml"
+    }
+  ],
+  "created": "2026-06-23T04:48:36.923174+00:00",
+  "current_manifest": "normalized/2026-06-23/manifest.json",
+  "current_manifest_sha256": "9b4b7a55c5084e3cddf3b84cf266873328d48c77da16c1e99da00b3ab3efca5b",
+  "current_record_count": 30,
+  "date": "2026-06-23",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 1,
+    "normalized_hash_changed": 2,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 4,
+    "service_inventory_changed": 2,
+    "summary_field_changed": 6
+  }
+}

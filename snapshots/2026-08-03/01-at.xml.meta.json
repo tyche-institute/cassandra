@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-08-03T04:34:19.558583+00:00",
+  "bytes": 502447,
+  "completed": "2026-08-03T04:34:20.650955+00:00",
+  "content_length_header": "502447",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-08-03/01-at.xml",
+  "final_url": "https://www.signatur.rtr.at/vertrauensliste.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "f91bbd67a2bf913dfea5f35e9d3bf9157a1bac7d3d2377558ebf071e251e557b",
+  "url": "https://www.signatur.rtr.at/vertrauensliste.xml"
+}

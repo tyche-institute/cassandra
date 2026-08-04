@@ -1,0 +1,146 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 7,
+  "changes": [
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "RO",
+      "new_normalized_sha256": "a2573ce60965824606f98c6f3cc301b7a8d40101f9e1923c957a2f4c804a08e6",
+      "normalized_path": "normalized/2026-07-01/39-ro.xml.normalized.xml",
+      "old_normalized_sha256": "93ce4be459d73cae42d6f73b0a6abff2bef8a286c357b0f0f21bb110df688b2e",
+      "source": "snapshots/2026-07-01/39-ro.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "RO",
+      "new": "81",
+      "normalized_path": "normalized/2026-07-01/39-ro.xml.normalized.xml",
+      "old": "80",
+      "source": "snapshots/2026-07-01/39-ro.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "RO",
+      "new": "2026-06-29T12:59:25Z",
+      "normalized_path": "normalized/2026-07-01/39-ro.xml.normalized.xml",
+      "old": "2026-04-23T11:37:19Z",
+      "source": "snapshots/2026-07-01/39-ro.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "RO",
+      "new": "2026-12-29T13:59:25Z",
+      "normalized_path": "normalized/2026-07-01/39-ro.xml.normalized.xml",
+      "old": "2026-10-23T11:37:19Z",
+      "source": "snapshots/2026-07-01/39-ro.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "tsp_service_count",
+      "key": "RO",
+      "new": 174,
+      "normalized_path": "normalized/2026-07-01/39-ro.xml.normalized.xml",
+      "old": 167,
+      "source": "snapshots/2026-07-01/39-ro.xml"
+    },
+    {
+      "added_service_keys": [
+        "5ba6de1190ffb17383ebe539a6a06b00abd4531a317cfbc3a84359f103241c1c",
+        "7445a7d8efa3dc0c2118d8e9874c8e304b0b40d021795d84b965011c9f7ff993",
+        "75428f00f0f2e6218a2afbdd7023671db73b0039895eabcb777f9a59823872fe",
+        "863929b2f2839aee3cfbbb322f575b1f0f47b836bd96d0739ffff274eea1b121",
+        "b32746a7d68d6a5a07fb15fccad2162d310cd4d990f79dc2ab909c77cc8a5632",
+        "dbfe54f2abbef22da55fbf179cabe6221d9ef2b346a306f41cb5bcf9c12ff596",
+        "e4a78608a7029285120cfcc3f7c81515a7ccb874d9517f4ea00178ef3484f8d2"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "RO",
+      "new_service_count": 174,
+      "normalized_path": "normalized/2026-07-01/39-ro.xml.normalized.xml",
+      "old_service_count": 167,
+      "removed_service_keys": [],
+      "source": "snapshots/2026-07-01/39-ro.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_count": {
+          "new": 31,
+          "old": 24
+        },
+        "service_keys": {
+          "added": [
+            "5ba6de1190ffb17383ebe539a6a06b00abd4531a317cfbc3a84359f103241c1c",
+            "7445a7d8efa3dc0c2118d8e9874c8e304b0b40d021795d84b965011c9f7ff993",
+            "75428f00f0f2e6218a2afbdd7023671db73b0039895eabcb777f9a59823872fe",
+            "863929b2f2839aee3cfbbb322f575b1f0f47b836bd96d0739ffff274eea1b121",
+            "b32746a7d68d6a5a07fb15fccad2162d310cd4d990f79dc2ab909c77cc8a5632",
+            "dbfe54f2abbef22da55fbf179cabe6221d9ef2b346a306f41cb5bcf9c12ff596",
+            "e4a78608a7029285120cfcc3f7c81515a7ccb874d9517f4ea00178ef3484f8d2"
+          ],
+          "removed": []
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 19,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel": 3,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 9
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 12,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel": 3,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 9
+          }
+        },
+        "service_type_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/PKC": 2,
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 16,
+            "http://uri.etsi.org/TrstSvc/Svctype/PSES/Q": 5,
+            "http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q": 3,
+            "http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q": 2,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 2
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/PKC": 2,
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 14,
+            "http://uri.etsi.org/TrstSvc/Svctype/PSES/Q": 5,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 2
+          }
+        }
+      },
+      "key": "RO",
+      "normalized_path": "normalized/2026-07-01/39-ro.xml.normalized.xml",
+      "provider_key": "f4ebf8aa64cc944881f8d2d4c25571daa21a6fb5f19d075359418ba7951ece10",
+      "source": "snapshots/2026-07-01/39-ro.xml"
+    }
+  ],
+  "created": "2026-07-01T04:58:10.873999+00:00",
+  "current_manifest": "normalized/2026-07-01/manifest.json",
+  "current_manifest_sha256": "2e442a2fe4f4bbde43d5cbe9b99455873280d7d61bbdc00e3463fc1c0a74e279",
+  "current_record_count": 31,
+  "date": "2026-07-01",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 1,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 1,
+    "service_inventory_changed": 1,
+    "summary_field_changed": 4
+  }
+}

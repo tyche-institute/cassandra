@@ -1,0 +1,44 @@
+{
+  "artifact_paths": {
+    "baseline": "baselines/2026-07-28.json",
+    "diff": "diffs/2026-07-28.json",
+    "normalized_manifest": "normalized/2026-07-28/manifest.json",
+    "snapshot_manifest": "snapshots/2026-07-28/manifest.json"
+  },
+  "caveats": [
+    "This artifact does not perform relying-party validation, signature verification, supervision, legal-status determination, public alerting, or publication readiness assessment.",
+    "Fetch failures, parser results, and diffs are operational or structural observations only.",
+    "Listed names are intentionally not reproduced in prose; detailed machine-readable snapshot files remain local workspace artifacts."
+  ],
+  "counts": {
+    "baseline_created": false,
+    "diff_change_count": 8,
+    "diff_current_record_count": 30,
+    "fetch_errors": 3,
+    "fetched_content_files": 40,
+    "normalization_errors": 1,
+    "normalization_inputs": 40,
+    "normalization_skips": 9,
+    "normalized_xml_artifacts": 30,
+    "pointer_attempts": 43,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 1,
+    "service_inventory_changed": 1
+  },
+  "created_at": "2026-07-28T04:30:30.817132Z",
+  "date": "2026-07-28",
+  "hashes": {
+    "baseline_sha256": "1cd0110fc9a80993c73d7852295207a90fd98e605ac7a8e4741025ef259f5216",
+    "diff_sha256": "3b6c1bdf278bdaff36099fd50cc310cc0d2509470736fe46322dde01c141e0d1",
+    "normalized_manifest_sha256": "7c7b99514063e4a04e6aa825c2919c9a3c01df66d52e4c9c3407b91002868f66",
+    "pointers_sha256": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600",
+    "snapshot_manifest_sha256": "bc71bf19826a534319d778b233df59d759d0e243b8d48cfbd66f7a5d4199f7cb"
+  },
+  "inputs": {
+    "lotl_url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+    "pointers_file": "notes/pointers.json"
+  },
+  "schema": "urn:tyche:cassandra:snapshot-summary:0.2",
+  "scope": "Research-only structural observation of public LOTL-derived trusted-list snapshots.",
+  "workspace": "/home/runner/work/cassandra/cassandra"
+}

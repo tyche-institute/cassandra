@@ -1,0 +1,30 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 1,
+  "changes": [
+    {
+      "caveat": "Added comparable XML document in snapshot set; not a trust-status claim.",
+      "class": "listed_document_added",
+      "key": "BE",
+      "new_normalized_sha256": "c17a9070fdd8df7511e3ced47797d87e2b2fec9e787042ff901bb0951b9e46fd",
+      "normalized_path": "normalized/2026-06-28/02-be.xml.normalized.xml",
+      "source": "snapshots/2026-06-28/02-be.xml"
+    }
+  ],
+  "created": "2026-06-28T04:56:39.591779+00:00",
+  "current_manifest": "normalized/2026-06-28/manifest.json",
+  "current_manifest_sha256": "e121723929082fce70a545cfb8ce9cd059a5b97a69cf47e9060b1bbb9ba8bf1b",
+  "current_record_count": 31,
+  "date": "2026-06-28",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 1,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 0,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0,
+    "summary_field_changed": 0
+  }
+}

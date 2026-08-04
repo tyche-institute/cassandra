@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T23:33:51.294741+00:00",
+  "bytes": 2953339,
+  "completed": "2026-05-20T23:33:52.657860+00:00",
+  "content_length_header": "2953339",
+  "content_type": "application/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-21/15-es.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "ab1cb863c6536f4cdb542f38eee52b519309b0dd5822ce11eda1a1791f158135",
+  "url": "https://tsl.digital.gob.es/TSL.xml"
+}

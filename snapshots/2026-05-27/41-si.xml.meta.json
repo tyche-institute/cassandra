@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-27T14:18:31.852340+00:00",
+  "bytes": 663122,
+  "completed": "2026-05-27T14:18:32.492254+00:00",
+  "content_length_header": null,
+  "content_type": "text/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-27/41-si.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "f3dc281457ae49890876f21bed4865a07e4b52395591c25f1c99df5800388287",
+  "url": "https://www.tl.gov.si/SI_TL.xml"
+}

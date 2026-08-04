@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-07-02T04:46:01.751416+00:00",
+  "bytes": 106885,
+  "completed": "2026-07-02T04:46:02.421878+00:00",
+  "content_length_header": "27764",
+  "content_type": "application/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-07-02/27-li.xml",
+  "final_url": "https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-kommunikation/trustedlist-li.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "f406b0346fd742340f5173c9080aa1368534b7e5503de1697bb827a6baf7ca1f",
+  "url": "https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-kommunikation/trustedlist-li.xml"
+}

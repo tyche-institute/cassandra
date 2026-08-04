@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="904" viewBox="0 0 760 904" role="img" aria-labelledby="title desc">
+<metadata id="cassandra-figure-metadata">{&quot;caveat&quot;: &quot;Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.&quot;, &quot;created_at&quot;: &quot;2026-08-04T04:31:06Z&quot;, &quot;dates&quot;: [&quot;2026-05-20&quot;, &quot;2026-05-21&quot;, &quot;2026-05-22&quot;, &quot;2026-05-27&quot;, &quot;2026-05-28&quot;, &quot;2026-05-29&quot;, &quot;2026-05-30&quot;, &quot;2026-05-31&quot;, &quot;2026-06-01&quot;, &quot;2026-06-02&quot;, &quot;2026-06-03&quot;, &quot;2026-06-04&quot;, &quot;2026-06-05&quot;, &quot;2026-06-06&quot;, &quot;2026-06-07&quot;, &quot;2026-06-08&quot;, &quot;2026-06-09&quot;, &quot;2026-06-10&quot;, &quot;2026-06-11&quot;, &quot;2026-06-12&quot;, &quot;2026-06-13&quot;, &quot;2026-06-14&quot;, &quot;2026-06-15&quot;, &quot;2026-06-16&quot;, &quot;2026-06-17&quot;, &quot;2026-06-18&quot;, &quot;2026-06-19&quot;, &quot;2026-06-20&quot;, &quot;2026-06-21&quot;, &quot;2026-06-22&quot;, &quot;2026-06-23&quot;, &quot;2026-06-24&quot;, &quot;2026-06-25&quot;, &quot;2026-06-26&quot;, &quot;2026-06-27&quot;, &quot;2026-06-28&quot;, &quot;2026-06-29&quot;, &quot;2026-06-30&quot;, &quot;2026-07-01&quot;, &quot;2026-07-02&quot;, &quot;2026-07-03&quot;, &quot;2026-07-04&quot;, &quot;2026-07-05&quot;, &quot;2026-07-06&quot;, &quot;2026-07-07&quot;, &quot;2026-07-08&quot;, &quot;2026-07-09&quot;, &quot;2026-07-10&quot;, &quot;2026-07-11&quot;, &quot;2026-07-12&quot;, &quot;2026-07-13&quot;, &quot;2026-07-14&quot;, &quot;2026-07-15&quot;, &quot;2026-07-16&quot;, &quot;2026-07-17&quot;, &quot;2026-07-18&quot;, &quot;2026-07-19&quot;, &quot;2026-07-20&quot;, &quot;2026-07-21&quot;, &quot;2026-07-22&quot;, &quot;2026-07-23&quot;, &quot;2026-07-24&quot;, &quot;2026-07-25&quot;, &quot;2026-07-27&quot;, &quot;2026-07-28&quot;, &quot;2026-07-29&quot;, &quot;2026-07-30&quot;, &quot;2026-07-31&quot;, &quot;2026-08-01&quot;, &quot;2026-08-02&quot;, &quot;2026-08-03&quot;, &quot;2026-08-04&quot;], &quot;fields&quot;: [&quot;pointer_attempts&quot;, &quot;fetched_content_files&quot;, &quot;fetch_errors&quot;, &quot;normalized_xml_artifacts&quot;, &quot;normalization_skips&quot;, &quot;normalization_errors&quot;, &quot;diff_current_record_count&quot;, &quot;diff_change_count&quot;], &quot;lane&quot;: &quot;cassandra&quot;, &quot;row_count&quot;: 72, &quot;schema&quot;: &quot;urn:tyche:cassandra:figure:aggregate-run-telemetry:0.1&quot;, &quot;source_csv&quot;: &quot;notes/aggregate-results-table.csv&quot;, &quot;source_csv_sha256&quot;: &quot;734df9ce99c223eeb973eb0833d6e5fe09cf57d0655cbac7da6ad8b1f6ad42ad&quot;, &quot;title&quot;: &quot;Cassandra aggregate run telemetry&quot;}</metadata>
+<title id="title">Cassandra aggregate run telemetry</title>
+<desc id="desc">Counts from local dated snapshot, normalization, diff, and alert manifests. Local structural-observation telemetry only; not trusted-list validation, not legal-status determination, not supervision, not signature validation, not public alerting, and not publication approval.</desc>
+<rect width="100%" height="100%" fill="#fcfbf7"/>
+<rect x="24" y="24" width="712" height="108" rx="10" fill="#f2f5f0" stroke="#d8e2dc"/>
+<text x="44" y="62" fill="#17211d" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="36" font-weight="600">Cassandra aggregate run telemetry</text>
+<text x="44" y="98" fill="#42534d" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="20">Counts from local dated snapshot, normalization, diff, and alert manifests.</text>
+<text x="44" y="150" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="16">Local structural-observation telemetry only; not trusted-list</text>
+<text x="44" y="171" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="16">validation, not legal-status determination, not supervision, not</text>
+<text x="44" y="192" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="16">signature validation, not public alerting, and not publication</text>
+<text x="44" y="213" fill="#845f17" font-family="Inter, Arial, sans-serif" font-size="16">approval.</text>
+<text x="44" y="239" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Pointer attempts</text>
+<rect x="330" y="218" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="218" width="320" height="22" rx="11" fill="#5B8DEF"/>
+<text x="674" y="239" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">3096</text>
+<text x="44" y="301" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Fetched files</text>
+<rect x="330" y="280" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="280" width="302" height="22" rx="11" fill="#39A275"/>
+<text x="674" y="301" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">2925</text>
+<text x="44" y="363" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Fetch errors</text>
+<rect x="330" y="342" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="342" width="18" height="22" rx="11" fill="#D97706"/>
+<text x="674" y="363" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">171</text>
+<text x="44" y="425" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Normalized XML</text>
+<rect x="330" y="404" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="404" width="227" height="22" rx="11" fill="#7C3AED"/>
+<text x="674" y="425" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">2199</text>
+<text x="44" y="487" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Non-XML skips</text>
+<rect x="330" y="466" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="466" width="68" height="22" rx="11" fill="#64748B"/>
+<text x="674" y="487" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">654</text>
+<text x="44" y="549" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Parser errors</text>
+<rect x="330" y="528" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="528" width="7" height="22" rx="11" fill="#DC2626"/>
+<text x="674" y="549" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">72</text>
+<text x="44" y="611" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Comparable records</text>
+<rect x="330" y="590" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="590" width="227" height="22" rx="11" fill="#0891B2"/>
+<text x="674" y="611" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">2199</text>
+<text x="44" y="673" fill="#24342e" font-family="Source Serif 4, Charter, Iowan Old Style, Georgia, serif" font-size="21">Diff entries</text>
+<rect x="330" y="652" width="320" height="22" rx="11" fill="#e7eee9"/>
+<rect x="330" y="652" width="41" height="22" rx="11" fill="#BE123C"/>
+<text x="674" y="673" fill="#24342e" font-family="Inter, Arial, sans-serif" font-size="20">397</text>
+<text x="44" y="832" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="15">Source: notes/aggregate-results-table.csv (sha256:734df9ce99c2...f6ad42ad)</text>
+<text x="44" y="856" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="15">Dates summarized: 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-27, 2026-05-28, 2026-05-29, 2026-05-30, 2026-05-31, 2026-06-01, 2026-06-02, 2026-06-03, 2026-06-04, 2026-06-05, 2026-06-06, 2026-06-07, 2026-06-08, 2026-06-09, 2026-06-10, 2026-06-11, 2026-06-12, 2026-06-13, 2026-06-14, 2026-06-15, 2026-06-16, 2026-06-17, 2026-06-18, 2026-06-19, 2026-06-20, 2026-06-21, 2026-06-22, 2026-06-23, 2026-06-24, 2026-06-25, 2026-06-26, 2026-06-27, 2026-06-28, 2026-06-29, 2026-06-30, 2026-07-01, 2026-07-02, 2026-07-03, 2026-07-04, 2026-07-05, 2026-07-06, 2026-07-07, 2026-07-08, 2026-07-09, 2026-07-10, 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, 2026-07-16, 2026-07-17, 2026-07-18, 2026-07-19, 2026-07-20, 2026-07-21, 2026-07-22, 2026-07-23, 2026-07-24, 2026-07-25, 2026-07-27, 2026-07-28, 2026-07-29, 2026-07-30, 2026-07-31, 2026-08-01, 2026-08-02, 2026-08-03, 2026-08-04.</text>
+<text x="44" y="880" fill="#62736d" font-family="Inter, Arial, sans-serif" font-size="15">Listed names are intentionally absent from this figure.</text>
+</svg>

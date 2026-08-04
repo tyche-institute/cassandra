@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T23:33:48.845870+00:00",
+  "bytes": 17098471,
+  "completed": "2026-05-20T23:33:51.286133+00:00",
+  "content_length_header": "17098471",
+  "content_type": "application/pdf",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-21/14-es.pdf",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "66b62b43c876b5eb9b89d353ef695ec9c2e464f7def1a4ba8d5df488e382614a",
+  "url": "https://tsl.digital.gob.es/TSL.pdf"
+}

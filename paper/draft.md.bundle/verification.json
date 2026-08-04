@@ -1,0 +1,53 @@
+{
+  "artifact_sha256": "0c1cdc5ef9b8060317914d243e38811cd5ceda16ac211441fb85c1c2d936d9ef",
+  "bundle": "paper/draft.md.bundle",
+  "claim_count": 3,
+  "created_at": "2026-05-22T17:16:56Z",
+  "errors": [],
+  "research_caveat": "Local bundle replay only; not legal compliance, trusted-list legal effect, signature validation, supervision, public alerting, regulated trust-service output, legal review, or publication readiness.",
+  "schema": "urn:tyche:cassandra:paper-bundle-verification:0.1",
+  "source_count": 16,
+  "status": "ok",
+  "validator_results": [
+    {
+      "cmd": ".venv/bin/python notes/validate_paper_claim_safety.py --workspace . --output notes/paper-claim-safety-validation-output.json",
+      "error_count": 0,
+      "exit": 0,
+      "status": "ok",
+      "tail": "],\n  \"missing_required\": [],\n  \"schema_version\": \"cassandra-claim-safety-validator-v0.1\",\n  \"scope\": \"public-facing Cassandra draft prose only; local wording check, not legal analysis or publication approval\",\n  \"status\": \"ok\",\n  \"warning_count\": 2,\n  \"workspace\": \"/home/anton/projects/cassandra\"\n}\n",
+      "warning_count": 2
+    },
+    {
+      "cmd": ".venv/bin/python notes/validate_paper_evidence_refs.py --workspace . --output notes/paper-evidence-reference-validation-output.json",
+      "error_count": 0,
+      "exit": 0,
+      "status": "ok",
+      "tail": "erting, regulated trust-service output, or publication readiness.\",\n  \"schema\": \"urn:tyche:cassandra:paper-evidence-reference-validation:0.1\",\n  \"status\": \"ok\",\n  \"warning_count\": 1,\n  \"warnings\": [\n    \"artifact index has multiple rows for alerts.jsonl; one row matches the current file hash\"\n  ]\n}\n",
+      "warning_count": 1
+    },
+    {
+      "cmd": ".venv/bin/python notes/validate_paper_section_order.py --workspace . --output notes/paper-section-order-validation-output.json",
+      "error_count": 0,
+      "exit": 0,
+      "status": "ok",
+      "tail": "l effect, supervision, signature validation, public alerting, regulated trust-service output, or publication readiness.\",\n  \"schema\": \"urn:tyche:cassandra:paper-section-order-validation:0.1\",\n  \"status\": \"ok\",\n  \"warning_count\": 0,\n  \"warnings\": [],\n  \"workspace\": \"/home/anton/projects/cassandra\"\n}\n",
+      "warning_count": 0
+    },
+    {
+      "cmd": ".venv/bin/python notes/validate_paper_subsection_risk_coverage.py --workspace . --output notes/paper-subsection-risk-coverage-validation-output.json",
+      "error_count": 0,
+      "exit": 0,
+      "status": "ok",
+      "tail": "     \"present\": true,\n      \"required_families\": [\n        \"limitations\",\n        \"aggregate_only\",\n        \"no_ranking\",\n        \"source_boundary\"\n      ],\n      \"word_count\": 291\n    }\n  ],\n  \"status\": \"ok\",\n  \"warning_count\": 0,\n  \"warnings\": [],\n  \"workspace\": \"/home/anton/projects/cassandra\"\n}\n",
+      "warning_count": 0
+    },
+    {
+      "cmd": ".venv/bin/python notes/validate_paper_aggregate_only_naming.py --workspace . --output notes/paper-aggregate-only-naming-validation-output.json",
+      "error_count": 0,
+      "exit": 0,
+      "status": "ok",
+      "tail": "upervision, public alerting, regulated trust-service output, legal review, or publication approval.\",\n  \"schema\": \"urn:tyche:cassandra:paper-aggregate-only-naming:0.1\",\n  \"snapshot_date_scanned\": \"2026-05-22\",\n  \"status\": \"ok\",\n  \"warning_count\": 1,\n  \"workspace\": \"/home/anton/projects/cassandra\"\n}\n",
+      "warning_count": 1
+    }
+  ]
+}

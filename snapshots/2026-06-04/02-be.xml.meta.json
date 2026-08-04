@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-04T05:01:24.055166+00:00",
+  "bytes": 690080,
+  "completed": "2026-06-04T05:01:24.695454+00:00",
+  "content_length_header": "137292",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-04/02-be.xml",
+  "final_url": "https://tsl.belgium.be/tsl-be-v6.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "526dc692f0468b398bd033da6f7ba64c8e5bf1a601ea9bdb899e1b2942d799d1",
+  "url": "https://tsl.belgium.be/tsl-be-v6.xml"
+}

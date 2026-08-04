@@ -1,0 +1,187 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 14,
+  "changes": [
+    {
+      "caveat": "Removed comparable XML document from snapshot set; not a trust-status claim.",
+      "class": "listed_document_removed",
+      "key": "BE",
+      "normalized_path": "normalized/2026-07-15/02-be.xml.normalized.xml",
+      "old_normalized_sha256": "c17a9070fdd8df7511e3ced47797d87e2b2fec9e787042ff901bb0951b9e46fd",
+      "source": "snapshots/2026-07-15/02-be.xml"
+    },
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "HU",
+      "new_normalized_sha256": "5211c0fdc43dd2cda6f9b35fc732c47849bdd8e29a0476196897f6880cc2d9b1",
+      "normalized_path": "normalized/2026-07-16/22-hu.xml.normalized.xml",
+      "old_normalized_sha256": "2003632dda426a2211c01be3e08114c53ef8e9f1409a0e0fe74746118543ac05",
+      "source": "snapshots/2026-07-16/22-hu.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "HU",
+      "new": "99",
+      "normalized_path": "normalized/2026-07-16/22-hu.xml.normalized.xml",
+      "old": "98",
+      "source": "snapshots/2026-07-16/22-hu.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "HU",
+      "new": "2026-07-15T09:00:00Z",
+      "normalized_path": "normalized/2026-07-16/22-hu.xml.normalized.xml",
+      "old": "2026-05-28T14:00:00Z",
+      "source": "snapshots/2026-07-16/22-hu.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "HU",
+      "new": "2027-01-15T09:00:00Z",
+      "normalized_path": "normalized/2026-07-16/22-hu.xml.normalized.xml",
+      "old": "2026-11-27T15:00:00Z",
+      "source": "snapshots/2026-07-16/22-hu.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "trust_service_provider_count",
+      "key": "HU",
+      "new": 12,
+      "normalized_path": "normalized/2026-07-16/22-hu.xml.normalized.xml",
+      "old": 11,
+      "source": "snapshots/2026-07-16/22-hu.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "tsp_service_count",
+      "key": "HU",
+      "new": 339,
+      "normalized_path": "normalized/2026-07-16/22-hu.xml.normalized.xml",
+      "old": 337,
+      "source": "snapshots/2026-07-16/22-hu.xml"
+    },
+    {
+      "added_provider_keys": [
+        "8736cd8498acf3a8964772714ab54613d331ab0f2be1ff9b03c04daf4773e94f"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_inventory_changed",
+      "key": "HU",
+      "new_provider_count": 12,
+      "normalized_path": "normalized/2026-07-16/22-hu.xml.normalized.xml",
+      "old_provider_count": 11,
+      "removed_provider_keys": [],
+      "source": "snapshots/2026-07-16/22-hu.xml"
+    },
+    {
+      "added_service_keys": [
+        "cee7dd5463b678e895df66c7f1369712e89cb222d28d119c5422d3d0d1843ab6",
+        "e9a68aafc2ef62df21c6dc26c4ef501f6431184851ba8b75ee4bff1b19bf65a0"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "HU",
+      "new_service_count": 339,
+      "normalized_path": "normalized/2026-07-16/22-hu.xml.normalized.xml",
+      "old_service_count": 337,
+      "removed_service_keys": [],
+      "source": "snapshots/2026-07-16/22-hu.xml"
+    },
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "SK",
+      "new_normalized_sha256": "e256b67130ec9cc13f62e6b28e32920b2f1dd4331ae7d76b1a2ad7e8f316f9e5",
+      "normalized_path": "normalized/2026-07-16/42-sk.xml.normalized.xml",
+      "old_normalized_sha256": "3314c94dafbbdd2ba970254276463bfa3079a8b3dc5a3f42bd367b90ab74e9bd",
+      "source": "snapshots/2026-07-16/42-sk.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "SK",
+      "new": "143",
+      "normalized_path": "normalized/2026-07-16/42-sk.xml.normalized.xml",
+      "old": "142",
+      "source": "snapshots/2026-07-16/42-sk.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "SK",
+      "new": "2026-07-15T06:00:00Z",
+      "normalized_path": "normalized/2026-07-16/42-sk.xml.normalized.xml",
+      "old": "2026-07-09T10:00:00Z",
+      "source": "snapshots/2026-07-16/42-sk.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "SK",
+      "new": "2026-12-28T11:00:00Z",
+      "normalized_path": "normalized/2026-07-16/42-sk.xml.normalized.xml",
+      "old": "2026-12-22T11:00:00Z",
+      "source": "snapshots/2026-07-16/42-sk.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "signature_shape",
+      "key": "SK",
+      "new": {
+        "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+        "digest_method_algorithms": [
+          "http://www.w3.org/2001/04/xmlenc#sha512"
+        ],
+        "key_info_count": 1,
+        "reference_count": 2,
+        "signature_count": 1,
+        "signature_method_algorithms": [
+          "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
+        ]
+      },
+      "normalized_path": "normalized/2026-07-16/42-sk.xml.normalized.xml",
+      "old": {
+        "caveat": "Signature-shape observation only; no cryptographic verification performed.",
+        "digest_method_algorithms": [
+          "http://www.w3.org/2001/04/xmlenc#sha512"
+        ],
+        "key_info_count": 1,
+        "reference_count": 2,
+        "signature_count": 1,
+        "signature_method_algorithms": [
+          "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"
+        ]
+      },
+      "source": "snapshots/2026-07-16/42-sk.xml"
+    }
+  ],
+  "created": "2026-07-16T04:30:29.196833+00:00",
+  "current_manifest": "normalized/2026-07-16/manifest.json",
+  "current_manifest_sha256": "6af628aefb16d0b32cb0ccd6fb3830bf13dd5bd0d2e21bcfaf6bf78b0da87229",
+  "current_record_count": 30,
+  "date": "2026-07-16",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 1,
+    "normalized_hash_changed": 2,
+    "provider_inventory_changed": 1,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 1,
+    "summary_field_changed": 9
+  }
+}

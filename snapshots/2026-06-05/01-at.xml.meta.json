@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-05T04:52:55.907901+00:00",
+  "bytes": 0,
+  "completed": "2026-06-05T04:53:56.204026+00:00",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-05/01-at.xml",
+  "error": "ConnectTimeout",
+  "error_detail": "HTTPSConnectionPool(host='www.signatur.rtr.at', port=443): Max retries exceeded with url: /vertrauensliste.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.signatur.rtr.at', port=443) at 0x7fdaae965190>, 'Connection to www.signatur.rtr.at timed out. (connect timeout=60)'))",
+  "final_url": null,
+  "http_status": null,
+  "redirect_count": null,
+  "redirect_history": [],
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "https://www.signatur.rtr.at/vertrauensliste.xml"
+}

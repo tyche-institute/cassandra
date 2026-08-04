@@ -1,0 +1,7 @@
+{
+  "artifact": "/home/anton/projects/cassandra/bundles/2026-05-21/snapshot-summary.json",
+  "bundle_dir": "/home/anton/projects/cassandra/bundles/2026-05-21/snapshot-summary.json.bundle",
+  "errors": [],
+  "research_caveat": "Cassandra bundle for research-only structural observation; not legal-status determination, supervision, signature validation, relying-party processing, public alerting, regulated trust-service output, or publication readiness.",
+  "status": "ok"
+}

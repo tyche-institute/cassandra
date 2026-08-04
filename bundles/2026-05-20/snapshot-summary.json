@@ -1,0 +1,41 @@
+{
+  "artifact_paths": {
+    "baseline": "baselines/2026-05-20.json",
+    "diff": "diffs/2026-05-20.json",
+    "normalized_manifest": "normalized/2026-05-20/manifest.json",
+    "snapshot_manifest": "snapshots/2026-05-20/manifest.json"
+  },
+  "caveats": [
+    "This artifact does not perform relying-party validation, signature verification, supervision, or legal-status determination.",
+    "Fetch failures, parser results, and diffs are operational or structural observations only.",
+    "Listed names are intentionally not reproduced in prose; detailed machine-readable snapshot files remain local workspace artifacts."
+  ],
+  "counts": {
+    "baseline_created": true,
+    "diff_change_count": 0,
+    "diff_current_record_count": 31,
+    "fetch_errors": 2,
+    "fetched_content_files": 41,
+    "normalization_errors": 1,
+    "normalization_inputs": 41,
+    "normalization_skips": 9,
+    "normalized_xml_artifacts": 31,
+    "pointer_attempts": 43
+  },
+  "created_at": "2026-05-20T20:24:37.910502Z",
+  "date": "2026-05-20",
+  "hashes": {
+    "baseline_sha256": "1c3c344e5751a405bc5a6a9a24e66e9ef72ff604362904b8205c96e7af4d3e3c",
+    "diff_sha256": "ec47b2eb2c5da49d083808c0d3fc2bd87e355c2908420ca8d53498812df782f5",
+    "normalized_manifest_sha256": "ed6a15f1f777c7f958d86142d61a5c979c40da99d839d71141a22d7223bf8380",
+    "pointers_sha256": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600",
+    "snapshot_manifest_sha256": "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486"
+  },
+  "inputs": {
+    "lotl_url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+    "pointers_file": "notes/pointers.json"
+  },
+  "schema": "urn:tyche:cassandra:snapshot-summary:0.1",
+  "scope": "Research-only structural observation of public LOTL-derived trusted-list snapshots.",
+  "workspace": "/home/anton/projects/cassandra"
+}

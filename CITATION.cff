@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset or toolkit, please cite it as below."
+title: "Cassandra — EU/EEA Trusted-List Observatory Dataset"
+abstract: >-
+  A research dataset and toolkit recording daily structural snapshots, normalized
+  representations, and day-over-day structural diffs of national trusted lists published
+  under Regulation (EU) No 910/2014 (eIDAS) across EU/EEA jurisdictions. Research-only
+  structural observation; not trusted-list validation, signature validation, legal-status
+  determination, supervision, or regulated trust-service output.
+type: dataset
+authors:
+  - family-names: Sokolov
+    given-names: Anton
+    affiliation: "Tyche Institute"
+    orcid: "https://orcid.org/0000-0003-2452-7096"
+    email: anton.sokolov@tyche.institute
+keywords:
+  - eIDAS
+  - trusted list
+  - trust services
+  - digital identity
+  - observatory
+  - open data
+license: CC-BY-4.0

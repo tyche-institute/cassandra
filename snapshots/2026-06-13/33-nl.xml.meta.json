@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-13T04:56:18.869864+00:00",
+  "bytes": 770808,
+  "completed": "2026-06-13T04:56:19.570051+00:00",
+  "content_length_header": null,
+  "content_type": "application/xml;charset=UTF-8",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-13/33-nl.xml",
+  "final_url": "https://www.rdi.nl/site/binaries/content/assets/site-content/bestanden/current-tsl.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "16cc0a17fd64eb3650294f152d17664515e9ae971e40ca15dcab86fa353c99b6",
+  "url": "https://www.rdi.nl/site/binaries/content/assets/site-content/bestanden/current-tsl.xml"
+}

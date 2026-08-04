@@ -1,0 +1,109 @@
+{
+  "artifacts": [
+    {
+      "name": "snapshot_manifest",
+      "path": "snapshots/2026-07-27/manifest.json",
+      "sha256": "e35b9246d8ad186f7cbc36f11ff202b0b3883c306d21cb1bec4544cb1f60e225",
+      "size_bytes": 34766
+    },
+    {
+      "name": "normalized_manifest",
+      "path": "normalized/2026-07-27/manifest.json",
+      "sha256": "b17e6da6e48ed709eb78af541545759bee42f71f1ebe0f9f7c506599302d2657",
+      "size_bytes": 1198087
+    },
+    {
+      "name": "diff",
+      "path": "diffs/2026-07-27.json",
+      "sha256": "22a1fac5cd3c2a43d082b9def23bda3c21d4aae893d6bcf12fcb689203678b2c",
+      "size_bytes": 885
+    },
+    {
+      "name": "baseline",
+      "path": "baselines/2026-07-27.json",
+      "sha256": "a5ebc8390668e679379cfe97c707f6d0ec64764e695e8c3a01b77557cf68f1a5",
+      "size_bytes": 1193231
+    },
+    {
+      "name": "bundle_summary",
+      "path": "bundles/2026-07-27/snapshot-summary.json",
+      "sha256": "86cfdd39ad2d80898cbf4afc306126586be326db0eaa363fc877f1a9d55d6c71",
+      "size_bytes": 2015
+    },
+    {
+      "name": "bundle_manifest",
+      "path": "bundles/2026-07-27/snapshot-summary.json.bundle/manifest.json",
+      "sha256": "a54b684a826adbcc351327ea6e1aad9128a2704c01cc3442771f7a41f1151709",
+      "size_bytes": 4034
+    },
+    {
+      "name": "alert_rollup",
+      "path": "notes/alert-rollup-2026-07-27-output.json",
+      "sha256": "afa2520277255e24a6c9b91b44d2716f76688bf1bc116f81a851110311368e78",
+      "size_bytes": 2805
+    }
+  ],
+  "case_study_sentence": "Cassandra: from governance infrastructure to evidence infrastructure.",
+  "caveat": "EATF/AEP receipt for Cassandra structural observation only; it verifies the evidence package bytes and declared hashes, not trusted-list legal status, supervision, signature validity, relying-party validation, or public alerting.",
+  "claim_boundary": {
+    "asserts": [
+      "The listed local files existed at package time.",
+      "The package payload records SHA-256 hashes and bounded telemetry for the dated run.",
+      "The AEP verification receipt, when present, verifies the package envelope and payload bytes."
+    ],
+    "does_not_assert": [
+      "trusted-list legal status",
+      "signature validity",
+      "supervisory decision",
+      "relying-party validation",
+      "public alerting or publication approval"
+    ]
+  },
+  "counts": {
+    "baseline_created": false,
+    "bundle_counts": {
+      "baseline_created": false,
+      "diff_change_count": 0,
+      "diff_current_record_count": 31,
+      "fetch_errors": 2,
+      "fetched_content_files": 41,
+      "normalization_errors": 1,
+      "normalization_inputs": 41,
+      "normalization_skips": 9,
+      "normalized_xml_artifacts": 31,
+      "pointer_attempts": 43,
+      "provider_inventory_changed": 0,
+      "provider_service_detail_changed": 0,
+      "service_inventory_changed": 0
+    },
+    "diff_change_count": 0,
+    "diff_current_record_count": 31,
+    "diff_summary": {
+      "listed_document_added": 0,
+      "listed_document_removed": 0,
+      "normalized_hash_changed": 0,
+      "provider_inventory_changed": 0,
+      "provider_service_detail_changed": 0,
+      "service_inventory_changed": 0,
+      "summary_field_changed": 0
+    },
+    "fetch_errors": 2,
+    "fetched_content_files": 41,
+    "normalization_errors": 1,
+    "normalization_inputs": 41,
+    "normalization_skips": 9,
+    "normalized_xml_artifacts": 31,
+    "pointer_attempts": 43
+  },
+  "created_at": "2026-07-27T09:32:23Z",
+  "lane": "cassandra",
+  "observation_date": "2026-07-27",
+  "payload_path": "evidence/2026-07-27/cassandra-observation.json",
+  "payload_sha256": "875fe5439ed8f198979fd995713249de4476f7edaf77598099590c458eb5bfae",
+  "schema": "urn:tyche:cassandra:eatf-observation-payload:0.1",
+  "subject": {
+    "scope": "Public LOTL-derived trusted-list snapshot telemetry",
+    "type": "public_trust_list_structural_observation",
+    "workspace": "tyche-institute/cassandra"
+  }
+}

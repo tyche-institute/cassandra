@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-07-30T04:25:40.396508+00:00",
+  "bytes": 14492584,
+  "completed": "2026-07-30T04:25:42.593865+00:00",
+  "content_length_header": "14492584",
+  "content_type": "application/pdf",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-07-30/18-fr.pdf",
+  "final_url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.pdf",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "b45bd5dff5acc2d5c9ebc825702985f5bf9466ba386dda116b810548bb5ef8c0",
+  "url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.pdf"
+}

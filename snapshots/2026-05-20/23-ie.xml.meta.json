@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T20:12:31.448332+00:00",
+  "bytes": 0,
+  "completed": "2026-05-20T20:12:31.684836+00:00",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-20/23-ie.xml",
+  "error": "SSLError",
+  "error_detail": "HTTPSConnectionPool(host='eidas.gov.ie', port=443): Max retries exceeded with url: /Irelandtslsignedv6.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))",
+  "http_status": null,
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "https://eidas.gov.ie/Irelandtslsignedv6.xml"
+}

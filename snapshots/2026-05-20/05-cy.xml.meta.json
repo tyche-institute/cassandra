@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T20:12:09.419444+00:00",
+  "bytes": 63522,
+  "completed": "2026-05-20T20:12:09.809651+00:00",
+  "content_length_header": "24452",
+  "content_type": "text/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-20/05-cy.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "2163e86af5bc0f8d7f77f7b8b4e454376a81b6e1f68a48d2f7148a3b3ab31690",
+  "url": "https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/all/5064247FF4FC3DCCC2258506002EEA17/$file/TSL-CY-sign.xml"
+}

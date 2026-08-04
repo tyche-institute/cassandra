@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-27T14:17:52.707669+00:00",
+  "bytes": 3776332,
+  "completed": "2026-05-27T14:17:53.867325+00:00",
+  "content_length_header": "3776332",
+  "content_type": "application/pdf",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-27/03-bg.pdf",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "6d2b6d7ce041b4fff71b4943617233c83e168cd9cd3ee1bb5809224025af8367",
+  "url": "https://crc.bg/files/_en/TSL_BG.pdf"
+}

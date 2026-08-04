@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-07-13T04:35:30.212791+00:00",
+  "bytes": 692628,
+  "completed": "2026-07-13T04:35:32.290425+00:00",
+  "content_length_header": null,
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-07-13/41-si.xml",
+  "final_url": "https://www.tl.gov.si/SI_TL.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "03cece6d16b87f9740a263bce140b6cfa5405f2cceabd1840c7a4a6f729e2a85",
+  "url": "https://www.tl.gov.si/SI_TL.xml"
+}

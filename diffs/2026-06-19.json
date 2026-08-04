@@ -1,0 +1,122 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 6,
+  "changes": [
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "IT",
+      "new_normalized_sha256": "61a70b3f668a176218324c919918e8683f175f3bb56346f376326bf1950d4ddf",
+      "normalized_path": "normalized/2026-06-19/26-it.xml.normalized.xml",
+      "old_normalized_sha256": "a20464125b7ee9d0d2c6e77df7683afa5271317a1ee0bc7621190665cb865856",
+      "source": "snapshots/2026-06-19/26-it.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "IT",
+      "new": "222",
+      "normalized_path": "normalized/2026-06-19/26-it.xml.normalized.xml",
+      "old": "221",
+      "source": "snapshots/2026-06-19/26-it.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "IT",
+      "new": "2026-06-12T07:09:51Z",
+      "normalized_path": "normalized/2026-06-19/26-it.xml.normalized.xml",
+      "old": "2026-05-21T09:31:54Z",
+      "source": "snapshots/2026-06-19/26-it.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "IT",
+      "new": "2026-12-12T08:09:51Z",
+      "normalized_path": "normalized/2026-06-19/26-it.xml.normalized.xml",
+      "old": "2026-11-21T10:31:54Z",
+      "source": "snapshots/2026-06-19/26-it.xml"
+    },
+    {
+      "added_service_keys": [
+        "4a97dbefbaa6c2bcf3580e923da3f7fb12329e358ce157e2a8ce6f91441e341d",
+        "5225d55b37401e83060b9ae27e28c3b40bb5dc1e2d6a701352381a506e607f46",
+        "58408ae7b40ea609fad6d8dbc462059a2360d4411854e928f38d040e1ab113ce",
+        "d5d3d54d16894b558e2d2f47824f5e00cfb9c7f4c9f77c966477f919cbc7d1fd",
+        "db748a47b81da28a51074b7ea9460a713e178cb139e29e3f5bc278b7aa7f87ba",
+        "dda81aae0531c1d28a7c175a9ddbfe34e3c847398c3dcd8f140efb368bf6592a",
+        "dfeac0bea66b1278960911b2f0f1943d52d76f4dec7a2ae4143e13bcbe771f19",
+        "f0cf54d22699dda6045f36ef80f4c970ea837555f2cb5d7d7c39a58933e02e9b"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "IT",
+      "new_service_count": 557,
+      "normalized_path": "normalized/2026-06-19/26-it.xml.normalized.xml",
+      "old_service_count": 557,
+      "removed_service_keys": [
+        "05fdd8b534a48ef2bc65bb43b6033c9f43f1e72b4b9d10e9ccfbf8223da16a5e",
+        "5025c3920bcfe0652b469e0a7d6a5cfc2e80cc5f6236c160a6e6a28981481e26",
+        "78537f6ba883abd479d8b514e5850e4b96e73309496186fb4173771148acb8d2",
+        "a5c84b9ebed1eb963bcf8372bfd1eda6b8c9caa19989c6f556c7b618d6e7723d",
+        "c18abd34aa78928f8baa58d1d8744e56291286c684c437fdd7423e36b50be37d",
+        "c4d931348b3d5f02cd83a26f40fae90192a4fb6fb3557b5898d43eae52a58208",
+        "d8208465aad03dff03fd5af752091fad23147231b1d6d86dfdda8a23fedd164c",
+        "e8ba9dbc85501c73cd6fcfc21715d039aa4c40ffe6b2a3b9e0b9a681c61561e5"
+      ],
+      "source": "snapshots/2026-06-19/26-it.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "4a97dbefbaa6c2bcf3580e923da3f7fb12329e358ce157e2a8ce6f91441e341d",
+            "5225d55b37401e83060b9ae27e28c3b40bb5dc1e2d6a701352381a506e607f46",
+            "58408ae7b40ea609fad6d8dbc462059a2360d4411854e928f38d040e1ab113ce",
+            "d5d3d54d16894b558e2d2f47824f5e00cfb9c7f4c9f77c966477f919cbc7d1fd",
+            "db748a47b81da28a51074b7ea9460a713e178cb139e29e3f5bc278b7aa7f87ba",
+            "dda81aae0531c1d28a7c175a9ddbfe34e3c847398c3dcd8f140efb368bf6592a",
+            "dfeac0bea66b1278960911b2f0f1943d52d76f4dec7a2ae4143e13bcbe771f19",
+            "f0cf54d22699dda6045f36ef80f4c970ea837555f2cb5d7d7c39a58933e02e9b"
+          ],
+          "removed": [
+            "05fdd8b534a48ef2bc65bb43b6033c9f43f1e72b4b9d10e9ccfbf8223da16a5e",
+            "5025c3920bcfe0652b469e0a7d6a5cfc2e80cc5f6236c160a6e6a28981481e26",
+            "78537f6ba883abd479d8b514e5850e4b96e73309496186fb4173771148acb8d2",
+            "a5c84b9ebed1eb963bcf8372bfd1eda6b8c9caa19989c6f556c7b618d6e7723d",
+            "c18abd34aa78928f8baa58d1d8744e56291286c684c437fdd7423e36b50be37d",
+            "c4d931348b3d5f02cd83a26f40fae90192a4fb6fb3557b5898d43eae52a58208",
+            "d8208465aad03dff03fd5af752091fad23147231b1d6d86dfdda8a23fedd164c",
+            "e8ba9dbc85501c73cd6fcfc21715d039aa4c40ffe6b2a3b9e0b9a681c61561e5"
+          ]
+        }
+      },
+      "key": "IT",
+      "normalized_path": "normalized/2026-06-19/26-it.xml.normalized.xml",
+      "provider_key": "4da2ce00213a9abcfb2ad7ff7524232e9129e67b909b2b5c535cdd5c436409c0",
+      "source": "snapshots/2026-06-19/26-it.xml"
+    }
+  ],
+  "created": "2026-06-19T05:07:07.564113+00:00",
+  "current_manifest": "normalized/2026-06-19/manifest.json",
+  "current_manifest_sha256": "eb8b22f860e18bd12c720f7e58526d60b013071733ddda7c3d2ab6f711707c63",
+  "current_record_count": 31,
+  "date": "2026-06-19",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 1,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 1,
+    "service_inventory_changed": 1,
+    "summary_field_changed": 3
+  }
+}

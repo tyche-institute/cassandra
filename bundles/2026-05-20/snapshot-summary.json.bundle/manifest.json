@@ -1,0 +1,131 @@
+{
+  "artifact": {
+    "media_type": "application/json",
+    "path": "../snapshot-summary.json",
+    "sha256": {
+      "algorithm": "SHA-256",
+      "value": "8f9f1a74bf12d97f41c2d5ff46018cc151d63b0d8589aa718ad6312a25d897f8"
+    }
+  },
+  "assumptions": [
+    "The bundle summarizes local run artifacts already present in the Cassandra workspace.",
+    "Counts are parser and fetcher telemetry, not legal or supervisory findings.",
+    "The first-day diff is empty because a baseline was initialized, not because absence of external change was established."
+  ],
+  "attestation": {
+    "caveat": "No regulated trust-service output is created by this bundle.",
+    "signed": false,
+    "timestamped": false
+  },
+  "bundle_created_at": "2026-05-20T20:24:37.911716Z",
+  "bundle_id": "urn:tyche:mirror:bundle:8f9f1a74bf12d97f41c2d5ff46018cc1",
+  "bundle_version": "0.1.0",
+  "canonicalization": "mirror-bundle-json-v0.1",
+  "claims_file": "claims.json",
+  "created_at": "2026-05-20T20:24:37.911716Z",
+  "created_by": {
+    "affiliation": "Tyche Institute, Tallinn, Estonia",
+    "name": "Anton Sokolov"
+  },
+  "dependencies": [
+    {
+      "name": "python",
+      "path": ".venv/bin/python"
+    },
+    {
+      "name": "lxml",
+      "purpose": "XML parsing and canonicalization"
+    },
+    {
+      "name": "requests-cache",
+      "purpose": "HTTP retrieval support"
+    }
+  ],
+  "notes_file": "notes.md",
+  "producer": {
+    "lane": "cassandra",
+    "mode": "research-only structural observation",
+    "project": "Project Zeus"
+  },
+  "schema": "urn:tyche:mirror:bundle:0.1",
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "accessed_at": "2026-05-20T20:24:37.910938Z",
+      "id": "src-001",
+      "kind": "local_file",
+      "path": "sources/snapshot-manifest.json",
+      "reliability": "local-run-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "c8ec1b3dc04bd03d15ed84a6c845d326ac34c7570623c9f4fb8fb20e531b0486"
+      }
+    },
+    {
+      "accessed_at": "2026-05-20T20:24:37.911029Z",
+      "id": "src-002",
+      "kind": "local_file",
+      "path": "sources/normalized-manifest.json",
+      "reliability": "local-run-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "ed6a15f1f777c7f958d86142d61a5c979c40da99d839d71141a22d7223bf8380"
+      }
+    },
+    {
+      "accessed_at": "2026-05-20T20:24:37.911085Z",
+      "id": "src-003",
+      "kind": "local_file",
+      "path": "sources/diff-2026-05-20.json",
+      "reliability": "local-run-manifest",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "ec47b2eb2c5da49d083808c0d3fc2bd87e355c2908420ca8d53498812df782f5"
+      }
+    },
+    {
+      "accessed_at": "2026-05-20T20:24:37.911160Z",
+      "id": "src-004",
+      "kind": "local_file",
+      "path": "sources/baseline-2026-05-20.json",
+      "reliability": "local-run-baseline",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "1c3c344e5751a405bc5a6a9a24e66e9ef72ff604362904b8205c96e7af4d3e3c"
+      }
+    },
+    {
+      "accessed_at": "2026-05-20T20:24:37.911233Z",
+      "id": "src-005",
+      "kind": "local_file",
+      "path": "sources/pointers.json",
+      "reliability": "local-derived",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600"
+      }
+    },
+    {
+      "accessed_at": "2026-05-20T20:24:37.911507Z",
+      "id": "src-006",
+      "kind": "local_file",
+      "path": "sources/eu-lotl.xml.meta.json",
+      "reliability": "primary-metadata",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "034135d8bbc9521bb67ab59f207a4944015e1259c81d2fcb2493f2f105709e00"
+      }
+    },
+    {
+      "accessed_at": "2026-05-20T20:24:37.911713Z",
+      "id": "src-007",
+      "kind": "url_record",
+      "path": "sources/pointer-url-records.json",
+      "reliability": "primary-url-record",
+      "sha256": {
+        "algorithm": "SHA-256",
+        "value": "7377f888ff84fa60550877f8a0b74d385e4e102a2a8f5e8c235edf7b0686bb8e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-24T04:48:45.806602+00:00",
+  "bytes": 5350133,
+  "completed": "2026-06-24T04:48:47.375555+00:00",
+  "content_length_header": "713607",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-24/08-de.XML",
+  "final_url": "https://tl.bundesnetzagentur.de/TL-DE.XML",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "bb1763ade35383f4394131ad9e528e165bd9137fed4813629c13838809dc710e",
+  "url": "https://tl.bundesnetzagentur.de/TL-DE.XML"
+}

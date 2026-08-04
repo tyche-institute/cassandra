@@ -1,0 +1,26 @@
+{
+  "accessed": "2026-06-11T04:58:45.639028+00:00",
+  "bytes": 557265,
+  "completed": "2026-06-11T04:58:47.658123+00:00",
+  "content_length_header": "557265",
+  "content_type": "application/pdf",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-11/09-dk.xml",
+  "final_url": "https://digst.dk/media/hxmnbtgy/2026-05-26-pdf.pdf",
+  "http_status": 200,
+  "redirect_count": 2,
+  "redirect_history": [
+    {
+      "location": "https://digst.dk/TSLDK_v6pdf",
+      "status_code": 302,
+      "url": "https://www.digst.dk/TSLDK_v6pdf"
+    },
+    {
+      "location": "/media/hxmnbtgy/2026-05-26-pdf.pdf",
+      "status_code": 301,
+      "url": "https://digst.dk/TSLDK_v6pdf"
+    }
+  ],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "3388ced018996dfebe603b58d5ed8d71593fabae88e0055e9d8c843ac4080079",
+  "url": "https://www.digst.dk/TSLDK_v6pdf"
+}

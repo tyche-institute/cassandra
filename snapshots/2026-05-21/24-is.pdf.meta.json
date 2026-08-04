@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T23:34:09.198837+00:00",
+  "bytes": 414595,
+  "completed": "2026-05-20T23:34:10.039372+00:00",
+  "content_length_header": "414595",
+  "content_type": "application/pdf",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-21/24-is.pdf",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "05a9bd6391412d0cf74af8308a28c04651ffec2d61cd27f47045ede66ebf8405",
+  "url": "https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.pdf"
+}

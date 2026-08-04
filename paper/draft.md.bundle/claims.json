@@ -1,0 +1,79 @@
+{
+  "bundle_id": "urn:tyche:mirror:bundle:0c1cdc5ef9b8060317914d243e38811c",
+  "claims": [
+    {
+      "evidence": [
+        {
+          "locator": "headings and conclusion",
+          "pointer": "../draft.md",
+          "source_id": null
+        },
+        {
+          "locator": "status",
+          "pointer": "sources/paper-section-order-validation-output.json",
+          "source_id": "src-006"
+        }
+      ],
+      "id": "claim-001",
+      "notes": "Completion-format claim only; no legal-status inference.",
+      "risk": "medium",
+      "safe_wording": "The bundled draft presents a cautious research-only structural-observation argument with abstract, body, and conclusion; it is not publication approval, legal review, supervision, or trusted-list validation.",
+      "text": "The bundled paper draft has a real abstract, structured body, and conclusion for a research-only longitudinal structural-observation study."
+    },
+    {
+      "evidence": [
+        {
+          "pointer": "sources/paper-claim-safety-validation-output.json",
+          "source_id": "src-004"
+        },
+        {
+          "pointer": "sources/paper-evidence-reference-validation-output.json",
+          "source_id": "src-005"
+        },
+        {
+          "pointer": "sources/paper-section-order-validation-output.json",
+          "source_id": "src-006"
+        },
+        {
+          "pointer": "sources/paper-subsection-risk-coverage-validation-output.json",
+          "source_id": "src-007"
+        },
+        {
+          "pointer": "sources/paper-aggregate-only-naming-validation-output.json",
+          "source_id": "src-008"
+        }
+      ],
+      "id": "claim-002",
+      "notes": "Warnings, if present, remain review cues.",
+      "risk": "medium",
+      "safe_wording": "Local heuristic validators reported status ok for the paper's current wording and evidence references; this is reproducibility telemetry only, not legal compliance or publication readiness.",
+      "text": "Local validators recorded no hard errors for claim-safety, evidence-reference, section-order, subsection-caveat, and aggregate-only naming checks after the latest paper update."
+    },
+    {
+      "evidence": [
+        {
+          "pointer": "sources/aggregate-results-table.csv",
+          "source_id": "src-009"
+        },
+        {
+          "pointer": "sources/snapshot-bundle-2026-05-20-manifest.json",
+          "source_id": "src-014"
+        },
+        {
+          "pointer": "sources/snapshot-bundle-2026-05-21-manifest.json",
+          "source_id": "src-015"
+        },
+        {
+          "pointer": "sources/snapshot-bundle-2026-05-22-manifest.json",
+          "source_id": "src-016"
+        }
+      ],
+      "id": "claim-003",
+      "notes": "No named listed entities are introduced in prose by this bundle.",
+      "risk": "medium",
+      "safe_wording": "The draft links aggregate statements to local dated run artifacts and bundle manifests; these links support replay of structural observations and do not assert legal effect, supervision, signature validity, public alerting, or listed-entity status.",
+      "text": "The paper's empirical framing is tied to completed local dated Cassandra lineages and adjacent snapshot evidence bundles rather than live endpoint reinterpretation."
+    }
+  ],
+  "schema": "urn:tyche:mirror:claims:0.1"
+}

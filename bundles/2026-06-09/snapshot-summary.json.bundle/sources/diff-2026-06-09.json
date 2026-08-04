@@ -1,0 +1,310 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 12,
+  "changes": [
+    {
+      "caveat": "Added comparable XML document in snapshot set; not a trust-status claim.",
+      "class": "listed_document_added",
+      "key": "BE",
+      "new_normalized_sha256": "ac19c8e978b1a039698dccdb2eeeac6c8493cc8d2fd472f22bcd221e9f69eab2",
+      "normalized_path": "normalized/2026-06-09/02-be.xml.normalized.xml",
+      "source": "snapshots/2026-06-09/02-be.xml"
+    },
+    {
+      "caveat": "Added comparable XML document in snapshot set; not a trust-status claim.",
+      "class": "listed_document_added",
+      "key": "SK",
+      "new_normalized_sha256": "033af4d8aaee6f5ce64ea76d6b47a0e8545a5240c64a6e320d45fc0bfd0baca5",
+      "normalized_path": "normalized/2026-06-09/42-sk.xml.normalized.xml",
+      "source": "snapshots/2026-06-09/42-sk.xml"
+    },
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "LT",
+      "new_normalized_sha256": "3a25b7862eb5cb9b991366a480c648f42e516e8569ff2dd5419acf6ca25c3cf8",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "old_normalized_sha256": "69cac904582ba9d0bba959b927907117bf5df2bad73e47648313ce08314fe6ed",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "LT",
+      "new": "88",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "old": "87",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "LT",
+      "new": "2026-06-08T08:45:15Z",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "old": "2026-04-28T11:23:35Z",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "LT",
+      "new": "2026-12-08T09:45:15Z",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "old": "2026-10-28T12:23:35Z",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "added_service_keys": [
+        "1dc662d986dd4206bc7ec1fccbf4086aaf08f17227a49b9338f6f3aa6d7c524a",
+        "2732cd5cb4ce99682839322afc9a4031241c2e587cf7b6d3344b78d12dd0560d",
+        "2e24fce8b0afb1cdef6ce05aa2db4f6af2a5e80ef351677018737a2202f218ac",
+        "572a47e0ae14fffdf8b609c2c4a6852d48f8ecd44d66e3d95ddf6ac2e6c7bec7",
+        "5cc4b7d945d7869ab5468d25c1d9d47a4cf2ca2766b10b28a386dcc63af3fe04",
+        "635ddaa6d6beed23fa5480c58de003ffdbb3d16f2ad5c2c5384e57c3db6ea1c4",
+        "69f1f774b72931839e349c57006af28c1e2e6c88379d9c65792c42e57c268f2a",
+        "6dc05c5209d2259eb81b942e96b8dd437c3cd203f2aa980ed1d16ad0b857a623",
+        "6f5a9c36ed911f26d21abced1f3ce6c89004cec9ba1289deb2643bddc01a3a95",
+        "701994bb31a8efd9afba49267705789cc2ef8315534de1104ecf2b369928304f",
+        "75318a498fb2ef8aaa485847f0c3ad73a9b629382d483cd335a516c04bd956a2",
+        "817ffe6ec648c131dcefed483d427151c31f00392f8097db0c0cc9df6b4b2baa",
+        "945723f0dc6cd5d45d739d680922e285aebf682aafbe7ad97468ed82361c1746",
+        "af6175fdce79834a43fea5631fb2fa6111ca613ef189c1b6051559336ad0107b",
+        "c1437b6941b59937dbae5fec2c21a7700feb2ff339d541f4a2d72aae7b1d4010",
+        "ded18c346739e3904dfb184314f79ea257ab852951e1740edd1794cf0d72bd26",
+        "df3e1f1200cbc9fd204f2b1cfe1026fae61fa5c019bd6ddcdb0d9b75d4ce9fcd",
+        "e00cfb05d3adb0bb73b71ecdbe00d083a1b2f633344a2777b8753eebda6b23a3",
+        "e0138147bc0afa805e5245dc1914f78b2d46587b50533f239d80e09b59167906",
+        "e5443e305baa3cd28ceb12f73ab755c1439f571683e16d4df2abcd674db1c619",
+        "efcdaf169249c8f57c978518dfbab636ccc5d116a2da4f14519e42e6575ff867",
+        "f207a99accde95596924a43cff46ff3f66b651b9cb6d76dcb71316548a05fdb2",
+        "f99876408f2ed428eb0f8d620d3ba2f0cb9a13e13ab912e592615b70b9cbe217"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "LT",
+      "new_service_count": 85,
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "old_service_count": 85,
+      "removed_service_keys": [
+        "02056dc1752a318d0f1d0c26a76eaf973fe879bdaf91432654626e67bdf615a7",
+        "0965d85fa6580fa000b5d4eb848dd630715d34293e5b79c347d9c0608767724e",
+        "12bfc0deef570568288f7d74ec56c2e7a76f133a812dcb0803db1dd1ee2ef0cf",
+        "2fb2459135a1691c5dd9e5f7c9348b6888e97546d13574037e00985e51924fb7",
+        "562de8b734f6f447e95ef53287d1ea6770bcc0e9b4e768b1b5c3a55153d2394d",
+        "5d3ec2fc235143414458216ae7901275b2eadf7da2aa230fcd4e13b61e1f8120",
+        "60d7803edf3b91e7c57e20e127b4bfe313c84a76b516e472df981d6998c3c68d",
+        "689a411086ef4314dc8d3a879f6a5bc7dc2582f6c8f16b54947f033e7b48fd95",
+        "6d094991bbb5c4380819c954b84e40fd0eaddd541a158062eaace47bff7bd636",
+        "86ba71bde50a1335a48a9628d8fcdca9b5d15ddaadf895759a32753b452fff40",
+        "a5272b929935f78382bcb82c60e7809d07866cd669e36a73fd8e5a894803d910",
+        "a63620d50ea8452139334e5b4bbfb62427b030be504e65010a4b22ff6d21bc26",
+        "bf76642490434a9e18a1aa495f6456fb81c8a85fb5b261d509d68c9bd26fdb72",
+        "c17733f9053daa2d2e7d6de4ec752815fc03d88efd24b9c19719a52fee482c5e",
+        "c4c82c56282f0bb80a51c4a2bb293c116fa0d24d7439dc29c87b7837f4099404",
+        "d1ce0a146753bd0bd7f2fb467862b7a8939087ee232e914cad4b2e03c09d6641",
+        "e0f1b0a5185057406a98efa1e5858f1c446255baa388740bf7999bcabd10c96e",
+        "e485f5e35062ab7e596ad91cd5268acd3199793f490eefddace5c1c119ce2856",
+        "e48d687793924a212db48ba223960cbb2393c59318fbcf761daf2b413675352e",
+        "e577eeeb1864b58ae27f47f51cefff0153489dc005a57899d385e0b2acee959e",
+        "e658fab76d4c09ede50d7a18b79775a7b08fb9a0a55c7a7b19a4738f35ec6d27",
+        "f0303487d6831656ea222c2e8bbdad348c5c0136778ce9400d366a121272407c",
+        "f5c69d7c205866aa403a9b9cc08800c199c7df293337352765109c3f6306c4f3"
+      ],
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "1dc662d986dd4206bc7ec1fccbf4086aaf08f17227a49b9338f6f3aa6d7c524a",
+            "572a47e0ae14fffdf8b609c2c4a6852d48f8ecd44d66e3d95ddf6ac2e6c7bec7",
+            "5cc4b7d945d7869ab5468d25c1d9d47a4cf2ca2766b10b28a386dcc63af3fe04",
+            "635ddaa6d6beed23fa5480c58de003ffdbb3d16f2ad5c2c5384e57c3db6ea1c4",
+            "6f5a9c36ed911f26d21abced1f3ce6c89004cec9ba1289deb2643bddc01a3a95",
+            "701994bb31a8efd9afba49267705789cc2ef8315534de1104ecf2b369928304f",
+            "945723f0dc6cd5d45d739d680922e285aebf682aafbe7ad97468ed82361c1746",
+            "c1437b6941b59937dbae5fec2c21a7700feb2ff339d541f4a2d72aae7b1d4010",
+            "df3e1f1200cbc9fd204f2b1cfe1026fae61fa5c019bd6ddcdb0d9b75d4ce9fcd",
+            "e0138147bc0afa805e5245dc1914f78b2d46587b50533f239d80e09b59167906",
+            "e5443e305baa3cd28ceb12f73ab755c1439f571683e16d4df2abcd674db1c619",
+            "f99876408f2ed428eb0f8d620d3ba2f0cb9a13e13ab912e592615b70b9cbe217"
+          ],
+          "removed": [
+            "02056dc1752a318d0f1d0c26a76eaf973fe879bdaf91432654626e67bdf615a7",
+            "0965d85fa6580fa000b5d4eb848dd630715d34293e5b79c347d9c0608767724e",
+            "5d3ec2fc235143414458216ae7901275b2eadf7da2aa230fcd4e13b61e1f8120",
+            "60d7803edf3b91e7c57e20e127b4bfe313c84a76b516e472df981d6998c3c68d",
+            "6d094991bbb5c4380819c954b84e40fd0eaddd541a158062eaace47bff7bd636",
+            "a5272b929935f78382bcb82c60e7809d07866cd669e36a73fd8e5a894803d910",
+            "a63620d50ea8452139334e5b4bbfb62427b030be504e65010a4b22ff6d21bc26",
+            "c17733f9053daa2d2e7d6de4ec752815fc03d88efd24b9c19719a52fee482c5e",
+            "c4c82c56282f0bb80a51c4a2bb293c116fa0d24d7439dc29c87b7837f4099404",
+            "d1ce0a146753bd0bd7f2fb467862b7a8939087ee232e914cad4b2e03c09d6641",
+            "e0f1b0a5185057406a98efa1e5858f1c446255baa388740bf7999bcabd10c96e",
+            "f5c69d7c205866aa403a9b9cc08800c199c7df293337352765109c3f6306c4f3"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 5,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 12
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 17
+          }
+        }
+      },
+      "key": "LT",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "provider_key": "034ade728c1a167dd90466cd583d5cb80301643bcaa77e192a1fcf2eb8c0d1cc",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "2732cd5cb4ce99682839322afc9a4031241c2e587cf7b6d3344b78d12dd0560d",
+            "ded18c346739e3904dfb184314f79ea257ab852951e1740edd1794cf0d72bd26",
+            "e00cfb05d3adb0bb73b71ecdbe00d083a1b2f633344a2777b8753eebda6b23a3"
+          ],
+          "removed": [
+            "86ba71bde50a1335a48a9628d8fcdca9b5d15ddaadf895759a32753b452fff40",
+            "e658fab76d4c09ede50d7a18b79775a7b08fb9a0a55c7a7b19a4738f35ec6d27",
+            "f0303487d6831656ea222c2e8bbdad348c5c0136778ce9400d366a121272407c"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/deprecatedatnationallevel": 2,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 6,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 3
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/deprecatedatnationallevel": 2,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 9
+          }
+        }
+      },
+      "key": "LT",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "provider_key": "3d0f5658c3683960de4e03ad84f61b22bd12273d753559ef56c47efc893e83b7",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "69f1f774b72931839e349c57006af28c1e2e6c88379d9c65792c42e57c268f2a",
+            "75318a498fb2ef8aaa485847f0c3ad73a9b629382d483cd335a516c04bd956a2",
+            "efcdaf169249c8f57c978518dfbab636ccc5d116a2da4f14519e42e6575ff867"
+          ],
+          "removed": [
+            "689a411086ef4314dc8d3a879f6a5bc7dc2582f6c8f16b54947f033e7b48fd95",
+            "e48d687793924a212db48ba223960cbb2393c59318fbcf761daf2b413675352e",
+            "e577eeeb1864b58ae27f47f51cefff0153489dc005a57899d385e0b2acee959e"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 3,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 3
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 6
+          }
+        }
+      },
+      "key": "LT",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "provider_key": "3d75a0966821c5b194c67411a4c780b17a3ea158ce44d71011f0178deacdbf3d",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "2e24fce8b0afb1cdef6ce05aa2db4f6af2a5e80ef351677018737a2202f218ac",
+            "f207a99accde95596924a43cff46ff3f66b651b9cb6d76dcb71316548a05fdb2"
+          ],
+          "removed": [
+            "12bfc0deef570568288f7d74ec56c2e7a76f133a812dcb0803db1dd1ee2ef0cf",
+            "2fb2459135a1691c5dd9e5f7c9348b6888e97546d13574037e00985e51924fb7"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 1,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 2
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 3
+          }
+        }
+      },
+      "key": "LT",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "provider_key": "6ade52e146fdd151b6e4d4aedf3303bf8a13ed9b28d09fb6c5363f4f57beea67",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_keys": {
+          "added": [
+            "6dc05c5209d2259eb81b942e96b8dd437c3cd203f2aa980ed1d16ad0b857a623",
+            "817ffe6ec648c131dcefed483d427151c31f00392f8097db0c0cc9df6b4b2baa",
+            "af6175fdce79834a43fea5631fb2fa6111ca613ef189c1b6051559336ad0107b"
+          ],
+          "removed": [
+            "562de8b734f6f447e95ef53287d1ea6770bcc0e9b4e768b1b5c3a55153d2394d",
+            "bf76642490434a9e18a1aa495f6456fb81c8a85fb5b261d509d68c9bd26fdb72",
+            "e485f5e35062ab7e596ad91cd5268acd3199793f490eefddace5c1c119ce2856"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 4,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 16
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 7,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 13
+          }
+        }
+      },
+      "key": "LT",
+      "normalized_path": "normalized/2026-06-09/28-lt.xml.normalized.xml",
+      "provider_key": "f689dfc1a0cad3b45c87eecb3b922c4023f8d2bf9cb4247df8cedd3be6efe13e",
+      "source": "snapshots/2026-06-09/28-lt.xml"
+    }
+  ],
+  "created": "2026-06-09T04:49:54.722740+00:00",
+  "current_manifest": "normalized/2026-06-09/manifest.json",
+  "current_manifest_sha256": "e8565d166921e7a4fa735f8058dbb638947eb894f6749ab6de0da0cc7b1f8286",
+  "current_record_count": 31,
+  "date": "2026-06-09",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 2,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 1,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 5,
+    "service_inventory_changed": 1,
+    "summary_field_changed": 3
+  }
+}

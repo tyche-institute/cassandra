@@ -1,0 +1,122 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 7,
+  "changes": [
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "PT",
+      "new_normalized_sha256": "fd262e2a7d1b638141b569bc275e375047712720c65483382d1364ba071b99ab",
+      "normalized_path": "normalized/2026-07-23/38-pt.xml.normalized.xml",
+      "old_normalized_sha256": "3771f32ba703a6f0cf8adea8da355b572b5e241e8c11bf9867323bd00226bebe",
+      "source": "snapshots/2026-07-23/38-pt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "PT",
+      "new": "116",
+      "normalized_path": "normalized/2026-07-23/38-pt.xml.normalized.xml",
+      "old": "114",
+      "source": "snapshots/2026-07-23/38-pt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "PT",
+      "new": "2026-07-22T14:05:07Z",
+      "normalized_path": "normalized/2026-07-23/38-pt.xml.normalized.xml",
+      "old": "2026-07-01T11:00:07Z",
+      "source": "snapshots/2026-07-23/38-pt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "PT",
+      "new": "2027-01-22T15:05:07Z",
+      "normalized_path": "normalized/2026-07-23/38-pt.xml.normalized.xml",
+      "old": "2027-01-01T12:00:07Z",
+      "source": "snapshots/2026-07-23/38-pt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "tsp_service_count",
+      "key": "PT",
+      "new": 106,
+      "normalized_path": "normalized/2026-07-23/38-pt.xml.normalized.xml",
+      "old": 105,
+      "source": "snapshots/2026-07-23/38-pt.xml"
+    },
+    {
+      "added_service_keys": [
+        "b2dd3589c1635638aa6e4ae1565a6a757ad59d3e9dc58778b432c1ef8f913149"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "PT",
+      "new_service_count": 106,
+      "normalized_path": "normalized/2026-07-23/38-pt.xml.normalized.xml",
+      "old_service_count": 105,
+      "removed_service_keys": [],
+      "source": "snapshots/2026-07-23/38-pt.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_count": {
+          "new": 10,
+          "old": 9
+        },
+        "service_keys": {
+          "added": [
+            "b2dd3589c1635638aa6e4ae1565a6a757ad59d3e9dc58778b432c1ef8f913149"
+          ],
+          "removed": []
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 10
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 9
+          }
+        },
+        "service_type_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 9,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 1
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 8,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 1
+          }
+        }
+      },
+      "key": "PT",
+      "normalized_path": "normalized/2026-07-23/38-pt.xml.normalized.xml",
+      "provider_key": "3d678aacbded65ce5a828b37cb3149909687f0d45a8ec9482ad79b44ba465cdb",
+      "source": "snapshots/2026-07-23/38-pt.xml"
+    }
+  ],
+  "created": "2026-07-23T04:31:59.553002+00:00",
+  "current_manifest": "normalized/2026-07-23/manifest.json",
+  "current_manifest_sha256": "8a6be515435dde6d068ef31c6d685f0ab3e1ea39ce2837165eb24e17d5d29be0",
+  "current_record_count": 31,
+  "date": "2026-07-23",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 1,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 1,
+    "service_inventory_changed": 1,
+    "summary_field_changed": 4
+  }
+}

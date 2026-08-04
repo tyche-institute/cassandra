@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-08T05:01:43.299812+00:00",
+  "bytes": 64603,
+  "completed": "2026-06-08T05:01:43.888937+00:00",
+  "content_length_header": "64603",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-08/25-is.xml",
+  "final_url": "https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "b2c1fdfa09cd8f6ae39b90c1a8d64b872b257901bb6b99af43a74975153b2b15",
+  "url": "https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.xml"
+}

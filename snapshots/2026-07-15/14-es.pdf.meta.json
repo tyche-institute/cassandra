@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-07-15T04:22:37.290229+00:00",
+  "bytes": 17267532,
+  "completed": "2026-07-15T04:22:40.844246+00:00",
+  "content_length_header": "17267532",
+  "content_type": "application/pdf",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-07-15/14-es.pdf",
+  "final_url": "https://tsl.digital.gob.es/TSL.pdf",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "1309451ff8b17ccb8d755f848757799d407cf0abfbf7e32d611a8dc0ed747b1b",
+  "url": "https://tsl.digital.gob.es/TSL.pdf"
+}

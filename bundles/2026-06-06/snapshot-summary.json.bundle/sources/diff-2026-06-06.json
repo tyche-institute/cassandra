@@ -1,0 +1,128 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 7,
+  "changes": [
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "CZ",
+      "new_normalized_sha256": "914db601fbd8715e28c6ae57212cc5930aa0b2e4899c932f3d84f73ffe623f49",
+      "normalized_path": "normalized/2026-06-06/07-cz.xtsl.normalized.xml",
+      "old_normalized_sha256": "6426de9453ac2c45ef43bf23ae7de8bc16179577f232f30d765e4226107e6f29",
+      "source": "snapshots/2026-06-06/07-cz.xtsl"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "CZ",
+      "new": "177",
+      "normalized_path": "normalized/2026-06-06/07-cz.xtsl.normalized.xml",
+      "old": "176",
+      "source": "snapshots/2026-06-06/07-cz.xtsl"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "CZ",
+      "new": "2026-06-05T13:00:00Z",
+      "normalized_path": "normalized/2026-06-06/07-cz.xtsl.normalized.xml",
+      "old": "2026-05-21T22:00:00Z",
+      "source": "snapshots/2026-06-06/07-cz.xtsl"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "CZ",
+      "new": "2026-12-03T14:00:00Z",
+      "normalized_path": "normalized/2026-06-06/07-cz.xtsl.normalized.xml",
+      "old": "2026-11-21T12:00:00Z",
+      "source": "snapshots/2026-06-06/07-cz.xtsl"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "tsp_service_count",
+      "key": "CZ",
+      "new": 544,
+      "normalized_path": "normalized/2026-06-06/07-cz.xtsl.normalized.xml",
+      "old": 540,
+      "source": "snapshots/2026-06-06/07-cz.xtsl"
+    },
+    {
+      "added_service_keys": [
+        "1181c46198c02f0f733d9eae814ef0f65e486b22dd2c0d03d035387dcfe15ba2",
+        "5b13bbf8a46bef542f3f9e3f8c61b3f1a8ecfeb6b6b67ae48c855334434d65df",
+        "7808e4e84d91fe053e210e595320a3d77d196e80f24ddb5c53a28fae8606a850",
+        "c578e990e157051c44b28433b2fe58b1e45453aecfb749609b3c3b8647680766"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "CZ",
+      "new_service_count": 544,
+      "normalized_path": "normalized/2026-06-06/07-cz.xtsl.normalized.xml",
+      "old_service_count": 540,
+      "removed_service_keys": [],
+      "source": "snapshots/2026-06-06/07-cz.xtsl"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_count": {
+          "new": 17,
+          "old": 13
+        },
+        "service_keys": {
+          "added": [
+            "1181c46198c02f0f733d9eae814ef0f65e486b22dd2c0d03d035387dcfe15ba2",
+            "5b13bbf8a46bef542f3f9e3f8c61b3f1a8ecfeb6b6b67ae48c855334434d65df",
+            "7808e4e84d91fe053e210e595320a3d77d196e80f24ddb5c53a28fae8606a850",
+            "c578e990e157051c44b28433b2fe58b1e45453aecfb749609b3c3b8647680766"
+          ],
+          "removed": []
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 17
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 13
+          }
+        },
+        "service_type_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 16
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 12
+          }
+        }
+      },
+      "key": "CZ",
+      "normalized_path": "normalized/2026-06-06/07-cz.xtsl.normalized.xml",
+      "provider_key": "3e248894af2f3dcdd9fdd740d20d8a65b65ff08916eeeeac95852e65189157d1",
+      "source": "snapshots/2026-06-06/07-cz.xtsl"
+    }
+  ],
+  "created": "2026-06-06T04:47:21.181658+00:00",
+  "current_manifest": "normalized/2026-06-06/manifest.json",
+  "current_manifest_sha256": "6258bc40521073ca339b6a147c973d18eb62c5b2fb924a8d60294de4506c4e36",
+  "current_record_count": 28,
+  "date": "2026-06-06",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 1,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 1,
+    "service_inventory_changed": 1,
+    "summary_field_changed": 4
+  }
+}

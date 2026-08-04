@@ -1,0 +1,532 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 15,
+  "changes": [
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "LT",
+      "new_normalized_sha256": "eca7e96cfae697cbb8e61424c711aba8062fffec4ec72c6b5c107fa6fc0b22f5",
+      "normalized_path": "normalized/2026-06-20/28-lt.xml.normalized.xml",
+      "old_normalized_sha256": "9314ce69dcc3c7ccb2c54f3d3e3b3319be1e63cf320cb0008a42c5227dcb5b4a",
+      "source": "snapshots/2026-06-20/28-lt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "LT",
+      "new": "90",
+      "normalized_path": "normalized/2026-06-20/28-lt.xml.normalized.xml",
+      "old": "89",
+      "source": "snapshots/2026-06-20/28-lt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "LT",
+      "new": "2026-06-18T06:27:16Z",
+      "normalized_path": "normalized/2026-06-20/28-lt.xml.normalized.xml",
+      "old": "2026-06-10T14:01:10Z",
+      "source": "snapshots/2026-06-20/28-lt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "LT",
+      "new": "2026-12-18T07:27:16Z",
+      "normalized_path": "normalized/2026-06-20/28-lt.xml.normalized.xml",
+      "old": "2026-12-10T15:01:10Z",
+      "source": "snapshots/2026-06-20/28-lt.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "tsp_service_count",
+      "key": "LT",
+      "new": 86,
+      "normalized_path": "normalized/2026-06-20/28-lt.xml.normalized.xml",
+      "old": 85,
+      "source": "snapshots/2026-06-20/28-lt.xml"
+    },
+    {
+      "added_service_keys": [
+        "594bb1e7dc4fe9569e1f2ec6d6e63499d7145e7d4e3f6a2a37b030ecf0c0ba0d"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "LT",
+      "new_service_count": 86,
+      "normalized_path": "normalized/2026-06-20/28-lt.xml.normalized.xml",
+      "old_service_count": 85,
+      "removed_service_keys": [],
+      "source": "snapshots/2026-06-20/28-lt.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_count": {
+          "new": 2,
+          "old": 1
+        },
+        "service_keys": {
+          "added": [
+            "594bb1e7dc4fe9569e1f2ec6d6e63499d7145e7d4e3f6a2a37b030ecf0c0ba0d"
+          ],
+          "removed": []
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 2
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 1
+          }
+        },
+        "service_type_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q": 2
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q": 1
+          }
+        }
+      },
+      "key": "LT",
+      "normalized_path": "normalized/2026-06-20/28-lt.xml.normalized.xml",
+      "provider_key": "17558f8ef88a20fe1f29150379dbdf9c1eb730a7965187fb35e5e4336e43e55c",
+      "source": "snapshots/2026-06-20/28-lt.xml"
+    },
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "SK",
+      "new_normalized_sha256": "1a199f1f3a61195d38a15c3028d0fffb883d997ea43bc2823f697625fcf47872",
+      "normalized_path": "normalized/2026-06-20/42-sk.xml.normalized.xml",
+      "old_normalized_sha256": "033af4d8aaee6f5ce64ea76d6b47a0e8545a5240c64a6e320d45fc0bfd0baca5",
+      "source": "snapshots/2026-06-20/42-sk.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "SK",
+      "new": "140",
+      "normalized_path": "normalized/2026-06-20/42-sk.xml.normalized.xml",
+      "old": "139",
+      "source": "snapshots/2026-06-20/42-sk.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "SK",
+      "new": "2026-06-19T12:00:00Z",
+      "normalized_path": "normalized/2026-06-20/42-sk.xml.normalized.xml",
+      "old": "2026-05-21T12:00:00Z",
+      "source": "snapshots/2026-06-20/42-sk.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "SK",
+      "new": "2026-12-01T11:00:00Z",
+      "normalized_path": "normalized/2026-06-20/42-sk.xml.normalized.xml",
+      "old": "2026-11-01T11:00:00Z",
+      "source": "snapshots/2026-06-20/42-sk.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "tsp_service_count",
+      "key": "SK",
+      "new": 192,
+      "normalized_path": "normalized/2026-06-20/42-sk.xml.normalized.xml",
+      "old": 186,
+      "source": "snapshots/2026-06-20/42-sk.xml"
+    },
+    {
+      "added_service_keys": [
+        "00084425d57c2f09b95cb5564b48be4da0171ddb53f54ebc8511f02200e5fe8f",
+        "0318e380f311f78e8c8dd946ac41a1474cffd01fa61b20a7366eba8491c0ac86",
+        "044850b3e38f90cd4fb60d7c01266c7961e8d395b85cbfe8fd406140bc6f089e",
+        "0480acf517df53a1ef87d669dc03ca4ce8132a3c1ea0d678e16dfe20677965ea",
+        "06f1d4a467036fcb71932675b19c1bc3c662ccfaf78a5ec353c21315262e0b90",
+        "1056c2600821e013021c16ba5c3ae7905ab5df74aa87734cc2cbd55ad29fb5fe",
+        "188ca47ee2fbe1c3e1f53ce41dcbf27050e062ad30a30a3ca630e94ea71b5d9a",
+        "2124eb138758dfc43019d47b23e527d0138320c01019e67647a9aae01a74890b",
+        "21297c5c91b80474caf9ca063ab6ae6f3f70865019153d720149761bbf12b467",
+        "227e0652ae8044d6e6323f4f02afc7202c990a612b7bb9841d56f44aa90d2700",
+        "272357597f77d4ea030c9e278c27ee1cd211bbe9e8ddc7dc0fb6c9a257bde96d",
+        "28c5ebbc6d82e0b9e45d8c59e626df1cec55d038a689aa56f91c26031ab5c814",
+        "28d5df8b09dfd948c22062b08cab42a68f1a0cf9990fbe46fd635e42784102e6",
+        "32b9c8b15e86593119fac64c6b67f7caf7af4099c851680c78f3162544fa7959",
+        "32d1485f543c6dfb1d63eee6479f87e1cf58d0b55e38f9932f2591372e1fdbb6",
+        "33d43fe259831e20d2b48f9c17b6a90f193ab0b9c5770342d498872f4a0d9288",
+        "3953a204255122f3b39bf63dce05844a0f768a630a2e4a8c463b43addd3f317d",
+        "404c49e90f983ed366b39cc2e7c997dce11a4d5e261c6bd0e91a72d3be17f629",
+        "439e7b65bb141103801d0c5f5daa4f9465cb7082583815da1332910a2201a5cd",
+        "4f6e3308ef78f1b348fae17385e92992e782e2ec0f15d7cdd8332fd0486646f4",
+        "566815a68ab57f1395c70f912ff0c3fa9aa97370de5bc4741157a67c7fa6819f",
+        "56ad62fa126a5a44278a5287000a1ac660c470cb555a78810e74d93904e41b2e",
+        "5740477d7777210ed7f2ddb79c94cc160a60effe2a877c54892fcb550f3316aa",
+        "61b83ea458a156e7195173698ed2c1a38342f1e8cbaecc47d669739904ff8b99",
+        "682ac006712af1d9ebb2b7ab2aaf28483fe0f1a1fb94b678214f5def49d746e5",
+        "6e1528bc04fe9452f49e5af9d55314d8e6bfcabfd1faee5ac1792937cbac1ba7",
+        "6ed13ac77e57f7139766bf3e615017235dace9898f48b31958af45737c3d28bf",
+        "724357f7d2384aa4f978d9ac74488bb86f3016fbd1dc5c67e17a32de1466ea46",
+        "79cbec20f9e4e7cafe3c8858bc051ebb9135d5c9a0ac164e9a5778ca16952034",
+        "7aa4746c83198afa2c15f5c20b9b9ad9b52085db67c4b1ef042a1409a2c2c49a",
+        "7ea77d4bfa09aa29047afcadddec0849065ae606801582e5558a568f632993c7",
+        "8626220384662896e6a4501df438ce90d89deee336161654a4e76ade548b3afe",
+        "8d968c776007f6a70475361cd0e716dd281f76fce0ca888f275e7f70ddcc7cce",
+        "9307fd2fee3bd9a971680110692afa4d43bb280889f1e90b412b4f2b8824335a",
+        "946211e8d60e52971573cfa049688e0bdc7d6a65ead83aef5d68d4bef74313e4",
+        "965f0d98a84ed003602d7255ffd1f47747116c9a8280345f996f5c1e89291984",
+        "99f49b121a253ac91532e84b7035531dbff187d425dabee8d9a006f1077edec3",
+        "9dff7648dd058cff6d1aac46998d321879613bf97f36f93c7b7998de4f458308",
+        "9e6c7ace34998e96a61c418a0160bb6f5c8a04357be4c0689b90248fa2b577ea",
+        "a8cbf391da73419ff24f5bef50ff5f2637274d08db8440466cda2ae2ebf0ac6c",
+        "ae23d15c352c8cd8fccad69562cce7c6527a15d1b85e763bd21a0c8026dfa625",
+        "ae32fc95f6c680263f33b6c82eabc44d6f12a6dbbbdf5dd3c52f1ec19a2e6508",
+        "b0063b6471f6ee34d994278dcc1e149a29f9606b74e9376b46193bce5b68c19f",
+        "b39aa70d3598ce1bff093e1a29c0d1fd93da4032ef8e26d449e380dde3300b9c",
+        "b3c6be1d34b27c1ba1ab1e7aae40221365199db123e82805059aac1a5aa84440",
+        "b5746936c62c856c0e182790dfd24ee1586f8eca7fe1ada6ad4101e7ce879266",
+        "b6434e048f94f7c6325cff3071e9216c4005402ed26c6bbfe9f48f68f06ac43d",
+        "bc246f9bad0b26ad14215c93d47390ae7c301a0f512b1725cfa7ba2f664506e9",
+        "be70c92e3e0b931d00a3e94d075dcd5a5201fbe481c23beac4ecbd58bc93c2d0",
+        "c3d3e13ef56e72b9872e2f4307c70d3c6ca2cefa6c85c2f0e846ab4097108e1a",
+        "c43258db80dbc3c26fe5d9073ac0f0f158d3039392a54654955114f6206ef707",
+        "cbe66118f870905f620b8119803de86b0a7b3e20aa392d156872cc314b79a85a",
+        "ce3c2e00ae193426af4a86f8278ed8d37e0b4138fb16959397d53291434a2551",
+        "d2646b92f6df3155031565600a017ff40fc2159df8ea6f56b95a663e9d7ec583",
+        "d68a3ce354628fe1cc53d7599dba58eae176982113cc753968bc5c18d9a7c0f5",
+        "d6a4e96fba7a7ba14784c0148e85c18de4f3eaed22f6f68c46f97eaff4d059f5",
+        "d86494a2b416ca734708917afb7ef23e9a94a3121e40c1e1425de791f7dcca58",
+        "df7dee93f85454818cd9ec8b157ea6ee729ca2a0fd495dc5cab358425e0f3937",
+        "e11770b679df9c54167751a50bfc50b8b4e56d4a213c2b59de9fd30c9d8732dd",
+        "e5804f855510812ace48bfa00f822b075592a3022ff998bde0dfbdaa689deeaa",
+        "e72a6bc6289920bfc840abcd34e1e2a3508408fbc33dfd31e66cc1933358144c",
+        "e7dc34d13b481556b7272762d532263ecec101dcb52b8668d50ae0c0992e990f",
+        "e8913e7745cc12b3a551e80a5e79f960f7f285f2d5ee06deae6d57001c049ec4",
+        "e9b9e96cde49a4074f8d05aac99286e3b43814be0c5f6507258759801b876770",
+        "f2bfbec1d6dbb19dce5f5fdc170caada35ed7021c4fe4abd6529142cb2010514",
+        "f363ddd36581b348a9681a39d97dca477456c08520f1211d11bac1197a506648",
+        "fb8a8b2a9442dfecd99c05e56e32c9bdc85460f6c2414938027f99e12544d9b1"
+      ],
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "service_inventory_changed",
+      "key": "SK",
+      "new_service_count": 192,
+      "normalized_path": "normalized/2026-06-20/42-sk.xml.normalized.xml",
+      "old_service_count": 186,
+      "removed_service_keys": [
+        "05d3efcca8c43c88931c563566c1fb95bd884da0f89061a0678bd089e10fc8ee",
+        "05f30ec4b8fe74e1fad56918553ac193eee878bd9413a59cb6191f4904decf28",
+        "0989a610f6292e6ee6f68d36ca91bbbe673ffc197dda1062957f6f95202a0a4a",
+        "0a960cc0e019e60941bb05e2f07ba1f366d96782dd0e1671bdf16394b38e2f36",
+        "0f16ef212f7389d6933257090b6d5f415d7f53d7e6586495ef7bf7a707007e02",
+        "1bfc48f5f46b85cc98658dc4562959324b21ae767ea195c56d0108da3d5c275b",
+        "21ae1bec39f430fe640cf92e954fa13aecff0c9908155218f07eddbd7fdee366",
+        "25c7806394d3a1a14fa2eaa6edf8f8c169285e166454c788f4e985afe5d84933",
+        "315e1f71fa4283c553006e51fe818768a78bb54ee289f9cc2ec06776e449008c",
+        "31728b2860cc8804bb5570465331c6acde0a9141828c31d109a3ccead92a18a0",
+        "352162c7dab77188d01e3e54fe7c9dad9bd545a1fab31c03285685ac16ce3fef",
+        "37cdf223e2787ce17d7f40b11aff54b370340f8639a5c31ef7b02adb35e67ee7",
+        "4405545cbccbc83312a8965d1c4c350c853b177856764e23cc4f01fcc2bc70de",
+        "447e7e9b13ae6da7302331d92fb3b5d75fe4bfedcdbe64671a02e8456e391287",
+        "497f9f92d6399415185803401c582da8f9dffeb66352872f8cc809e2a7488fc3",
+        "4a56f339e972438de545928efa21e016cd260c62885bae1de21ef1094d341620",
+        "4d6b018779322519afbfdf4cf3a980004c31d7708d2ab678ce271a248c56d9b0",
+        "51b7c183145ce472355e533e79567448ec6309ba79666f862c307e01fd636cbd",
+        "588552dfc77aaebd19ce8f1121572b6598316d689afe11fcc2c3a372c73629a3",
+        "5eee5013fac6707da63a0f8f9625004e429f953ec332b586ec94880f11f89e0f",
+        "5f4b4af6d2d8e1a5f83ccc5fce6bc55a330ce8d53782af647873df3153c0a055",
+        "62f86d683467121b9f21e7f71ee3d8285db3ae5d03eb4be53d10ce1f89b0e256",
+        "632661718c0f9a849c7b5cd2c0b8de8191379e96d71362600ed94ae76ec318f1",
+        "6969a48f04eaa09e089aa7e717f431c16cc7b1c354e5a017f6d26119d30f849a",
+        "6c36c3cdf174bc1794c84c5fd790dd049f05049e95eb13f30388070438075391",
+        "6e6f47233b5d0d34bec6901e164c54e8ccf8df987cb8164d7cf32ea5e0fa93d9",
+        "78b1636044b90a81b63724f1dc7cd5bc13a91ab92bb57d934a23af3f16fdd60f",
+        "7ba43aebeaa4c9d7debad89a54bf4da9bc15dfde7e87e8a67c49668ec38f3900",
+        "7c77c181dd0015df5fd2a1c778f669ef3060392442d13427d5a8394648fab24b",
+        "7d35d03a3aea7e4cddfa7176f686a396fa5e254475050dd2fe7878e4176e6af4",
+        "80ccd11c5d3639d78fecddf524735008d03f518085564fc53cf6422ed2bff2c0",
+        "8249306eaba39dc8b9f208f99b0299cadaf3669ca49bf79247e94f9628d50b2c",
+        "9036d700b5115570a8a0d69b78d4ab26f2d36d648e78c12a134213c18e39aab8",
+        "95d75d400bf0b01ce3f9c31fc84d3151fa891d444ba1f9fb264070b6c88c9a7e",
+        "98106c5a5a63a86981104e730f6b17f24e0595de60dff6ca6b4e65198298db54",
+        "9c46a4a2617f86001b270ae041ca5c30960ef3f9abf3ef8d314a1d3459091559",
+        "a0d865785d9ef8a1b0d9f880b51e41a4bc2af889d1902b81f78e0666788c4b67",
+        "a629cf6897bc61310fb9dee382a17af17842295e87318a162e6edf93b93ed196",
+        "b0f6f148a52024bd7783d92486da17cb8218f7efbe71a57847bfa891e881ae01",
+        "b3dec12e64a1a71632342e5e80920183df457b27ae76fbac3f88582f2b9270e1",
+        "b57db2d3f19ebd6f0dc91567dc84514c2f3e1bc1d66780b048b9bcea377f0cf3",
+        "b60ecd55c7cbdde50f3c78b8e96a650e1d734e5c4b37ac4157ca2feb9bf6aace",
+        "bfd04f97200112c7f64fe09966b8f48829a6db32ba2c8508cfcd9bd55d88ccbb",
+        "c97df0bd3c0efd459b1cddb94481a2e76f9f8c41cc91435ec1603fa3bfb72443",
+        "cb861efe74ba650640235ad4b86329ad7ca3d45d38729de52f3f731017538076",
+        "ce0cfaf7dee00b278cce04a4f3dae94c32de9074b164d5d5ee5fc8b391e0ac7a",
+        "ce789db8f6e9992962fdd04c62876ec9606d3f198dce77374b921dc49cc44c8f",
+        "d0218f8ad737cb0f53eb2f4c3d2d7b3b5390e3e98da3c258bf93d1c37df1bcec",
+        "d976f603ac9f363f3f0f0ae660a6f2d2b2b42766e922b9d70f9e6bfc36720015",
+        "d982b231488dc0fdd46c6d6e619043e8688699e3a5e44c7cd8b915246b9a1294",
+        "db7fa9e6510ebd0cd25d4d9b20855330b7e92f5f6a7664c67d586ac1ec56055f",
+        "dcd3de14d88e15a752a069b5f08c1a253885e6399e9ed2c29fdeed10ee5b257e",
+        "e1529e37068526facab2adf15e6d8da90770e74e308edb54f1c3cb15562cb73f",
+        "ead1cbfc5d9872cd1ad4c694192b07655f0639c2aad233b9dcdaccf4f980673e",
+        "ef390c4af55addd8605c90164a6b0e7ae356b0da2582f7ab81ee2e2094683977",
+        "eff594d2da50595f9c387b68ec26cee51021675029357a9c5bbbb42db3314894",
+        "f00344e0c259c48f2715a3fd8b089da28381226ce1fbaadaed58a54a9cef4cb5",
+        "f164f503c23865d14adee8c327683c5f44694201cecd84a1a1445a4cc13332a8",
+        "f1d80eb32ef9e409b1fa9ee8547d68f1fa8d4dbf5741889b453495bb1c654475",
+        "f8ab2b21e6de40a3e6bf6ddeb06d244f12b01865eccc41bb2a67709236af46de",
+        "f95e974237f49dd31ba950b28135b89fb2f41ac38b8f686421ddd708c37fa5ac"
+      ],
+      "source": "snapshots/2026-06-20/42-sk.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_count": {
+          "new": 9,
+          "old": 5
+        },
+        "service_keys": {
+          "added": [
+            "32d1485f543c6dfb1d63eee6479f87e1cf58d0b55e38f9932f2591372e1fdbb6",
+            "b0063b6471f6ee34d994278dcc1e149a29f9606b74e9376b46193bce5b68c19f",
+            "b39aa70d3598ce1bff093e1a29c0d1fd93da4032ef8e26d449e380dde3300b9c",
+            "e7dc34d13b481556b7272762d532263ecec101dcb52b8668d50ae0c0992e990f",
+            "e8913e7745cc12b3a551e80a5e79f960f7f285f2d5ee06deae6d57001c049ec4"
+          ],
+          "removed": [
+            "e1529e37068526facab2adf15e6d8da90770e74e308edb54f1c3cb15562cb73f"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 9
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 5
+          }
+        },
+        "service_type_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/PSES/Q": 2,
+            "http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 2
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/PSES/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 1
+          }
+        }
+      },
+      "key": "SK",
+      "normalized_path": "normalized/2026-06-20/42-sk.xml.normalized.xml",
+      "provider_key": "647377f98e4a396e7049fa69105463b7aab9dbb1b8daedc8fd62a9e8693b4a7c",
+      "source": "snapshots/2026-06-20/42-sk.xml"
+    },
+    {
+      "caveat": "Hashed provider/service inventory diff for structural observation only; raw listed names are omitted and keys are not legal-status identifiers.",
+      "class": "provider_service_detail_changed",
+      "deltas": {
+        "service_count": {
+          "new": 62,
+          "old": 60
+        },
+        "service_keys": {
+          "added": [
+            "00084425d57c2f09b95cb5564b48be4da0171ddb53f54ebc8511f02200e5fe8f",
+            "0318e380f311f78e8c8dd946ac41a1474cffd01fa61b20a7366eba8491c0ac86",
+            "044850b3e38f90cd4fb60d7c01266c7961e8d395b85cbfe8fd406140bc6f089e",
+            "0480acf517df53a1ef87d669dc03ca4ce8132a3c1ea0d678e16dfe20677965ea",
+            "06f1d4a467036fcb71932675b19c1bc3c662ccfaf78a5ec353c21315262e0b90",
+            "1056c2600821e013021c16ba5c3ae7905ab5df74aa87734cc2cbd55ad29fb5fe",
+            "188ca47ee2fbe1c3e1f53ce41dcbf27050e062ad30a30a3ca630e94ea71b5d9a",
+            "2124eb138758dfc43019d47b23e527d0138320c01019e67647a9aae01a74890b",
+            "21297c5c91b80474caf9ca063ab6ae6f3f70865019153d720149761bbf12b467",
+            "227e0652ae8044d6e6323f4f02afc7202c990a612b7bb9841d56f44aa90d2700",
+            "272357597f77d4ea030c9e278c27ee1cd211bbe9e8ddc7dc0fb6c9a257bde96d",
+            "28c5ebbc6d82e0b9e45d8c59e626df1cec55d038a689aa56f91c26031ab5c814",
+            "28d5df8b09dfd948c22062b08cab42a68f1a0cf9990fbe46fd635e42784102e6",
+            "32b9c8b15e86593119fac64c6b67f7caf7af4099c851680c78f3162544fa7959",
+            "33d43fe259831e20d2b48f9c17b6a90f193ab0b9c5770342d498872f4a0d9288",
+            "3953a204255122f3b39bf63dce05844a0f768a630a2e4a8c463b43addd3f317d",
+            "404c49e90f983ed366b39cc2e7c997dce11a4d5e261c6bd0e91a72d3be17f629",
+            "439e7b65bb141103801d0c5f5daa4f9465cb7082583815da1332910a2201a5cd",
+            "4f6e3308ef78f1b348fae17385e92992e782e2ec0f15d7cdd8332fd0486646f4",
+            "566815a68ab57f1395c70f912ff0c3fa9aa97370de5bc4741157a67c7fa6819f",
+            "56ad62fa126a5a44278a5287000a1ac660c470cb555a78810e74d93904e41b2e",
+            "5740477d7777210ed7f2ddb79c94cc160a60effe2a877c54892fcb550f3316aa",
+            "61b83ea458a156e7195173698ed2c1a38342f1e8cbaecc47d669739904ff8b99",
+            "682ac006712af1d9ebb2b7ab2aaf28483fe0f1a1fb94b678214f5def49d746e5",
+            "6e1528bc04fe9452f49e5af9d55314d8e6bfcabfd1faee5ac1792937cbac1ba7",
+            "6ed13ac77e57f7139766bf3e615017235dace9898f48b31958af45737c3d28bf",
+            "724357f7d2384aa4f978d9ac74488bb86f3016fbd1dc5c67e17a32de1466ea46",
+            "79cbec20f9e4e7cafe3c8858bc051ebb9135d5c9a0ac164e9a5778ca16952034",
+            "7aa4746c83198afa2c15f5c20b9b9ad9b52085db67c4b1ef042a1409a2c2c49a",
+            "7ea77d4bfa09aa29047afcadddec0849065ae606801582e5558a568f632993c7",
+            "8626220384662896e6a4501df438ce90d89deee336161654a4e76ade548b3afe",
+            "8d968c776007f6a70475361cd0e716dd281f76fce0ca888f275e7f70ddcc7cce",
+            "9307fd2fee3bd9a971680110692afa4d43bb280889f1e90b412b4f2b8824335a",
+            "946211e8d60e52971573cfa049688e0bdc7d6a65ead83aef5d68d4bef74313e4",
+            "965f0d98a84ed003602d7255ffd1f47747116c9a8280345f996f5c1e89291984",
+            "99f49b121a253ac91532e84b7035531dbff187d425dabee8d9a006f1077edec3",
+            "9dff7648dd058cff6d1aac46998d321879613bf97f36f93c7b7998de4f458308",
+            "9e6c7ace34998e96a61c418a0160bb6f5c8a04357be4c0689b90248fa2b577ea",
+            "a8cbf391da73419ff24f5bef50ff5f2637274d08db8440466cda2ae2ebf0ac6c",
+            "ae23d15c352c8cd8fccad69562cce7c6527a15d1b85e763bd21a0c8026dfa625",
+            "ae32fc95f6c680263f33b6c82eabc44d6f12a6dbbbdf5dd3c52f1ec19a2e6508",
+            "b3c6be1d34b27c1ba1ab1e7aae40221365199db123e82805059aac1a5aa84440",
+            "b5746936c62c856c0e182790dfd24ee1586f8eca7fe1ada6ad4101e7ce879266",
+            "b6434e048f94f7c6325cff3071e9216c4005402ed26c6bbfe9f48f68f06ac43d",
+            "bc246f9bad0b26ad14215c93d47390ae7c301a0f512b1725cfa7ba2f664506e9",
+            "be70c92e3e0b931d00a3e94d075dcd5a5201fbe481c23beac4ecbd58bc93c2d0",
+            "c3d3e13ef56e72b9872e2f4307c70d3c6ca2cefa6c85c2f0e846ab4097108e1a",
+            "c43258db80dbc3c26fe5d9073ac0f0f158d3039392a54654955114f6206ef707",
+            "cbe66118f870905f620b8119803de86b0a7b3e20aa392d156872cc314b79a85a",
+            "ce3c2e00ae193426af4a86f8278ed8d37e0b4138fb16959397d53291434a2551",
+            "d2646b92f6df3155031565600a017ff40fc2159df8ea6f56b95a663e9d7ec583",
+            "d68a3ce354628fe1cc53d7599dba58eae176982113cc753968bc5c18d9a7c0f5",
+            "d6a4e96fba7a7ba14784c0148e85c18de4f3eaed22f6f68c46f97eaff4d059f5",
+            "d86494a2b416ca734708917afb7ef23e9a94a3121e40c1e1425de791f7dcca58",
+            "df7dee93f85454818cd9ec8b157ea6ee729ca2a0fd495dc5cab358425e0f3937",
+            "e11770b679df9c54167751a50bfc50b8b4e56d4a213c2b59de9fd30c9d8732dd",
+            "e5804f855510812ace48bfa00f822b075592a3022ff998bde0dfbdaa689deeaa",
+            "e72a6bc6289920bfc840abcd34e1e2a3508408fbc33dfd31e66cc1933358144c",
+            "e9b9e96cde49a4074f8d05aac99286e3b43814be0c5f6507258759801b876770",
+            "f2bfbec1d6dbb19dce5f5fdc170caada35ed7021c4fe4abd6529142cb2010514",
+            "f363ddd36581b348a9681a39d97dca477456c08520f1211d11bac1197a506648",
+            "fb8a8b2a9442dfecd99c05e56e32c9bdc85460f6c2414938027f99e12544d9b1"
+          ],
+          "removed": [
+            "05d3efcca8c43c88931c563566c1fb95bd884da0f89061a0678bd089e10fc8ee",
+            "05f30ec4b8fe74e1fad56918553ac193eee878bd9413a59cb6191f4904decf28",
+            "0989a610f6292e6ee6f68d36ca91bbbe673ffc197dda1062957f6f95202a0a4a",
+            "0a960cc0e019e60941bb05e2f07ba1f366d96782dd0e1671bdf16394b38e2f36",
+            "0f16ef212f7389d6933257090b6d5f415d7f53d7e6586495ef7bf7a707007e02",
+            "1bfc48f5f46b85cc98658dc4562959324b21ae767ea195c56d0108da3d5c275b",
+            "21ae1bec39f430fe640cf92e954fa13aecff0c9908155218f07eddbd7fdee366",
+            "25c7806394d3a1a14fa2eaa6edf8f8c169285e166454c788f4e985afe5d84933",
+            "315e1f71fa4283c553006e51fe818768a78bb54ee289f9cc2ec06776e449008c",
+            "31728b2860cc8804bb5570465331c6acde0a9141828c31d109a3ccead92a18a0",
+            "352162c7dab77188d01e3e54fe7c9dad9bd545a1fab31c03285685ac16ce3fef",
+            "37cdf223e2787ce17d7f40b11aff54b370340f8639a5c31ef7b02adb35e67ee7",
+            "4405545cbccbc83312a8965d1c4c350c853b177856764e23cc4f01fcc2bc70de",
+            "447e7e9b13ae6da7302331d92fb3b5d75fe4bfedcdbe64671a02e8456e391287",
+            "497f9f92d6399415185803401c582da8f9dffeb66352872f8cc809e2a7488fc3",
+            "4a56f339e972438de545928efa21e016cd260c62885bae1de21ef1094d341620",
+            "4d6b018779322519afbfdf4cf3a980004c31d7708d2ab678ce271a248c56d9b0",
+            "51b7c183145ce472355e533e79567448ec6309ba79666f862c307e01fd636cbd",
+            "588552dfc77aaebd19ce8f1121572b6598316d689afe11fcc2c3a372c73629a3",
+            "5eee5013fac6707da63a0f8f9625004e429f953ec332b586ec94880f11f89e0f",
+            "5f4b4af6d2d8e1a5f83ccc5fce6bc55a330ce8d53782af647873df3153c0a055",
+            "62f86d683467121b9f21e7f71ee3d8285db3ae5d03eb4be53d10ce1f89b0e256",
+            "632661718c0f9a849c7b5cd2c0b8de8191379e96d71362600ed94ae76ec318f1",
+            "6969a48f04eaa09e089aa7e717f431c16cc7b1c354e5a017f6d26119d30f849a",
+            "6c36c3cdf174bc1794c84c5fd790dd049f05049e95eb13f30388070438075391",
+            "6e6f47233b5d0d34bec6901e164c54e8ccf8df987cb8164d7cf32ea5e0fa93d9",
+            "78b1636044b90a81b63724f1dc7cd5bc13a91ab92bb57d934a23af3f16fdd60f",
+            "7ba43aebeaa4c9d7debad89a54bf4da9bc15dfde7e87e8a67c49668ec38f3900",
+            "7c77c181dd0015df5fd2a1c778f669ef3060392442d13427d5a8394648fab24b",
+            "7d35d03a3aea7e4cddfa7176f686a396fa5e254475050dd2fe7878e4176e6af4",
+            "80ccd11c5d3639d78fecddf524735008d03f518085564fc53cf6422ed2bff2c0",
+            "8249306eaba39dc8b9f208f99b0299cadaf3669ca49bf79247e94f9628d50b2c",
+            "9036d700b5115570a8a0d69b78d4ab26f2d36d648e78c12a134213c18e39aab8",
+            "95d75d400bf0b01ce3f9c31fc84d3151fa891d444ba1f9fb264070b6c88c9a7e",
+            "98106c5a5a63a86981104e730f6b17f24e0595de60dff6ca6b4e65198298db54",
+            "9c46a4a2617f86001b270ae041ca5c30960ef3f9abf3ef8d314a1d3459091559",
+            "a0d865785d9ef8a1b0d9f880b51e41a4bc2af889d1902b81f78e0666788c4b67",
+            "a629cf6897bc61310fb9dee382a17af17842295e87318a162e6edf93b93ed196",
+            "b0f6f148a52024bd7783d92486da17cb8218f7efbe71a57847bfa891e881ae01",
+            "b3dec12e64a1a71632342e5e80920183df457b27ae76fbac3f88582f2b9270e1",
+            "b57db2d3f19ebd6f0dc91567dc84514c2f3e1bc1d66780b048b9bcea377f0cf3",
+            "b60ecd55c7cbdde50f3c78b8e96a650e1d734e5c4b37ac4157ca2feb9bf6aace",
+            "bfd04f97200112c7f64fe09966b8f48829a6db32ba2c8508cfcd9bd55d88ccbb",
+            "c97df0bd3c0efd459b1cddb94481a2e76f9f8c41cc91435ec1603fa3bfb72443",
+            "cb861efe74ba650640235ad4b86329ad7ca3d45d38729de52f3f731017538076",
+            "ce0cfaf7dee00b278cce04a4f3dae94c32de9074b164d5d5ee5fc8b391e0ac7a",
+            "ce789db8f6e9992962fdd04c62876ec9606d3f198dce77374b921dc49cc44c8f",
+            "d0218f8ad737cb0f53eb2f4c3d2d7b3b5390e3e98da3c258bf93d1c37df1bcec",
+            "d976f603ac9f363f3f0f0ae660a6f2d2b2b42766e922b9d70f9e6bfc36720015",
+            "d982b231488dc0fdd46c6d6e619043e8688699e3a5e44c7cd8b915246b9a1294",
+            "db7fa9e6510ebd0cd25d4d9b20855330b7e92f5f6a7664c67d586ac1ec56055f",
+            "dcd3de14d88e15a752a069b5f08c1a253885e6399e9ed2c29fdeed10ee5b257e",
+            "ead1cbfc5d9872cd1ad4c694192b07655f0639c2aad233b9dcdaccf4f980673e",
+            "ef390c4af55addd8605c90164a6b0e7ae356b0da2582f7ab81ee2e2094683977",
+            "eff594d2da50595f9c387b68ec26cee51021675029357a9c5bbbb42db3314894",
+            "f00344e0c259c48f2715a3fd8b089da28381226ce1fbaadaed58a54a9cef4cb5",
+            "f164f503c23865d14adee8c327683c5f44694201cecd84a1a1445a4cc13332a8",
+            "f1d80eb32ef9e409b1fa9ee8547d68f1fa8d4dbf5741889b453495bb1c654475",
+            "f8ab2b21e6de40a3e6bf6ddeb06d244f12b01865eccc41bb2a67709236af46de",
+            "f95e974237f49dd31ba950b28135b89fb2f41ac38b8f686421ddd708c37fa5ac"
+          ]
+        },
+        "service_status_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 44,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 18
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted": 42,
+            "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn": 18
+          }
+        },
+        "service_type_counts": {
+          "new": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 6,
+            "http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC": 16,
+            "http://uri.etsi.org/TrstSvc/Svctype/PSES/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 36
+          },
+          "old": {
+            "http://uri.etsi.org/TrstSvc/Svctype/CA/QC": 6,
+            "http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC": 16,
+            "http://uri.etsi.org/TrstSvc/Svctype/PSES/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q": 1,
+            "http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST": 36
+          }
+        }
+      },
+      "key": "SK",
+      "normalized_path": "normalized/2026-06-20/42-sk.xml.normalized.xml",
+      "provider_key": "ddc29a56696bd58184db75158b7739d9e8267919301e127c503f5b3842cbb29b",
+      "source": "snapshots/2026-06-20/42-sk.xml"
+    }
+  ],
+  "created": "2026-06-20T04:52:13.987075+00:00",
+  "current_manifest": "normalized/2026-06-20/manifest.json",
+  "current_manifest_sha256": "6457a3bbe94d62f8eecabd2ef62469b44d37516619ee75ca51aba93a478f9127",
+  "current_record_count": 31,
+  "date": "2026-06-20",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 2,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 3,
+    "service_inventory_changed": 2,
+    "summary_field_changed": 8
+  }
+}

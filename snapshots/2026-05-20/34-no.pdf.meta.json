@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T20:12:38.040301+00:00",
+  "bytes": 1882538,
+  "completed": "2026-05-20T20:12:38.573788+00:00",
+  "content_length_header": "1882538",
+  "content_type": "application/pdf",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-20/34-no.pdf",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "f862eca604aeab578fb9dc04a233b2bebf8f518bb078dcaed182027d86b211de",
+  "url": "https://nkom.no/files/TL/NO_TL.pdf"
+}

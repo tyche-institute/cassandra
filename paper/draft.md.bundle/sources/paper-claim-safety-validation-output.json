@@ -1,0 +1,44 @@
+{
+  "caveat": "Passing this check does not assert legal compliance, trusted-list legal effect, signature validity, supervision, or publication readiness.",
+  "created": "2026-05-22T17:16:56.793941+00:00",
+  "error_count": 0,
+  "file_stats": [
+    {
+      "bytes": 70180,
+      "line_count": 328,
+      "path": "paper/draft.md",
+      "required_presence": {
+        "Tyche Institute, Tallinn, Estonia": true,
+        "does not assert legal effect": true,
+        "does not determine": true
+      },
+      "sha256": "0c1cdc5ef9b8060317914d243e38811cd5ceda16ac211441fb85c1c2d936d9ef",
+      "word_count": 10326
+    }
+  ],
+  "findings": [
+    {
+      "category": "risky_phrase_review",
+      "line": 10,
+      "path": "paper/draft.md",
+      "pattern": "public alerting",
+      "severity": "warning",
+      "snippet": "gal effect, validate signatures for relying-party purposes, determine listed-entity status, provide public alerting, or approve publication. ## Claim-safety note All observations in this draft are limited to local"
+    },
+    {
+      "category": "risky_phrase_review",
+      "line": 14,
+      "path": "paper/draft.md",
+      "pattern": "relying-party validation",
+      "severity": "warning",
+      "snippet": "l status. Signature-related fields are treated as shape metadata only; this draft does not describe relying-party validation. ## Outline 1. Motivation: why longitudinal public-list observation is useful for research. 2. Da"
+    }
+  ],
+  "missing_files": [],
+  "missing_required": [],
+  "schema_version": "cassandra-claim-safety-validator-v0.1",
+  "scope": "public-facing Cassandra draft prose only; local wording check, not legal analysis or publication approval",
+  "status": "ok",
+  "warning_count": 2,
+  "workspace": "/home/anton/projects/cassandra"
+}

@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T23:34:16.609633+00:00",
+  "bytes": 1152685,
+  "completed": "2026-05-20T23:34:17.164187+00:00",
+  "content_length_header": null,
+  "content_type": "application/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-21/42-sk.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "4d2878dfa65e380682d0266bfa502175b4a7160c6f7588a02257083d5535bf63",
+  "url": "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
+}

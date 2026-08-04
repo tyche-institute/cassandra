@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-03T05:04:55.347479+00:00",
+  "bytes": 253737,
+  "completed": "2026-06-03T05:04:56.295149+00:00",
+  "content_length_header": "253737",
+  "content_type": "text/xml",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-03/31-lv.xml",
+  "final_url": "https://trustlist.gov.lv/tsl/latvian-tsl.xml",
+  "http_status": 200,
+  "redirect_count": 0,
+  "redirect_history": [],
+  "research_caveat": "Raw public snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "406073daa0dcf04670002803ad91026001d85274da64a9264739027d88566be1",
+  "url": "https://trustlist.gov.lv/tsl/latvian-tsl.xml"
+}

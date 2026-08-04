@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-20T20:12:42.832592+00:00",
+  "bytes": 89198,
+  "completed": "2026-05-20T20:12:42.925237+00:00",
+  "content_length_header": null,
+  "content_type": "application/vnd.etsi.tsl+xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-20/40-se.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "e245fa3433e4c776916dff26aa029f75315aa6b349bd9db859df3850be1fb9ea",
+  "url": "https://trustedlist.pts.se/tlv6/SE-TL.xml"
+}

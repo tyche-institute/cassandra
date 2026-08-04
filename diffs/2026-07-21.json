@@ -1,0 +1,61 @@
+{
+  "baseline_created": false,
+  "baseline_source": "baselines/current.json",
+  "change_count": 4,
+  "changes": [
+    {
+      "caveat": "Canonical XML bytes differ; inspect field-level entries before interpretation.",
+      "class": "normalized_hash_changed",
+      "key": "HR",
+      "new_normalized_sha256": "b5da9c1f713793e6a0d3d7dd54a69ee487669b905c76b6c71bbd37ccee4d7fb1",
+      "normalized_path": "normalized/2026-07-21/20-hr.xml.normalized.xml",
+      "old_normalized_sha256": "e3f296d3910eea698c5c09e055dec628688254250cc7f3d865d512a9b2e9044f",
+      "source": "snapshots/2026-07-21/20-hr.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "sequence_number",
+      "key": "HR",
+      "new": "68",
+      "normalized_path": "normalized/2026-07-21/20-hr.xml.normalized.xml",
+      "old": "67",
+      "source": "snapshots/2026-07-21/20-hr.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "issue_date_time",
+      "key": "HR",
+      "new": "2026-07-20T07:55:00Z",
+      "normalized_path": "normalized/2026-07-21/20-hr.xml.normalized.xml",
+      "old": "2026-06-01T08:50:00Z",
+      "source": "snapshots/2026-07-21/20-hr.xml"
+    },
+    {
+      "caveat": "Field-level structural observation only; no legal-status inference.",
+      "class": "summary_field_changed",
+      "field": "next_update",
+      "key": "HR",
+      "new": "2027-01-20T08:55:00Z",
+      "normalized_path": "normalized/2026-07-21/20-hr.xml.normalized.xml",
+      "old": "2026-12-01T09:50:00Z",
+      "source": "snapshots/2026-07-21/20-hr.xml"
+    }
+  ],
+  "created": "2026-07-21T04:30:40.197329+00:00",
+  "current_manifest": "normalized/2026-07-21/manifest.json",
+  "current_manifest_sha256": "c68f5d5b82293d0d41b1c0c3992ba75da5f957d1bf947f5a54ba351788b272de",
+  "current_record_count": 31,
+  "date": "2026-07-21",
+  "research_caveat": "Structural diff observation only; not signature validation, supervision, legal-status determination, or relying-party processing. Observed changes should be treated as XML snapshot churn until independently reviewed.",
+  "summary": {
+    "listed_document_added": 0,
+    "listed_document_removed": 0,
+    "normalized_hash_changed": 1,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0,
+    "summary_field_changed": 3
+  }
+}

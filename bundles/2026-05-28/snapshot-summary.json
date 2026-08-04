@@ -1,0 +1,44 @@
+{
+  "artifact_paths": {
+    "baseline": "baselines/2026-05-28.json",
+    "diff": "diffs/2026-05-28.json",
+    "normalized_manifest": "normalized/2026-05-28/manifest.json",
+    "snapshot_manifest": "snapshots/2026-05-28/manifest.json"
+  },
+  "caveats": [
+    "This artifact does not perform relying-party validation, signature verification, supervision, legal-status determination, public alerting, or publication readiness assessment.",
+    "Fetch failures, parser results, and diffs are operational or structural observations only.",
+    "Listed names are intentionally not reproduced in prose; detailed machine-readable snapshot files remain local workspace artifacts."
+  ],
+  "counts": {
+    "baseline_created": false,
+    "diff_change_count": 0,
+    "diff_current_record_count": 31,
+    "fetch_errors": 1,
+    "fetched_content_files": 42,
+    "normalization_errors": 1,
+    "normalization_inputs": 42,
+    "normalization_skips": 10,
+    "normalized_xml_artifacts": 31,
+    "pointer_attempts": 43,
+    "provider_inventory_changed": 0,
+    "provider_service_detail_changed": 0,
+    "service_inventory_changed": 0
+  },
+  "created_at": "2026-05-28T07:08:32.771957Z",
+  "date": "2026-05-28",
+  "hashes": {
+    "baseline_sha256": "4fcb79f96e9de28bde38042b1d5eb59945019a4f2cb602a97e96e6502f580faf",
+    "diff_sha256": "1a6c2117443ce1c17add547a1f4b5de5c922e929bb2e7d5ac5c066eee38ed3ab",
+    "normalized_manifest_sha256": "d6ae2cf697a16386ab6ee90ecc2c16b519c73aa9a935759cda8db7c68d49d6d5",
+    "pointers_sha256": "8de007e4954d3410e95dfad25bac4019125156c42af80e229747997fa5db7600",
+    "snapshot_manifest_sha256": "ec1026d82d74cfaab058c05473cb12920b9efd77a5bc020f76c061c1f2a7d58a"
+  },
+  "inputs": {
+    "lotl_url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml",
+    "pointers_file": "notes/pointers.json"
+  },
+  "schema": "urn:tyche:cassandra:snapshot-summary:0.2",
+  "scope": "Research-only structural observation of public LOTL-derived trusted-list snapshots.",
+  "workspace": "/home/runner/work/cassandra/cassandra"
+}

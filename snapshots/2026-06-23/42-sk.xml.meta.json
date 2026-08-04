@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-06-23T04:47:35.105929+00:00",
+  "bytes": 0,
+  "completed": "2026-06-23T04:48:35.295098+00:00",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-06-23/42-sk.xml",
+  "error": "ConnectTimeout",
+  "error_detail": "HTTPConnectionPool(host='tl.nbu.gov.sk', port=80): Max retries exceeded with url: /kca/tsl/tsl.xml (Caused by ConnectTimeoutError(<HTTPConnection(host='tl.nbu.gov.sk', port=80) at 0x7f4be0b60510>, 'Connection to tl.nbu.gov.sk timed out. (connect timeout=60)'))",
+  "final_url": null,
+  "http_status": null,
+  "redirect_count": null,
+  "redirect_history": [],
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
+}

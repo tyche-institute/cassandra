@@ -1,0 +1,266 @@
+{
+  "count": 43,
+  "created": "2026-05-20T20:09:03.172115+00:00",
+  "pointers": [
+    {
+      "mime_type": null,
+      "territory": "AT",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.signatur.rtr.at/vertrauensliste.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "BE",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tsl.belgium.be/tsl-be-v6.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "BG",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://crc.bg/files/_en/TSL_BG.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "BG",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://crc.bg/files/_en/TSL_BG.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "CY",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/all/5064247FF4FC3DCCC2258506002EEA17/$file/TSL-CY-sign.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "CZ",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tsl.gov.cz/publ/TSL_CZ.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "CZ",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tsl.gov.cz/publ/TSL_CZ.xtsl"
+    },
+    {
+      "mime_type": null,
+      "territory": "DE",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tl.bundesnetzagentur.de/TL-DE.XML"
+    },
+    {
+      "mime_type": null,
+      "territory": "DK",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.digst.dk/TSLDK_v6pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "DK",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.digst.dk/TSLDK_v6xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "EE",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://sr.riik.ee/tsl/estonian-tsl.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "EE",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://sr.riik.ee/tsl/estonian-tsl.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "EL",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.eett.gr/tsl/tl-el.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "ES",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tsl.digital.gob.es/TSL.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "ES",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tsl.digital.gob.es/TSL.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "EU",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUlistofthelists",
+      "url": "https://ec.europa.eu/tools/lotl/eu-lotl.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "FI",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://dp.trustedlist.fi/fi-tl-v6.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "FR",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "FR",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://messervices.cyber.gouv.fr/visas/tl-fr_v6.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "HR",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://gov.hr/UserDocsImages/Usluge%20povjerenja/Pouzdani_popis_RH.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "HU",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.nmhh.hu/tl/pub/HU_TL.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "HU",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.nmhh.hu/tl/pub/HU_TL.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "IE",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://eidas.gov.ie/Irelandtslsignedv6.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "IS",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "IS",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "IT",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://eidas.agid.gov.it/TL/TSL-IT.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "LI",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.llv.li/serviceportal2/amtsstellen/amt-fuer-kommunikation/trustedlist-li.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "LT",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://elektroninisparasas.lt/LT-TSL.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "LU",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://trusted-list.lu/tsl.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "LU",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://trusted-list.lu/tsl.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "LV",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://trustlist.gov.lv/tsl/latvian-tsl.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "MT",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://tsl.mca.org.mt/MT_TSL.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "NL",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.rdi.nl/site/binaries/content/assets/site-content/bestanden/current-tsl.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "NO",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://nkom.no/files/TL/NO_TL.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "NO",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://nkom.no/files/TL/NO_TL.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "PL",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.nccert.pl/tsl/PL_TSL.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "PT",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.gns.gov.pt/media/TSLPT.pdf"
+    },
+    {
+      "mime_type": null,
+      "territory": "PT",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.gns.gov.pt/media/TSLPT.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "RO",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://trustedlist.adr.gov.ro/trustedlist.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "SE",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://trustedlist.pts.se/tlv6/SE-TL.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "SI",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://www.tl.gov.si/SI_TL.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "SK",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
+    },
+    {
+      "mime_type": null,
+      "territory": "UK",
+      "tsl_type": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+      "url": "https://ec.europa.eu/tools/lotl/Final_EU_TSL-UKsigned.xml"
+    }
+  ],
+  "research_caveat": "Pointers extracted for structural observation only.",
+  "source": "sources/eu-lotl.xml"
+}

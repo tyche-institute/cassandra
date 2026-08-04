@@ -1,0 +1,12 @@
+{
+  "accessed": "2026-05-21T21:15:55.139560+00:00",
+  "bytes": 92502,
+  "completed": "2026-05-21T21:15:55.428735+00:00",
+  "content_length_header": "92502",
+  "content_type": "text/xml",
+  "destination": "/home/anton/projects/cassandra/snapshots/2026-05-22/10-dk.xml",
+  "http_status": 200,
+  "research_caveat": "Raw public XML snapshot for structural observation only; not relying-party validation or legal-status determination.",
+  "sha256": "7e49fd9de63f2c5711a23db41bef37efed9e302cbb01f121dd31ca2c0d52b4e6",
+  "url": "https://www.digst.dk/TSLDK_v6xml"
+}

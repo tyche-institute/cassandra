@@ -1,0 +1,15 @@
+{
+  "accessed": "2026-05-31T04:56:55.989725+00:00",
+  "bytes": 0,
+  "completed": "2026-05-31T04:56:57.603497+00:00",
+  "destination": "/home/runner/work/cassandra/cassandra/snapshots/2026-05-31/37-pt.pdf",
+  "error": "ConnectionError",
+  "error_detail": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+  "final_url": null,
+  "http_status": null,
+  "redirect_count": null,
+  "redirect_history": [],
+  "research_caveat": "Fetch failure recorded for structural monitoring only; no legal-status inference is made.",
+  "sha256": null,
+  "url": "https://www.gns.gov.pt/media/TSLPT.pdf"
+}
